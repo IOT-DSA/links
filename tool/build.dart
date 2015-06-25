@@ -226,8 +226,7 @@ main() async {
   var revs = await readJsonFile("revs.json");
 
   rmkdir("tmp");
-  rmkdir("files");
-
+  
   for (var link in links) {
     if (!link.containsKey("automated")) {
       continue;
