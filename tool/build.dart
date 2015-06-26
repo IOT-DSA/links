@@ -226,7 +226,7 @@ main() async {
   var revs = await readJsonFile("revs.json");
 
   rmkdir("tmp");
-  
+
   for (var link in links) {
     if (!link.containsKey("automated")) {
       continue;
@@ -255,6 +255,7 @@ main() async {
 
     if (revs.containsKey(rname) && revs[rname] == rev) {
       print("[Build Up-to-Date] ${name}");
+      popd();
       continue;
     }
 
