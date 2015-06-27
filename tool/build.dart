@@ -252,6 +252,10 @@ main() async {
 
     var rpo = await exec("git", args: ["rev-parse", "HEAD"], writeToBuffer: true);
     var rev = rpo.output.toString().trim();
+    if (rev.isEmpty) {
+      rpo = await exec("git", args: ["rev-parse", "HEAD"], writeToBuffer: true);
+      rev = rpo.output.toString().trim();
+    }
 
     if (revs.containsKey(rname) && revs[rname] == rev) {
       print("[Build Up-to-Date] ${name}");
