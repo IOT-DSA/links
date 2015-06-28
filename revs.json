@@ -17,5 +17,6 @@
   "dslink-java-modbus": "760d234400b10b6e936cbf5be0c320971d7a75c3",
   "dslink-java-jdbc": "ce2e60a61f33a7758dc8c2ec65e53fd005b0b631",
   "dslink-dart-irc": "d6dd1765d8491360f1f9cbbd4691419601606097",
-  "dslink-dart-slack": "024e7568a499db76aa74a767ee7fda2489cad502"
+  "dslink-dart-slack": "024e7568a499db76aa74a767ee7fda2489cad502",
+  "dslink-java-etsdb": "59998ae9adebd2ff223f6328741c8c536cf0db9f"
 }
