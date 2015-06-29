@@ -207,5 +207,16 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/slack.zip",
     "description": "Access Slack from DSA"
+  },
+  {
+    "name": "dslink-java-bacnet",
+    "displayName": "BACnet",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-bacnet.git",
+      "zip": "bacnet.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/bacnet.zip",
+    "description": "Interact with BACnet"
   }
 ]
