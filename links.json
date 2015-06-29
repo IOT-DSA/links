@@ -218,5 +218,16 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/bacnet.zip",
     "description": "Interact with BACnet"
+  },
+  {
+    "name": "dslink-java-etsdb",
+    "displayName": "ETSDB",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-etsdb.git",
+      "zip": "etsdb.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/etsdb.zip",
+    "description": "Historian DSLink implementation for ETSDB"
   }
 ]
