@@ -8,7 +8,8 @@
       "zip": "snmp.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/snmp.zip",
-    "description": "Simple Network Management Protocol"
+    "description": "Simple Network Management Protocol",
+    "category": "Data Acquisition"
   },
   {
     "name": "dslink-dart-earthquake",
@@ -19,7 +20,8 @@
       "zip": "earthquakes.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/earthquakes.zip",
-    "description": "Get Hourly Updates about Earthquakes Worldwide"
+    "description": "Get Hourly Updates about Earthquakes Worldwide",
+    "category": "Misc."
   },
   {
     "name": "dslink-dart-mailer",
@@ -30,7 +32,8 @@
       "zip": "mailer.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/mailer.zip",
-    "description": "Send Emails"
+    "description": "Send Emails",
+    "category": "Notifications"
   },
   {
     "name": "dslink-dart-twilio",
@@ -41,7 +44,8 @@
       "zip": "twilio.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/twilio.zip",
-    "description": "Send Text Messages through Twilio"
+    "description": "Send Text Messages through Twilio",
+    "category": "Notifications"
   },
   {
     "name": "dslink-dart-storage",
@@ -52,7 +56,8 @@
       "zip": "storage.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/storage.zip",
-    "description": "Key-Value Storage System"
+    "description": "Key-Value Storage System",
+    "category": "Storage"
   },
   {
     "name": "dslink-dart-mongodb",
@@ -63,7 +68,8 @@
       "zip": "mongodb.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/mongodb.zip",
-    "description": "Access MongoDB through DSA"
+    "description": "Access MongoDB through DSA",
+    "category": "Data Acquisition"
   },
   {
     "name": "dslink-dart-dgapi",
@@ -74,7 +80,8 @@
       "zip": "dgapi.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/dgapi.zip",
-    "description": "Access DGAPI through DSA"
+    "description": "Access DGAPI through DSA",
+    "category": "Data Acquisition"
   },
   {
     "name": "dslink-dart-webctrl",
@@ -85,7 +92,8 @@
       "zip": "webctrl.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/webctrl.zip",
-    "description": "Access WebCtrl from DSA"
+    "description": "Access WebCtrl from DSA",
+    "category": "Data Acquisition"
   },
   {
     "name": "dslink-java-mqtt",
@@ -96,7 +104,8 @@
       "zip": "mqtt.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/mqtt.zip",
-    "description": "Communicate with the MQTT Protocol"
+    "description": "Communicate with the MQTT Protocol",
+    "category": "Data Acquisition"
   },
   {
     "name": "dslink-java-haystack",
@@ -107,7 +116,8 @@
       "zip": "haystack.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/haystack.zip",
-    "description": "Access Haystack from DSA"
+    "description": "Access Haystack from DSA",
+    "category": "Data Acquisition"
   },
   {
     "name": "dslink-java-sedona",
@@ -118,7 +128,8 @@
       "zip": "sedona.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/sedona.zip",
-    "description": "Access Sedona through DSA"
+    "description": "Access Sedona through DSA",
+    "category": "Data Acquisition"
   },
   {
     "name": "dslink-javascript-onvif",
@@ -129,7 +140,8 @@
       "zip": "onvif.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/onvif.zip",
-    "description": "Control and view Onvif IP Cameras"
+    "description": "Control and view Onvif IP Cameras",
+    "category": "Devices"
   },
   {
     "name": "dslink-dart-youtube",
@@ -140,7 +152,8 @@
       "zip": "youtube.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/youtube.zip",
-    "description": "Access YouTube Data from DSA"
+    "description": "Access YouTube Data from DSA",
+    "category": "Social Media"
   },
   {
     "name": "dslink-java-twitter",
@@ -151,7 +164,8 @@
       "zip": "twitter.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/twitter.zip",
-    "description": "Access Twitter Data from DSA"
+    "description": "Access Twitter Data from DSA",
+    "category": "Social Media"
   },
   {
     "name": "dslink-java-googleplus",
@@ -162,7 +176,8 @@
       "zip": "googleplus.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/googleplus.zip",
-    "description": "Access Google+ Data from DSA"
+    "description": "Access Google+ Data from DSA",
+    "category": "Social Media"
   },
   {
     "name": "dslink-java-modbus",
@@ -173,7 +188,8 @@
       "zip": "modbus.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/modbus.zip",
-    "description": "Access Modbus from DSA"
+    "description": "Access Modbus from DSA",
+    "category": "Data Acquisition"
   },
   {
     "name": "dslink-java-jdbc",
@@ -184,7 +200,8 @@
       "zip": "jdbc.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/jdbc.zip",
-    "description": "Work with Databases"
+    "description": "Work with Databases",
+    "category": "Data Acquisition"
   },
   {
     "name": "dslink-dart-irc",
@@ -195,7 +212,8 @@
       "zip": "irc.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/irc.zip",
-    "description": "Communicate with IRC"
+    "description": "Communicate with IRC",
+    "category": "Communication"
   },
   {
     "name": "dslink-dart-slack",
@@ -206,7 +224,8 @@
       "zip": "slack.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/slack.zip",
-    "description": "Access Slack from DSA"
+    "description": "Access Slack from DSA",
+    "category": "Communication"
   },
   {
     "name": "dslink-java-bacnet",
@@ -217,7 +236,8 @@
       "zip": "bacnet.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/bacnet.zip",
-    "description": "Interact with BACnet"
+    "description": "Interact with BACnet",
+    "category": "Data Acquisition"
   },
   {
     "name": "dslink-java-etsdb",
@@ -228,6 +248,7 @@
       "zip": "etsdb.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/etsdb.zip",
-    "description": "Historian DSLink implementation for ETSDB"
+    "description": "Historian DSLink implementation for ETSDB",
+    "category": "Historian"
   }
 ]
