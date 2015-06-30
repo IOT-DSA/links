@@ -18,6 +18,6 @@
   "dslink-java-jdbc": "ce2e60a61f33a7758dc8c2ec65e53fd005b0b631",
   "dslink-dart-irc": "d6dd1765d8491360f1f9cbbd4691419601606097",
   "dslink-dart-slack": "024e7568a499db76aa74a767ee7fda2489cad502",
-  "dslink-java-etsdb": "b8df56f539d0180166b03b24f14639693272b0ed",
-  "dslink-java-bacnet": "37487794825e2bf3178a36684984b6f56292a5a9"
+  "dslink-java-etsdb": "8bb434c05f83141f49aa3d2514610fb42867ec5f",
+  "dslink-java-bacnet": "6f212e396ad2635836624e56ac0b0f2f3ce2dd79"
 }
