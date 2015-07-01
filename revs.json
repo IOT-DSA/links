@@ -16,8 +16,8 @@
   "dslink-java-googleplus": "9ba3ba7cd66a8dcaa1f209841b864152f2060141",
   "dslink-java-modbus": "ea9b5d0bbe449cce6ed7376240ff279ff92e183e",
   "dslink-java-jdbc": "ce2e60a61f33a7758dc8c2ec65e53fd005b0b631",
-  "dslink-dart-irc": "d6dd1765d8491360f1f9cbbd4691419601606097",
+  "dslink-dart-irc": "688eb2f4e59ff542c07100486bb28530fc4909ff",
   "dslink-dart-slack": "024e7568a499db76aa74a767ee7fda2489cad502",
-  "dslink-java-etsdb": "062c695e437fcaeb45db61a07fb5b2038fdcf004",
+  "dslink-java-etsdb": "23cc1dfc2ddb5912ee47bc022dec77698c8a5641",
   "dslink-java-bacnet": "f699e538f4be2aef10d2532d7020c75397ac2db0"
 }
