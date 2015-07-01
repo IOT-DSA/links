@@ -221,7 +221,7 @@ void copy(String from, String to) {
   tf.writeAsBytesSync(ff.readAsBytesSync());
 }
 
-main() async {
+main(List<String> argv) async {
   var links = await readJsonFile("links.json");
   var revs = await readJsonFile("revs.json");
 
@@ -257,7 +257,7 @@ main() async {
       rev = rpo.output.toString().trim();
     }
 
-    if (revs.containsKey(rname) && revs[rname] == rev) {
+    if (revs.containsKey(rname) && revs[rname] == rev && !argv.contains("--force")) {
       print("[Build Up-to-Date] ${name}");
       popd();
       continue;
