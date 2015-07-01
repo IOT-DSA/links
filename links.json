@@ -12,11 +12,11 @@
     "category": "Data Acquisition"
   },
   {
-    "name": "dslink-dart-earthquake",
+    "name": "dslink-dart-earthquakes",
     "displayName": "Earthquakes",
     "type": "Dart",
     "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-dart-earthquake.git",
+      "repository": "https://github.com/IOT-DSA/dslink-dart-earthquakes.git",
       "zip": "earthquakes.zip"
     },
     "zip": "https://iot-dsa.github.io/links/files/earthquakes.zip",
