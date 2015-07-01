@@ -14,11 +14,11 @@
   "dslink-dart-youtube": "34a93d144303e80f8845766fc2fcce887d7f9d28",
   "dslink-java-twitter": "2e0d2ee729b8844643c501f07f67beb1387f742a",
   "dslink-java-googleplus": "c2dd480f5a92139b57089f015babc6360447bcba",
-  "dslink-java-modbus": "ea9b5d0bbe449cce6ed7376240ff279ff92e183e",
-  "dslink-java-jdbc": "ce2e60a61f33a7758dc8c2ec65e53fd005b0b631",
+  "dslink-java-modbus": "f804671edf70995ca3cc88c8c3f977535c9b2176",
+  "dslink-java-jdbc": "b0da0a45beb10be90082eb27e7237540e58e1ef9",
   "dslink-dart-irc": "b5dcf45c49425483c28b7d468da7045c96e6cf03",
   "dslink-dart-slack": "024e7568a499db76aa74a767ee7fda2489cad502",
-  "dslink-java-etsdb": "b95245669c193406b98b0d3e721dc8976c9d6e76",
-  "dslink-java-bacnet": "f699e538f4be2aef10d2532d7020c75397ac2db0",
+  "dslink-java-etsdb": "45e79af9ea95f62eb099815dea753d851bb45552",
+  "dslink-java-bacnet": "ccf993b5c0c228982235caf97ace00c04666fb94",
   "dslink-dart-earthquakes": "3da0359f83ff9de5f2c354a3c575c54ed6bd4bfe"
 }
