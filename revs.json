@@ -5,7 +5,7 @@
   "dslink-dart-twilio": "f4f641f6a7d1f94b3eb9e2626ca319d40ddcd0cd",
   "dslink-dart-storage": "6cc325ea15c6c35dee713e59b09c5e6387786e2b",
   "dslink-dart-mongodb": "aa95ab1b98fe0924a5289c574e775587e172f5aa",
-  "dslink-dart-dgapi": "636bad8be11c3c28c8bbf954750f53387dfac224",
+  "dslink-dart-dgapi": "c5eb5e7b6a46bef2cc46e804b76ca8f11e6f4bf6",
   "dslink-dart-webctrl": "1c4840910373e00723be30cb3cc91eb01271d07e",
   "dslink-java-mqtt": "a0070cc84c1aaba6ea0913d72ce4a9bede55e2f3",
   "dslink-java-haystack": "969398425cf405971d4f4fbc43ef47dc843a17f7",
@@ -18,7 +18,7 @@
   "dslink-java-jdbc": "b0da0a45beb10be90082eb27e7237540e58e1ef9",
   "dslink-dart-irc": "6ddf16a8e49dbb99f3766dea84a66d9afe3370b2",
   "dslink-dart-slack": "024e7568a499db76aa74a767ee7fda2489cad502",
-  "dslink-java-etsdb": "c4280b1b60fb9deb329ff1a55261b0e6a3563bbe",
-  "dslink-java-bacnet": "3e62619e30e2c9fc84e335582991969fff186ee5",
+  "dslink-java-etsdb": "0b1fdd1a823c12b4c2b13537270b4c6deda76cec",
+  "dslink-java-bacnet": "3863a0fc616f6929bec079823b64d718e25ec68d",
   "dslink-dart-earthquakes": "3da0359f83ff9de5f2c354a3c575c54ed6bd4bfe"
 }
