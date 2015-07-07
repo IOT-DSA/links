@@ -237,7 +237,11 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/host.zip",
     "description": "Control Machines through DSA",
-    "category": "System"
+    "category": "System",
+    "requires": [
+      "linux",
+      "mac"
+    ]
   },
   {
     "name": "dslink-java-bacnet",
