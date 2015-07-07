@@ -228,6 +228,18 @@
     "category": "Communication"
   },
   {
+    "name": "dslink-dart-host",
+    "displayName": "Host",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-host.git",
+      "zip": "host.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/host.zip",
+    "description": "Control Machines through DSA",
+    "category": "System"
+  },
+  {
     "name": "dslink-java-bacnet",
     "displayName": "BACnet",
     "type": "Java",
