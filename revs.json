@@ -20,5 +20,6 @@
   "dslink-dart-slack": "024e7568a499db76aa74a767ee7fda2489cad502",
   "dslink-java-etsdb": "3e40bef5a3af7be511180f0e863d508e649a1a81",
   "dslink-java-bacnet": "06fa0c14a43421e0795673cf498b9b8d7938f1f2",
-  "dslink-dart-earthquakes": "3da0359f83ff9de5f2c354a3c575c54ed6bd4bfe"
+  "dslink-dart-earthquakes": "3da0359f83ff9de5f2c354a3c575c54ed6bd4bfe",
+  "dslink-dart-host": "4953375404f744efe231d27224502531331a6af2"
 }
