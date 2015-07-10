@@ -256,6 +256,18 @@
     "category": "Data Acquisition"
   },
   {
+    "name": "dslink-java-splunk",
+    "displayName": "Splunk",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-splunk.git",
+      "zip": "splunk.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/splunk.zip",
+    "description": "Historian DSLink implementation for Splunk",
+    "category": "Historian"
+  },
+  {
     "name": "dslink-java-etsdb",
     "displayName": "ETSDB",
     "type": "Java",
