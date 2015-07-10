@@ -19,8 +19,8 @@
   "dslink-dart-irc": "da6308599ff53414db0854752ac8bb0c3712b348",
   "dslink-dart-slack": "024e7568a499db76aa74a767ee7fda2489cad502",
   "dslink-java-etsdb": "a88dff2cc1df44d2b92d4efd79e053b01d780b6e",
-  "dslink-java-bacnet": "6b85e1f257c8b6b007b593aea7a7fc40b5b3e770",
+  "dslink-java-bacnet": "a0980b6903ca676af31b801734850c32b22d5004",
   "dslink-dart-earthquakes": "3da0359f83ff9de5f2c354a3c575c54ed6bd4bfe",
   "dslink-dart-host": "ecbbf0866aee5b8fd9d1c5c8b79950132d354694",
-  "dslink-java-splunk": "cd3aff164040f624b0e6acae949a121bdc61bf8d"
+  "dslink-java-splunk": "2202da69d96f7ba22fcd7e88c5f5cd4bef3058fa"
 }
