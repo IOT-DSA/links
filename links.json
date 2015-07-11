@@ -24,6 +24,18 @@
     "category": "Misc."
   },
   {
+    "name": "dslink-dart-wemo",
+    "displayName": "WeMo",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-wemo.git",
+      "zip": "wemo.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/wemo.zip",
+    "description": "Interact with WeMo Devices",
+    "category": "Data Acquisition"
+  },
+  {
     "name": "dslink-dart-mailer",
     "displayName": "Email",
     "type": "Dart",
