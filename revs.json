@@ -3,7 +3,7 @@
   "dslink-dart-earthquake": "3da0359f83ff9de5f2c354a3c575c54ed6bd4bfe",
   "dslink-dart-mailer": "a067584ae49864a47b80f56733771ffadfc6aacc",
   "dslink-dart-twilio": "f4f641f6a7d1f94b3eb9e2626ca319d40ddcd0cd",
-  "dslink-dart-storage": "4c35c749a41d812c53b870477123a10eb5eb9d86",
+  "dslink-dart-storage": "3a8334bebaa4752079901fea3167eaaec133a7a8",
   "dslink-dart-mongodb": "f75a356e119ddd08a33123b8675dee1c2fdecf7e",
   "dslink-dart-dgapi": "b09770fef4e63b38cfb3bc00046f9cf286eabbce",
   "dslink-dart-webctrl": "1c4840910373e00723be30cb3cc91eb01271d07e",
@@ -23,5 +23,5 @@
   "dslink-dart-earthquakes": "3da0359f83ff9de5f2c354a3c575c54ed6bd4bfe",
   "dslink-dart-host": "99cb99276431d7a6e2aff2deeee3c370472ff7f6",
   "dslink-java-splunk": "3c4852a881ce373dd8832391bb3bb6f2f0bd00f0",
-  "dslink-dart-wemo": "381558a032423c6a372f79ee011f6847cbe7fad5"
+  "dslink-dart-wemo": "4cf221bbf692b009cf78e9e084c39f50bfcd18d6"
 }
