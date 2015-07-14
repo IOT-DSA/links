@@ -8,7 +8,7 @@
   "dslink-dart-dgapi": "b09770fef4e63b38cfb3bc00046f9cf286eabbce",
   "dslink-dart-webctrl": "1c4840910373e00723be30cb3cc91eb01271d07e",
   "dslink-java-mqtt": "a0070cc84c1aaba6ea0913d72ce4a9bede55e2f3",
-  "dslink-java-haystack": "6a6ef0de8cef168dece24d49f815e9c3e197e9d0",
+  "dslink-java-haystack": "0c72b857511e0e06a0b12f6a8b1b3102fcb7fd82",
   "dslink-java-sedona": "87633b4ea2d3061a95c4023413304e3d9f4a07a2",
   "dslink-javascript-onvif": "a388b74be342b55e1291c21bf9bc060a9960cd12",
   "dslink-dart-youtube": "34a93d144303e80f8845766fc2fcce887d7f9d28",
@@ -23,5 +23,5 @@
   "dslink-dart-earthquakes": "3da0359f83ff9de5f2c354a3c575c54ed6bd4bfe",
   "dslink-dart-host": "99cb99276431d7a6e2aff2deeee3c370472ff7f6",
   "dslink-java-splunk": "3c4852a881ce373dd8832391bb3bb6f2f0bd00f0",
-  "dslink-dart-wemo": "5fc27bb482565f4aeffd4f537843739bd50e671c"
+  "dslink-dart-wemo": "1f34d49f63d67c60a23bdf92bb1040bf84b8d761"
 }
