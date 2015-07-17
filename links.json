@@ -290,5 +290,17 @@
     "zip": "https://iot-dsa.github.io/links/files/etsdb.zip",
     "description": "Historian DSLink implementation for ETSDB",
     "category": "Historian"
+  },
+  {
+    "name": "dslink-java-enocean",
+    "displayName": "Enocean",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-enocean.git",
+      "zip": "enocean.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/enocean.zip",
+    "description": "DSLink implementation for Enocean",
+    "category": "Data Acquisition"
   }
 ]
