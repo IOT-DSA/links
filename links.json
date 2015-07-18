@@ -243,6 +243,7 @@
     "name": "dslink-dart-host",
     "displayName": "Host",
     "type": "Dart",
+    "extra": true,
     "automated": {
       "repository": "https://github.com/IOT-DSA/dslink-dart-host.git",
       "zip": "host.zip"
