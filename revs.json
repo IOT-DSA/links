@@ -24,5 +24,6 @@
   "dslink-dart-host": "f0ab89db08283edfd826e442903c2cd218d07eee",
   "dslink-java-splunk": "f3e19635cdfc6772a44cffb0f6d131b1e9826bde",
   "dslink-dart-wemo": "585e6b82e51a5aecfbdb105642ea20265a334b04",
-  "dslink-java-enocean": "45f3990ff694f8ec2b73132d6399b1ff4738fa90"
+  "dslink-java-enocean": "45f3990ff694f8ec2b73132d6399b1ff4738fa90",
+  "dslink-dart-system": "3751200fa92d7cb2ea877a43fad0d7a16e0dc9d3"
 }
