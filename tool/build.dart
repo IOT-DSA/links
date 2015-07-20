@@ -227,7 +227,13 @@ main(List<String> argv) async {
 
   rmkdir("tmp");
 
+  var doBuild = argv.where((x) => !x.startsWith("--")).toList();
+
   for (var link in links) {
+    if (doBuild.isNotEmpty && !doBuild.contains(link["name"])) {
+      continue;
+    }
+
     if (!link.containsKey("automated")) {
       continue;
     }
