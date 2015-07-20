@@ -246,7 +246,8 @@
     "extra": true,
     "automated": {
       "repository": "https://github.com/IOT-DSA/dslink-dart-host.git",
-      "zip": "host.zip"
+      "zip": "host.zip",
+      "ignoreBuildScript": true
     },
     "zip": "https://iot-dsa.github.io/links/files/host.zip",
     "description": "Control Machines through DSA",

@@ -273,7 +273,7 @@ main(List<String> argv) async {
 
     var cbs = new File("tool/build.sh");
 
-    if (cbs.existsSync()) {
+    if (cbs.existsSync() && automated["ignoreBuildScript"] != true) {
       var result = await exec("bash", args: [cbs.path], writeToBuffer: true);
       if (result.exitCode != 0) {
         fail("Failed to run custom build script.\n${result.output}");
