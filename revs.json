@@ -25,5 +25,6 @@
   "dslink-java-splunk": "b9330e9c6696a49e4a3575fcde1816b55b30d559",
   "dslink-dart-wemo": "585e6b82e51a5aecfbdb105642ea20265a334b04",
   "dslink-java-enocean": "378d07937b7ea3adbe5570af66ddf49c43bf1dc8",
-  "dslink-dart-system": "0e37f7c73da941d95fd340b5bf473b510144fd00"
+  "dslink-dart-system": "0e37f7c73da941d95fd340b5bf473b510144fd00",
+  "dslink-dart-weather": "d1a1561515d0eb8a6f1d0835646565acba006218"
 }
