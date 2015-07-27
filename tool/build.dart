@@ -306,6 +306,11 @@ main(List<String> argv) async {
 
       copy("dslink.json", "build/dslink.json");
       pushd("build");
+
+      try {
+        new File("${mainFile.path.split('/').last}.deps").deleteSync();
+      } catch (e) {
+      }
       var rpn = Directory.current.parent.parent.parent.path;
       await makeZipFile("${rpn}/files/${automated['zip']}");
       popd();
