@@ -22,9 +22,9 @@
   "dslink-java-bacnet": "9c0f53121f026fa0d8a3443fb39646c7b9d6348d",
   "dslink-dart-earthquakes": "894d5a179ca4398c2124d43182fb9918639bf0c3",
   "dslink-dart-host": "f0ab89db08283edfd826e442903c2cd218d07eee",
-  "dslink-java-splunk": "019fd0d1ec0d51e6ed18c96ec5d424082a424151",
+  "dslink-java-splunk": "be4d9e0dee1e6f5d6808987a2795b7b85efc29d6",
   "dslink-dart-wemo": "585e6b82e51a5aecfbdb105642ea20265a334b04",
-  "dslink-java-enocean": "378d07937b7ea3adbe5570af66ddf49c43bf1dc8",
+  "dslink-java-enocean": "d777ed3a0a1f2154f5f1c5f076ef781c8df4b96b",
   "dslink-dart-system": "0e37f7c73da941d95fd340b5bf473b510144fd00",
   "dslink-dart-weather": "d1a1561515d0eb8a6f1d0835646565acba006218"
 }
