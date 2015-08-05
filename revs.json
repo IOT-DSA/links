@@ -1,5 +1,5 @@
 {
-  "dslink-java-snmp": "0310a65faa12cf0e5bebc36761578608fd8d215f",
+  "dslink-java-snmp": "c7b17512b2770db0363fae5ea851d93ce29411d7",
   "dslink-dart-earthquake": "3da0359f83ff9de5f2c354a3c575c54ed6bd4bfe",
   "dslink-dart-mailer": "a067584ae49864a47b80f56733771ffadfc6aacc",
   "dslink-dart-twilio": "f4f641f6a7d1f94b3eb9e2626ca319d40ddcd0cd",
@@ -24,7 +24,7 @@
   "dslink-dart-host": "f0ab89db08283edfd826e442903c2cd218d07eee",
   "dslink-java-splunk": "6374807f21b3e869be3fc622d793d9174300d36c",
   "dslink-dart-wemo": "585e6b82e51a5aecfbdb105642ea20265a334b04",
-  "dslink-java-enocean": "b2f95cd99bef1f0aca9c940a687756869deb9ed5",
+  "dslink-java-enocean": "14aaf09b90c4dc02f5f1cfda35b6741aea758ca1",
   "dslink-dart-system": "0e37f7c73da941d95fd340b5bf473b510144fd00",
   "dslink-dart-weather": "d1a1561515d0eb8a6f1d0835646565acba006218"
 }
