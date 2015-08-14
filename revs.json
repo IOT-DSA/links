@@ -15,7 +15,7 @@
   "dslink-java-twitter": "ea3708be4ff3bc3b1006125ed4cd18e7aa67d9b3",
   "dslink-java-googleplus": "71fb50bf25cafc91bde9476e95fd108b602235fb",
   "dslink-java-modbus": "f00ce15ee65aa2271f6b5d9a1a9d6bcdb671e1a2",
-  "dslink-java-jdbc": "a67bd1e9cc81f0380d23de8fe8ea907ed1250d91",
+  "dslink-java-jdbc": "0e9a7a7f13baadd8d4831c9014673cdcdfc40daf",
   "dslink-dart-irc": "73cdd94dffc78db4bfbb644f63696dd0f5349bae",
   "dslink-dart-slack": "eefc629dae31c5c5dd0e61cbe6fe5b1c091670a8",
   "dslink-java-etsdb": "543fa6e37bde36bf0573947f15ef6258f98a0a0b",
@@ -25,6 +25,6 @@
   "dslink-java-splunk": "d0874a08d15d0f0207a556e0b221f3a00c5cb6a9",
   "dslink-dart-wemo": "76408a319a382e1337426be1d0e5cba928456d41",
   "dslink-java-enocean": "8f598d8501832e95ca9030d49a334fbab4fc7a55",
-  "dslink-dart-system": "fb61d2e0c615b014aee6716e61fb66312c286770",
+  "dslink-dart-system": "9bd5d2e75479dadfa4a7cbceea44221f1f9b0398",
   "dslink-dart-weather": "26177aefe049d84cd667f6600eefc89ae852aecc"
 }
