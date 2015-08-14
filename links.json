@@ -315,11 +315,7 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/system.zip",
     "description": "Get Live Statistics about a Machine",
-    "category": "System",
-    "requires": [
-      "linux",
-      "mac"
-    ]
+    "category": "System"
   },
   {
     "name": "dslink-dart-weather",
