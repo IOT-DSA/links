@@ -144,18 +144,6 @@
     "category": "Data Acquisition"
   },
   {
-    "name": "dslink-javascript-onvif",
-    "displayName": "Onvif",
-    "type": "JavaScript",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-javascript-onvif.git",
-      "zip": "onvif.zip"
-    },
-    "zip": "https://iot-dsa.github.io/links/files/onvif.zip",
-    "description": "Control and view Onvif IP Cameras",
-    "category": "Devices"
-  },
-  {
     "name": "dslink-dart-youtube",
     "displayName": "YouTube",
     "type": "Dart",
