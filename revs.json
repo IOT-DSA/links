@@ -26,5 +26,6 @@
   "dslink-dart-wemo": "647a02a9b8e04ac6ea104d967a6efc9d2a3e4ccd",
   "dslink-java-enocean": "8f598d8501832e95ca9030d49a334fbab4fc7a55",
   "dslink-dart-system": "9bd5d2e75479dadfa4a7cbceea44221f1f9b0398",
-  "dslink-dart-weather": "26177aefe049d84cd667f6600eefc89ae852aecc"
+  "dslink-dart-weather": "26177aefe049d84cd667f6600eefc89ae852aecc",
+  "dslink-java-opc": "c2f39f543d58211d8b861f79d9fd4f6f4160bfa1"
 }
