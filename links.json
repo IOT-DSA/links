@@ -12,7 +12,7 @@
     "category": "Data Acquisition"
   },
   {
-    "name": "dslink-java-opc,
+    "name": "dslink-java-opc",
     "displayName": "OPC",
     "type": "Java",
     "automated": {
