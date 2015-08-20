@@ -27,5 +27,6 @@
   "dslink-java-enocean": "8f598d8501832e95ca9030d49a334fbab4fc7a55",
   "dslink-dart-system": "9bd5d2e75479dadfa4a7cbceea44221f1f9b0398",
   "dslink-dart-weather": "26177aefe049d84cd667f6600eefc89ae852aecc",
-  "dslink-java-opc": "c2f39f543d58211d8b861f79d9fd4f6f4160bfa1"
+  "dslink-java-opc": "c2f39f543d58211d8b861f79d9fd4f6f4160bfa1",
+  "dslink-dart-rest": "33cb68f071107ab93a1bb252539b8e226c22ffb2"
 }
