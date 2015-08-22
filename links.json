@@ -342,5 +342,18 @@
     "zip": "https://iot-dsa.github.io/links/files/rest.zip",
     "description": "Use a REST API to manipulate custom nodes",
     "category": "Data Acquisition"
+  },
+  {
+    "name": "dslink-dart-mysql",
+    "displayName": "MySQL",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-mysql.git",
+      "zip": "mysql.zip",
+      "ignoreBuildScript": true
+    },
+    "zip": "https://iot-dsa.github.io/links/files/mysql.zip",
+    "description": "Run MySQL Queries",
+    "category": "Data Acquisition"
   }
 ]
