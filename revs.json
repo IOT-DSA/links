@@ -28,5 +28,6 @@
   "dslink-dart-system": "9bd5d2e75479dadfa4a7cbceea44221f1f9b0398",
   "dslink-dart-weather": "26177aefe049d84cd667f6600eefc89ae852aecc",
   "dslink-java-opc": "c2f39f543d58211d8b861f79d9fd4f6f4160bfa1",
-  "dslink-dart-rest": "215dcf7197069525f61bc6b966709e2530ebf342"
+  "dslink-dart-rest": "215dcf7197069525f61bc6b966709e2530ebf342",
+  "dslink-dart-mysql": "7c368bb64b287de88474c7d13747aaa9abdb66de"
 }
