@@ -251,7 +251,7 @@
     "description": "Control DGBox through DSA",
     "category": "System",
     "requires": [
-      "linux"
+      "dreamplug"
     ]
   },
   {
