@@ -25,10 +25,10 @@
   "dslink-java-splunk": "266c15e809b1096252ba8165f2d996b54c75d602",
   "dslink-dart-wemo": "647a02a9b8e04ac6ea104d967a6efc9d2a3e4ccd",
   "dslink-java-enocean": "8f598d8501832e95ca9030d49a334fbab4fc7a55",
-  "dslink-dart-system": "20c6f2f915c165a5016397f168f799e2e51f7072",
+  "dslink-dart-system": "c4879d36eb4bfb375168fea765f7ae526e11f338",
   "dslink-dart-weather": "29d332023d00280c2812b16bfade530490597289",
   "dslink-java-opc": "c2f39f543d58211d8b861f79d9fd4f6f4160bfa1",
-  "dslink-dart-rest": "8134683eb88192b82dc9e6b541b99f3e9d5758c7",
+  "dslink-dart-rest": "533ce8af54909098b6def7e8070a7b8d47f87ad4",
   "dslink-dart-mysql": "7c368bb64b287de88474c7d13747aaa9abdb66de",
-  "dslink-dart-host-dgbox": "cf11f8805c91fee33160adf85fdc9df77dea3fa6"
+  "dslink-dart-host-dgbox": "4650857d2d52194e0f07aaeb65f528dd8ceb8b81"
 }
