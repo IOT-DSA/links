@@ -18,7 +18,7 @@
   "dslink-java-jdbc": "0e9a7a7f13baadd8d4831c9014673cdcdfc40daf",
   "dslink-dart-irc": "a58f8edb275cfa3cea2d287d09321f39cefffd67",
   "dslink-dart-slack": "eefc629dae31c5c5dd0e61cbe6fe5b1c091670a8",
-  "dslink-java-etsdb": "acbc20b157975dde444e842217d30eb386887726",
+  "dslink-java-etsdb": "793a2d4b8ff6a8035848eac7a43037987f6614eb",
   "dslink-java-bacnet": "8c15211ca20aea0492a82f8d1c99af918e59576b",
   "dslink-dart-earthquakes": "9c9976e2c36db01ce80ae2c2c15b8c91d8f5f069",
   "dslink-dart-host": "1d7500a1f259143d190b92118b697b6cc791913f",
@@ -30,5 +30,5 @@
   "dslink-java-opc": "c2f39f543d58211d8b861f79d9fd4f6f4160bfa1",
   "dslink-dart-rest": "533ce8af54909098b6def7e8070a7b8d47f87ad4",
   "dslink-dart-mysql": "7c368bb64b287de88474c7d13747aaa9abdb66de",
-  "dslink-dart-host-dgbox": "487453dd6a02557bdc916c857eecff7d50aae35c"
+  "dslink-dart-host-dgbox": "735ab904ef3a055620c9dc5b0e0a7b8160d6dbbd"
 }
