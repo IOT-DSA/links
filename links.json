@@ -374,7 +374,6 @@
     "automated": {
       "repository": "https://github.com/IOT-DSA/dslink-java-zwave.git",
       "zip": "zwave.zip",
-      "ignoreBuildScript": true
     },
     "zip": "https://iot-dsa.github.io/links/files/zwave.zip",
     "description": "ZWave protocol integration",
