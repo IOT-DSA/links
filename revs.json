@@ -31,5 +31,6 @@
   "dslink-dart-rest": "533ce8af54909098b6def7e8070a7b8d47f87ad4",
   "dslink-dart-mysql": "7c368bb64b287de88474c7d13747aaa9abdb66de",
   "dslink-dart-host-dgbox": "735ab904ef3a055620c9dc5b0e0a7b8160d6dbbd",
-  "dslink-dart-feed": "0c95d9d9bf12710d6bb772a664f0ce7ef74bfb55"
+  "dslink-dart-feed": "0c95d9d9bf12710d6bb772a664f0ce7ef74bfb55",
+  "dslink-java-zwave": "fe17cae73e5908f4c2ac57a31196287789f2e420"
 }
