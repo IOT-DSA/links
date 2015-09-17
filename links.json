@@ -366,17 +366,5 @@
     "zip": "https://iot-dsa.github.io/links/files/feed.zip",
     "description": "Subscribe to RSS Feeds",
     "category": "Data Acquisition"
-  },
-  {
-    "name": "dslink-java-zwave",
-    "displayName": "ZWave",
-    "type": "Java",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-java-zwave.git",
-      "zip": "zwave.zip"
-    },
-    "zip": "https://iot-dsa.github.io/links/files/zwave.zip",
-    "description": "ZWave protocol integration",
-    "category": "Data Acquisition"
   }
 ]
