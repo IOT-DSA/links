@@ -381,7 +381,7 @@
   },
   {
     "name": "dslink-java-mango",
-    "displayName": "ZWave",
+    "displayName": "Mango",
     "type": "Java",
     "automated": {
       "repository": "https://github.com/IOT-DSA/dslink-java-mango.git",
