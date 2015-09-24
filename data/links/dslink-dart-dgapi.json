@@ -1,0 +1,12 @@
+{
+  "name": "dslink-dart-dgapi",
+  "displayName": "DGAPI",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-dgapi.git",
+    "zip": "dgapi.zip"
+  },
+  "zip": "https://iot-dsa.github.io/links/files/dgapi.zip",
+  "description": "Access DGAPI through DSA",
+  "category": "Data Acquisition"
+}

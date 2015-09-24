@@ -1,0 +1,13 @@
+{
+  "name": "dslink-dart-system",
+  "displayName": "System",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-system.git",
+    "zip": "system.zip",
+    "ignoreBuildScript": true
+  },
+  "zip": "https://iot-dsa.github.io/links/files/system.zip",
+  "description": "Get Live Statistics about a Machine",
+  "category": "System"
+}

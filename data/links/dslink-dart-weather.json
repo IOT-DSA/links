@@ -1,0 +1,13 @@
+{
+  "name": "dslink-dart-weather",
+  "displayName": "Weather",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-weather.git",
+    "zip": "weather.zip",
+    "ignoreBuildScript": true
+  },
+  "zip": "https://iot-dsa.github.io/links/files/weather.zip",
+  "description": "Get Weather Data",
+  "category": "Data Acquisition"
+}

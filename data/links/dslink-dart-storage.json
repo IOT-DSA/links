@@ -1,0 +1,12 @@
+{
+  "name": "dslink-dart-storage",
+  "displayName": "Storage",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-storage.git",
+    "zip": "storage.zip"
+  },
+  "zip": "https://iot-dsa.github.io/links/files/storage.zip",
+  "description": "Key-Value Storage System",
+  "category": "Storage"
+}

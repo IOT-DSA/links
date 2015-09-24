@@ -222,8 +222,30 @@ void copy(String from, String to) {
 }
 
 main(List<String> argv) async {
-  var links = await readJsonFile("links.json");
-  var revs = await readJsonFile("revs.json");
+  var links = [];
+  var typeRules = {};
+  await for (FileSystemEntity entity in new Directory("data/links").list()) {
+    if (entity is! File) continue;
+    if (!entity.path.endsWith(".json")) continue;
+    var data = await readJsonFile(entity.path);
+    links.add(data);
+  }
+
+  await for (FileSystemEntity entity in new Directory("data/types").list()) {
+    if (entity is! File) continue;
+    if (!entity.path.endsWith(".json")) continue;
+    var data = await readJsonFile(entity.path);
+    var name = entity.path.split(Platform.pathSeparator).last.replaceAll(".json", "");
+    typeRules[name] = data;
+  }
+
+  for (Map l in links) {
+    if (l["type"] is String && typeRules.containsKey(l["type"])) {
+      l.addAll(typeRules[l["type"]]);
+    }
+  }
+
+  var revs = await readJsonFile("data/revs.json");
 
   rmkdir("tmp");
 
@@ -322,7 +344,8 @@ main(List<String> argv) async {
     print("[Build Complete] ${name}");
   }
 
-  await saveJsonFile("revs.json", revs);
+  await saveJsonFile("data/revs.json", revs);
+  await saveJsonFile("links.json", links);
 }
 
 void fail(String msg) {

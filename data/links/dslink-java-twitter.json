@@ -1,0 +1,12 @@
+{
+  "name": "dslink-java-twitter",
+  "displayName": "Twitter",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-java-twitter.git",
+    "zip": "twitter.zip"
+  },
+  "zip": "https://iot-dsa.github.io/links/files/twitter.zip",
+  "description": "Access Twitter Data from DSA",
+  "category": "Social Media"
+}

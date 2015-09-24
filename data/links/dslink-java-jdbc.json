@@ -1,0 +1,12 @@
+{
+  "name": "dslink-java-jdbc",
+  "displayName": "JDBC",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-java-jdbc.git",
+    "zip": "jdbc.zip"
+  },
+  "zip": "https://iot-dsa.github.io/links/files/jdbc.zip",
+  "description": "Work with Databases",
+  "category": "Data Acquisition"
+}

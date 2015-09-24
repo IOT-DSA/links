@@ -1,0 +1,12 @@
+{
+  "name": "dslink-dart-earthquakes",
+  "displayName": "Earthquakes",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-earthquakes.git",
+    "zip": "earthquakes.zip"
+  },
+  "zip": "https://iot-dsa.github.io/links/files/earthquakes.zip",
+  "description": "Get Hourly Updates about Earthquakes Worldwide",
+  "category": "Misc."
+}

@@ -1,0 +1,12 @@
+{
+  "name": "dslink-java-mango",
+  "displayName": "Mango",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-java-mango.git",
+    "zip": "mango.zip"
+  },
+  "zip": "https://iot-dsa.github.io/links/files/mango.zip",
+  "description": "Mango automation integration",
+  "category": "Data Acquisition"
+}

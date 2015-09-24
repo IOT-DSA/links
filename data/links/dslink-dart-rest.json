@@ -1,0 +1,13 @@
+{
+  "name": "dslink-dart-rest",
+  "displayName": "REST Server",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-rest.git",
+    "zip": "rest.zip",
+    "ignoreBuildScript": true
+  },
+  "zip": "https://iot-dsa.github.io/links/files/rest.zip",
+  "description": "Use a REST API to manipulate custom nodes",
+  "category": "Data Acquisition"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "dslink-java-snmp",
+  "displayName": "SNMP",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-java-snmp.git",
+    "zip": "snmp.zip"
+  },
+  "zip": "https://iot-dsa.github.io/links/files/snmp.zip",
+  "description": "Simple Network Management Protocol",
+  "category": "Data Acquisition"
+}

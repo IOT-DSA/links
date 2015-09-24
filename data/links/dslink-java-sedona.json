@@ -1,0 +1,12 @@
+{
+  "name": "dslink-java-sedona",
+  "displayName": "Sedona",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-java-sedona.git",
+    "zip": "sedona.zip"
+  },
+  "zip": "https://iot-dsa.github.io/links/files/sedona.zip",
+  "description": "Access Sedona through DSA",
+  "category": "Data Acquisition"
+}

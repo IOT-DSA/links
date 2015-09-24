@@ -1,0 +1,12 @@
+{
+  "name": "dslink-java-mqtt",
+  "displayName": "MQTT",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-java-mqtt.git",
+    "zip": "mqtt.zip"
+  },
+  "zip": "https://iot-dsa.github.io/links/files/mqtt.zip",
+  "description": "Communicate with the MQTT Protocol",
+  "category": "Data Acquisition"
+}

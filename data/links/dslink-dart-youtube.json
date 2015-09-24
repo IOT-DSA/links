@@ -1,0 +1,12 @@
+{
+  "name": "dslink-dart-youtube",
+  "displayName": "YouTube",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-youtube.git",
+    "zip": "youtube.zip"
+  },
+  "zip": "https://iot-dsa.github.io/links/files/youtube.zip",
+  "description": "Access YouTube Data from DSA",
+  "category": "Social Media"
+}

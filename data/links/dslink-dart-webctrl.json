@@ -1,0 +1,12 @@
+{
+  "name": "dslink-dart-webctrl",
+  "displayName": "WebCtrl",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-webctrl.git",
+    "zip": "webctrl.zip"
+  },
+  "zip": "https://iot-dsa.github.io/links/files/webctrl.zip",
+  "description": "Access WebCtrl from DSA",
+  "category": "Data Acquisition"
+}

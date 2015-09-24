@@ -1,0 +1,12 @@
+{
+  "name": "dslink-java-googleplus",
+  "displayName": "Google+",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-java-googleplus.git",
+    "zip": "googleplus.zip"
+  },
+  "zip": "https://iot-dsa.github.io/links/files/googleplus.zip",
+  "description": "Access Google+ Data from DSA",
+  "category": "Social Media"
+}
