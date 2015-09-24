@@ -9,7 +9,13 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/bacnet.zip",
     "description": "Interact with BACnet",
-    "category": "Data Acquisition"
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
   },
   {
     "name": "dslink-dart-system",
@@ -58,7 +64,13 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/splunk.zip",
     "description": "Historian DSLink implementation for Splunk",
-    "category": "Historian"
+    "category": "Historian",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
   },
   {
     "name": "dslink-dart-mongodb",
@@ -95,7 +107,13 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/opc.zip",
     "description": "Support for OPCDA 2.0 and OPC-XML",
-    "category": "Data Acquisition"
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
   },
   {
     "name": "dslink-java-mqtt",
@@ -107,7 +125,13 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/mqtt.zip",
     "description": "Communicate with the MQTT Protocol",
-    "category": "Data Acquisition"
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
   },
   {
     "name": "dslink-java-etsdb",
@@ -119,7 +143,13 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/etsdb.zip",
     "description": "Historian DSLink implementation for ETSDB",
-    "category": "Historian"
+    "category": "Historian",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
   },
   {
     "name": "dslink-dart-wemo",
@@ -156,7 +186,13 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/modbus.zip",
     "description": "Access Modbus from DSA",
-    "category": "Data Acquisition"
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
   },
   {
     "name": "dslink-java-sedona",
@@ -168,7 +204,13 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/sedona.zip",
     "description": "Access Sedona through DSA",
-    "category": "Data Acquisition"
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
   },
   {
     "name": "dslink-dart-rest",
@@ -193,7 +235,13 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/haystack.zip",
     "description": "Access Haystack from DSA",
-    "category": "Data Acquisition"
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
   },
   {
     "name": "dslink-dart-youtube",
@@ -217,7 +265,13 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/enocean.zip",
     "description": "DSLink implementation for Enocean",
-    "category": "Data Acquisition"
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
   },
   {
     "name": "dslink-java-jdbc",
@@ -229,7 +283,13 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/jdbc.zip",
     "description": "Work with Databases",
-    "category": "Data Acquisition"
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
   },
   {
     "name": "dslink-dart-dgapi",
@@ -253,7 +313,13 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/twitter.zip",
     "description": "Access Twitter Data from DSA",
-    "category": "Social Media"
+    "category": "Social Media",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
   },
   {
     "name": "dslink-java-snmp",
@@ -265,7 +331,13 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/snmp.zip",
     "description": "Simple Network Management Protocol",
-    "category": "Data Acquisition"
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
   },
   {
     "name": "dslink-dart-mailer",
@@ -289,7 +361,13 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/zwave.zip",
     "description": "ZWave protocol integration",
-    "category": "Data Acquisition"
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
   },
   {
     "name": "dslink-dart-twilio",
@@ -313,7 +391,13 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/googleplus.zip",
     "description": "Access Google+ Data from DSA",
-    "category": "Social Media"
+    "category": "Social Media",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
   },
   {
     "name": "dslink-dart-webctrl",
@@ -389,6 +473,12 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/mango.zip",
     "description": "Mango automation integration",
-    "category": "Data Acquisition"
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
   }
 ]
