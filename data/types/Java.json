@@ -1,1 +1,8 @@
-{}
+{
+  "update": {
+    "delete": [
+      "bin",
+      "lib"
+    ]
+  }
+}
