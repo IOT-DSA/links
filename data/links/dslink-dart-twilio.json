@@ -6,7 +6,7 @@
     "repository": "https://github.com/IOT-DSA/dslink-dart-twilio.git",
     "zip": "twilio.zip"
   },
-  "zip": "https://iot-dsa.github.io/links/files/twilio.zip",
+  "zip": "${automated.zip.base}/twilio.zip",
   "description": "Send Text Messages through Twilio",
   "category": "Notifications"
 }

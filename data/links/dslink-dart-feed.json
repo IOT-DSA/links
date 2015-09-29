@@ -7,7 +7,7 @@
     "zip": "feed.zip",
     "ignoreBuildScript": true
   },
-  "zip": "https://iot-dsa.github.io/links/files/feed.zip",
+  "zip": "${automated.zip.base}/feed.zip",
   "description": "Subscribe to RSS Feeds",
   "category": "Data Acquisition"
 }

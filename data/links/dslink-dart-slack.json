@@ -6,7 +6,7 @@
     "repository": "https://github.com/IOT-DSA/dslink-dart-slack.git",
     "zip": "slack.zip"
   },
-  "zip": "https://iot-dsa.github.io/links/files/slack.zip",
+  "zip": "${automated.zip.base}/slack.zip",
   "description": "Access Slack from DSA",
   "category": "Communication"
 }

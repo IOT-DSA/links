@@ -6,7 +6,7 @@
     "repository": "https://github.com/IOT-DSA/dslink-dart-irc.git",
     "zip": "irc.zip"
   },
-  "zip": "https://iot-dsa.github.io/links/files/irc.zip",
+  "zip": "${automated.zip.base}/irc.zip",
   "description": "Communicate with IRC",
   "category": "Communication"
 }

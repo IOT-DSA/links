@@ -6,7 +6,7 @@
     "repository": "https://github.com/IOT-DSA/dslink-dart-webctrl.git",
     "zip": "webctrl.zip"
   },
-  "zip": "https://iot-dsa.github.io/links/files/webctrl.zip",
+  "zip": "${automated.zip.base}/webctrl.zip",
   "description": "Access WebCtrl from DSA",
   "category": "Data Acquisition"
 }

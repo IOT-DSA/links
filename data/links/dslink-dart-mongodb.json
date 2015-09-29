@@ -6,7 +6,7 @@
     "repository": "https://github.com/IOT-DSA/dslink-dart-mongodb.git",
     "zip": "mongodb.zip"
   },
-  "zip": "https://iot-dsa.github.io/links/files/mongodb.zip",
+  "zip": "${automated.zip.base}/mongodb.zip",
   "description": "Access MongoDB through DSA",
   "category": "Data Acquisition"
 }

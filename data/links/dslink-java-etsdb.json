@@ -6,7 +6,7 @@
     "repository": "https://github.com/IOT-DSA/dslink-java-etsdb.git",
     "zip": "etsdb.zip"
   },
-  "zip": "https://iot-dsa.github.io/links/files/etsdb.zip",
+  "zip": "${automated.zip.base}/etsdb.zip",
   "description": "Historian DSLink implementation for ETSDB",
   "category": "Historian"
 }

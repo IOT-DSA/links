@@ -6,7 +6,7 @@
     "repository": "https://github.com/IOT-DSA/dslink-dart-dgapi.git",
     "zip": "dgapi.zip"
   },
-  "zip": "https://iot-dsa.github.io/links/files/dgapi.zip",
+  "zip": "${automated.zip.base}/dgapi.zip",
   "description": "Access DGAPI through DSA",
   "category": "Data Acquisition"
 }

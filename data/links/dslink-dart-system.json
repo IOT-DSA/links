@@ -7,7 +7,7 @@
     "zip": "system.zip",
     "ignoreBuildScript": true
   },
-  "zip": "https://iot-dsa.github.io/links/files/system.zip",
+  "zip": "${automated.zip.base}/system.zip",
   "description": "Get Live Statistics about a Machine",
   "category": "System"
 }

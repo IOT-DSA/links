@@ -6,7 +6,7 @@
     "repository": "https://github.com/IOT-DSA/dslink-java-splunk.git",
     "zip": "splunk.zip"
   },
-  "zip": "https://iot-dsa.github.io/links/files/splunk.zip",
+  "zip": "${automated.zip.base}/splunk.zip",
   "description": "Historian DSLink implementation for Splunk",
   "category": "Historian"
 }

@@ -7,7 +7,7 @@
     "zip": "mysql.zip",
     "ignoreBuildScript": true
   },
-  "zip": "https://iot-dsa.github.io/links/files/mysql.zip",
+  "zip": "${automated.zip.base}/mysql.zip",
   "description": "Run MySQL Queries",
   "category": "Data Acquisition"
 }

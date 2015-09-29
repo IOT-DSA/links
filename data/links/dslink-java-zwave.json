@@ -6,7 +6,7 @@
     "repository": "https://github.com/IOT-DSA/dslink-java-zwave.git",
     "zip": "zwave.zip"
   },
-  "zip": "https://iot-dsa.github.io/links/files/zwave.zip",
+  "zip": "${automated.zip.base}/zwave.zip",
   "description": "ZWave protocol integration",
   "category": "Data Acquisition"
 }

@@ -6,7 +6,7 @@
     "repository": "https://github.com/IOT-DSA/dslink-java-mango.git",
     "zip": "mango.zip"
   },
-  "zip": "https://iot-dsa.github.io/links/files/mango.zip",
+  "zip": "${automated.zip.base}/mango.zip",
   "description": "Mango automation integration",
   "category": "Data Acquisition"
 }

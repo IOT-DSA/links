@@ -6,7 +6,7 @@
     "repository": "https://github.com/IOT-DSA/dslink-dart-mailer.git",
     "zip": "mailer.zip"
   },
-  "zip": "https://iot-dsa.github.io/links/files/mailer.zip",
+  "zip": "${automated.zip.base}/mailer.zip",
   "description": "Send Emails",
   "category": "Notifications"
 }

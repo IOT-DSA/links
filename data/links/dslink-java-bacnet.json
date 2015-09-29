@@ -6,7 +6,7 @@
     "repository": "https://github.com/IOT-DSA/dslink-java-bacnet.git",
     "zip": "bacnet.zip"
   },
-  "zip": "https://iot-dsa.github.io/links/files/bacnet.zip",
+  "zip": "${automated.zip.base}/bacnet.zip",
   "description": "Interact with BACnet",
   "category": "Data Acquisition"
 }
