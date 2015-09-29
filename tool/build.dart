@@ -1,257 +1,24 @@
-import "dart:async";
-import "dart:convert";
-import "dart:io";
-
-typedef void ProcessHandler(Process process);
-typedef void OutputHandler(String str);
-
-class BetterProcessResult extends ProcessResult {
-  final String output;
-
-  BetterProcessResult(int pid, int exitCode, stdout, stderr, this.output) :
-  super(pid, exitCode, stdout, stderr);
-}
-
-Future<BetterProcessResult> exec(
-    String executable,
-    {
-    List<String> args: const [],
-    String workingDirectory,
-    Map<String, String> environment,
-    bool includeParentEnvironment: true,
-    bool runInShell: false,
-    stdin,
-    ProcessHandler handler,
-    OutputHandler stdoutHandler,
-    OutputHandler stderrHandler,
-    OutputHandler outputHandler,
-    File outputFile,
-    bool inherit: false,
-    bool writeToBuffer: false
-    }) async {
-  IOSink raf;
-
-  if (outputFile != null) {
-    if (!(await outputFile.exists())) {
-      await outputFile.create(recursive: true);
-    }
-
-    raf = await outputFile.openWrite(mode: FileMode.APPEND);
-  }
-
-  try {
-    Process process = await Process.start(
-        executable,
-        args,
-        workingDirectory: workingDirectory,
-        environment: environment,
-        includeParentEnvironment: includeParentEnvironment,
-        runInShell: runInShell
-    );
-
-    if (raf != null) {
-      await raf.writeln("[${currentTimestamp}] == Executing ${executable} with arguments ${args} (pid: ${process.pid}) ==");
-    }
-
-    var buff = new StringBuffer();
-    var ob = new StringBuffer();
-    var eb = new StringBuffer();
-
-    process.stdout.transform(UTF8.decoder).listen((str) async {
-      if (writeToBuffer) {
-        ob.write(str);
-        buff.write(str);
-      }
-
-      if (stdoutHandler != null) {
-        stdoutHandler(str);
-      }
-
-      if (outputHandler != null) {
-        outputHandler(str);
-      }
-
-      if (inherit) {
-        stdout.write(str);
-      }
-
-      if (raf != null) {
-        await raf.writeln("[${currentTimestamp}] ${str}");
-      }
-    });
-
-    process.stderr.transform(UTF8.decoder).listen((str) async {
-      if (writeToBuffer) {
-        eb.write(str);
-        buff.write(str);
-      }
-
-      if (stderrHandler != null) {
-        stderrHandler(str);
-      }
-
-      if (outputHandler != null) {
-        outputHandler(str);
-      }
-
-      if (inherit) {
-        stderr.write(str);
-      }
-
-      if (raf != null) {
-        await raf.writeln("[${currentTimestamp}] ${str}");
-      }
-    });
-
-    if (handler != null) {
-      handler(process);
-    }
-
-    if (stdin != null) {
-      if (stdin is Stream) {
-        stdin.listen(process.stdin.add, onDone: process.stdin.close);
-      } else if (stdin is List) {
-        process.stdin.add(stdin);
-      } else {
-        process.stdin.write(stdin);
-        await process.stdin.close();
-      }
-    } else if (inherit) {
-//      _stdin.listen(process.stdin.add, onDone: process.stdin.close);
-    }
-
-    var code = await process.exitCode;
-    var pid = process.pid;
-
-    if (raf != null) {
-      await raf.writeln("[${currentTimestamp}] == Exited with status ${code} ==");
-      await raf.flush();
-      await raf.close();
-    }
-
-    return new BetterProcessResult(
-        pid,
-        code,
-        ob.toString(),
-        eb.toString(),
-        buff.toString()
-    );
-  } finally {
-    if (raf != null) {
-      await raf.flush();
-      await raf.close();
-    }
-  }
-}
-
-String get currentTimestamp {
-  return new DateTime.now().toString();
-}
-
-Future<dynamic> readJsonFile(String path) async {
-  var file = new File(path);
-  var content = await file.readAsString();
-  return JSON.decode(content);
-}
-
-Future saveJsonFile(String path, value) async {
-  var file = new File(path);
-  var content = new JsonEncoder.withIndent("  ").convert(value);
-  await file.writeAsString(content + "\n");
-}
-
-void cd(String path) {
-  var dir = new Directory(path);
-  Directory.current = dir;
-}
-
-Future makeZipFile(String target) async {
-  var tf = new File(target);
-
-  if (!(await tf.parent.exists())) {
-    await tf.parent.create(recursive: true);
-  }
-
-  var result = await exec("zip", args: [
-    "-r",
-    tf.absolute.path,
-    "."
-  ]);
-
-  if (result.exitCode != 0) {
-    throw new Exception("Failed to make ZIP file!");
-  }
-}
-
-List<Directory> _dirStack = [];
-
-void pushd(String path) {
-  _dirStack.add(Directory.current);
-  var dir = new Directory(path);
-  if (!dir.existsSync()) {
-    dir.createSync(recursive: true);
-  }
-  Directory.current = dir;
-}
-
-void popd() {
-  if (_dirStack.isEmpty) {
-    throw new Exception("No Directory to Pop from the Stack");
-  }
-
-  Directory.current = _dirStack.removeLast();
-}
-
-void rmkdir(String path) {
-  var dir = new Directory(path);
-  if (dir.existsSync()) {
-    dir.deleteSync(recursive: true);
-  }
-  dir.createSync(recursive: true);
-}
-
-void copy(String from, String to) {
-  var ff = new File(from);
-  var tf = new File(to);
-
-  if (!tf.existsSync()) {
-    tf.createSync(recursive: true);
-  }
-
-  tf.writeAsBytesSync(ff.readAsBytesSync());
-}
+import "util.dart";
 
 main(List<String> argv) async {
-  var links = [];
-  var typeRules = {};
-  await for (FileSystemEntity entity in new Directory("data/links").list()) {
-    if (entity is! File) continue;
-    if (!entity.path.endsWith(".json")) continue;
-    var data = await readJsonFile(entity.path);
-    links.add(data);
-  }
-
-  await for (FileSystemEntity entity in new Directory("data/types").list()) {
-    if (entity is! File) continue;
-    if (!entity.path.endsWith(".json")) continue;
-    var data = await readJsonFile(entity.path);
-    var name = entity.path.split(Platform.pathSeparator).last.replaceAll(".json", "");
-    typeRules[name] = data;
-  }
+  var links = await loadJsonDirectoryList("data/links");
+  var typeRules = await loadJsonDirectoryMap("data/types");
 
   for (Map l in links) {
-    if (l["type"] is String && typeRules.containsKey(l["type"])) {
-      l.addAll(typeRules[l["type"]]);
-    }
+    mergeConfigurationTypes(typeRules, "type", l);
   }
 
   var revs = await readJsonFile("data/revs.json");
 
-  rmkdir("tmp");
+  await rmkdir("tmp");
 
   var doBuild = argv.where((x) => !x.startsWith("--")).toList();
 
   for (var link in links) {
+    if (argv.contains("--generate-list")) {
+      continue;
+    }
+
     if (doBuild.isNotEmpty && !doBuild.contains(link["name"])) {
       continue;
     }
@@ -272,7 +39,7 @@ main(List<String> argv) async {
     var linkType = link["type"];
     var automated = link["automated"];
     var repo = automated["repository"];
-    pushd("tmp/${name}");
+    await pushd("tmp/${name}");
     var cr = await exec("git", args: ["clone", "--depth=1", repo, "."], writeToBuffer: true);
     if (cr.exitCode != 0) {
       fail("Failed to clone repository.\n${cr.output}");
@@ -295,7 +62,7 @@ main(List<String> argv) async {
 
     var cbs = new File("tool/build.sh");
 
-    if (cbs.existsSync() && automated["ignoreBuildScript"] != true) {
+    if (await cbs.exists() && automated["ignoreBuildScript"] != true) {
       var result = await exec("bash", args: [cbs.path], writeToBuffer: true);
       if (result.exitCode != 0) {
         fail("Failed to run custom build script.\n${result.output}");
@@ -311,7 +78,7 @@ main(List<String> argv) async {
         mainFile = new File("bin/main.dart");
       }
 
-      rmkdir("build/bin");
+      await rmkdir("build/bin");
 
       var cmfr = await exec("dart2js", args: [
         mainFile.absolute.path,
@@ -326,11 +93,11 @@ main(List<String> argv) async {
         fail("Failed to build main file.\n${cmfr.output}");
       }
 
-      copy("dslink.json", "build/dslink.json");
-      pushd("build");
+      await copy("dslink.json", "build/dslink.json");
+      await pushd("build");
 
       try {
-        new File("${mainFile.path.split('/').last}.deps").deleteSync();
+        await new File("${mainFile.path.split('/').last}.deps").delete();
       } catch (e) {
       }
       var rpn = Directory.current.parent.parent.parent.path;
@@ -346,9 +113,4 @@ main(List<String> argv) async {
 
   await saveJsonFile("data/revs.json", revs);
   await saveJsonFile("links.json", links);
-}
-
-void fail(String msg) {
-  print("ERROR: ${msg}");
-  exit(1);
 }
