@@ -1,0 +1,7 @@
+{
+  "update": {
+    "delete": [
+      "nodes.json"
+    ]
+  }
+}

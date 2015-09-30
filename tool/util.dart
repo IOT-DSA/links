@@ -17,6 +17,9 @@ class BetterProcessResult extends ProcessResult {
       super(pid, exitCode, stdout, stderr);
 }
 
+Directory getDir(String path) => new Directory(path);
+File getFile(String path) => new File(path);
+
 Future<BetterProcessResult> exec(
   String executable,
   {
@@ -151,10 +154,21 @@ String get currentTimestamp {
   return new DateTime.now().toString();
 }
 
-Future<dynamic> readJsonFile(String path) async {
+Future<dynamic> readJsonFile(String path, [Map defaultValue]) async {
   var file = new File(path);
+
+  if (!(await file.exists()) && defaultValue != null) {
+    return defaultValue;
+  }
+
   var content = await file.readAsString();
   return JSON.decode(content);
+}
+
+bool deepEquals(a, b) {
+  if (a is List && b is! List) return false;
+  if (a is Map && b is! Map) return false;
+  if (a is String && b is! String) return false;
 }
 
 Future saveJsonFile(String path, value) async {
@@ -217,6 +231,26 @@ Future<List<dynamic>> loadJsonDirectoryList(String path, {bool strict: false}) a
     }
   }
   return out;
+}
+
+bool isJsonEqual(a, b) {
+  return JSON.encode(a) == JSON.encode(b);
+}
+
+Future<List<Map<String, dynamic>>> buildLinksList() async {
+  var links = await loadJsonDirectoryList("data/links");
+  var typeRules = await loadJsonDirectoryMap("data/types");
+  var mixins = await loadJsonDirectoryMap("data/mixins");
+  var config = await readJsonFile("data/config.json");
+
+  for (Map l in links) {
+    mergeConfigurationTypes(typeRules, "type", l);
+    mergeConfigurationTypes(mixins, "mixins", mixins);
+  }
+
+  crawlDataAndSubstituteVariables(links, config);
+
+  return links;
 }
 
 Future<Map<String, dynamic>> loadJsonDirectoryMap(String path, {bool strict: false}) async {
