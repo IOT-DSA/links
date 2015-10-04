@@ -417,5 +417,5 @@ Future<File> copy(String from, String to) async {
     await tf.create(recursive: true);
   }
 
-  return await tf.copy(tf.path);
+  return await ff.copy(tf.path);
 }
