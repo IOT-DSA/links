@@ -1,117 +1,34 @@
 [
   {
-    "name": "dslink-dart-dgapi",
-    "displayName": "DGAPI",
-    "type": "Dart",
+    "name": "dslink-java-bacnet",
+    "displayName": "BACnet",
+    "type": "Java",
     "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-dart-dgapi.git",
-      "zip": "dgapi.zip"
+      "repository": "https://github.com/IOT-DSA/dslink-java-bacnet.git",
+      "zip": "bacnet.zip"
     },
-    "zip": "https://iot-dsa.github.io/links/files/dgapi.zip",
-    "description": "Access DGAPI through DSA",
-    "category": "Data Acquisition"
+    "zip": "https://iot-dsa.github.io/links/files/bacnet.zip",
+    "description": "Interact with BACnet",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
   },
   {
-    "name": "dslink-dart-earthquakes",
-    "displayName": "Earthquakes",
+    "name": "dslink-dart-system",
+    "displayName": "System",
     "type": "Dart",
     "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-dart-earthquakes.git",
-      "zip": "earthquakes.zip"
-    },
-    "zip": "https://iot-dsa.github.io/links/files/earthquakes.zip",
-    "description": "Get Hourly Updates about Earthquakes Worldwide",
-    "category": "Misc."
-  },
-  {
-    "name": "dslink-dart-feed",
-    "displayName": "RSS Feeds",
-    "type": "Dart",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-dart-feed.git",
-      "zip": "feed.zip",
+      "repository": "https://github.com/IOT-DSA/dslink-dart-system.git",
+      "zip": "system.zip",
       "ignoreBuildScript": true
     },
-    "zip": "https://iot-dsa.github.io/links/files/feed.zip",
-    "description": "Subscribe to RSS Feeds",
-    "category": "Data Acquisition"
-  },
-  {
-    "name": "dslink-dart-host-dgbox",
-    "displayName": "DGBox Host",
-    "type": "Dart",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-dart-host-dgbox.git",
-      "zip": "host-dgbox.zip"
-    },
-    "zip": "https://iot-dsa.github.io/links/files/host-dgbox.zip",
-    "description": "Control DGBox through DSA",
-    "category": "System",
-    "requires": [
-      "Dreamplug"
-    ]
-  },
-  {
-    "name": "dslink-dart-irc",
-    "displayName": "IRC",
-    "type": "Dart",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-dart-irc.git",
-      "zip": "irc.zip"
-    },
-    "zip": "https://iot-dsa.github.io/links/files/irc.zip",
-    "description": "Communicate with IRC",
-    "category": "Communication"
-  },
-  {
-    "name": "dslink-dart-mailer",
-    "displayName": "Email",
-    "type": "Dart",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-dart-mailer.git",
-      "zip": "mailer.zip"
-    },
-    "zip": "https://iot-dsa.github.io/links/files/mailer.zip",
-    "description": "Send Emails",
-    "category": "Notifications"
-  },
-  {
-    "name": "dslink-dart-mongodb",
-    "displayName": "MongoDB",
-    "type": "Dart",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-dart-mongodb.git",
-      "zip": "mongodb.zip"
-    },
-    "zip": "https://iot-dsa.github.io/links/files/mongodb.zip",
-    "description": "Access MongoDB through DSA",
-    "category": "Data Acquisition"
-  },
-  {
-    "name": "dslink-dart-mysql",
-    "displayName": "MySQL",
-    "type": "Dart",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-dart-mysql.git",
-      "zip": "mysql.zip",
-      "ignoreBuildScript": true
-    },
-    "zip": "https://iot-dsa.github.io/links/files/mysql.zip",
-    "description": "Run MySQL Queries",
-    "category": "Data Acquisition"
-  },
-  {
-    "name": "dslink-dart-rest",
-    "displayName": "REST Server",
-    "type": "Dart",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-dart-rest.git",
-      "zip": "rest.zip",
-      "ignoreBuildScript": true
-    },
-    "zip": "https://iot-dsa.github.io/links/files/rest.zip",
-    "description": "Use a REST API to manipulate custom nodes",
-    "category": "Data Acquisition"
+    "zip": "https://iot-dsa.github.io/links/files/system.zip",
+    "description": "Get Live Statistics about a Machine",
+    "category": "System"
   },
   {
     "name": "dslink-dart-slack",
@@ -138,29 +55,34 @@
     "category": "Storage"
   },
   {
-    "name": "dslink-dart-system",
-    "displayName": "System",
-    "type": "Dart",
+    "name": "dslink-java-splunk",
+    "displayName": "Splunk",
+    "type": "Java",
     "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-dart-system.git",
-      "zip": "system.zip",
-      "ignoreBuildScript": true
+      "repository": "https://github.com/IOT-DSA/dslink-java-splunk.git",
+      "zip": "splunk.zip"
     },
-    "zip": "https://iot-dsa.github.io/links/files/system.zip",
-    "description": "Get Live Statistics about a Machine",
-    "category": "System"
+    "zip": "https://iot-dsa.github.io/links/files/splunk.zip",
+    "description": "Historian DSLink implementation for Splunk",
+    "category": "Historian",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
   },
   {
-    "name": "dslink-dart-twilio",
-    "displayName": "Twilio",
+    "name": "dslink-dart-mongodb",
+    "displayName": "MongoDB",
     "type": "Dart",
     "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-dart-twilio.git",
-      "zip": "twilio.zip"
+      "repository": "https://github.com/IOT-DSA/dslink-dart-mongodb.git",
+      "zip": "mongodb.zip"
     },
-    "zip": "https://iot-dsa.github.io/links/files/twilio.zip",
-    "description": "Send Text Messages through Twilio",
-    "category": "Notifications"
+    "zip": "https://iot-dsa.github.io/links/files/mongodb.zip",
+    "description": "Access MongoDB through DSA",
+    "category": "Data Acquisition"
   },
   {
     "name": "dslink-dart-weather",
@@ -176,177 +98,15 @@
     "category": "Data Acquisition"
   },
   {
-    "name": "dslink-dart-webctrl",
-    "displayName": "WebCtrl",
-    "type": "Dart",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-dart-webctrl.git",
-      "zip": "webctrl.zip"
-    },
-    "zip": "https://iot-dsa.github.io/links/files/webctrl.zip",
-    "description": "Access WebCtrl from DSA",
-    "category": "Data Acquisition"
-  },
-  {
-    "name": "dslink-dart-wemo",
-    "displayName": "WeMo",
-    "type": "Dart",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-dart-wemo.git",
-      "zip": "wemo.zip"
-    },
-    "zip": "https://iot-dsa.github.io/links/files/wemo.zip",
-    "description": "Interact with WeMo Devices",
-    "category": "Data Acquisition"
-  },
-  {
-    "name": "dslink-dart-youtube",
-    "displayName": "YouTube",
-    "type": "Dart",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-dart-youtube.git",
-      "zip": "youtube.zip"
-    },
-    "zip": "https://iot-dsa.github.io/links/files/youtube.zip",
-    "description": "Access YouTube Data from DSA",
-    "category": "Social Media"
-  },
-  {
-    "name": "dslink-java-bacnet",
-    "displayName": "BACnet",
+    "name": "dslink-java-opc",
+    "displayName": "OPC",
     "type": "Java",
     "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-java-bacnet.git",
-      "zip": "bacnet.zip"
+      "repository": "https://github.com/IOT-DSA/dslink-java-opc.git",
+      "zip": "opc.zip"
     },
-    "zip": "https://iot-dsa.github.io/links/files/bacnet.zip",
-    "description": "Interact with BACnet",
-    "category": "Data Acquisition",
-    "update": {
-      "delete": [
-        "bin",
-        "lib"
-      ]
-    }
-  },
-  {
-    "name": "dslink-java-enocean",
-    "displayName": "Enocean",
-    "type": "Java",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-java-enocean.git",
-      "zip": "enocean.zip"
-    },
-    "zip": "https://iot-dsa.github.io/links/files/enocean.zip",
-    "description": "DSLink implementation for Enocean",
-    "category": "Data Acquisition",
-    "update": {
-      "delete": [
-        "bin",
-        "lib"
-      ]
-    }
-  },
-  {
-    "name": "dslink-java-etsdb",
-    "displayName": "ETSDB",
-    "type": "Java",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-java-etsdb.git",
-      "zip": "etsdb.zip"
-    },
-    "zip": "https://iot-dsa.github.io/links/files/etsdb.zip",
-    "description": "Historian DSLink implementation for ETSDB",
-    "category": "Historian",
-    "update": {
-      "delete": [
-        "bin",
-        "lib"
-      ]
-    }
-  },
-  {
-    "name": "dslink-java-googleplus",
-    "displayName": "Google+",
-    "type": "Java",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-java-googleplus.git",
-      "zip": "googleplus.zip"
-    },
-    "zip": "https://iot-dsa.github.io/links/files/googleplus.zip",
-    "description": "Access Google+ Data from DSA",
-    "category": "Social Media",
-    "update": {
-      "delete": [
-        "bin",
-        "lib"
-      ]
-    }
-  },
-  {
-    "name": "dslink-java-haystack",
-    "displayName": "Haystack",
-    "type": "Java",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-java-haystack.git",
-      "zip": "haystack.zip"
-    },
-    "zip": "https://iot-dsa.github.io/links/files/haystack.zip",
-    "description": "Access Haystack from DSA",
-    "category": "Data Acquisition",
-    "update": {
-      "delete": [
-        "bin",
-        "lib"
-      ]
-    }
-  },
-  {
-    "name": "dslink-java-jdbc",
-    "displayName": "JDBC",
-    "type": "Java",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-java-jdbc.git",
-      "zip": "jdbc.zip"
-    },
-    "zip": "https://iot-dsa.github.io/links/files/jdbc.zip",
-    "description": "Work with Databases",
-    "category": "Data Acquisition",
-    "update": {
-      "delete": [
-        "bin",
-        "lib"
-      ]
-    }
-  },
-  {
-    "name": "dslink-java-mango",
-    "displayName": "Mango",
-    "type": "Java",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-java-mango.git",
-      "zip": "mango.zip"
-    },
-    "zip": "https://iot-dsa.github.io/links/files/mango.zip",
-    "description": "Mango automation integration",
-    "category": "Data Acquisition",
-    "update": {
-      "delete": [
-        "bin",
-        "lib"
-      ]
-    }
-  },
-  {
-    "name": "dslink-java-modbus",
-    "displayName": "Modbus",
-    "type": "Java",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-java-modbus.git",
-      "zip": "modbus.zip"
-    },
-    "zip": "https://iot-dsa.github.io/links/files/modbus.zip",
-    "description": "Access Modbus from DSA",
+    "zip": "https://iot-dsa.github.io/links/files/opc.zip",
+    "description": "Support for OPCDA 2.0 and OPC-XML",
     "category": "Data Acquisition",
     "update": {
       "delete": [
@@ -374,15 +134,58 @@
     }
   },
   {
-    "name": "dslink-java-opc",
-    "displayName": "OPC",
+    "name": "dslink-java-etsdb",
+    "displayName": "ETSDB",
     "type": "Java",
     "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-java-opc.git",
-      "zip": "opc.zip"
+      "repository": "https://github.com/IOT-DSA/dslink-java-etsdb.git",
+      "zip": "etsdb.zip"
     },
-    "zip": "https://iot-dsa.github.io/links/files/opc.zip",
-    "description": "Support for OPCDA 2.0 and OPC-XML",
+    "zip": "https://iot-dsa.github.io/links/files/etsdb.zip",
+    "description": "Historian DSLink implementation for ETSDB",
+    "category": "Historian",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
+  },
+  {
+    "name": "dslink-dart-wemo",
+    "displayName": "WeMo",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-wemo.git",
+      "zip": "wemo.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/wemo.zip",
+    "description": "Interact with WeMo Devices",
+    "category": "Data Acquisition"
+  },
+  {
+    "name": "dslink-dart-mysql",
+    "displayName": "MySQL",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-mysql.git",
+      "zip": "mysql.zip",
+      "ignoreBuildScript": true
+    },
+    "zip": "https://iot-dsa.github.io/links/files/mysql.zip",
+    "description": "Run MySQL Queries",
+    "category": "Data Acquisition"
+  },
+  {
+    "name": "dslink-java-modbus",
+    "displayName": "Modbus",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-modbus.git",
+      "zip": "modbus.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/modbus.zip",
+    "description": "Access Modbus from DSA",
     "category": "Data Acquisition",
     "update": {
       "delete": [
@@ -410,15 +213,28 @@
     }
   },
   {
-    "name": "dslink-java-snmp",
-    "displayName": "SNMP",
+    "name": "dslink-dart-rest",
+    "displayName": "REST Server",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-rest.git",
+      "zip": "rest.zip",
+      "ignoreBuildScript": true
+    },
+    "zip": "https://iot-dsa.github.io/links/files/rest.zip",
+    "description": "Use a REST API to manipulate custom nodes",
+    "category": "Data Acquisition"
+  },
+  {
+    "name": "dslink-java-haystack",
+    "displayName": "Haystack",
     "type": "Java",
     "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-java-snmp.git",
-      "zip": "snmp.zip"
+      "repository": "https://github.com/IOT-DSA/dslink-java-haystack.git",
+      "zip": "haystack.zip"
     },
-    "zip": "https://iot-dsa.github.io/links/files/snmp.zip",
-    "description": "Simple Network Management Protocol",
+    "zip": "https://iot-dsa.github.io/links/files/haystack.zip",
+    "description": "Access Haystack from DSA",
     "category": "Data Acquisition",
     "update": {
       "delete": [
@@ -428,22 +244,64 @@
     }
   },
   {
-    "name": "dslink-java-splunk",
-    "displayName": "Splunk",
+    "name": "dslink-dart-youtube",
+    "displayName": "YouTube",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-youtube.git",
+      "zip": "youtube.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/youtube.zip",
+    "description": "Access YouTube Data from DSA",
+    "category": "Social Media"
+  },
+  {
+    "name": "dslink-java-enocean",
+    "displayName": "Enocean",
     "type": "Java",
     "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-java-splunk.git",
-      "zip": "splunk.zip"
+      "repository": "https://github.com/IOT-DSA/dslink-java-enocean.git",
+      "zip": "enocean.zip"
     },
-    "zip": "https://iot-dsa.github.io/links/files/splunk.zip",
-    "description": "Historian DSLink implementation for Splunk",
-    "category": "Historian",
+    "zip": "https://iot-dsa.github.io/links/files/enocean.zip",
+    "description": "DSLink implementation for Enocean",
+    "category": "Data Acquisition",
     "update": {
       "delete": [
         "bin",
         "lib"
       ]
     }
+  },
+  {
+    "name": "dslink-java-jdbc",
+    "displayName": "JDBC",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-jdbc.git",
+      "zip": "jdbc.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/jdbc.zip",
+    "description": "Work with Databases",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
+  },
+  {
+    "name": "dslink-dart-dgapi",
+    "displayName": "DGAPI",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-dgapi.git",
+      "zip": "dgapi.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/dgapi.zip",
+    "description": "Access DGAPI through DSA",
+    "category": "Data Acquisition"
   },
   {
     "name": "dslink-java-twitter",
@@ -464,6 +322,36 @@
     }
   },
   {
+    "name": "dslink-java-snmp",
+    "displayName": "SNMP",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-snmp.git",
+      "zip": "snmp.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/snmp.zip",
+    "description": "Simple Network Management Protocol",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
+  },
+  {
+    "name": "dslink-dart-mailer",
+    "displayName": "Email",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-mailer.git",
+      "zip": "mailer.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/mailer.zip",
+    "description": "Send Emails",
+    "category": "Notifications"
+  },
+  {
     "name": "dslink-java-zwave",
     "displayName": "ZWave",
     "type": "Java",
@@ -473,6 +361,118 @@
     },
     "zip": "https://iot-dsa.github.io/links/files/zwave.zip",
     "description": "ZWave protocol integration",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
+  },
+  {
+    "name": "dslink-dart-twilio",
+    "displayName": "Twilio",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-twilio.git",
+      "zip": "twilio.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/twilio.zip",
+    "description": "Send Text Messages through Twilio",
+    "category": "Notifications"
+  },
+  {
+    "name": "dslink-java-googleplus",
+    "displayName": "Google+",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-googleplus.git",
+      "zip": "googleplus.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/googleplus.zip",
+    "description": "Access Google+ Data from DSA",
+    "category": "Social Media",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
+  },
+  {
+    "name": "dslink-dart-webctrl",
+    "displayName": "WebCtrl",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-webctrl.git",
+      "zip": "webctrl.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/webctrl.zip",
+    "description": "Access WebCtrl from DSA",
+    "category": "Data Acquisition"
+  },
+  {
+    "name": "dslink-dart-feed",
+    "displayName": "RSS Feeds",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-feed.git",
+      "zip": "feed.zip",
+      "ignoreBuildScript": true
+    },
+    "zip": "https://iot-dsa.github.io/links/files/feed.zip",
+    "description": "Subscribe to RSS Feeds",
+    "category": "Data Acquisition"
+  },
+  {
+    "name": "dslink-dart-earthquakes",
+    "displayName": "Earthquakes",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-earthquakes.git",
+      "zip": "earthquakes.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/earthquakes.zip",
+    "description": "Get Hourly Updates about Earthquakes Worldwide",
+    "category": "Misc."
+  },
+  {
+    "name": "dslink-dart-irc",
+    "displayName": "IRC",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-irc.git",
+      "zip": "irc.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/irc.zip",
+    "description": "Communicate with IRC",
+    "category": "Communication"
+  },
+  {
+    "name": "dslink-dart-host-dgbox",
+    "displayName": "DGBox Host",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-host-dgbox.git",
+      "zip": "host-dgbox.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/host-dgbox.zip",
+    "description": "Control DGBox through DSA",
+    "category": "System",
+    "requires": [
+      "Dreamplug"
+    ]
+  },
+  {
+    "name": "dslink-java-mango",
+    "displayName": "Mango",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-mango.git",
+      "zip": "mango.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/mango.zip",
+    "description": "Mango automation integration",
     "category": "Data Acquisition",
     "update": {
       "delete": [
