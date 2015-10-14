@@ -15,7 +15,7 @@
   "dslink-java-twitter": "dea00740ebf25debd70ffc6d6f1371d1b612c0d3",
   "dslink-java-googleplus": "5ee2ab7de28b17898de4f170fbd0e139e1999597",
   "dslink-java-modbus": "404469be0a73f3623156aa85454177748aa0b4e3",
-  "dslink-java-jdbc": "d5b13adebbe0d1703671434aebaa98d86b88b26b",
+  "dslink-java-jdbc": "b4f330dbff57a764acc1b9cd5b23ebec5b076290",
   "dslink-dart-irc": "a58f8edb275cfa3cea2d287d09321f39cefffd67",
   "dslink-dart-slack": "3274610ffd2ec8fc2cd6823068811571655a46e1",
   "dslink-java-etsdb": "564b8e55f201bade55dd1d012b77010d97d309cb",
@@ -34,5 +34,6 @@
   "dslink-dart-feed": "0c95d9d9bf12710d6bb772a664f0ce7ef74bfb55",
   "dslink-java-zwave": "5d557324138c0b758c6ed7f5999eb4eff7c3c85a",
   "dslink-java-mango": "5423f34e9759a178d246288905250c9dcdca7204",
-  "dslink-dart-html5": "14cb0b08ed10bcfffd5e46f7713f53978bbbb05c"
+  "dslink-dart-html5": "b64bad9b37ff16d83fbb5b3a7e208f609daa4e32",
+  "dslink-java-bitpool": "090f1d1f728e54c29f1a724c9b07243182c8a00e"
 }
