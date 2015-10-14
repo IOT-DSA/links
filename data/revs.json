@@ -33,5 +33,6 @@
   "dslink-dart-host-dgbox": "735ab904ef3a055620c9dc5b0e0a7b8160d6dbbd",
   "dslink-dart-feed": "0c95d9d9bf12710d6bb772a664f0ce7ef74bfb55",
   "dslink-java-zwave": "5d557324138c0b758c6ed7f5999eb4eff7c3c85a",
-  "dslink-java-mango": "5423f34e9759a178d246288905250c9dcdca7204"
+  "dslink-java-mango": "5423f34e9759a178d246288905250c9dcdca7204",
+  "dslink-dart-html5": "14cb0b08ed10bcfffd5e46f7713f53978bbbb05c"
 }

@@ -292,6 +292,18 @@
     }
   },
   {
+    "name": "dslink-dart-html5",
+    "displayName": "HTML5",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-html5.git",
+      "zip": "html5.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/html5.zip",
+    "description": "Capture different types of data such as Location Information and Gyroscope Data from a Browser Client",
+    "category": "Data Acquisition"
+  },
+  {
     "name": "dslink-dart-dgapi",
     "displayName": "DGAPI",
     "type": "Dart",
