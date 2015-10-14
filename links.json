@@ -364,6 +364,24 @@
     "category": "Notifications"
   },
   {
+    "name": "dslink-java-bitpool",
+    "displayName": "Bitpool",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-bitpool.git",
+      "zip": "bitpool.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/bitpool.zip",
+    "description": "Interact with Bitpool",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
+  },
+  {
     "name": "dslink-java-zwave",
     "displayName": "ZWave",
     "type": "Java",
