@@ -12,7 +12,7 @@
   "dslink-java-sedona": "313e0bb09675ad701571811eedfe89ae5ca0fc5a",
   "dslink-javascript-onvif": "a388b74be342b55e1291c21bf9bc060a9960cd12",
   "dslink-dart-youtube": "34a93d144303e80f8845766fc2fcce887d7f9d28",
-  "dslink-java-twitter": "dea00740ebf25debd70ffc6d6f1371d1b612c0d3",
+  "dslink-java-twitter": "a93000a5af579a0368f93017789751e30c768074",
   "dslink-java-googleplus": "5ee2ab7de28b17898de4f170fbd0e139e1999597",
   "dslink-java-modbus": "404469be0a73f3623156aa85454177748aa0b4e3",
   "dslink-java-jdbc": "b4f330dbff57a764acc1b9cd5b23ebec5b076290",
@@ -33,7 +33,7 @@
   "dslink-dart-host-dgbox": "735ab904ef3a055620c9dc5b0e0a7b8160d6dbbd",
   "dslink-dart-feed": "0c95d9d9bf12710d6bb772a664f0ce7ef74bfb55",
   "dslink-java-zwave": "5d557324138c0b758c6ed7f5999eb4eff7c3c85a",
-  "dslink-java-mango": "5423f34e9759a178d246288905250c9dcdca7204",
+  "dslink-java-mango": "0279fc8fecc72dbf725838effc844a2ec5a952a1",
   "dslink-dart-html5": "b64bad9b37ff16d83fbb5b3a7e208f609daa4e32",
   "dslink-java-bitpool": "090f1d1f728e54c29f1a724c9b07243182c8a00e"
 }
