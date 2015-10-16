@@ -1,0 +1,26 @@
+{
+  "Data Acquisition": {
+    "color": "#03A9F4"
+  },
+  "Misc.": {
+    "color": "#8BC34A"
+  },
+  "Notifications": {
+    "color": "#FF5722"
+  },
+  "Social Media": {
+    "color": "#9C27B0"
+  },
+  "Historian": {
+    "color": "#009688"
+  },
+  "System": {
+    "color": "#E91E63"
+  },
+  "Communication": {
+    "color": "#FFEB3B"
+  },
+  "Storage": {
+    "color": "#F44336"
+  }
+}
