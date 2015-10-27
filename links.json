@@ -164,6 +164,24 @@
     "category": "Data Acquisition"
   },
   {
+    "name": "dslink-java-relayr",
+    "displayName": "Relayr",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-relayr.git",
+      "zip": "relayr.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/relayr.zip",
+    "description": "Interact with Relayr",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
+  },
+  {
     "name": "dslink-dart-mysql",
     "displayName": "MySQL",
     "type": "Dart",
