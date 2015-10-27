@@ -1,0 +1,12 @@
+{
+  "name": "dslink-java-relayr",
+  "displayName": "Relayr",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-java-relayr.git",
+    "zip": "relayr.zip"
+  },
+  "zip": "${automated.zip.base}/relayr.zip",
+  "description": "Interact with Relayr",
+  "category": "Data Acquisition"
+}
