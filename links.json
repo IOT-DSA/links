@@ -292,6 +292,19 @@
     }
   },
   {
+    "name": "dslink-dart-file",
+    "displayName": "Files",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-file.git",
+      "zip": "files.zip",
+      "ignoreBuildScript": false
+    },
+    "zip": "https://iot-dsa.github.io/links/files/rest.zip",
+    "description": "Publish and retrieve data to and from files",
+    "category": "Data Acquisition"
+  },
+  {
     "name": "dslink-java-jdbc",
     "displayName": "JDBC",
     "type": "Java",
