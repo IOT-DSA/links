@@ -1,0 +1,12 @@
+{
+  "name": "dslink-java-advantech",
+  "displayName": "Advantech",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-java-advantech.git",
+    "zip": "advantech.zip"
+  },
+  "zip": "${automated.zip.base}/advantech.zip",
+  "description": "Interact with Advantech WebAccess",
+  "category": "Data Acquisition"
+}
