@@ -43,6 +43,24 @@
     "category": "Communication"
   },
   {
+    "name": "dslink-java-advantech",
+    "displayName": "Advantech",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-advantech.git",
+      "zip": "advantech.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/advantech.zip",
+    "description": "Interact with Advantech WebAccess",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
+  },
+  {
     "name": "dslink-dart-storage",
     "displayName": "Storage",
     "type": "Dart",

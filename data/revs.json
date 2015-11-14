@@ -37,5 +37,6 @@
   "dslink-dart-html5": "f682f0335cd85e89ac29a76bdb4dce68cec8158a",
   "dslink-java-bitpool": "4eac07ca12cd97f3747646fc95ab5e5a87a7c416",
   "dslink-java-relayr": "e8365d43226d6978c400fc685b06c2e7e6f0cbdd",
-  "dslink-dart-file": "a14639e1d3beb82a289d023831d8cf2b9df0f24c"
+  "dslink-dart-file": "a14639e1d3beb82a289d023831d8cf2b9df0f24c",
+  "dslink-java-advantech": "e167b4f25114a1f140a93b367ce6adeb455854cb"
 }
