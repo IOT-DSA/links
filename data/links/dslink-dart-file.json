@@ -7,7 +7,7 @@
     "zip": "files.zip",
     "ignoreBuildScript": false
   },
-  "zip": "${automated.zip.base}/rest.zip",
+  "zip": "${automated.zip.base}/files.zip",
   "description": "Publish and retrieve data to and from files",
   "category": "Data Acquisition"
 }
