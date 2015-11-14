@@ -449,6 +449,24 @@
     }
   },
   {
+    "name": "dslink-java-rethinkdb",
+    "displayName": "RethinkDB",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-rethinkdb.git",
+      "zip": "rethinkdb.zip"
+    },
+    "zip": "https://iot-dsa.github.io/links/files/rethinkdb.zip",
+    "description": "Historian DSLink implementation for RethinkDB",
+    "category": "Historian",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    }
+  },
+  {
     "name": "dslink-dart-twilio",
     "displayName": "Twilio",
     "type": "Dart",
