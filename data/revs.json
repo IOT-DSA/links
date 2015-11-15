@@ -28,7 +28,7 @@
   "dslink-dart-system": "f9e1efdcaf7840ecc6baecd6774a902ee4102e57",
   "dslink-dart-weather": "bf864c593561f9766af84866c92f18a94ff6cd28",
   "dslink-java-opc": "b6b216744895237571c333d22e910ddfa474447f",
-  "dslink-dart-rest": "576e4cf592e66d66680527b89682f67641761c9e",
+  "dslink-dart-rest": "0e50ca171392d49c477f664049c873112f244f49",
   "dslink-dart-mysql": "677fd738d320fa68062ad522a7acd63c97c0b404",
   "dslink-dart-host-dgbox": "5b0ac696670803b08d6c039ff44ec690e9e376a2",
   "dslink-dart-feed": "d112e13e981fe9f21fedda5bb00c06b9aa54f521",
@@ -37,7 +37,7 @@
   "dslink-dart-html5": "f682f0335cd85e89ac29a76bdb4dce68cec8158a",
   "dslink-java-bitpool": "4eac07ca12cd97f3747646fc95ab5e5a87a7c416",
   "dslink-java-relayr": "e8365d43226d6978c400fc685b06c2e7e6f0cbdd",
-  "dslink-dart-file": "72f540d1d99260211e908deabf93a3992963cda2",
+  "dslink-dart-file": "832d5d6aa172ef19b6ffbff3aaa6af34adc2adcd",
   "dslink-java-advantech": "e167b4f25114a1f140a93b367ce6adeb455854cb",
   "dslink-java-rethinkdb": "30396ef87f01dc8021615b6a8d4885597c694cb6"
 }
