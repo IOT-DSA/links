@@ -13,10 +13,6 @@ main(List<String> argv) async {
       continue;
     }
 
-    if (doBuild.isNotEmpty && !doBuild.contains(link["name"])) {
-      continue;
-    }
-
     if (!link.containsKey("automated")) {
       continue;
     }
@@ -27,10 +23,14 @@ main(List<String> argv) async {
 
     var name = link["displayName"];
     var rname = link["name"];
+    var linkType = link["type"];
+
+    if (doBuild.isNotEmpty && !doBuild.contains(rname) && !doBuild.contains("type-" + linkType)) {
+      continue;
+    }
 
     print("[Build Start] ${name}");
 
-    var linkType = link["type"];
     var automated = link["automated"];
     var repo = automated["repository"];
     await pushd("tmp/${name}");
@@ -82,7 +82,6 @@ main(List<String> argv) async {
         "--categories=Server",
         "-m"
       ], writeToBuffer: true);
-
       if (cmfr.exitCode != 0) {
         fail("Failed to build main file.\n${cmfr.output}");
       }
