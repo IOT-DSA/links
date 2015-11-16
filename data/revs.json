@@ -34,10 +34,10 @@
   "dslink-dart-feed": "d112e13e981fe9f21fedda5bb00c06b9aa54f521",
   "dslink-java-zwave": "b2e1e67d49e5748e055885b8c49e91d498988568",
   "dslink-java-mango": "f5ea14614f57003b403748c73bb5cce7bf51c45a",
-  "dslink-dart-html5": "f682f0335cd85e89ac29a76bdb4dce68cec8158a",
+  "dslink-dart-html5": "9b7eddafe73f83f47a7d1e481c65e1282fce5613",
   "dslink-java-bitpool": "4eac07ca12cd97f3747646fc95ab5e5a87a7c416",
   "dslink-java-relayr": "e8365d43226d6978c400fc685b06c2e7e6f0cbdd",
-  "dslink-dart-file": "29be5d18a282175c92bf9e7ea9cf3b08106c1e33",
+  "dslink-dart-file": "43c37587f7b8dc2a1235446856be24bdee8ee3e0",
   "dslink-java-advantech": "e167b4f25114a1f140a93b367ce6adeb455854cb",
   "dslink-java-rethinkdb": "30396ef87f01dc8021615b6a8d4885597c694cb6"
 }
