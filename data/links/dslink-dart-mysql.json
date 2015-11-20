@@ -4,10 +4,8 @@
   "type": "Dart",
   "automated": {
     "repository": "https://github.com/IOT-DSA/dslink-dart-mysql.git",
-    "zip": "mysql.zip",
     "ignoreBuildScript": true
   },
-  "zip": "${automated.zip.base}/mysql.zip",
   "description": "Run MySQL Queries",
   "category": "Data Acquisition"
 }

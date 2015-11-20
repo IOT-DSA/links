@@ -4,9 +4,7 @@
   "type": "Dart",
   "automated": {
     "repository": "https://github.com/IOT-DSA/dslink-dart-host-dgbox.git",
-    "zip": "host-dgbox.zip"
   },
-  "zip": "${automated.zip.base}/host-dgbox.zip",
   "description": "Control DGBox through DSA",
   "category": "System",
   "requires": [

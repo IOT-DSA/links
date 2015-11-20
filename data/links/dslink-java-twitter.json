@@ -3,8 +3,7 @@
   "displayName": "Twitter",
   "type": "Java",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-java-twitter.git",
-    "zip": "twitter.zip"
+    "repository": "https://github.com/IOT-DSA/dslink-java-twitter.git"
   },
   "zip": "${automated.zip.base}/twitter.zip",
   "description": "Access Twitter Data from DSA",

@@ -3,10 +3,8 @@
   "displayName": "Slack",
   "type": "Dart",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-dart-slack.git",
-    "zip": "slack.zip"
+    "repository": "https://github.com/IOT-DSA/dslink-dart-slack.git"
   },
-  "zip": "${automated.zip.base}/slack.zip",
   "description": "Access Slack from DSA",
   "category": "Communication"
 }

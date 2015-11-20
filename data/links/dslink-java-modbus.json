@@ -3,10 +3,8 @@
   "displayName": "Modbus",
   "type": "Java",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-java-modbus.git",
-    "zip": "modbus.zip"
+    "repository": "https://github.com/IOT-DSA/dslink-java-modbus.git"
   },
-  "zip": "${automated.zip.base}/modbus.zip",
   "description": "Access Modbus from DSA",
   "category": "Data Acquisition"
 }

@@ -3,10 +3,8 @@
   "displayName": "MongoDB",
   "type": "Dart",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-dart-mongodb.git",
-    "zip": "mongodb.zip"
+    "repository": "https://github.com/IOT-DSA/dslink-dart-mongodb.git"
   },
-  "zip": "${automated.zip.base}/mongodb.zip",
   "description": "Access MongoDB through DSA",
   "category": "Data Acquisition"
 }

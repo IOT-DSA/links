@@ -3,10 +3,8 @@
   "displayName": "WeMo",
   "type": "Dart",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-dart-wemo.git",
-    "zip": "wemo.zip"
+    "repository": "https://github.com/IOT-DSA/dslink-dart-wemo.git"
   },
-  "zip": "${automated.zip.base}/wemo.zip",
   "description": "Interact with WeMo Devices",
   "category": "Data Acquisition"
 }

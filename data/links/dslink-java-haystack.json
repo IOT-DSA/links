@@ -3,10 +3,8 @@
   "displayName": "Haystack",
   "type": "Java",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-java-haystack.git",
-    "zip": "haystack.zip"
+    "repository": "https://github.com/IOT-DSA/dslink-java-haystack.git"
   },
-  "zip": "${automated.zip.base}/haystack.zip",
   "description": "Access Haystack from DSA",
   "category": "Data Acquisition"
 }

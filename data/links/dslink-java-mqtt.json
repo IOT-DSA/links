@@ -3,10 +3,8 @@
   "displayName": "MQTT",
   "type": "Java",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-java-mqtt.git",
-    "zip": "mqtt.zip"
+    "repository": "https://github.com/IOT-DSA/dslink-java-mqtt.git"
   },
-  "zip": "${automated.zip.base}/mqtt.zip",
   "description": "Communicate with the MQTT Protocol",
   "category": "Data Acquisition"
 }

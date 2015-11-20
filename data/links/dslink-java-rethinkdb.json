@@ -4,9 +4,7 @@
   "type": "Java",
   "automated": {
     "repository": "https://github.com/IOT-DSA/dslink-java-rethinkdb.git",
-    "zip": "rethinkdb.zip"
   },
-  "zip": "${automated.zip.base}/rethinkdb.zip",
   "description": "Historian DSLink implementation for RethinkDB",
   "category": "Historian"
 }

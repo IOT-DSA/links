@@ -4,5 +4,8 @@
       "bin",
       "lib"
     ]
+  },
+  "automated": {
+    "ignoreBuildScript": true
   }
 }

@@ -3,10 +3,8 @@
   "displayName": "Email",
   "type": "Dart",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-dart-mailer.git",
-    "zip": "mailer.zip"
+    "repository": "https://github.com/IOT-DSA/dslink-dart-mailer.git"
   },
-  "zip": "${automated.zip.base}/mailer.zip",
   "description": "Send Emails",
   "category": "Notifications"
 }

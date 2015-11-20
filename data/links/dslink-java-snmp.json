@@ -3,10 +3,8 @@
   "displayName": "SNMP",
   "type": "Java",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-java-snmp.git",
-    "zip": "snmp.zip"
+    "repository": "https://github.com/IOT-DSA/dslink-java-snmp.git"
   },
-  "zip": "${automated.zip.base}/snmp.zip",
   "description": "Simple Network Management Protocol",
   "category": "Data Acquisition"
 }

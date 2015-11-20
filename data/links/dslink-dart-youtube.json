@@ -4,9 +4,7 @@
   "type": "Dart",
   "automated": {
     "repository": "https://github.com/IOT-DSA/dslink-dart-youtube.git",
-    "zip": "youtube.zip"
   },
-  "zip": "${automated.zip.base}/youtube.zip",
   "description": "Access YouTube Data from DSA",
   "category": "Social Media"
 }

@@ -3,10 +3,8 @@
   "displayName": "Sedona",
   "type": "Java",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-java-sedona.git",
-    "zip": "sedona.zip"
+    "repository": "https://github.com/IOT-DSA/dslink-java-sedona.git"
   },
-  "zip": "${automated.zip.base}/sedona.zip",
   "description": "Access Sedona through DSA",
   "category": "Data Acquisition"
 }

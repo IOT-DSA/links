@@ -3,10 +3,8 @@
   "displayName": "JDBC",
   "type": "Java",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-java-jdbc.git",
-    "zip": "jdbc.zip"
+    "repository": "https://github.com/IOT-DSA/dslink-java-jdbc.git"
   },
-  "zip": "${automated.zip.base}/jdbc.zip",
   "description": "Work with Databases",
   "category": "Data Acquisition"
 }

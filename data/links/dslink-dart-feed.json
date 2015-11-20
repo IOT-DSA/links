@@ -4,10 +4,8 @@
   "type": "Dart",
   "automated": {
     "repository": "https://github.com/IOT-DSA/dslink-dart-feed.git",
-    "zip": "feed.zip",
     "ignoreBuildScript": true
   },
-  "zip": "${automated.zip.base}/feed.zip",
   "description": "Subscribe to RSS Feeds",
   "category": "Data Acquisition"
 }

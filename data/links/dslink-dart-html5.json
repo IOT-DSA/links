@@ -3,10 +3,8 @@
   "displayName": "HTML5",
   "type": "Dart",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-dart-html5.git",
-    "zip": "html5.zip"
+    "repository": "https://github.com/IOT-DSA/dslink-dart-html5.git"
   },
-  "zip": "${automated.zip.base}/html5.zip",
   "description": "Capture different types of data such as Location Information and Gyroscope Data from a Browser Client",
   "category": "Data Acquisition"
 }

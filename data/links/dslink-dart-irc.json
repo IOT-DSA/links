@@ -3,10 +3,8 @@
   "displayName": "IRC",
   "type": "Dart",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-dart-irc.git",
-    "zip": "irc.zip"
+    "repository": "https://github.com/IOT-DSA/dslink-dart-irc.git"
   },
-  "zip": "${automated.zip.base}/irc.zip",
   "description": "Communicate with IRC",
   "category": "Communication"
 }

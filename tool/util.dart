@@ -165,12 +165,6 @@ Future<dynamic> readJsonFile(String path, [Map defaultValue]) async {
   return JSON.decode(content);
 }
 
-bool deepEquals(a, b) {
-  if (a is List && b is! List) return false;
-  if (a is Map && b is! Map) return false;
-  if (a is String && b is! String) return false;
-}
-
 Future saveJsonFile(String path, value) async {
   var file = new File(path);
   var content = new JsonEncoder.withIndent("  ").convert(value);
@@ -399,6 +393,13 @@ void popd() {
   }
 
   Directory.current = _dirStack.removeLast();
+}
+
+ensureDirectory(String path) async {
+  var dir = new Directory(path);
+  if (!(await dir.exists())) {
+    await dir.create(recursive: true);
+  }
 }
 
 rmkdir(String path) async {

@@ -1,12 +1,22 @@
 import "util.dart";
 
 main(List<String> argv) async {
+  var config = await readJsonFile("data/config.json");
   var links = await buildLinksList();
   var revs = await readJsonFile("data/revs.json");
 
   await rmkdir("tmp");
+  await ensureDirectory("files");
 
   var doBuild = argv.where((x) => !x.startsWith("--")).toList();
+  var doNotBuild = [];
+
+  for (var e in doBuild.toList()) {
+    if (e.startsWith("skip:")) {
+      doNotBuild.add(e.substring(5));
+      doBuild.remove(e);
+    }
+  }
 
   for (var link in links) {
     if (argv.contains("--generate-list")) {
@@ -31,8 +41,22 @@ main(List<String> argv) async {
 
     print("[Build Start] ${name}");
 
+    if (doNotBuild.contains(rname)) {
+      print("[Build Skipped] ${name}");
+      continue;
+    }
+
     var automated = link["automated"];
     var repo = automated["repository"];
+
+    String zipName = automated["zip"];
+
+    if (zipName == null) {
+      zipName = "${rname}.zip";
+    }
+
+    bool forceBuild = !(await new File("files/${zipName}").exists());
+
     await pushd("tmp/${rname}");
 
     // Pre-Check for References
@@ -40,7 +64,7 @@ main(List<String> argv) async {
       String rev;
       var out = await exec("git", args: ["ls-remote", repo, "HEAD"], writeToBuffer: true);
       rev = out.output.split("\t").first.trim();
-      if (revs.containsKey(rname) && revs[rname] == rev && !argv.contains("--force")) {
+      if (!forceBuild && revs.containsKey(rname) && revs[rname] == rev && !argv.contains("--force")) {
         print("[Build Up-to-Date] ${name}");
         popd();
         continue;
@@ -59,7 +83,7 @@ main(List<String> argv) async {
       rev = rpo.output.toString().trim();
     }
 
-    if (revs.containsKey(rname) && revs[rname] == rev && !argv.contains("--force")) {
+    if (!forceBuild && revs.containsKey(rname) && revs[rname] == rev && !argv.contains("--force")) {
       print("[Build Up-to-Date] ${name}");
       popd();
       continue;
@@ -90,7 +114,9 @@ main(List<String> argv) async {
       var cmfr = await exec("dart2js", args: [
         mainFile.absolute.path,
         "-o",
-        "build/bin/${mainFile.path.split('/').last}",
+        "build/bin/${mainFile.path
+            .split('/')
+            .last}",
         "--output-type=dart",
         "--categories=Server",
         "-m"
@@ -103,14 +129,42 @@ main(List<String> argv) async {
       await pushd("build");
 
       try {
-        await new File("${mainFile.path.split('/').last}.deps").delete();
-      } catch (e) {
-      }
+        await new File("${mainFile.path
+            .split('/')
+            .last}.deps").delete();
+      } catch (e) {}
       var rpn = Directory.current.parent.parent.parent.path;
-      await makeZipFile("${rpn}/files/${automated['zip']}");
+      await makeZipFile("${rpn}/files/${zipName}");
       popd();
+    } else if (linkType == "Java") {
+      await rmkdir("build");
+      var pur = await exec("bash", args: ["gradlew", "clean", "distZip", "--refresh-dependencies"], writeToBuffer: true);
+      if (pur.exitCode != 0) {
+        fail("Failed to build the DSLink.\n${pur.output}");
+      }
+      var dir = new Directory("build/distributions");
+      if (!(await dir.exists())) {
+        fail("Distributions directory does not exist.");
+      }
+
+      File file = await dir.list()
+          .firstWhere((x) => x.path.endsWith(".zip"), defaultValue: () => null);
+
+      if (file == null || !(await file.exists())) {
+        fail("Unable to find zip file.");
+      }
+
+      await file.copy("../../files/${rname}.zip");
     } else {
       fail("Failed to determine the automated build configuration.");
+    }
+
+    if (link["zip"] == null) {
+      String base = config["automated.zip.base"];
+      if (!base.endsWith("/")) {
+        base += "/";
+      }
+      link["zip"] = base + zipName;
     }
 
     popd();

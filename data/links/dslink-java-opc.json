@@ -4,9 +4,7 @@
   "type": "Java",
   "automated": {
     "repository": "https://github.com/IOT-DSA/dslink-java-opc.git",
-    "zip": "opc.zip"
   },
-  "zip": "${automated.zip.base}/opc.zip",
   "description": "Support for OPCDA 2.0 and OPC-XML",
   "category": "Data Acquisition"
 }

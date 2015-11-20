@@ -3,10 +3,8 @@
   "displayName": "ETSDB",
   "type": "Java",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-java-etsdb.git",
-    "zip": "etsdb.zip"
+    "repository": "https://github.com/IOT-DSA/dslink-java-etsdb.git"
   },
-  "zip": "${automated.zip.base}/etsdb.zip",
   "description": "Historian DSLink implementation for ETSDB",
   "category": "Historian"
 }

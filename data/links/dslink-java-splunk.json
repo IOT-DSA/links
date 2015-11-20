@@ -3,10 +3,8 @@
   "displayName": "Splunk",
   "type": "Java",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-java-splunk.git",
-    "zip": "splunk.zip"
+    "repository": "https://github.com/IOT-DSA/dslink-java-splunk.git"
   },
-  "zip": "${automated.zip.base}/splunk.zip",
   "description": "Historian DSLink implementation for Splunk",
   "category": "Historian"
 }

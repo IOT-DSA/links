@@ -3,10 +3,8 @@
   "displayName": "Google+",
   "type": "Java",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-java-googleplus.git",
-    "zip": "googleplus.zip"
+    "repository": "https://github.com/IOT-DSA/dslink-java-googleplus.git"
   },
-  "zip": "${automated.zip.base}/googleplus.zip",
   "description": "Access Google+ Data from DSA",
   "category": "Social Media"
 }

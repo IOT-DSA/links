@@ -4,10 +4,8 @@
   "type": "Dart",
   "automated": {
     "repository": "https://github.com/IOT-DSA/dslink-dart-weather.git",
-    "zip": "weather.zip",
     "ignoreBuildScript": true
   },
-  "zip": "${automated.zip.base}/weather.zip",
   "description": "Get Weather Data",
   "category": "Data Acquisition"
 }

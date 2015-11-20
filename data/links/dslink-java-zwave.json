@@ -3,8 +3,7 @@
   "displayName": "ZWave",
   "type": "Java",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-java-zwave.git",
-    "zip": "zwave.zip"
+    "repository": "https://github.com/IOT-DSA/dslink-java-zwave.git"
   },
   "zip": "${automated.zip.base}/zwave.zip",
   "description": "ZWave protocol integration",
