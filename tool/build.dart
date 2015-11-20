@@ -33,7 +33,7 @@ main(List<String> argv) async {
 
     var automated = link["automated"];
     var repo = automated["repository"];
-    await pushd("tmp/${name}");
+    await pushd("tmp/${rname}");
     var cr = await exec("git", args: ["clone", "--depth=1", repo, "."], writeToBuffer: true);
     if (cr.exitCode != 0) {
       fail("Failed to clone repository.\n${cr.output}");
