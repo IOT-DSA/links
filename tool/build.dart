@@ -34,6 +34,19 @@ main(List<String> argv) async {
     var automated = link["automated"];
     var repo = automated["repository"];
     await pushd("tmp/${rname}");
+
+    // Pre-Check for References
+    {
+      String rev;
+      var out = await exec("git", args: ["ls-remote", repo, "HEAD"], writeToBuffer: true);
+      rev = out.output.split("\t").first.trim();
+      if (revs.containsKey(rname) && revs[rname] == rev && !argv.contains("--force")) {
+        print("[Build Up-to-Date] ${name}");
+        popd();
+        continue;
+      }
+    }
+
     var cr = await exec("git", args: ["clone", "--depth=1", repo, "."], writeToBuffer: true);
     if (cr.exitCode != 0) {
       fail("Failed to clone repository.\n${cr.output}");
