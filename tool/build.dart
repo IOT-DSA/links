@@ -18,6 +18,8 @@ main(List<String> argv) async {
     }
   }
 
+  Map<String, String> uploadFiles = {};
+
   for (var link in links) {
     if (argv.contains("--generate-list")) {
       continue;
@@ -167,10 +169,40 @@ main(List<String> argv) async {
       link["zip"] = base + zipName;
     }
 
+    uploadFiles["files/${zipName}"] = "files/${zipName}";
     popd();
     print("[Build Complete] ${name}");
   }
 
+  uploadFiles["revs.json"] = "data/revs.json";
+  uploadFiles["links.json"] = "links.json";
+
   await saveJsonFile("data/revs.json", revs);
   await saveJsonFile("links.json", links);
+
+  String s3Bucket = config["s3.bucket"];
+
+  if (argv.contains("--upload")) {
+    for (String target in uploadFiles.keys) {
+      String uploadPath = s3Bucket;
+      if (!uploadPath.endsWith("/")) {
+        uploadPath += "/";
+      }
+      uploadPath += target;
+
+      String source = uploadFiles[target];
+
+      var out = await exec("s3cmd", args: [
+        "put",
+        source,
+        uploadPath
+      ], writeToBuffer: true);
+
+      print("[Upload] ${source} => ${target}");
+
+      if (out.exitCode != 0) {
+        fail("Failed to upload '${uploadFiles[target]}' to '${uploadPath}':\n${out.output}");
+      }
+    }
+  }
 }
