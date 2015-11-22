@@ -5,6 +5,12 @@ main(List<String> argv) async {
   var links = await buildLinksList();
   var revs = await readJsonFile("data/revs.json");
 
+  links.sort((Map a, Map b) {
+    String n = a["name"];
+    String x = b["name"];
+    return n.compareTo(x);
+  });
+
   await rmkdir("tmp");
   await ensureDirectory("files");
 
@@ -55,6 +61,10 @@ main(List<String> argv) async {
 
     if (zipName == null) {
       zipName = "${rname}.zip";
+    }
+
+    if (argv.contains("--upload-all")) {
+      uploadFiles["files/${zipName}"] = "files/${zipName}";
     }
 
     bool forceBuild = !(await new File("files/${zipName}").exists());
@@ -182,8 +192,8 @@ main(List<String> argv) async {
 
   String s3Bucket = config["s3.bucket"];
 
-  if (argv.contains("--upload")) {
-    for (String target in uploadFiles.keys) {
+  if (argv.contains("--upload") || argv.contains("--upload-all")) {
+    for (String target in uploadFiles.keys.toList()) {
       String uploadPath = s3Bucket;
       if (!uploadPath.endsWith("/")) {
         uploadPath += "/";
@@ -192,13 +202,16 @@ main(List<String> argv) async {
 
       String source = uploadFiles[target];
 
-      var out = await exec("s3cmd", args: [
-        "put",
+      var out = await exec("aws", args: [
+        "s3",
+        "cp",
+        "--acl",
+        "public-read",
         source,
-        uploadPath
+        uploadPath,
       ], writeToBuffer: true);
 
-      print("[Upload] ${source} => ${target}");
+      print("[Upload] ${source} => ${uploadPath}");
 
       if (out.exitCode != 0) {
         fail("Failed to upload '${uploadFiles[target]}' to '${uploadPath}':\n${out.output}");
