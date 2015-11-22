@@ -24,35 +24,14 @@ main(List<String> argv) async {
     }
   }
 
-  bool didDoAnything = false;
-
   Map<String, String> uploadFiles = {};
 
   for (var link in links) {
-    if (argv.contains("--generate-list")) {
-      continue;
-    }
-
-    if (!link.containsKey("automated")) {
-      continue;
-    }
-
-    if (link["automated"]["enabled"] == false) {
-      continue;
-    }
-
     var name = link["displayName"];
     var rname = link["name"];
     var linkType = link["type"];
 
     if (doBuild.isNotEmpty && !doBuild.contains(rname) && !doBuild.contains("type-" + linkType)) {
-      continue;
-    }
-
-    print("[Build Start] ${name}");
-
-    if (doNotBuild.contains(rname)) {
-      print("[Build Skipped] ${name}");
       continue;
     }
 
@@ -63,6 +42,33 @@ main(List<String> argv) async {
 
     if (zipName == null) {
       zipName = "${rname}.zip";
+    }
+
+    if (link["zip"] == null) {
+      String base = config["automated.zip.base"];
+      if (!base.endsWith("/")) {
+        base += "/";
+      }
+      link["zip"] = base + zipName;
+    }
+
+    print("[Build Start] ${name}");
+
+    if (doNotBuild.contains(rname)) {
+      print("[Build Skipped] ${name}");
+      continue;
+    }
+
+    if (argv.contains("--generate-list")) {
+      continue;
+    }
+
+    if (!link.containsKey("automated")) {
+      continue;
+    }
+
+    if (link["automated"]["enabled"] == false) {
+      continue;
     }
 
     if (argv.contains("--upload-all")) {
@@ -173,27 +179,16 @@ main(List<String> argv) async {
       fail("Failed to determine the automated build configuration.");
     }
 
-    if (link["zip"] == null) {
-      String base = config["automated.zip.base"];
-      if (!base.endsWith("/")) {
-        base += "/";
-      }
-      link["zip"] = base + zipName;
-    }
-
     uploadFiles["files/${zipName}"] = "files/${zipName}";
     popd();
-    didDoAnything = true;
     print("[Build Complete] ${name}");
   }
 
-  if (didDoAnything) {
-    uploadFiles["revs.json"] = "data/revs.json";
-    uploadFiles["links.json"] = "links.json";
+  uploadFiles["revs.json"] = "data/revs.json";
+  uploadFiles["links.json"] = "links.json";
 
-    await saveJsonFile("data/revs.json", revs);
-    await saveJsonFile("links.json", links);
-  }
+  await saveJsonFile("data/revs.json", revs);
+  await saveJsonFile("links.json", links);
 
   String s3Bucket = config["s3.bucket"];
 
