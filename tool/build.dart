@@ -24,6 +24,8 @@ main(List<String> argv) async {
     }
   }
 
+  bool didDoAnything = false;
+
   Map<String, String> uploadFiles = {};
 
   for (var link in links) {
@@ -181,14 +183,17 @@ main(List<String> argv) async {
 
     uploadFiles["files/${zipName}"] = "files/${zipName}";
     popd();
+    didDoAnything = true;
     print("[Build Complete] ${name}");
   }
 
-  uploadFiles["revs.json"] = "data/revs.json";
-  uploadFiles["links.json"] = "links.json";
+  if (didDoAnything) {
+    uploadFiles["revs.json"] = "data/revs.json";
+    uploadFiles["links.json"] = "links.json";
 
-  await saveJsonFile("data/revs.json", revs);
-  await saveJsonFile("links.json", links);
+    await saveJsonFile("data/revs.json", revs);
+    await saveJsonFile("links.json", links);
+  }
 
   String s3Bucket = config["s3.bucket"];
 
