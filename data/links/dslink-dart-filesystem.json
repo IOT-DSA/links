@@ -1,0 +1,11 @@
+{
+  "name": "dslink-dart-filesystem",
+  "displayName": "FileSystem",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-filesystem.git",
+    "ignoreBuildScript": false
+  },
+  "description": "Interact with the FileSystem via DSA",
+  "category": "Data Acquisition"
+}
