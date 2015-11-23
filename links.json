@@ -54,7 +54,22 @@
     },
     "description": "Publish and retrieve data to and from files",
     "category": "Data Acquisition",
+    "requires": [
+      "hidden"
+    ],
     "zip": "https://iot-dsa.github.io/links/files/dslink-dart-file.zip"
+  },
+  {
+    "name": "dslink-dart-filesystem",
+    "displayName": "FileSystem",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-filesystem.git",
+      "ignoreBuildScript": false
+    },
+    "description": "Interact with the FileSystem via DSA",
+    "category": "Data Acquisition",
+    "zip": "https://iot-dsa.github.io/links/files/dslink-dart-filesystem.zip"
   },
   {
     "name": "dslink-dart-html5",
