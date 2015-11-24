@@ -1,4 +1,4 @@
 {
-  "automated.zip.base": "https://iot-dsa.github.io/links/files",
+  "automated.zip.base": "https://dsa.s3.amazonaws.com/links/files",
   "s3.bucket": "s3://dsa/links"
 }
