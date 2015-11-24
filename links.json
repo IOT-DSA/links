@@ -250,6 +250,24 @@
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bitpool.zip"
   },
   {
+    "name": "dslink-java-enocean",
+    "displayName": "Enocean",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-enocean.git",
+      "ignoreBuildScript": true
+    },
+    "description": "DSLink implementation for Enocean",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    },
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-enocean.zip"
+  },
+  {
     "name": "dslink-java-etsdb",
     "displayName": "ETSDB",
     "type": "Java",
