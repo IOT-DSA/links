@@ -8,7 +8,7 @@
     },
     "description": "Access DGAPI through DSA",
     "category": "Data Acquisition",
-    "zip": "https://iot-dsa.github.io/links/files/dslink-dart-dgapi.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dgapi.zip"
   },
   {
     "name": "dslink-dart-digital-ocean",
@@ -19,7 +19,7 @@
     },
     "description": "Create, manage, and monitor Digital Ocean droplets",
     "category": "Data Acquisition",
-    "zip": "https://iot-dsa.github.io/links/files/dslink-dart-digital-ocean.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-digital-ocean.zip"
   },
   {
     "name": "dslink-dart-earthquakes",
@@ -30,7 +30,7 @@
     },
     "description": "Get Hourly Updates about Earthquakes Worldwide",
     "category": "Misc.",
-    "zip": "https://iot-dsa.github.io/links/files/dslink-dart-earthquakes.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-earthquakes.zip"
   },
   {
     "name": "dslink-dart-feed",
@@ -42,7 +42,7 @@
     },
     "description": "Subscribe to RSS Feeds",
     "category": "Data Acquisition",
-    "zip": "https://iot-dsa.github.io/links/files/dslink-dart-feed.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-feed.zip"
   },
   {
     "name": "dslink-dart-file",
@@ -57,7 +57,7 @@
     "requires": [
       "hidden"
     ],
-    "zip": "https://iot-dsa.github.io/links/files/dslink-dart-file.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-file.zip"
   },
   {
     "name": "dslink-dart-filesystem",
@@ -69,7 +69,7 @@
     },
     "description": "Interact with the FileSystem via DSA",
     "category": "Data Acquisition",
-    "zip": "https://iot-dsa.github.io/links/files/dslink-dart-filesystem.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-filesystem.zip"
   },
   {
     "name": "dslink-dart-html5",
@@ -80,7 +80,7 @@
     },
     "description": "Capture different types of data such as Location Information and Gyroscope Data from a Browser Client",
     "category": "Data Acquisition",
-    "zip": "https://iot-dsa.github.io/links/files/dslink-dart-html5.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-html5.zip"
   },
   {
     "name": "dslink-dart-irc",
@@ -91,7 +91,7 @@
     },
     "description": "Communicate with IRC",
     "category": "Communication",
-    "zip": "https://iot-dsa.github.io/links/files/dslink-dart-irc.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-irc.zip"
   },
   {
     "name": "dslink-dart-mailer",
@@ -102,7 +102,7 @@
     },
     "description": "Send Emails",
     "category": "Notifications",
-    "zip": "https://iot-dsa.github.io/links/files/dslink-dart-mailer.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-mailer.zip"
   },
   {
     "name": "dslink-dart-mongodb",
@@ -113,7 +113,7 @@
     },
     "description": "Access MongoDB through DSA",
     "category": "Data Acquisition",
-    "zip": "https://iot-dsa.github.io/links/files/dslink-dart-mongodb.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-mongodb.zip"
   },
   {
     "name": "dslink-dart-mysql",
@@ -125,7 +125,7 @@
     },
     "description": "Run MySQL Queries",
     "category": "Data Acquisition",
-    "zip": "https://iot-dsa.github.io/links/files/dslink-dart-mysql.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-mysql.zip"
   },
   {
     "name": "dslink-dart-rest",
@@ -136,7 +136,7 @@
     },
     "description": "Use a REST API to manipulate custom nodes",
     "category": "Data Acquisition",
-    "zip": "https://iot-dsa.github.io/links/files/dslink-dart-rest.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-rest.zip"
   },
   {
     "name": "dslink-dart-slack",
@@ -147,7 +147,7 @@
     },
     "description": "Access Slack from DSA",
     "category": "Communication",
-    "zip": "https://iot-dsa.github.io/links/files/dslink-dart-slack.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-slack.zip"
   },
   {
     "name": "dslink-dart-storage",
@@ -158,7 +158,7 @@
     },
     "description": "Key-Value Storage System",
     "category": "Storage",
-    "zip": "https://iot-dsa.github.io/links/files/dslink-dart-storage.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-storage.zip"
   },
   {
     "name": "dslink-dart-system",
@@ -170,7 +170,7 @@
     },
     "description": "Get Live Statistics about a Machine",
     "category": "System",
-    "zip": "https://iot-dsa.github.io/links/files/dslink-dart-system.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-system.zip"
   },
   {
     "name": "dslink-dart-weather",
@@ -182,7 +182,7 @@
     },
     "description": "Get Weather Data",
     "category": "Data Acquisition",
-    "zip": "https://iot-dsa.github.io/links/files/dslink-dart-weather.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-weather.zip"
   },
   {
     "name": "dslink-dart-wemo",
@@ -193,7 +193,7 @@
     },
     "description": "Interact with WeMo Devices",
     "category": "Data Acquisition",
-    "zip": "https://iot-dsa.github.io/links/files/dslink-dart-wemo.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-wemo.zip"
   },
   {
     "name": "dslink-java-advantech",
@@ -211,7 +211,7 @@
         "lib"
       ]
     },
-    "zip": "https://iot-dsa.github.io/links/files/dslink-java-advantech.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-advantech.zip"
   },
   {
     "name": "dslink-java-bacnet",
@@ -229,7 +229,7 @@
         "lib"
       ]
     },
-    "zip": "https://iot-dsa.github.io/links/files/dslink-java-bacnet.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet.zip"
   },
   {
     "name": "dslink-java-bitpool",
@@ -247,7 +247,7 @@
         "lib"
       ]
     },
-    "zip": "https://iot-dsa.github.io/links/files/dslink-java-bitpool.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bitpool.zip"
   },
   {
     "name": "dslink-java-etsdb",
@@ -265,7 +265,7 @@
         "lib"
       ]
     },
-    "zip": "https://iot-dsa.github.io/links/files/dslink-java-etsdb.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-etsdb.zip"
   },
   {
     "name": "dslink-java-googleplus",
@@ -283,7 +283,7 @@
         "lib"
       ]
     },
-    "zip": "https://iot-dsa.github.io/links/files/dslink-java-googleplus.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-googleplus.zip"
   },
   {
     "name": "dslink-java-haystack",
@@ -301,7 +301,7 @@
         "lib"
       ]
     },
-    "zip": "https://iot-dsa.github.io/links/files/dslink-java-haystack.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-haystack.zip"
   },
   {
     "name": "dslink-java-jdbc",
@@ -319,7 +319,7 @@
         "lib"
       ]
     },
-    "zip": "https://iot-dsa.github.io/links/files/dslink-java-jdbc.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-jdbc.zip"
   },
   {
     "name": "dslink-java-mango",
@@ -337,7 +337,7 @@
         "lib"
       ]
     },
-    "zip": "https://iot-dsa.github.io/links/files/dslink-java-mango.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-mango.zip"
   },
   {
     "name": "dslink-java-modbus",
@@ -355,7 +355,7 @@
         "lib"
       ]
     },
-    "zip": "https://iot-dsa.github.io/links/files/dslink-java-modbus.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-modbus.zip"
   },
   {
     "name": "dslink-java-mqtt",
@@ -373,7 +373,7 @@
         "lib"
       ]
     },
-    "zip": "https://iot-dsa.github.io/links/files/dslink-java-mqtt.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-mqtt.zip"
   },
   {
     "name": "dslink-java-sedona",
@@ -391,7 +391,7 @@
         "lib"
       ]
     },
-    "zip": "https://iot-dsa.github.io/links/files/dslink-java-sedona.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-sedona.zip"
   },
   {
     "name": "dslink-java-snmp",
@@ -409,7 +409,7 @@
         "lib"
       ]
     },
-    "zip": "https://iot-dsa.github.io/links/files/dslink-java-snmp.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-snmp.zip"
   },
   {
     "name": "dslink-java-splunk",
@@ -427,7 +427,7 @@
         "lib"
       ]
     },
-    "zip": "https://iot-dsa.github.io/links/files/dslink-java-splunk.zip"
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-splunk.zip"
   },
   {
     "name": "dslink-java-twitter",
@@ -437,7 +437,7 @@
       "repository": "https://github.com/IOT-DSA/dslink-java-twitter.git",
       "ignoreBuildScript": true
     },
-    "zip": "https://iot-dsa.github.io/links/files/twitter.zip",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/twitter.zip",
     "description": "Access Twitter Data from DSA",
     "category": "Social Media",
     "update": {
@@ -455,7 +455,7 @@
       "repository": "https://github.com/IOT-DSA/dslink-java-zwave.git",
       "ignoreBuildScript": true
     },
-    "zip": "https://iot-dsa.github.io/links/files/zwave.zip",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/zwave.zip",
     "description": "ZWave protocol integration",
     "category": "Data Acquisition",
     "update": {
