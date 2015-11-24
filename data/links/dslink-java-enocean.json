@@ -3,7 +3,7 @@
   "displayName": "Enocean",
   "type": "Java",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-java-enocean.git",
+    "repository": "https://github.com/IOT-DSA/dslink-java-enocean.git"
   },
   "description": "DSLink implementation for Enocean",
   "category": "Data Acquisition"
