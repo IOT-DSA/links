@@ -3,7 +3,7 @@
   "displayName": "RethinkDB",
   "type": "Java",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-java-rethinkdb.git",
+    "repository": "https://github.com/IOT-DSA/dslink-java-rethinkdb.git"
   },
   "description": "Historian DSLink implementation for RethinkDB",
   "category": "Historian"
