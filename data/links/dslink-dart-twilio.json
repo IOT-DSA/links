@@ -3,7 +3,7 @@
   "displayName": "Twilio",
   "type": "Dart",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-dart-twilio.git",
+    "repository": "https://github.com/IOT-DSA/dslink-dart-twilio.git"
   },
   "description": "Send Text Messages through Twilio",
   "category": "Notifications"
