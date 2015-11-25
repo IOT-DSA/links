@@ -3,7 +3,7 @@
   "displayName": "Relayr",
   "type": "Java",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-java-relayr.git",
+    "repository": "https://github.com/IOT-DSA/dslink-java-relayr.git"
   },
   "description": "Interact with Relayr",
   "category": "Data Acquisition"
