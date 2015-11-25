@@ -3,7 +3,7 @@
   "displayName": "DGBox Host",
   "type": "Dart",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-dart-host-dgbox.git",
+    "repository": "https://github.com/IOT-DSA/dslink-dart-host-dgbox.git"
   },
   "description": "Control DGBox through DSA",
   "category": "System",
