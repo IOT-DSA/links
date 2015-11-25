@@ -72,6 +72,20 @@
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-filesystem.zip"
   },
   {
+    "name": "dslink-dart-host-dgbox",
+    "displayName": "DGBox Host",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-host-dgbox.git"
+    },
+    "description": "Control DGBox through DSA",
+    "category": "System",
+    "requires": [
+      "Dreamplug"
+    ],
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-host-dgbox.zip"
+  },
+  {
     "name": "dslink-dart-html5",
     "displayName": "HTML5",
     "type": "Dart",
@@ -173,6 +187,17 @@
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-system.zip"
   },
   {
+    "name": "dslink-dart-twilio",
+    "displayName": "Twilio",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-twilio.git"
+    },
+    "description": "Send Text Messages through Twilio",
+    "category": "Notifications",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-twilio.zip"
+  },
+  {
     "name": "dslink-dart-weather",
     "displayName": "Weather",
     "type": "Dart",
@@ -185,6 +210,17 @@
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-weather.zip"
   },
   {
+    "name": "dslink-dart-webctrl",
+    "displayName": "WebCtrl",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-webctrl.git"
+    },
+    "description": "Access WebCtrl from DSA",
+    "category": "Data Acquisition",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-webctrl.zip"
+  },
+  {
     "name": "dslink-dart-wemo",
     "displayName": "WeMo",
     "type": "Dart",
@@ -194,6 +230,17 @@
     "description": "Interact with WeMo Devices",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-wemo.zip"
+  },
+  {
+    "name": "dslink-dart-youtube",
+    "displayName": "YouTube",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-youtube.git"
+    },
+    "description": "Access YouTube Data from DSA",
+    "category": "Social Media",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-youtube.zip"
   },
   {
     "name": "dslink-java-advantech",
@@ -410,6 +457,42 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-opc.zip"
+  },
+  {
+    "name": "dslink-java-relayr",
+    "displayName": "Relayr",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-relayr.git",
+      "ignoreBuildScript": true
+    },
+    "description": "Interact with Relayr",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    },
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-relayr.zip"
+  },
+  {
+    "name": "dslink-java-rethinkdb",
+    "displayName": "RethinkDB",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-rethinkdb.git",
+      "ignoreBuildScript": true
+    },
+    "description": "Historian DSLink implementation for RethinkDB",
+    "category": "Historian",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    },
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-rethinkdb.zip"
   },
   {
     "name": "dslink-java-sedona",
