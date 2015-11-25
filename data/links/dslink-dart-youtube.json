@@ -3,7 +3,7 @@
   "displayName": "YouTube",
   "type": "Dart",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-dart-youtube.git",
+    "repository": "https://github.com/IOT-DSA/dslink-dart-youtube.git"
   },
   "description": "Access YouTube Data from DSA",
   "category": "Social Media"
