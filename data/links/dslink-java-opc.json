@@ -3,7 +3,7 @@
   "displayName": "OPC",
   "type": "Java",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-java-opc.git",
+    "repository": "https://github.com/IOT-DSA/dslink-java-opc.git"
   },
   "description": "Support for OPCDA 2.0 and OPC-XML",
   "category": "Data Acquisition"
