@@ -394,6 +394,24 @@
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-mqtt.zip"
   },
   {
+    "name": "dslink-java-opc",
+    "displayName": "OPC",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-opc.git",
+      "ignoreBuildScript": true
+    },
+    "description": "Support for OPCDA 2.0 and OPC-XML",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    },
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-opc.zip"
+  },
+  {
     "name": "dslink-java-sedona",
     "displayName": "Sedona",
     "type": "Java",
