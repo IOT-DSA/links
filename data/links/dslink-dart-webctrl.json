@@ -3,7 +3,7 @@
   "displayName": "WebCtrl",
   "type": "Dart",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-dart-webctrl.git",
+    "repository": "https://github.com/IOT-DSA/dslink-dart-webctrl.git"
   },
   "description": "Access WebCtrl from DSA",
   "category": "Data Acquisition"
