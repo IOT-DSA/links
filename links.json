@@ -1,5 +1,16 @@
 [
   {
+    "name": "dslink-dart-BEV",
+    "displayName": "Belimo-Energy-Valve",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-BEV.git"
+    },
+    "description": "REST interface for Belimo Energy Valves",
+    "category": "Data Acquisition",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-BEV.zip"
+  },
+  {
     "name": "dslink-dart-dgapi",
     "displayName": "DGAPI",
     "type": "Dart",
