@@ -1,3 +1,5 @@
+import "dart:math" show Random;
+
 import "util.dart";
 
 main(List<String> argv) async {
@@ -16,11 +18,17 @@ main(List<String> argv) async {
 
   var doBuild = argv.where((x) => !x.startsWith("--")).toList();
   var doNotBuild = [];
+  var doForceBuild = [];
 
   for (var e in doBuild.toList()) {
     if (e.startsWith("skip:")) {
       doNotBuild.add(e.substring(5));
       doBuild.remove(e);
+    } else if (e.startsWith("force:")) {
+      var name = e.substring(6);
+      doForceBuild.add(name);
+      doBuild.remove(e);
+      doBuild.add(name);
     }
   }
 
@@ -31,10 +39,6 @@ main(List<String> argv) async {
     var name = link["displayName"];
     var rname = link["name"];
     var linkType = link["type"];
-
-    if (doBuild.isNotEmpty && !doBuild.contains(rname) && !doBuild.contains("type-" + linkType)) {
-      continue;
-    }
 
     var automated = link["automated"];
     var repo = automated["repository"];
@@ -68,6 +72,10 @@ main(List<String> argv) async {
       return;
     }
 
+    if (doBuild.isNotEmpty && !doBuild.contains(rname) && !doBuild.contains("type-" + linkType)) {
+      continue;
+    }
+
     if (argv.contains("--generate-list")) {
       continue;
     }
@@ -85,13 +93,15 @@ main(List<String> argv) async {
 
     bool forceBuild = !(await new File("files/${zipName}").exists());
 
+    forceBuild = forceBuild || doForceBuild.contains(rname);
+
     await pushd("tmp/${rname}");
 
     // Pre-Check for References
-    {
+        {
       String rev;
       var out = await exec("git", args: ["ls-remote", repo, "HEAD"], writeToBuffer: true);
-      rev = out.output.split("\t").first.trim();
+      rev = out.output.split("\t").first.trim().split("-").first;
       if (!forceBuild && revs.containsKey(rname) && revs[rname] == rev && !argv.contains("--force")) {
         print("[Build Up-to-Date] ${name}");
         popd();
@@ -111,10 +121,27 @@ main(List<String> argv) async {
       rev = rpo.output.toString().trim();
     }
 
-    if (!forceBuild && revs.containsKey(rname) && revs[rname] == rev && !argv.contains("--force")) {
+    var realRevision = rev.split("-").first;
+
+    if (!forceBuild && revs[rname] is String && revs[rname].split("-").first == realRevision && !argv.contains("--force")) {
       print("[Build Up-to-Date] ${name}");
       popd();
       continue;
+    }
+
+    String lastRevision = revs[rname];
+
+    if (lastRevision != null && lastRevision.split("-").first == rev) {
+      int count = 0;
+      if (lastRevision.contains("-")) {
+        try {
+          count = int.parse(lastRevision.split("-").last);
+        } catch (e) {
+          count = new Random().nextInt(500);
+        }
+      }
+      count++;
+      rev = "${rev}-${count}";
     }
 
     revs[rname] = rev;
