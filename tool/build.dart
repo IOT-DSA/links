@@ -25,6 +25,7 @@ main(List<String> argv) async {
   }
 
   Map<String, String> uploadFiles = {};
+  List removeLinkQueue = [];
 
   for (var link in links) {
     var name = link["displayName"];
@@ -52,22 +53,29 @@ main(List<String> argv) async {
       link["zip"] = base + zipName;
     }
 
-    print("[Build Start] ${name}");
-
-    if (doNotBuild.contains(rname)) {
-      print("[Build Skipped] ${name}");
-      continue;
-    }
-
-    if (argv.contains("--generate-list")) {
-      continue;
-    }
+    link["revision"] = revs[rname];
 
     if (!link.containsKey("automated")) {
       continue;
     }
 
     if (link["automated"]["enabled"] == false) {
+      continue;
+    }
+
+    if (link["enabled"] == false) {
+      removeLinkQueue.add(link);
+      return;
+    }
+
+    if (argv.contains("--generate-list")) {
+      continue;
+    }
+
+    print("[Build Start] ${name}");
+
+    if (doNotBuild.contains(rname)) {
+      print("[Build Skipped] ${name}");
       continue;
     }
 
@@ -110,6 +118,7 @@ main(List<String> argv) async {
     }
 
     revs[rname] = rev;
+    link["revision"] = rev;
 
     var cbs = new File("tool/build.sh");
 
@@ -182,6 +191,10 @@ main(List<String> argv) async {
     uploadFiles["files/${zipName}"] = "files/${zipName}";
     popd();
     print("[Build Complete] ${name}");
+  }
+
+  for (var toRemove in removeLinkQueue) {
+    links.remove(toRemove);
   }
 
   uploadFiles["revs.json"] = "data/revs.json";
