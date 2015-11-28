@@ -101,8 +101,8 @@ main(List<String> argv) async {
         {
       String rev;
       var out = await exec("git", args: ["ls-remote", repo, "HEAD"], writeToBuffer: true);
-      rev = out.output.split("\t").first.trim().split("-").first;
-      if (!forceBuild && revs.containsKey(rname) && revs[rname] == rev && !argv.contains("--force")) {
+      rev = out.output.split("\t").first.trim();
+      if (!forceBuild && revs[rname] is String && revs[rname].split("-").first == rev && !argv.contains("--force")) {
         print("[Build Up-to-Date] ${name}");
         popd();
         continue;
