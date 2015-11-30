@@ -24,7 +24,7 @@
   "dslink-dart-host": "1d7500a1f259143d190b92118b697b6cc791913f",
   "dslink-java-splunk": "450a2504f2323d412e0f4d5a1129e09bc7e3af9d",
   "dslink-dart-wemo": "27066493b89e702a119af51535977201ceb11a0e",
-  "dslink-java-enocean": "313b7b986436b0a32d279b2f61c5f2432ee50344",
+  "dslink-java-enocean": "677efa506b7055711b94eb09859f2e8616021d1b",
   "dslink-dart-system": "e779148bf38eba192324fc561b7968ec58b8a32a",
   "dslink-dart-weather": "bf864c593561f9766af84866c92f18a94ff6cd28",
   "dslink-java-opc": "b6a7f3e0af5a302ac39c543f7c703042d243a533",
@@ -43,5 +43,5 @@
   "dslink-dart-digital-ocean": "602b76f8e9b319739110ad72b925b8b5b7d7f8df",
   "dslink-dart-filesystem": "16db7b7e7f5042599bd4d1885f6cf7625291e263",
   "dslink-python-grovepi": "4bce0886243782ed1d0f54fb82b6c4d6320a8944",
-  "dslink-dart-BEV": "ab5f926c2c5e1a0ae37a1e6b64132759cb9f6686"
+  "dslink-dart-BEV": "74b3af965e5c670c7c143eade0d50f5eb5ef129b"
 }
