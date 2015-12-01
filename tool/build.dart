@@ -33,6 +33,7 @@ main(List<String> argv) async {
   }
 
   Map<String, String> uploadFiles = {};
+  List<FileUpload> uploads = [];
   List removeLinkQueue = [];
 
   for (var link in links) {
@@ -87,8 +88,11 @@ main(List<String> argv) async {
       continue;
     }
 
+    FileUpload upload;
+
     if (argv.contains("--upload-all")) {
-      uploadFiles["files/${zipName}"] = "files/${zipName}";
+      String currentRev = revs[rname];
+      upload = new FileUpload(rname, "files/${zipName}", "files/${zipName}", revision: currentRev);
     }
 
     bool forceBuild = !(await new File("files/${zipName}").exists());
@@ -98,13 +102,14 @@ main(List<String> argv) async {
     await pushd("tmp/${rname}");
 
     // Pre-Check for References
-        {
+    {
       String rev;
       var out = await exec("git", args: ["ls-remote", repo, "HEAD"], writeToBuffer: true);
       rev = out.output.split("\t").first.trim();
       if (!forceBuild && revs[rname] is String && revs[rname].split("-").first == rev && !argv.contains("--force")) {
         print("[Build Up-to-Date] ${name}");
         popd();
+        if (upload != null) uploads.add(upload);
         continue;
       }
     }
@@ -126,6 +131,7 @@ main(List<String> argv) async {
     if (!forceBuild && revs[rname] is String && revs[rname].split("-").first == realRevision && !argv.contains("--force")) {
       print("[Build Up-to-Date] ${name}");
       popd();
+      if (upload != null) uploads.add(upload);
       continue;
     }
 
@@ -215,7 +221,8 @@ main(List<String> argv) async {
       fail("Failed to determine the automated build configuration.");
     }
 
-    uploadFiles["files/${zipName}"] = "files/${zipName}";
+    upload = new FileUpload(rname, "files/${zipName}", "files/${zipName}", revision: rev);
+    uploads.add(upload);
     popd();
     print("[Build Complete] ${name}");
   }
@@ -224,6 +231,10 @@ main(List<String> argv) async {
     links.remove(toRemove);
   }
 
+  String uuid = new DateTime.now().toString();
+
+  uploads.add(new FileUpload("meta.revisions", "data/revs.json", "revs.json", revision: uuid));
+  uploads.add(new FileUpload("meta.links", "links.json", "links.json", revision: uuid));
   uploadFiles["revs.json"] = "data/revs.json";
   uploadFiles["links.json"] = "links.json";
 
@@ -233,29 +244,7 @@ main(List<String> argv) async {
   String s3Bucket = config["s3.bucket"];
 
   if (argv.contains("--upload") || argv.contains("--upload-all")) {
-    for (String target in uploadFiles.keys.toList()) {
-      String uploadPath = s3Bucket;
-      if (!uploadPath.endsWith("/")) {
-        uploadPath += "/";
-      }
-      uploadPath += target;
-
-      String source = uploadFiles[target];
-
-      var out = await exec("aws", args: [
-        "s3",
-        "cp",
-        "--acl",
-        "public-read",
-        source,
-        uploadPath,
-      ], writeToBuffer: true);
-
-      print("[Upload] ${source} => ${uploadPath}");
-
-      if (out.exitCode != 0) {
-        fail("Failed to upload '${uploadFiles[target]}' to '${uploadPath}':\n${out.output}");
-      }
-    }
+    await uploadToS3(uploads, s3Bucket);
   }
 }
+
