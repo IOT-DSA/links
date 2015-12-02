@@ -6,6 +6,7 @@ import "dart:io";
 
 export "dart:async";
 export "dart:io";
+export "dart:math" show Random;
 
 typedef void ProcessHandler(Process process);
 typedef void OutputHandler(String str);
@@ -176,8 +177,9 @@ void cd(String path) {
   Directory.current = dir;
 }
 
-void fail(String msg) {
+fail(String msg) async {
   print("ERROR: ${msg}");
+  await sendSlackMessage("*Build Failed:*\n${msg}");
   exit(1);
 }
 
@@ -448,7 +450,7 @@ uploadToS3(List<FileUpload> uploads, String s3Bucket) async {
       ], writeToBuffer: true);
 
       if (out.exitCode != 0) {
-        var msg = "Put Operation Failed (exit: ${out.exitCode})";
+        var msg = "Put Operation Failed (exit: ${out.exitCode})\n";
         msg += "Command Output:\n";
         msg += out.output;
         throw new UploadError(upload, msg);
@@ -472,7 +474,7 @@ uploadToS3(List<FileUpload> uploads, String s3Bucket) async {
       ], writeToBuffer: true);
 
       if (out.exitCode != 0) {
-        var msg = "Put Operation Failed for Versioning (exit: ${out.exitCode})";
+        var msg = "Put Operation Failed for Versioning (exit: ${out.exitCode})\n";
         msg += "Command Output:\n";
         msg += out.output;
         throw new UploadError(upload, msg);
@@ -515,5 +517,37 @@ class FileUpload {
     }
 
     return msg;
+  }
+}
+
+sendSlackMessage(String message) async {
+  String slackChannel = Platform.environment["SLACK_CHANNEL"];
+  String slackToken = Platform.environment["SLACK_TOKEN"];
+
+  if (slackChannel == null || slackToken == null) {
+    return;
+  }
+
+  String slackUrl = "https://slack.com/api/chat.postMessage?";
+  slackUrl += "token=${slackToken}&channel=${slackChannel}";
+  slackUrl += "&text=${Uri.encodeComponent(message)}";
+  slackUrl += "&username=${Uri.encodeComponent('Automated Builder')}";
+
+  print("[Slack Message] ${message}");
+
+  var client = new HttpClient();
+
+  Uri uri = Uri.parse(slackUrl);
+
+  try {
+    var request = await client.getUrl(uri);
+    var response = await request.close();
+    await response.drain();
+    if (response.statusCode != 200) {
+      throw new Exception("Status Code: ${response.statusCode}");
+    }
+  } catch (e) {
+  } finally {
+    client.close(force: true);
   }
 }

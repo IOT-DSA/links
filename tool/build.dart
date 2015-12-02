@@ -1,11 +1,11 @@
-import "dart:math" show Random;
-
 import "util.dart";
 
 main(List<String> argv) async {
   var config = await readJsonFile("data/config.json");
   var links = await buildLinksList();
   var revs = await readJsonFile("data/revs.json");
+
+  await sendSlackMessage("*Build Started*");
 
   links.sort((Map a, Map b) {
     String n = a["name"];
@@ -35,6 +35,7 @@ main(List<String> argv) async {
   Map<String, String> uploadFiles = {};
   List<FileUpload> uploads = [];
   List removeLinkQueue = [];
+  List<Map<String, dynamic>> builtLinks = [];
 
   for (var link in links) {
     var name = link["displayName"];
@@ -116,7 +117,7 @@ main(List<String> argv) async {
 
     var cr = await exec("git", args: ["clone", "--depth=1", repo, "."], writeToBuffer: true);
     if (cr.exitCode != 0) {
-      fail("Failed to clone repository.\n${cr.output}");
+      await fail("DSLink ${name}: Failed to clone repository.\n${cr.output}");
     }
 
     var rpo = await exec("git", args: ["rev-parse", "HEAD"], writeToBuffer: true);
@@ -158,12 +159,12 @@ main(List<String> argv) async {
     if (await cbs.exists() && automated["ignoreBuildScript"] != true) {
       var result = await exec("bash", args: [cbs.path], writeToBuffer: true);
       if (result.exitCode != 0) {
-        fail("Failed to run custom build script.\n${result.output}");
+        await fail("DSLink ${name}: Failed to run custom build script.\n${result.output}");
       }
     } else if (linkType == "Dart") {
       var pur = await exec("pub", args: ["upgrade"], writeToBuffer: true);
       if (pur.exitCode != 0) {
-        fail("Failed to fetch dependencies.\n${pur.output}");
+        await fail("DSLink ${name}: Failed to fetch dependencies.\n${pur.output}");
       }
 
       var mainFile = new File("bin/run.dart");
@@ -184,7 +185,7 @@ main(List<String> argv) async {
         "-m"
       ], writeToBuffer: true);
       if (cmfr.exitCode != 0) {
-        fail("Failed to build main file.\n${cmfr.output}");
+        await fail("DSLink ${name}: Failed to build main file.\n${cmfr.output}");
       }
 
       await copy("dslink.json", "build/dslink.json");
@@ -202,29 +203,30 @@ main(List<String> argv) async {
       await rmkdir("build");
       var pur = await exec("bash", args: ["gradlew", "clean", "distZip", "--refresh-dependencies"], writeToBuffer: true);
       if (pur.exitCode != 0) {
-        fail("Failed to build the DSLink.\n${pur.output}");
+        await fail("DSLink ${name}: Failed to build the DSLink.\n${pur.output}");
       }
       var dir = new Directory("build/distributions");
       if (!(await dir.exists())) {
-        fail("Distributions directory does not exist.");
+        await fail("DSLink ${name}: Distributions directory does not exist.");
       }
 
       File file = await dir.list()
           .firstWhere((x) => x.path.endsWith(".zip"), defaultValue: () => null);
 
       if (file == null || !(await file.exists())) {
-        fail("Unable to find zip file.");
+        await fail("DSLink ${name}: Unable to find distribution zip file");
       }
 
       await file.copy("../../files/${rname}.zip");
     } else {
-      fail("Failed to determine the automated build configuration.");
+      await fail("DSLink ${name}: Failed to determine the automated build configuration.");
     }
 
     upload = new FileUpload(rname, "files/${zipName}", "files/${zipName}", revision: rev);
     uploads.add(upload);
     popd();
     print("[Build Complete] ${name}");
+    builtLinks.add(link);
   }
 
   for (var toRemove in removeLinkQueue) {
@@ -244,7 +246,21 @@ main(List<String> argv) async {
   String s3Bucket = config["s3.bucket"];
 
   if (argv.contains("--upload") || argv.contains("--upload-all")) {
-    await uploadToS3(uploads, s3Bucket);
+    try {
+      await uploadToS3(uploads, s3Bucket);
+    } catch (e) {
+      await fail("S3 Upload: ${e.toString()}");
+    }
+  }
+
+  if (builtLinks.isNotEmpty) {
+    var buff = new StringBuffer();
+    buff.writeln("*Build Completed - ${builtLinks.length} updated DSLinks:*");
+    buff.writeln(builtLinks.map((link) {
+      return link["displayName"];
+    }).join(", "));
+    await sendSlackMessage(buff.toString().trim());
+  } else {
+    await sendSlackMessage("*Build Completed - No Updated DSLinks*");
   }
 }
-
