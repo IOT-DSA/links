@@ -635,17 +635,5 @@
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-zwave.zip",
     "revision": "001c1dec5bb45a8e707d499646cf5181fd7e001a"
-  },
-  {
-    "name": "dslink-python-grovepi",
-    "displayName": "GrovePi",
-    "type": "Python",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-python-grovepi.git"
-    },
-    "description": "DSLink for GrovePi",
-    "category": "Data Acquisition",
-    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-python-grovepi.zip",
-    "revision": "4bce0886243782ed1d0f54fb82b6c4d6320a8944"
   }
 ]
