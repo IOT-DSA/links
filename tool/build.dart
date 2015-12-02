@@ -255,12 +255,13 @@ main(List<String> argv) async {
 
   if (builtLinks.isNotEmpty) {
     var buff = new StringBuffer();
-    buff.writeln("*Build Completed - ${builtLinks.length} updated DSLinks:*");
+    var plural = builtLinks.length > 1 ? "DSLinks" : "DSLink";
+    buff.writeln("*Build Completed - ${builtLinks.length} updated ${plural}:*");
     buff.writeln(builtLinks.map((link) {
       return link["displayName"];
     }).join(", "));
     await sendSlackMessage(buff.toString().trim());
   } else {
-    await sendSlackMessage("*Build Completed - No Updated DSLinks*");
+    await sendSlackMessage("*Build Completed - No DSLinks Updated*");
   }
 }
