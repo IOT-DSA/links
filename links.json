@@ -187,7 +187,7 @@
     "description": "Control Raspberry Pi GPIO",
     "category": "System",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-rpi.zip",
-    "revision": "dc1d0e1de080e0901351129c21a9cd5b4ebebb1d"
+    "revision": "a49214c9a1ec3e5a02f66d500b92d86a22e3de3c"
   },
   {
     "name": "dslink-dart-slack",
