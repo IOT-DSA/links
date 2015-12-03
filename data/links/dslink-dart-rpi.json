@@ -3,7 +3,7 @@
   "displayName": "Raspberry Pi",
   "type": "Dart",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-dart-rpi.git",
+    "repository": "https://github.com/IOT-DSA/dslink-dart-rpi.git"
   },
   "description": "Control Raspberry Pi GPIO",
   "category": "System"
