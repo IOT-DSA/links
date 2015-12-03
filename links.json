@@ -33,7 +33,7 @@
     "description": "Create, manage, and monitor Digital Ocean droplets",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-digital-ocean.zip",
-    "revision": "602b76f8e9b319739110ad72b925b8b5b7d7f8df-1"
+    "revision": "206841cac7348b5fb9056086b1f8fcf4ce6add9e"
   },
   {
     "name": "dslink-dart-earthquakes",
