@@ -5,6 +5,6 @@
   "automated": {
     "repository": "https://github.com/IOT-DSA/dslink-dart-rpi.git",
   },
-  "description": "Control Raspberry Pi GPIO",
+  "description": "Control Raspberry Pi GPIO"
   "category": "System"
 }
