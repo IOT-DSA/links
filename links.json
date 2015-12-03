@@ -178,6 +178,18 @@
     "revision": "2f825a7164bf3dfc6c15a9034a7dbfac7a3f88ff-1"
   },
   {
+    "name": "dslink-dart-rpi",
+    "displayName": "Raspberry Pi",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-rpi.git"
+    },
+    "description": "Control Raspberry Pi GPIO",
+    "category": "System",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-rpi.zip",
+    "revision": "ada25367dfdb455e21ce9d9b2b12308c28aed1a6"
+  },
+  {
     "name": "dslink-dart-slack",
     "displayName": "Slack",
     "type": "Dart",
