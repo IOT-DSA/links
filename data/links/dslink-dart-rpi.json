@@ -1,6 +1,6 @@
 {
   "name": "dslink-dart-rpi",
-  "displayName": "Raspberry Pi DSLink",
+  "displayName": "Raspberry Pi",
   "type": "Dart",
   "automated": {
     "repository": "https://github.com/IOT-DSA/dslink-dart-rpi.git",
