@@ -9,7 +9,7 @@
     "description": "REST interface for Belimo Energy Valves",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-BEV.zip",
-    "revision": "326568b4b3897dc4f90a5ecc4892b36b351bcae0"
+    "revision": "60a87a4a04d83083eededcaba306087d33fe94d4"
   },
   {
     "name": "dslink-dart-dgapi",
