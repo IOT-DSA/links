@@ -190,6 +190,18 @@
     "revision": "66920cd7a84dc967aa8c4b60c7d0dd90023227a9"
   },
   {
+    "name": "dslink-dart-schedule",
+    "displayName": "Schedule",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-schedule.git"
+    },
+    "description": "Create and Manage Value Schedules",
+    "category": "Scheduling",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-schedule.zip",
+    "revision": "b455b09ac0b469d23f5a03baf97d5c86fc0296f5"
+  },
+  {
     "name": "dslink-dart-slack",
     "displayName": "Slack",
     "type": "Dart",
