@@ -33,7 +33,7 @@
     "description": "Create, manage, and monitor Digital Ocean droplets",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-digital-ocean.zip",
-    "revision": "206841cac7348b5fb9056086b1f8fcf4ce6add9e"
+    "revision": "ddcce3cba16fab486a5a071178699856a2ef9120"
   },
   {
     "name": "dslink-dart-earthquakes",
@@ -199,7 +199,7 @@
     "description": "Create and Manage Value Schedules",
     "category": "Scheduling",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-schedule.zip",
-    "revision": "b455b09ac0b469d23f5a03baf97d5c86fc0296f5"
+    "revision": "662e4f6ee454d02d8c0d1f583f7c8461732ff4ad"
   },
   {
     "name": "dslink-dart-slack",
