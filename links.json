@@ -48,6 +48,18 @@
     "revision": "852ca9ee59d8e483c104ae7e3e19c07939a4500a-1"
   },
   {
+    "name": "dslink-dart-elios4you",
+    "displayName": "Elios4You",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-elios4you.git"
+    },
+    "description": "Receive Data from Elios4You",
+    "category": "Data Acquisition",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-elios4you.zip",
+    "revision": "f1196898294b70e2aa67ddbeed0605a792b48f78"
+  },
+  {
     "name": "dslink-dart-feed",
     "displayName": "RSS Feeds",
     "type": "Dart",
