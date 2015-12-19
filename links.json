@@ -21,7 +21,7 @@
     "description": "Access DGAPI through DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dgapi.zip",
-    "revision": "b699bec8131605e18c2403a85ac09ea6db921af6-1"
+    "revision": "15fc47d3820332323aa86e371bc10b7699ea22c0"
   },
   {
     "name": "dslink-dart-digital-ocean",
@@ -248,7 +248,7 @@
     "description": "Get Live Statistics about a Machine",
     "category": "System",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-system.zip",
-    "revision": "e779148bf38eba192324fc561b7968ec58b8a32a-1"
+    "revision": "894a7a5ecc55be52f26212982c8f2b842c21fb66"
   },
   {
     "name": "dslink-dart-twilio",
