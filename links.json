@@ -70,7 +70,7 @@
     "description": "Subscribe to RSS Feeds",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-feed.zip",
-    "revision": "d112e13e981fe9f21fedda5bb00c06b9aa54f521-1"
+    "revision": "9336930eccbe501104cad0d6c28f24bf24f7bd8f"
   },
   {
     "name": "dslink-dart-file",
@@ -99,7 +99,7 @@
     "description": "Interact with the FileSystem via DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-filesystem.zip",
-    "revision": "16db7b7e7f5042599bd4d1885f6cf7625291e263-1"
+    "revision": "4c9af9f808c490f7ad719a80251b722c08d2c245"
   },
   {
     "name": "dslink-dart-host-dgbox",
@@ -211,7 +211,7 @@
     "description": "Create and Manage Value Schedules",
     "category": "Scheduling",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-schedule.zip",
-    "revision": "176d1bc4af32b5e96e79d664805806f70b58e49f"
+    "revision": "d71939dcd23f2465326f98010f7a49c6989d4d00"
   },
   {
     "name": "dslink-dart-slack",
@@ -248,7 +248,7 @@
     "description": "Get Live Statistics about a Machine",
     "category": "System",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-system.zip",
-    "revision": "894a7a5ecc55be52f26212982c8f2b842c21fb66"
+    "revision": "bb18698bb6820023be61911d803564fe4bbcfa73"
   },
   {
     "name": "dslink-dart-twilio",
@@ -575,7 +575,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-rethinkdb.zip",
-    "revision": "ca7fe0301876ee1395752d1e70cd01831e27d1ab"
+    "revision": "eb755ebe422daebb82fcd3ca2da6a0aca977bd22"
   },
   {
     "name": "dslink-java-sedona",
