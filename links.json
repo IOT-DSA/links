@@ -86,7 +86,7 @@
       "hidden"
     ],
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-file.zip",
-    "revision": "43c37587f7b8dc2a1235446856be24bdee8ee3e0-1"
+    "revision": "305ca0b160722be68cbb36d69317ae0203ac8c06"
   },
   {
     "name": "dslink-dart-filesystem",
