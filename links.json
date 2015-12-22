@@ -248,7 +248,7 @@
     "description": "Get Live Statistics about a Machine",
     "category": "System",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-system.zip",
-    "revision": "bb18698bb6820023be61911d803564fe4bbcfa73"
+    "revision": "1dcd528bc762e636b7d54b886ca2d41e4e452dd3"
   },
   {
     "name": "dslink-dart-twilio",
