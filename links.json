@@ -150,7 +150,7 @@
     "description": "Interface for Kafka messaging system",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-kafka.zip",
-    "revision": "f3f00a53b251171c6213faeb74dcf75cc67a6682"
+    "revision": "f8962c567bcd11eec7f8250ba13553bca66b146a"
   },
   {
     "name": "dslink-dart-mailer",
