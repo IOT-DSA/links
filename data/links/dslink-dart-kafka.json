@@ -1,0 +1,10 @@
+{
+  "name": "dslink-dart-kafka",
+  "displayName": "Kafka",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-kafka.git"
+  },
+  "description": "Interface for Kafka messaging system",
+  "category": "Data Acquisition"
+}
