@@ -46,5 +46,6 @@
   "dslink-dart-BEV": "9e7ba0ffcfc8d35d0ad018fadbb11409415de667",
   "dslink-dart-rpi": "92b5fd4a471836c6c385b6d46eb9c6dab538170a",
   "dslink-dart-schedule": "62b5f8259dd1af51cdb786f4f0f61d8b4cbf2899",
-  "dslink-dart-elios4you": "f1196898294b70e2aa67ddbeed0605a792b48f78"
+  "dslink-dart-elios4you": "f1196898294b70e2aa67ddbeed0605a792b48f78",
+  "dslink-dart-kafka": "f3f00a53b251171c6213faeb74dcf75cc67a6682"
 }
