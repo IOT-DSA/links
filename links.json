@@ -263,6 +263,18 @@
     "revision": "1dcd528bc762e636b7d54b886ca2d41e4e452dd3"
   },
   {
+    "name": "dslink-dart-traccar",
+    "displayName": "Traccar",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-traccar.git"
+    },
+    "description": "REST interface for Traccar Server API",
+    "category": "Data Acquisition",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-traccar.zip",
+    "revision": "7a0401c3e48ef9522db0892637c7971af9040788"
+  },
+  {
     "name": "dslink-dart-twilio",
     "displayName": "Twilio",
     "type": "Dart",
