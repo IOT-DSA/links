@@ -1,0 +1,10 @@
+{
+  "name": "dslink-dart-traccar",
+  "displayName": "Traccar",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-traccar.git"
+  },
+  "description": "REST interface for Traccar Server API",
+  "category": "Data Acquisition"
+}
