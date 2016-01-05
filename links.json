@@ -260,7 +260,7 @@
     "description": "Get Live Statistics about a Machine",
     "category": "System",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-system.zip",
-    "revision": "1dcd528bc762e636b7d54b886ca2d41e4e452dd3"
+    "revision": "9358e3baf80cf9766f3dce5166128130b0f46e89"
   },
   {
     "name": "dslink-dart-traccar",
@@ -272,7 +272,7 @@
     "description": "REST interface for Traccar Server API",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-traccar.zip",
-    "revision": "51e83dfe7611019ff9ea052bad38277cb2ef1dd7"
+    "revision": "3ef8cf706ea8fd3e884d0b782b4ba6fd4b187bea"
   },
   {
     "name": "dslink-dart-twilio",
