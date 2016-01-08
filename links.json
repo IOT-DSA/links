@@ -272,7 +272,7 @@
     "description": "REST interface for Traccar Server API",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-traccar.zip",
-    "revision": "904f75c805ee0010eec452d35ccf1c5cb4ea3532"
+    "revision": "1938678eeefa56ea66df5790c1e7d37c882c3fc3"
   },
   {
     "name": "dslink-dart-twilio",
