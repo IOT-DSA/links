@@ -174,7 +174,7 @@
     "description": "Access MongoDB through DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-mongodb.zip",
-    "revision": "f9fbcfc54d7edf9dcef965f96925003a591db1e8"
+    "revision": "6c1c799ca61a718cece4a09bdbc3ed814829c82c"
   },
   {
     "name": "dslink-dart-mysql",
@@ -272,7 +272,7 @@
     "description": "REST interface for Traccar Server API",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-traccar.zip",
-    "revision": "1938678eeefa56ea66df5790c1e7d37c882c3fc3"
+    "revision": "58488e830691cdf0e3f131fe1badeb02db95e405"
   },
   {
     "name": "dslink-dart-twilio",
@@ -428,7 +428,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-etsdb.zip",
-    "revision": "f5b2e3b6ff7192e27285d257a5c3e8277c2bd333-3"
+    "revision": "8916c2bf30399ab97058800839cd600768da517e"
   },
   {
     "name": "dslink-java-googleplus",
