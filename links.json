@@ -174,7 +174,7 @@
     "description": "Access MongoDB through DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-mongodb.zip",
-    "revision": "08368f96b53cb966c861d207058c982cf8cccff6"
+    "revision": "f9fbcfc54d7edf9dcef965f96925003a591db1e8"
   },
   {
     "name": "dslink-dart-mysql",
@@ -223,7 +223,7 @@
     "description": "Create and Manage Value Schedules",
     "category": "Scheduling",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-schedule.zip",
-    "revision": "62b5f8259dd1af51cdb786f4f0f61d8b4cbf2899"
+    "revision": "3523fd3709e98ad35f292843acda1701af2ec7ad"
   },
   {
     "name": "dslink-dart-slack",
