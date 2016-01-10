@@ -98,9 +98,7 @@ main(List<String> argv) async {
       upload = new FileUpload(rname, "files/${zipName}", "files/${zipName}", revision: currentRev);
     }
 
-    bool forceBuild = !(await new File("files/${zipName}").exists());
-
-    forceBuild = forceBuild || doForceBuild.contains(rname);
+    bool forceBuild = doForceBuild.contains(rname);
 
     await pushd("tmp/${rname}");
 
@@ -235,7 +233,7 @@ main(List<String> argv) async {
           .firstWhere((x) => x.path.endsWith(".zip"), defaultValue: () => null);
 
       if (file == null || !(await file.exists())) {
-        await fail("DSLink ${name}: Unable to find distribution zip file");
+        await fail("DSLink ${name}: Unable to find distribution zip file.");
       }
 
       await file.copy("../../files/${rname}.zip");
