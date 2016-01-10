@@ -1,0 +1,35 @@
+{
+  "timestamp": "2016-01-10 09:05:21.336",
+  "args": [
+    "--upload"
+  ],
+  "host": "ip-10-226-23-227",
+  "uuid": "3l13Z0UQ51",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "3l13Z0UQ51"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "3l13Z0UQ51"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "3l13Z0UQ51"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "3l13Z0UQ51"
+    }
+  ],
+  "built": []
+}
