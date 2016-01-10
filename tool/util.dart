@@ -12,6 +12,10 @@ export "dart:math" show Random;
 typedef void ProcessHandler(Process process);
 typedef void OutputHandler(String str);
 
+String uuid;
+String fileUuid;
+DateTime buildTimestamp;
+
 final List<String> SLACK_NOTIFY_FAIL = [
   "<@U033B4M4Y|kaendfinger>"
 ];
@@ -186,10 +190,33 @@ void cd(String path) {
   Directory.current = dir;
 }
 
-fail(String msg) async {
+fail(String msg, {String out, List<String> args}) async {
   print("ERROR: ${msg}");
 
-  await sendSlackMessage("*Build Failed:*\n${msg}\n${SLACK_NOTIFY_FAIL.join(' ')}");
+  var m = new StringBuffer();
+  m.writeln("*Build Failed:*");
+  m.writeln(msg);
+  if (SLACK_NOTIFY_FAIL.isNotEmpty) {
+    m.writeln(SLACK_NOTIFY_FAIL.join(" "));
+  }
+
+  await sendSlackMessage(m.toString());
+
+  var fid = await generateStrongToken();
+  var map = {
+    "timestamp": new DateTime.now().toString(),
+    "buildId": uuid,
+    "failureId": fid,
+    "args": args,
+    "message": msg
+  };
+
+  if (out != null) {
+    map["output"] = out;
+  }
+
+  await saveJsonFile("data/failures/${fid}.json", map);
+
   exit(1);
 }
 
@@ -518,8 +545,8 @@ class FileUpload {
   bool onlyIfExists;
 
   FileUpload(this.tag, this.source, this.target, {
-    this.revision,
-    this.onlyIfExists: false
+  this.revision,
+  this.onlyIfExists: false
   });
 
   @override

@@ -1,12 +1,54 @@
 #!/usr/bin/env dart
 
+import "dart:async";
+
 import "util.dart";
 
-main(List<String> argv) async {
+main(List<String> args) async {
+  var out = new StringBuffer();
+  try {
+    await runZoned(() async {
+      await _main(args);
+    }, zoneSpecification: new ZoneSpecification(print: (a, b, c, s) {
+      out.writeln(s);
+    }));
+  } catch (e, stack) {
+    var buff = new StringBuffer();
+    buff.writeln("Looks like there was a bug in Link Builder: ${e}");
+    buff.writeln(stack);
+    await fail(buff.toString(), out: out.toString(), args: args);
+  }
+}
+
+_main(List<String> argv) async {
   Map<String, dynamic> config = await readJsonFile("data/config.json");
   List<Map<String, dynamic>> links = await buildLinksList();
   Map<String, String> revs = await readJsonFile("data/revs.json");
   List<String> histories = await readJsonFile("data/history.json", []);
+
+  uuid = await generateStrongToken(length: 10);
+
+  {
+    buildTimestamp = new DateTime.now();
+    var date = "${buildTimestamp.year}-"
+      "${buildTimestamp.month.toString().padLeft(2, '0')}-"
+      "${buildTimestamp.day.toString().padLeft(2, '0')}";
+    int i = 0;
+    int length = 10;
+
+    while (histories.contains("${date}-${uuid}")) {
+      uuid = await generateStrongToken(length: length);
+      i++;
+
+      if (i % 10 == 0) {
+        length++;
+      }
+    }
+
+    fileUuid = "${date}-${uuid}";
+
+    histories.add(fileUuid);
+  }
 
   await sendSlackMessage("*Build Started*");
 
@@ -109,7 +151,7 @@ main(List<String> argv) async {
     await pushd("tmp/${rname}");
 
     // Pre-Check for References
-    {
+      {
       String rev;
       var out = await exec(
         "git",
@@ -209,8 +251,8 @@ main(List<String> argv) async {
         mainFile.absolute.path,
         "-o",
         "build/bin/${mainFile.path
-            .split('/')
-            .last}",
+          .split('/')
+          .last}",
         "--output-type=dart",
         "--categories=Server",
         "-m"
@@ -224,8 +266,8 @@ main(List<String> argv) async {
 
       try {
         await new File("${mainFile.path
-            .split('/')
-            .last}.deps").delete();
+          .split('/')
+          .last}.deps").delete();
       } catch (e) {}
       var rpn = Directory.current.parent.parent.parent.path;
       await makeZipFile("${rpn}/files/${zipName}");
@@ -247,7 +289,7 @@ main(List<String> argv) async {
       }
 
       File file = await dir.list()
-          .firstWhere((x) => x.path.endsWith(".zip"), defaultValue: () => null);
+        .firstWhere((x) => x.path.endsWith(".zip"), defaultValue: () => null);
 
       if (file == null || !(await file.exists())) {
         await fail("DSLink ${name}: Unable to find distribution zip file.");
@@ -273,22 +315,6 @@ main(List<String> argv) async {
 
   for (var toRemove in removeLinkQueue) {
     links.remove(toRemove);
-  }
-
-  String uuid = await generateStrongToken(length: 10);
-
-  {
-    int i = 0;
-    int length = 10;
-
-    while (histories.contains(uuid)) {
-      uuid = await generateStrongToken(length: length);
-      i++;
-
-      if (i % 10 == 0) {
-        length++;
-      }
-    }
   }
 
   uploads.add(
@@ -333,14 +359,10 @@ main(List<String> argv) async {
     }).toList()
   };
 
-  var date = "${ts.year}-${ts.month.toString().padLeft(2, '0')}-${ts.day.toString().padLeft(2, '0')}";
-
-  histories.add("${date}-${uuid}");
-
   await saveJsonFile("data/revs.json", revs);
   await saveJsonFile("links.json", links);
   await saveJsonFile("data/history.json", histories);
-  await saveJsonFile("data/histories/${date}-${uuid}.json", history);
+  await saveJsonFile("data/histories/${fileUuid}.json", history);
 
   String s3Bucket = config["s3.bucket"];
 
