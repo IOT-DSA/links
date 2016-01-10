@@ -345,7 +345,6 @@ main(List<String> argv) async {
   String s3Bucket = config["s3.bucket"];
 
   if (argv.contains("--upload") || argv.contains("--upload-all")) {
-    print("");
     try {
       await uploadToS3(uploads, s3Bucket);
     } catch (e) {
