@@ -1,0 +1,29 @@
+{
+  "timestamp": "2016-01-10 08:18:41.537",
+  "args": [
+    "--upload"
+  ],
+  "host": "ip-10-226-23-227",
+  "uuid": "aixBy4qdj3",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "aixBy4qdj3"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "aixBy4qdj3"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "aixBy4qdj3"
+    }
+  ],
+  "built": []
+}
