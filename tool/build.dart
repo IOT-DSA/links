@@ -52,7 +52,7 @@ _main(List<String> argv) async {
 
   String triggeredBy = Platform.environment["TEAMCITY_TRIGGER"];
 
-  if (triggeredBy != null && triggeredBy.isNotEmpty) {
+  if (triggeredBy != null && triggeredBy.isNotEmpty && triggeredBy != "%teamcity.build.triggeredBy.username%") {
     await sendSlackMessage("*Build Started (by ${triggeredBy})*");
   } else {
     await sendSlackMessage("*Build Started*");
