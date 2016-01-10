@@ -477,6 +477,7 @@ uploadToS3(List<FileUpload> uploads, String s3Bucket) async {
       var dir = split.take(split.length - 1).join("/");
       revisionUploadPath += "/versions/${upload.tag}/${upload.revision}/${dir}/${name}";
       revisionUploadPath = revisionUploadPath.replaceAll("//", "/");
+      revisionUploadPath = revisionUploadPath.replaceAll("s3:/", "s3://");
       var out = await exec("aws", args: [
         "s3",
         "cp",
