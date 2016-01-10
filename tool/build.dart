@@ -50,7 +50,13 @@ _main(List<String> argv) async {
     histories.add(fileUuid);
   }
 
-  await sendSlackMessage("*Build Started*");
+  String triggeredBy = Platform.environment["TEAMCITY_TRIGGER"];
+
+  if (triggeredBy != null && triggeredBy.isNotEmpty) {
+    await sendSlackMessage("*Build Started (by ${triggeredBy})*");
+  } else {
+    await sendSlackMessage("*Build Started*");
+  }
 
   links.sort((Map a, Map b) {
     String n = a["name"];
