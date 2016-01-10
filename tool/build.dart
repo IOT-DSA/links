@@ -74,7 +74,9 @@ main(List<String> argv) async {
       return;
     }
 
-    if (doBuild.isNotEmpty && !doBuild.contains(rname) && !doBuild.contains("type-" + linkType)) {
+    if (doBuild.isNotEmpty &&
+      !doBuild.contains(rname) &&
+      !doBuild.contains("type-" + linkType)) {
       continue;
     }
 
@@ -105,9 +107,20 @@ main(List<String> argv) async {
     // Pre-Check for References
     {
       String rev;
-      var out = await exec("git", args: ["ls-remote", repo, "HEAD"], writeToBuffer: true);
+      var out = await exec(
+        "git",
+        args: [
+          "ls-remote",
+          repo,
+          "HEAD"
+        ],
+        writeToBuffer: true
+      );
       rev = out.output.split("\t").first.trim();
-      if (!forceBuild && revs[rname] is String && revs[rname].split("-").first == rev && !argv.contains("--force")) {
+      if (!forceBuild &&
+        revs[rname] is String &&
+        revs[rname].split("-").first == rev &&
+        !argv.contains("--force")) {
         print("[Build Up-to-Date] ${name}");
         popd();
         if (upload != null) uploads.add(upload);
@@ -129,7 +142,10 @@ main(List<String> argv) async {
 
     var realRevision = rev.split("-").first;
 
-    if (!forceBuild && revs[rname] is String && revs[rname].split("-").first == realRevision && !argv.contains("--force")) {
+    if (!forceBuild &&
+      revs[rname] is String &&
+      revs[rname].split("-").first == realRevision &&
+      !argv.contains("--force")) {
       print("[Build Up-to-Date] ${name}");
       popd();
       if (upload != null) uploads.add(upload);
@@ -201,7 +217,12 @@ main(List<String> argv) async {
       popd();
     } else if (linkType == "Java") {
       await rmkdir("build");
-      var pur = await exec("bash", args: ["gradlew", "clean", "distZip", "--refresh-dependencies"], writeToBuffer: true);
+      var pur = await exec("bash", args: [
+        "gradlew",
+        "clean",
+        "distZip",
+        "--refresh-dependencies"
+      ], writeToBuffer: true);
       if (pur.exitCode != 0) {
         await fail("DSLink ${name}: Failed to build the DSLink.\n${pur.output}");
       }
@@ -222,7 +243,12 @@ main(List<String> argv) async {
       await fail("DSLink ${name}: Failed to determine the automated build configuration.");
     }
 
-    upload = new FileUpload(rname, "files/${zipName}", "files/${zipName}", revision: rev);
+    upload = new FileUpload(
+      rname,
+      "files/${zipName}",
+      "files/${zipName}",
+      revision: rev
+    );
     uploads.add(upload);
     popd();
     print("[Build Complete] ${name}");
@@ -235,8 +261,22 @@ main(List<String> argv) async {
 
   String uuid = new DateTime.now().toString();
 
-  uploads.add(new FileUpload("meta.revisions", "data/revs.json", "revs.json", revision: uuid));
-  uploads.add(new FileUpload("meta.links", "links.json", "links.json", revision: uuid));
+  uploads.add(
+    new FileUpload(
+      "meta.revisions",
+      "data/revs.json",
+      "revs.json",
+      revision: uuid
+    )
+  );
+  uploads.add(
+    new FileUpload(
+      "meta.links",
+      "links.json",
+      "links.json",
+      revision: uuid
+    )
+  );
   uploadFiles["revs.json"] = "data/revs.json";
   uploadFiles["links.json"] = "links.json";
 
