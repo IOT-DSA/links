@@ -25,6 +25,7 @@ _main(List<String> argv) async {
   Map<String, dynamic> config = await readJsonFile("data/config.json");
   List<Map<String, dynamic>> links = await buildLinksList();
   Map<String, String> revs = await readJsonFile("data/revs.json");
+  Map<String, String> lastUpdateTimes = await readJsonFile("data/updated.json", {});
   List<String> histories = await readJsonFile("data/history.json", []);
 
   uuid = await generateStrongToken(length: 10);
@@ -131,8 +132,8 @@ _main(List<String> argv) async {
       continue;
     }
 
-    if (link["lastUpdated"] is! String) {
-      link["lastUpdated"] = new DateTime.now().toString();
+    if (lastUpdateTimes[rname] is! String) {
+      lastUpdateTimes[rname] = new DateTime.now().toString();
     }
 
     if (argv.contains("--generate-list")) {
@@ -315,7 +316,8 @@ _main(List<String> argv) async {
     );
     uploads.add(upload);
     popd();
-    link["lastUpdated"] = new DateTime.now().toString();
+    lastUpdateTimes[rname] = new DateTime.now().toString();
+    link["lastUpdated"] = lastUpdateTimes[rname];
     print("[Build Complete] ${name}");
     builtLinks.add(link);
   }
@@ -351,6 +353,15 @@ _main(List<String> argv) async {
     )
   );
 
+  uploads.add(
+    new FileUpload(
+      "meta.updated",
+      "data/updated.json",
+      "updated.json",
+      revision: uuid
+    )
+  );
+
   var ts = new DateTime.now();
 
   var history = {
@@ -369,6 +380,7 @@ _main(List<String> argv) async {
   await saveJsonFile("data/revs.json", revs);
   await saveJsonFile("links.json", links);
   await saveJsonFile("data/history.json", histories);
+  await saveJsonFile("data/updated.json", lastUpdateTimes);
   await saveJsonFile("data/histories/${fileUuid}.json", history);
 
   String s3Bucket = config["s3.bucket"];
