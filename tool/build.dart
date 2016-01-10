@@ -10,6 +10,7 @@ main(List<String> args) async {
     await runZoned(() async {
       await _main(args);
     }, zoneSpecification: new ZoneSpecification(print: (a, b, c, s) {
+      Zone.ROOT.print(s);
       out.writeln(s);
     }));
   } catch (e, stack) {
