@@ -11,6 +11,10 @@ export "dart:math" show Random;
 typedef void ProcessHandler(Process process);
 typedef void OutputHandler(String str);
 
+final List<String> SLACK_NOTIFY_FAIL = [
+  "<@U033B4M4Y|kaendfinger>"
+];
+
 class BetterProcessResult extends ProcessResult {
   final String output;
 
@@ -59,7 +63,10 @@ Future<BetterProcessResult> exec(
     );
 
     if (raf != null) {
-      await raf.writeln("[${currentTimestamp}] == Executing ${executable} with arguments ${args} (pid: ${process.pid}) ==");
+      await raf.writeln(
+        "[${currentTimestamp}] == Executing ${executable}"
+          " with arguments ${args} (pid: ${process.pid}) =="
+      );
     }
 
     var buff = new StringBuffer();
@@ -179,7 +186,7 @@ void cd(String path) {
 
 fail(String msg) async {
   print("ERROR: ${msg}");
-  await sendSlackMessage("*Build Failed:*\n${msg}");
+  await sendSlackMessage("*Build Failed:*\n${msg}\n${SLACK_NOTIFY_FAIL.join(' ')}");
   exit(1);
 }
 
