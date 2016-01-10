@@ -136,6 +136,8 @@ _main(List<String> argv) async {
       lastUpdateTimes[rname] = new DateTime.now().toString();
     }
 
+    link["lastUpdated"] = lastUpdateTimes[rname];
+
     if (argv.contains("--generate-list")) {
       continue;
     }
