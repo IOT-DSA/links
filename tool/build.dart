@@ -329,7 +329,7 @@ main(List<String> argv) async {
       return upload.toJSON();
     }).toList(),
     "built": builtLinks.map((link) {
-      return link["name"];
+      return link["displayName"];
     }).toList()
   };
 
