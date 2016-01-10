@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Status - DSA Link Repository</title>
+  </head>
+
+  <body class="mdl-grid">
+    <div class="mdl-layout-spacer"></div>
+    <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+      <thead>
+        <tr>
+          <th class="mdl-data-table__cell--non-numeric">Link</th>
+          <th class="mdl-data-table__cell--non-numeric">Last Update</th>
+          <th class="mdl-data-table__cell--non-numeric">Revision</th>
+          <th class="mdl-data-table__cell--non-numeric">Download</th>
+        </tr>
+      </thead>
+      <tbody id="table">
+      </tbody>
+    </table>
+
+    <div class="mdl-layout-spacer"></div>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script>
+    $.getJSON("../../links.json", function (json) {
+      for (var i in json) {
+        var link = json[i];
+        $("#table").append(
+            '<tr>' +
+            '<td class="mdl-data-table__cell--non-numeric">' + link.name + '</td>' +
+            '<td class="mdl-data-table__cell--non-numeric">' + link.lastUpdated + '</td>' +
+            '<td class="mdl-data-table__cell--non-numeric">' + link.revision + '</td>' +
+            '<td class="mdl-data-table__cell--non-numeric">' + '<a href="' + link.zip + '">' + 'ZIP</a></td>' +
+            '</tr>'
+        );
+      }
+    });
+  </script>
+</html>

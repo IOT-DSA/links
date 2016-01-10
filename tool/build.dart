@@ -1,9 +1,12 @@
+#!/usr/bin/env dart
+
 import "util.dart";
 
 main(List<String> argv) async {
-  var config = await readJsonFile("data/config.json");
-  var links = await buildLinksList();
-  var revs = await readJsonFile("data/revs.json");
+  Map<String, dynamic> config = await readJsonFile("data/config.json");
+  List<Map<String, dynamic>> links = await buildLinksList();
+  Map<String, String> revs = await readJsonFile("data/revs.json");
+  List<String> histories = await readJsonFile("data/history.json", []);
 
   await sendSlackMessage("*Build Started*");
 
@@ -32,7 +35,6 @@ main(List<String> argv) async {
     }
   }
 
-  Map<String, String> uploadFiles = {};
   List<FileUpload> uploads = [];
   List removeLinkQueue = [];
   List<Map<String, dynamic>> builtLinks = [];
@@ -78,6 +80,10 @@ main(List<String> argv) async {
       !doBuild.contains(rname) &&
       !doBuild.contains("type-" + linkType)) {
       continue;
+    }
+
+    if (link["lastUpdated"] is! String) {
+      link["lastUpdated"] = new DateTime.now().toString();
     }
 
     if (argv.contains("--generate-list")) {
@@ -126,15 +132,26 @@ main(List<String> argv) async {
       }
     }
 
-    var cr = await exec("git", args: ["clone", "--depth=1", repo, "."], writeToBuffer: true);
+    var cr = await exec("git", args: [
+      "clone",
+      "--depth=1",
+      repo,
+      "."
+    ], writeToBuffer: true);
     if (cr.exitCode != 0) {
       await fail("DSLink ${name}: Failed to clone repository.\n${cr.output}");
     }
 
-    var rpo = await exec("git", args: ["rev-parse", "HEAD"], writeToBuffer: true);
+    var rpo = await exec("git", args: [
+      "rev-parse",
+      "HEAD"
+    ], writeToBuffer: true);
     var rev = rpo.output.toString().trim();
     if (rev.isEmpty) {
-      rpo = await exec("git", args: ["rev-parse", "HEAD"], writeToBuffer: true);
+      rpo = await exec("git", args: [
+        "rev-parse",
+        "HEAD"
+      ], writeToBuffer: true);
       rev = rpo.output.toString().trim();
     }
 
@@ -249,6 +266,7 @@ main(List<String> argv) async {
     );
     uploads.add(upload);
     popd();
+    link["lastUpdated"] = new DateTime.now().toString();
     print("[Build Complete] ${name}");
     builtLinks.add(link);
   }
@@ -257,7 +275,30 @@ main(List<String> argv) async {
     links.remove(toRemove);
   }
 
-  String uuid = new DateTime.now().toString();
+  String uuid = await generateStrongToken(length: 10);
+
+  {
+    int i = 0;
+    int length = 10;
+
+    while (histories.contains(uuid)) {
+      uuid = await generateStrongToken(length: length);
+      i++;
+
+      if (i % 10 == 0) {
+        length++;
+      }
+    }
+  }
+
+  uploads.add(
+    new FileUpload(
+      "meta.history",
+      "data/history.json",
+      "history.json",
+      revision: uuid
+    )
+  );
 
   uploads.add(
     new FileUpload(
@@ -267,6 +308,7 @@ main(List<String> argv) async {
       revision: uuid
     )
   );
+
   uploads.add(
     new FileUpload(
       "meta.links",
@@ -275,15 +317,35 @@ main(List<String> argv) async {
       revision: uuid
     )
   );
-  uploadFiles["revs.json"] = "data/revs.json";
-  uploadFiles["links.json"] = "links.json";
+
+  var ts = new DateTime.now();
+
+  var history = {
+    "timestamp": ts.toString(),
+    "args": argv,
+    "host": Platform.localHostname,
+    "uuid": uuid,
+    "uploads": uploads.map((FileUpload upload) {
+      return upload.toJSON();
+    }).toList(),
+    "built": builtLinks.map((link) {
+      return link["displayName"];
+    }).toList()
+  };
+
+  var date = "${ts.year}-${ts.month.toString().padLeft(2, '0')}-${ts.day.toString().padLeft(2, '0')}";
+
+  histories.add("${date}-${uuid}");
 
   await saveJsonFile("data/revs.json", revs);
   await saveJsonFile("links.json", links);
+  await saveJsonFile("data/history.json", histories);
+  await saveJsonFile("data/histories/${date}-${uuid}.json", history);
 
   String s3Bucket = config["s3.bucket"];
 
   if (argv.contains("--upload") || argv.contains("--upload-all")) {
+    print("");
     try {
       await uploadToS3(uploads, s3Bucket);
     } catch (e) {

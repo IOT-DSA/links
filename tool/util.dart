@@ -3,6 +3,7 @@ library dsa.links.repository.util;
 import "dart:async";
 import "dart:convert";
 import "dart:io";
+import "dart:math";
 
 export "dart:async";
 export "dart:io";
@@ -162,7 +163,7 @@ String get currentTimestamp {
   return new DateTime.now().toString();
 }
 
-Future<dynamic> readJsonFile(String path, [Map defaultValue]) async {
+Future<dynamic> readJsonFile(String path, [defaultValue]) async {
   var file = new File(path);
 
   if (!(await file.exists()) && defaultValue != null) {
@@ -175,7 +176,8 @@ Future<dynamic> readJsonFile(String path, [Map defaultValue]) async {
 
 Future saveJsonFile(String path, value) async {
   var file = new File(path);
-  var content = new JsonEncoder.withIndent("  ").convert(value);
+  await file.create(recursive: true);
+  var content = const JsonEncoder.withIndent("  ").convert(value);
   await file.writeAsString(content + "\n");
 }
 
@@ -186,6 +188,7 @@ void cd(String path) {
 
 fail(String msg) async {
   print("ERROR: ${msg}");
+
   await sendSlackMessage("*Build Failed:*\n${msg}\n${SLACK_NOTIFY_FAIL.join(' ')}");
   exit(1);
 }
@@ -469,8 +472,11 @@ uploadToS3(List<FileUpload> uploads, String s3Bucket) async {
       if (revisionUploadPath.endsWith("/")) {
         revisionUploadPath = revisionUploadPath.substring(1);
       }
-      var name = upload.target.split("/").last;
-      revisionUploadPath += "/versions/${upload.tag}/${upload.revision}/${upload.target}/${name}";
+      var split = upload.target.split("/");
+      var name = split.last;
+      var dir = split.take(split.length - 1).join("/");
+      revisionUploadPath += "/versions/${upload.tag}/${upload.revision}/${dir}/${name}";
+      revisionUploadPath = revisionUploadPath.replaceAll("//", "/");
       var out = await exec("aws", args: [
         "s3",
         "cp",
@@ -525,6 +531,15 @@ class FileUpload {
 
     return msg;
   }
+
+  Map toJSON() {
+    return {
+      "tag": tag,
+      "source": source,
+      "target": target,
+      "revision": revision
+    };
+  }
 }
 
 sendSlackMessage(String message) async {
@@ -558,3 +573,71 @@ sendSlackMessage(String message) async {
     client.close(force: true);
   }
 }
+
+Future<String> generateStrongToken({int length: 50}) async {
+  var r0 = new Random();
+  var buffer = new StringBuffer();
+  for (int i = 1; i <= length; i++) {
+    await new Future.value();
+    var r = new Random(r0.nextInt(0x70000000) + (new DateTime.now()).millisecondsSinceEpoch);
+    if (r.nextBool()) {
+      String letter = _alphabet[r.nextInt(_alphabet.length)];
+      buffer.write(r.nextBool() ? letter.toLowerCase() : letter);
+    } else {
+      buffer.write(_numbers[r.nextInt(_numbers.length)]);
+    }
+  }
+  return buffer.toString();
+}
+
+const List<String> _alphabet = const [
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "G",
+  "H",
+  "I",
+  "J",
+  "K",
+  "L",
+  "M",
+  "N",
+  "O",
+  "P",
+  "Q",
+  "R",
+  "S",
+  "T",
+  "U",
+  "V",
+  "W",
+  "X",
+  "Y",
+  "Z"
+];
+
+const List<int> _numbers = const [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+];
+
+const List<String> _specials = const [
+  "@",
+  "=",
+  "_",
+  "+",
+  "-",
+  "!",
+  "."
+];

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>History - DSA Link Repository</title>
+  </head>
+
+  <body class="mdl-grid">
+    <div class="mdl-layout-spacer"></div>
+    <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+      <thead>
+        <tr>
+          <th class="mdl-data-table__cell--non-numeric">Timestamp</th>
+          <th class="mdl-data-table__cell--non-numeric">ID</th>
+          <th class="mdl-data-table__cell--non-numeric">Flags</th>
+          <th class="mdl-data-table__cell--non-numeric">Changed</th>
+        </tr>
+      </thead>
+      <tbody id="table">
+      </tbody>
+    </table>
+
+    <div class="mdl-layout-spacer"></div>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script>
+    var out = [];
+    var count = 0;
+    var allCount = 0;
+
+    function cb() {
+      if (count === allCount) {
+        out.sort(function (a, b) {
+          var w = Date.parse(a.timestamp);
+          var x = Date.parse(b.timestamp);
+          return x - w;
+        });
+
+        for (var i in out) {
+          var b = out[i];
+          var builtLinks = b.built.join('<br/>');
+
+          if (builtLinks.length == 0) {
+            builtLinks = "No Links Changed";
+          }
+
+          $("#table").append(
+              '<tr>' +
+              '<td class="mdl-data-table__cell--non-numeric">' + b.timestamp + '</td>' +
+              '<td class="mdl-data-table__cell--non-numeric">' + b.uuid + '</td>' +
+              '<td class="mdl-data-table__cell--non-numeric">' + b.args.filter(function (e) {
+                return e != "--upload";
+              }).join(", ") + '</td>' +
+              '<td class="mdl-data-table__cell--non-numeric">' + builtLinks + '</td>' +
+              '</tr>'
+          );
+        }
+      }
+    }
+
+    $.getJSON("../../data/history.json", function (json) {
+      allCount = json.length;
+      for (var i in json) {
+        var id = json[i];
+
+        if ((i - 1) == 50) {
+          break;
+        }
+
+        $.getJSON("../../data/histories/" + id + ".json", function (j) {
+          out.push(j);
+          count++;
+          cb();
+        });
+      }
+    });
+  </script>
+</html>
