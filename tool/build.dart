@@ -264,8 +264,7 @@ _main(List<String> argv) async {
           .split('/')
           .last}",
         "--output-type=dart",
-        "--categories=Server",
-        "-m"
+        "--categories=Server"
       ], writeToBuffer: true);
       if (cmfr.exitCode != 0) {
         await fail("DSLink ${name}: Failed to build main file.\n${cmfr.output}");
