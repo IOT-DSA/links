@@ -17,7 +17,7 @@ String fileUuid;
 DateTime buildTimestamp;
 
 final List<String> SLACK_NOTIFY_FAIL = [
-  "<@U033B4M4Y|kaendfinger>"
+  "<@kaendfinger>"
 ];
 
 class BetterProcessResult extends ProcessResult {
@@ -195,12 +195,7 @@ fail(String msg, {String out, List<String> args}) async {
 
   var m = new StringBuffer();
   m.writeln("*Build Failed:*");
-  m.writeln(msg);
-  if (SLACK_NOTIFY_FAIL.isNotEmpty) {
-    m.writeln(SLACK_NOTIFY_FAIL.join(" "));
-  }
-
-  await sendSlackMessage(m.toString());
+  m.writeln(msg.trim());
 
   var fid = await generateStrongToken();
   var map = {
@@ -216,6 +211,12 @@ fail(String msg, {String out, List<String> args}) async {
   }
 
   await saveJsonFile("data/failures/${fid}.json", map);
+
+  if (SLACK_NOTIFY_FAIL.isNotEmpty) {
+    m.writeln(SLACK_NOTIFY_FAIL.join(" "));
+  }
+
+  await sendSlackMessage(m.toString());
 
   exit(1);
 }
@@ -571,6 +572,8 @@ class FileUpload {
 }
 
 sendSlackMessage(String message) async {
+  message = message.trim();
+
   String slackChannel = Platform.environment["SLACK_CHANNEL"];
   String slackToken = Platform.environment["SLACK_TOKEN"];
 
@@ -578,25 +581,43 @@ sendSlackMessage(String message) async {
     return;
   }
 
-  String slackUrl = "https://slack.com/api/chat.postMessage?";
-  slackUrl += "token=${slackToken}&channel=${slackChannel}";
-  slackUrl += "&text=${Uri.encodeComponent(message)}";
-  slackUrl += "&username=${Uri.encodeComponent('Automated Builder')}";
+  String slackUrl =
+    "https://slack.com/api/chat.postMessage";
 
-  print("[Slack Message] ${message}");
+  Map json = {
+    "token": slackToken,
+    "channel": slackChannel,
+    "text": message,
+    "username": "Automated Builder",
+    "icon_url": "https://pbs.twimg.com/profile_images/623228341714182145/kdkH3j37_400x400.png"
+  };
+
+  for (String line in message.split("\n")) {
+    print("[Slack Message] ${line}");
+  }
 
   var client = new HttpClient();
 
   Uri uri = Uri.parse(slackUrl);
+  uri = uri.replace(queryParameters: json);
 
   try {
     var request = await client.getUrl(uri);
     var response = await request.close();
-    await response.drain();
+    var bytes = await response.fold([], (List a, List b) {
+      return a..addAll(b);
+    });
+    var result = const JsonDecoder().convert(
+      const Utf8Decoder().convert(bytes)
+    );
+
+    print(result);
+
     if (response.statusCode != 200) {
-      throw new Exception("Status Code: ${response.statusCode}");
+      throw new Exception("Status Code: ${response.statusCode}\nResult: ${result}");
     }
   } catch (e) {
+    print("[MAJOR ERROR] Failed to send Slack message: ${e}");
   } finally {
     client.close(force: true);
   }
