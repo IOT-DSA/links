@@ -1,0 +1,7 @@
+{
+  "timestamp": "2016-01-11 19:56:08.871",
+  "buildId": "b559p32311",
+  "failureId": "NTuV7bX5hx6L92045020jUDf0960L650j6f834op0qD2R5rj33",
+  "args": null,
+  "message": "S3 Upload: Failed to execute upload job 'files/dslink-dart-traccar.zip => files/dslink-dart-traccar.zip (revision: 7fae876ef5919d48fb4186e67b174bc34280ac48)': Put Operation Failed (exit: 1)\nCommand Output:\nTraceback (most recent call last):\n  File \"/usr/bin/aws\", line 19, in <module>\n    import awscli.clidriver\n  File \"/usr/lib/python2.7/site-packages/awscli/clidriver.py\", line 17, in <module>\n    import botocore.session\n  File \"/usr/lib/python2.7/site-packages/botocore/session.py\", line 26, in <module>\n    import botocore.credentials\n  File \"/usr/lib/python2.7/site-packages/botocore/credentials.py\", line 20, in <module>\n    from dateutil.parser import parse\nImportError: No module named dateutil.parser\n"
+}
