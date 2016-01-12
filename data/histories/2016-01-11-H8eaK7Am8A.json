@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-01-11 21:03:28.878",
+  "args": [
+    "--upload"
+  ],
+  "host": "directcode",
+  "uuid": "H8eaK7Am8A",
+  "uploads": [
+    {
+      "tag": "dslink-dart-traccar",
+      "source": "files/dslink-dart-traccar.zip",
+      "target": "files/dslink-dart-traccar.zip",
+      "revision": "7fae876ef5919d48fb4186e67b174bc34280ac48"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "H8eaK7Am8A"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "H8eaK7Am8A"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "H8eaK7Am8A"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "H8eaK7Am8A"
+    }
+  ],
+  "built": [
+    "Traccar"
+  ]
+}

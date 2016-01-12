@@ -1,0 +1,29 @@
+{
+  "timestamp": "2016-01-10 03:05:49.173",
+  "args": [
+    "--upload"
+  ],
+  "host": "directcode",
+  "uuid": "r479208Wud",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "r479208Wud"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "r479208Wud"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "r479208Wud"
+    }
+  ],
+  "built": []
+}
