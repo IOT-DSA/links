@@ -1,0 +1,7 @@
+{
+  "timestamp": "2016-01-11 21:06:53.422",
+  "buildId": "U0G7MTLFG7",
+  "failureId": "5k1ya6b8ox312h81VI1G4Z96tK8QK9r2IV83X0sN0v8c7D5g0J",
+  "args": null,
+  "message": "S3 Upload: Failed to execute upload job 'files/dslink-dart-traccar.zip => files/dslink-dart-traccar.zip (revision: 7fae876ef5919d48fb4186e67b174bc34280ac48)': Put Operation Failed (exit: 1)\nCommand Output:\nupload failed: files/dslink-dart-traccar.zip to s3://dsa/links/files/dslink-dart-traccar.zip Unable to locate credentials\n\n"
+}
