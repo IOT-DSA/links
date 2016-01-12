@@ -5,6 +5,7 @@ import "dart:async";
 import "util.dart";
 
 main(List<String> args) async {
+  gargv = args;
   var out = new StringBuffer();
   try {
     await runZoned(() async {
@@ -17,7 +18,7 @@ main(List<String> args) async {
     var buff = new StringBuffer();
     buff.writeln("Looks like there was a bug in Link Builder: ${e}");
     buff.writeln(stack);
-    await fail(buff.toString(), out: out.toString(), args: args);
+    await fail(buff.toString(), out: out.toString());
   }
 }
 

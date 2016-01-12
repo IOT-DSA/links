@@ -15,6 +15,7 @@ typedef void OutputHandler(String str);
 String uuid;
 String fileUuid;
 DateTime buildTimestamp;
+List<String> gargv;
 
 final List<String> SLACK_NOTIFY_FAIL = [
   "<@kaendfinger>"
@@ -190,7 +191,7 @@ void cd(String path) {
   Directory.current = dir;
 }
 
-fail(String msg, {String out, List<String> args}) async {
+fail(String msg, {String out}) async {
   print("ERROR: ${msg}");
 
   var m = new StringBuffer();
@@ -202,7 +203,7 @@ fail(String msg, {String out, List<String> args}) async {
     "timestamp": new DateTime.now().toString(),
     "buildId": uuid,
     "failureId": fid,
-    "args": args,
+    "args": gargv,
     "message": msg
   };
 
