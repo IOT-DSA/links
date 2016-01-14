@@ -152,19 +152,6 @@
     "lastUpdated": "2016-01-10 09:05:02.932"
   },
   {
-    "name": "dslink-dart-kafka",
-    "displayName": "Kafka",
-    "type": "Dart",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-dart-kafka.git"
-    },
-    "description": "Interface for Kafka messaging system",
-    "category": "Data Acquisition",
-    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-kafka.zip",
-    "revision": "f8962c567bcd11eec7f8250ba13553bca66b146a-1",
-    "lastUpdated": "2016-01-10 09:05:03.455"
-  },
-  {
     "name": "dslink-dart-mailer",
     "displayName": "Email",
     "type": "Dart",
