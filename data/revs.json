@@ -48,5 +48,6 @@
   "dslink-dart-schedule": "3523fd3709e98ad35f292843acda1701af2ec7ad-1",
   "dslink-dart-elios4you": "f1196898294b70e2aa67ddbeed0605a792b48f78-1",
   "dslink-dart-kafka": "f8962c567bcd11eec7f8250ba13553bca66b146a-1",
-  "dslink-dart-traccar": "7fae876ef5919d48fb4186e67b174bc34280ac48"
+  "dslink-dart-traccar": "7fae876ef5919d48fb4186e67b174bc34280ac48",
+  "dslink-dart-dql": "c2a9cdb4a46403f52391c48e775463e5bc1a88ba"
 }

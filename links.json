@@ -39,6 +39,19 @@
     "lastUpdated": "2016-01-10 09:04:58.934"
   },
   {
+    "name": "dslink-dart-dql",
+    "displayName": "DQL",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-dql.git"
+    },
+    "description": "Run Queries against DSA",
+    "category": "Data Acquisition",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dql.zip",
+    "revision": "c2a9cdb4a46403f52391c48e775463e5bc1a88ba",
+    "lastUpdated": "2016-01-14 18:58:49.063"
+  },
+  {
     "name": "dslink-dart-earthquakes",
     "displayName": "Earthquakes",
     "type": "Dart",
