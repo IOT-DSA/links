@@ -1,6 +1,6 @@
 {
   "name": "dslink-java-googleplus",
-  "displayName": "Google+",
+  "displayName": "Google Plus",
   "type": "Java",
   "automated": {
     "repository": "https://github.com/IOT-DSA/dslink-java-googleplus.git"
