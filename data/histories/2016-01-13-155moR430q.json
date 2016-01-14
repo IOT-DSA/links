@@ -1,0 +1,35 @@
+{
+  "timestamp": "2016-01-13 19:21:08.109",
+  "args": [
+    "--upload"
+  ],
+  "host": "directcode",
+  "uuid": "155moR430q",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "155moR430q"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "155moR430q"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "155moR430q"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "155moR430q"
+    }
+  ],
+  "built": []
+}
