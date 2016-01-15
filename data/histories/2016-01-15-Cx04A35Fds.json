@@ -1,0 +1,35 @@
+{
+  "timestamp": "2016-01-15 03:05:52.460",
+  "args": [
+    "--upload"
+  ],
+  "host": "directcode",
+  "uuid": "Cx04A35Fds",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "Cx04A35Fds"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "Cx04A35Fds"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "Cx04A35Fds"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "Cx04A35Fds"
+    }
+  ],
+  "built": []
+}
