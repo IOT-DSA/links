@@ -379,11 +379,13 @@ _main(List<String> argv) async {
     }).toList()
   };
 
-  await saveJsonFile("data/revs.json", revs);
-  await saveJsonFile("links.json", links);
-  await saveJsonFile("data/history.json", histories);
-  await saveJsonFile("data/updated.json", lastUpdateTimes);
-  await saveJsonFile("data/histories/${fileUuid}.json", history);
+  if (!argv.contains("--test")) {
+    await saveJsonFile("data/revs.json", revs);
+    await saveJsonFile("links.json", links);
+    await saveJsonFile("data/history.json", histories);
+    await saveJsonFile("data/updated.json", lastUpdateTimes);
+    await saveJsonFile("data/histories/${fileUuid}.json", history);
+  }
 
   String s3Bucket = config["s3.bucket"];
 
