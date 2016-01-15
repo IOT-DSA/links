@@ -1,0 +1,9 @@
+{
+  "timestamp": "2016-01-15 18:56:04.176",
+  "buildId": "UU2Rz2Xh06",
+  "failureId": "06E8734K693ZK712D08d07G5fL1F9jud83125aV8En2WG9t368",
+  "args": [
+    "--upload"
+  ],
+  "message": "S3 Upload: Failed to execute upload job 'files/target/universal/dslink-scala-kafka-0.1.0-SNAPSHOT.zip => files/target/universal/dslink-scala-kafka-0.1.0-SNAPSHOT.zip (revision: 75e7ce3330b02cfdd27771b11cd7fe29af07cfc5)': Source file does not exist."
+}
