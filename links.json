@@ -741,5 +741,18 @@
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-zwave.zip",
     "revision": "001c1dec5bb45a8e707d499646cf5181fd7e001a-1",
     "lastUpdated": "2016-01-10 09:05:20.830"
+  },
+  {
+    "name": "dslink-scala-kafka",
+    "displayName": "Kafka",
+    "type": "Scala",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-scala-kafka.git"
+    },
+    "description": "Interact with Kafka",
+    "category": "Messaging",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-scala-kafka.zip",
+    "revision": "4fab64c6a2a25ce7dffa3eba84a2da87b11f4cbb",
+    "lastUpdated": "2016-01-15 19:05:27.932"
   }
 ]

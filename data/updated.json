@@ -45,5 +45,6 @@
   "dslink-java-splunk": "2016-01-10 09:05:19.838",
   "dslink-java-twitter": "2016-01-10 09:05:20.335",
   "dslink-java-zwave": "2016-01-10 09:05:20.830",
-  "dslink-dart-dql": "2016-01-14 23:13:38.710"
+  "dslink-dart-dql": "2016-01-14 23:13:38.710",
+  "dslink-scala-kafka": "2016-01-15 19:05:27.932"
 }
