@@ -1,0 +1,11 @@
+{
+  "name": "dslink-scala-kafka",
+  "displayName": "Kafka",
+  "type": "Scala",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-scala-kafka.git",
+    "zip": "target/universal/dslink-scala-kafka-0.1.0-SNAPSHOT.zip"
+  },
+  "description": "Interact with Kafka",
+  "category": "Messaging"
+}
