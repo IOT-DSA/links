@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-01-17 18:32:55.239",
+  "args": [
+    "--upload"
+  ],
+  "host": "directcode",
+  "uuid": "x271T42128",
+  "uploads": [
+    {
+      "tag": "dslink-java-jdbc",
+      "source": "files/dslink-java-jdbc.zip",
+      "target": "files/dslink-java-jdbc.zip",
+      "revision": "977ef43228e2faf17d6e3a6ad81d8ba06442e226"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "x271T42128"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "x271T42128"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "x271T42128"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "x271T42128"
+    }
+  ],
+  "built": [
+    "JDBC"
+  ]
+}
