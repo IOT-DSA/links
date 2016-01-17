@@ -459,8 +459,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-etsdb.zip",
-    "revision": "02476d0c35005da843e0007714bd38959f8250c2-1",
-    "lastUpdated": "2016-01-16 01:06:09.217"
+    "revision": "85ece290b301ae50ec9d39f88b8af21f0093aa23",
+    "lastUpdated": "2016-01-17 16:19:42.345"
   },
   {
     "name": "dslink-java-googleplus",
