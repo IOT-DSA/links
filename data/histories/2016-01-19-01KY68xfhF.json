@@ -1,0 +1,162 @@
+{
+  "timestamp": "2016-01-19 18:29:33.558",
+  "args": [
+    "--upload"
+  ],
+  "host": "directcode",
+  "uuid": "01KY68xfhF",
+  "uploads": [
+    {
+      "tag": "dslink-dart-dgapi",
+      "source": "files/dslink-dart-dgapi.zip",
+      "target": "files/dslink-dart-dgapi.zip",
+      "revision": "4b4feca2d3e4f9fc9c217b75cd474f6fe544ed79"
+    },
+    {
+      "tag": "dslink-dart-digital-ocean",
+      "source": "files/dslink-dart-digital-ocean.zip",
+      "target": "files/dslink-dart-digital-ocean.zip",
+      "revision": "060a62b48d623eb2a62f706526d4458a323d55e5"
+    },
+    {
+      "tag": "dslink-dart-dql",
+      "source": "files/dslink-dart-dql.zip",
+      "target": "files/dslink-dart-dql.zip",
+      "revision": "dc6b13715b2971145ee95859446cf517b50d9342"
+    },
+    {
+      "tag": "dslink-dart-elios4you",
+      "source": "files/dslink-dart-elios4you.zip",
+      "target": "files/dslink-dart-elios4you.zip",
+      "revision": "b07730f112b4467db26f2b433aac098f45d47d1e"
+    },
+    {
+      "tag": "dslink-dart-feed",
+      "source": "files/dslink-dart-feed.zip",
+      "target": "files/dslink-dart-feed.zip",
+      "revision": "6e14f4ff53f65f56c645e0399bc11e927468d7a0"
+    },
+    {
+      "tag": "dslink-dart-file",
+      "source": "files/dslink-dart-file.zip",
+      "target": "files/dslink-dart-file.zip",
+      "revision": "c39c0348615fe3d8685d763516184bde78d731ac"
+    },
+    {
+      "tag": "dslink-dart-filesystem",
+      "source": "files/dslink-dart-filesystem.zip",
+      "target": "files/dslink-dart-filesystem.zip",
+      "revision": "15820079f2fc4d22f42adb9946a64119f458c7b7"
+    },
+    {
+      "tag": "dslink-dart-host-dgbox",
+      "source": "files/dslink-dart-host-dgbox.zip",
+      "target": "files/dslink-dart-host-dgbox.zip",
+      "revision": "40ff30a71b6184e62cba706975fa122b4e79c53b"
+    },
+    {
+      "tag": "dslink-dart-mongodb",
+      "source": "files/dslink-dart-mongodb.zip",
+      "target": "files/dslink-dart-mongodb.zip",
+      "revision": "3a67ca7cf6b72ec472bc46b3283d7a73f1be56c8"
+    },
+    {
+      "tag": "dslink-dart-rpi",
+      "source": "files/dslink-dart-rpi.zip",
+      "target": "files/dslink-dart-rpi.zip",
+      "revision": "14572600eff01390b6068d9660f9460d1aa02f2c"
+    },
+    {
+      "tag": "dslink-dart-schedule",
+      "source": "files/dslink-dart-schedule.zip",
+      "target": "files/dslink-dart-schedule.zip",
+      "revision": "921c9df3375137c11cd75f4400d1a9cf988ee3c0"
+    },
+    {
+      "tag": "dslink-dart-system",
+      "source": "files/dslink-dart-system.zip",
+      "target": "files/dslink-dart-system.zip",
+      "revision": "a7674a29de76c4443b79acb8fd78530e7f27a296"
+    },
+    {
+      "tag": "dslink-dart-weather",
+      "source": "files/dslink-dart-weather.zip",
+      "target": "files/dslink-dart-weather.zip",
+      "revision": "9cf795a23a4deaef4d517e44c872444d0fcc82cf"
+    },
+    {
+      "tag": "dslink-java-advantech",
+      "source": "files/dslink-java-advantech.zip",
+      "target": "files/dslink-java-advantech.zip",
+      "revision": "a350dbcbff3ed256c251d38cb20cedfabe9e01cf"
+    },
+    {
+      "tag": "dslink-java-bacnet",
+      "source": "files/dslink-java-bacnet.zip",
+      "target": "files/dslink-java-bacnet.zip",
+      "revision": "098105bef76fbd7de0cf41d8bad3e460f8bdf490"
+    },
+    {
+      "tag": "dslink-java-enocean",
+      "source": "files/dslink-java-enocean.zip",
+      "target": "files/dslink-java-enocean.zip",
+      "revision": "b7edc1c035c526573123ed6dedff16c41e9cd663"
+    },
+    {
+      "tag": "dslink-java-snmp",
+      "source": "files/dslink-java-snmp.zip",
+      "target": "files/dslink-java-snmp.zip",
+      "revision": "146651819d1fe1baa00c097689b865948c62d0a8"
+    },
+    {
+      "tag": "dslink-java-twitter",
+      "source": "files/dslink-java-twitter.zip",
+      "target": "files/dslink-java-twitter.zip",
+      "revision": "ea5f47233b328e5b75ed320bfbe47a8a15b3c525"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "01KY68xfhF"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "01KY68xfhF"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "01KY68xfhF"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "01KY68xfhF"
+    }
+  ],
+  "built": [
+    "DGAPI",
+    "Digital Ocean",
+    "DQL",
+    "Elios4You",
+    "RSS Feeds",
+    "Files",
+    "FileSystem",
+    "DGBox Host",
+    "MongoDB",
+    "Raspberry Pi",
+    "Schedule",
+    "System",
+    "Weather",
+    "Advantech",
+    "BACnet",
+    "Enocean",
+    "SNMP",
+    "Twitter"
+  ]
+}
