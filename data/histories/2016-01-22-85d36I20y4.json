@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-01-22 21:29:45.405",
+  "args": [
+    "--upload"
+  ],
+  "host": "ip-10-226-23-227",
+  "uuid": "85d36I20y4",
+  "uploads": [
+    {
+      "tag": "dslink-dart-BEV",
+      "source": "files/dslink-dart-BEV.zip",
+      "target": "files/dslink-dart-BEV.zip",
+      "revision": "745e0adf2ca3331f9425c51f8ac5d547f1a836ad"
+    },
+    {
+      "tag": "dslink-dart-dql",
+      "source": "files/dslink-dart-dql.zip",
+      "target": "files/dslink-dart-dql.zip",
+      "revision": "4ab91287ac92866c1f88d550c0e0adf7fe253113"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "85d36I20y4"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "85d36I20y4"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "85d36I20y4"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "85d36I20y4"
+    }
+  ],
+  "built": [
+    "Belimo-Energy-Valve",
+    "DQL"
+  ]
+}

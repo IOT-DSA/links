@@ -43,12 +43,12 @@
   "dslink-dart-digital-ocean": "060a62b48d623eb2a62f706526d4458a323d55e5",
   "dslink-dart-filesystem": "15820079f2fc4d22f42adb9946a64119f458c7b7",
   "dslink-python-grovepi": "4bce0886243782ed1d0f54fb82b6c4d6320a8944",
-  "dslink-dart-BEV": "9e7ba0ffcfc8d35d0ad018fadbb11409415de667-1",
+  "dslink-dart-BEV": "745e0adf2ca3331f9425c51f8ac5d547f1a836ad",
   "dslink-dart-rpi": "14572600eff01390b6068d9660f9460d1aa02f2c",
   "dslink-dart-schedule": "921c9df3375137c11cd75f4400d1a9cf988ee3c0",
   "dslink-dart-elios4you": "b07730f112b4467db26f2b433aac098f45d47d1e",
   "dslink-dart-kafka": "f8962c567bcd11eec7f8250ba13553bca66b146a-1",
   "dslink-dart-traccar": "0673f4725d454770a2cb28b8daf4d6c2e2f79436",
-  "dslink-dart-dql": "5616acdc09a4757f6a62b34a2150261f19d7936a",
+  "dslink-dart-dql": "4ab91287ac92866c1f88d550c0e0adf7fe253113",
   "dslink-scala-kafka": "71cccf8cccc86614e97a286521bc0e40d2c7d25b"
 }

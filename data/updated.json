@@ -1,5 +1,5 @@
 {
-  "dslink-dart-BEV": "2016-01-10 09:04:57.904",
+  "dslink-dart-BEV": "2016-01-22 21:29:11.196",
   "dslink-dart-dgapi": "2016-01-19 18:26:45.751",
   "dslink-dart-digital-ocean": "2016-01-19 18:26:55.839",
   "dslink-dart-earthquakes": "2016-01-10 09:04:59.430",
@@ -45,6 +45,6 @@
   "dslink-java-splunk": "2016-01-10 09:05:19.838",
   "dslink-java-twitter": "2016-01-19 18:29:33.136",
   "dslink-java-zwave": "2016-01-10 09:05:20.830",
-  "dslink-dart-dql": "2016-01-22 17:26:06.104",
+  "dslink-dart-dql": "2016-01-22 21:29:22.656",
   "dslink-scala-kafka": "2016-01-16 08:01:30.954"
 }
