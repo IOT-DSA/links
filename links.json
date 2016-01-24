@@ -379,8 +379,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-advantech.zip",
-    "revision": "8e33f6dedba26be93c501f7d8f01a7980a9800a9",
-    "lastUpdated": "2016-01-22 08:00:41.975"
+    "revision": "ffca70ed3d7972b257450574af9eb3afc8e1bba3",
+    "lastUpdated": "2016-01-24 08:00:58.147"
   },
   {
     "name": "dslink-java-bacnet",
