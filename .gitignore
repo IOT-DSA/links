@@ -15,4 +15,5 @@ out/
 nodes.json
 tmp/
 .DS_Store
-files/*.zip
+files/*
+!files/.gitkeep
