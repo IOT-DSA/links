@@ -48,8 +48,8 @@
     "description": "Run Queries against DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dql.zip",
-    "revision": "b7a6799837ad8c270eb5c55e161d58e63507a1df",
-    "lastUpdated": "2016-01-24 19:17:21.536"
+    "revision": "ddd95699c904c3884c2119e8619f39ed4c5f4b2d",
+    "lastUpdated": "2016-01-26 05:01:50.472"
   },
   {
     "name": "dslink-dart-earthquakes",
@@ -293,8 +293,8 @@
     "description": "REST interface for Traccar Server API",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-traccar.zip",
-    "revision": "0673f4725d454770a2cb28b8daf4d6c2e2f79436",
-    "lastUpdated": "2016-01-22 20:03:22.792"
+    "revision": "6f58f45632c9fa20756efb2ef6ee5de9bd351e4e",
+    "lastUpdated": "2016-01-26 05:02:08.521"
   },
   {
     "name": "dslink-dart-twilio",

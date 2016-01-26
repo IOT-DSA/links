@@ -20,7 +20,7 @@
   "dslink-dart-slack": "2016-01-10 09:05:07.311",
   "dslink-dart-storage": "2016-01-10 09:05:07.813",
   "dslink-dart-system": "2016-01-23 08:01:56.017",
-  "dslink-dart-traccar": "2016-01-22 20:03:22.792",
+  "dslink-dart-traccar": "2016-01-26 05:02:08.521",
   "dslink-dart-twilio": "2016-01-10 09:05:09.327",
   "dslink-dart-weather": "2016-01-19 18:28:20.261",
   "dslink-dart-webctrl": "2016-01-10 09:05:10.344",
@@ -45,6 +45,6 @@
   "dslink-java-splunk": "2016-01-10 09:05:19.838",
   "dslink-java-twitter": "2016-01-19 18:29:33.136",
   "dslink-java-zwave": "2016-01-10 09:05:20.830",
-  "dslink-dart-dql": "2016-01-24 19:17:21.536",
+  "dslink-dart-dql": "2016-01-26 05:01:50.472",
   "dslink-scala-kafka": "2016-01-16 08:01:30.954"
 }
