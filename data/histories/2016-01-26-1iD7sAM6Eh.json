@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-01-26 23:29:32.271",
+  "args": [
+    "--upload"
+  ],
+  "host": "ip-10-226-23-227",
+  "uuid": "1iD7sAM6Eh",
+  "uploads": [
+    {
+      "tag": "dslink-dart-dql",
+      "source": "files/dslink-dart-dql.zip",
+      "target": "files/dslink-dart-dql.zip",
+      "revision": "8d0662f629e4ca9278e6ae637a52b743c888306a"
+    },
+    {
+      "tag": "dslink-dart-traccar",
+      "source": "files/dslink-dart-traccar.zip",
+      "target": "files/dslink-dart-traccar.zip",
+      "revision": "258c7d5fd6398ab0a361c76e8e841cfded6d8933"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "1iD7sAM6Eh"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "1iD7sAM6Eh"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "1iD7sAM6Eh"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "1iD7sAM6Eh"
+    }
+  ],
+  "built": [
+    "DQL",
+    "Traccar"
+  ]
+}
