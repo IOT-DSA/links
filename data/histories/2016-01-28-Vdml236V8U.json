@@ -1,0 +1,227 @@
+{
+  "timestamp": "2016-01-28 22:37:13.046",
+  "args": [
+    "--upload",
+    "--force",
+    "type-Dart"
+  ],
+  "host": "ip-10-226-23-227",
+  "uuid": "Vdml236V8U",
+  "uploads": [
+    {
+      "tag": "dslink-dart-BEV",
+      "source": "files/dslink-dart-BEV.zip",
+      "target": "files/dslink-dart-BEV.zip",
+      "revision": "745e0adf2ca3331f9425c51f8ac5d547f1a836ad-1"
+    },
+    {
+      "tag": "dslink-dart-dgapi",
+      "source": "files/dslink-dart-dgapi.zip",
+      "target": "files/dslink-dart-dgapi.zip",
+      "revision": "4b4feca2d3e4f9fc9c217b75cd474f6fe544ed79-1"
+    },
+    {
+      "tag": "dslink-dart-digital-ocean",
+      "source": "files/dslink-dart-digital-ocean.zip",
+      "target": "files/dslink-dart-digital-ocean.zip",
+      "revision": "060a62b48d623eb2a62f706526d4458a323d55e5-1"
+    },
+    {
+      "tag": "dslink-dart-dql",
+      "source": "files/dslink-dart-dql.zip",
+      "target": "files/dslink-dart-dql.zip",
+      "revision": "6f68a9405633f9ee6c1ea6656ed3deb066ed082f-1"
+    },
+    {
+      "tag": "dslink-dart-earthquakes",
+      "source": "files/dslink-dart-earthquakes.zip",
+      "target": "files/dslink-dart-earthquakes.zip",
+      "revision": "852ca9ee59d8e483c104ae7e3e19c07939a4500a-3"
+    },
+    {
+      "tag": "dslink-dart-elios4you",
+      "source": "files/dslink-dart-elios4you.zip",
+      "target": "files/dslink-dart-elios4you.zip",
+      "revision": "b07730f112b4467db26f2b433aac098f45d47d1e-1"
+    },
+    {
+      "tag": "dslink-dart-feed",
+      "source": "files/dslink-dart-feed.zip",
+      "target": "files/dslink-dart-feed.zip",
+      "revision": "6e14f4ff53f65f56c645e0399bc11e927468d7a0-1"
+    },
+    {
+      "tag": "dslink-dart-file",
+      "source": "files/dslink-dart-file.zip",
+      "target": "files/dslink-dart-file.zip",
+      "revision": "c39c0348615fe3d8685d763516184bde78d731ac-1"
+    },
+    {
+      "tag": "dslink-dart-filesystem",
+      "source": "files/dslink-dart-filesystem.zip",
+      "target": "files/dslink-dart-filesystem.zip",
+      "revision": "15820079f2fc4d22f42adb9946a64119f458c7b7-1"
+    },
+    {
+      "tag": "dslink-dart-host-dgbox",
+      "source": "files/dslink-dart-host-dgbox.zip",
+      "target": "files/dslink-dart-host-dgbox.zip",
+      "revision": "40ff30a71b6184e62cba706975fa122b4e79c53b-1"
+    },
+    {
+      "tag": "dslink-dart-html5",
+      "source": "files/dslink-dart-html5.zip",
+      "target": "files/dslink-dart-html5.zip",
+      "revision": "bfe424d66e8b3958fe17887488ce3d836cca6873-3"
+    },
+    {
+      "tag": "dslink-dart-irc",
+      "source": "files/dslink-dart-irc.zip",
+      "target": "files/dslink-dart-irc.zip",
+      "revision": "c08309a4a3919202cb0e48936e200e1bcf637019-3"
+    },
+    {
+      "tag": "dslink-dart-mailer",
+      "source": "files/dslink-dart-mailer.zip",
+      "target": "files/dslink-dart-mailer.zip",
+      "revision": "5fc3b236d8bc072892bb454b6ba49e2058eb6348-3"
+    },
+    {
+      "tag": "dslink-dart-mongodb",
+      "source": "files/dslink-dart-mongodb.zip",
+      "target": "files/dslink-dart-mongodb.zip",
+      "revision": "afca137eed80d0e03c517c66c4b3cb07f83807b1-1"
+    },
+    {
+      "tag": "dslink-dart-mysql",
+      "source": "files/dslink-dart-mysql.zip",
+      "target": "files/dslink-dart-mysql.zip",
+      "revision": "677fd738d320fa68062ad522a7acd63c97c0b404-3"
+    },
+    {
+      "tag": "dslink-dart-rest",
+      "source": "files/dslink-dart-rest.zip",
+      "target": "files/dslink-dart-rest.zip",
+      "revision": "2f825a7164bf3dfc6c15a9034a7dbfac7a3f88ff-3"
+    },
+    {
+      "tag": "dslink-dart-rpi",
+      "source": "files/dslink-dart-rpi.zip",
+      "target": "files/dslink-dart-rpi.zip",
+      "revision": "14572600eff01390b6068d9660f9460d1aa02f2c-1"
+    },
+    {
+      "tag": "dslink-dart-schedule",
+      "source": "files/dslink-dart-schedule.zip",
+      "target": "files/dslink-dart-schedule.zip",
+      "revision": "921c9df3375137c11cd75f4400d1a9cf988ee3c0-1"
+    },
+    {
+      "tag": "dslink-dart-slack",
+      "source": "files/dslink-dart-slack.zip",
+      "target": "files/dslink-dart-slack.zip",
+      "revision": "425bf8b792d1095aa2b3c98c5999f5235760cc13-3"
+    },
+    {
+      "tag": "dslink-dart-storage",
+      "source": "files/dslink-dart-storage.zip",
+      "target": "files/dslink-dart-storage.zip",
+      "revision": "167862bfe995250bdeae8b85552075563d25fefa-3"
+    },
+    {
+      "tag": "dslink-dart-system",
+      "source": "files/dslink-dart-system.zip",
+      "target": "files/dslink-dart-system.zip",
+      "revision": "058a2a40fd0aa6a35d71d993eb5ddfdf82efa39e-1"
+    },
+    {
+      "tag": "dslink-dart-traccar",
+      "source": "files/dslink-dart-traccar.zip",
+      "target": "files/dslink-dart-traccar.zip",
+      "revision": "258c7d5fd6398ab0a361c76e8e841cfded6d8933-1"
+    },
+    {
+      "tag": "dslink-dart-twilio",
+      "source": "files/dslink-dart-twilio.zip",
+      "target": "files/dslink-dart-twilio.zip",
+      "revision": "7c7721aba13b75600a2bc55b39465909a6ad7f0c-3"
+    },
+    {
+      "tag": "dslink-dart-weather",
+      "source": "files/dslink-dart-weather.zip",
+      "target": "files/dslink-dart-weather.zip",
+      "revision": "9cf795a23a4deaef4d517e44c872444d0fcc82cf-1"
+    },
+    {
+      "tag": "dslink-dart-webctrl",
+      "source": "files/dslink-dart-webctrl.zip",
+      "target": "files/dslink-dart-webctrl.zip",
+      "revision": "2a909c7e602e6473949828f5a8c1e0e9c804a374-3"
+    },
+    {
+      "tag": "dslink-dart-wemo",
+      "source": "files/dslink-dart-wemo.zip",
+      "target": "files/dslink-dart-wemo.zip",
+      "revision": "bdac2ae7e7eb382b4656f4255d7afa53ef490b61-1"
+    },
+    {
+      "tag": "dslink-dart-youtube",
+      "source": "files/dslink-dart-youtube.zip",
+      "target": "files/dslink-dart-youtube.zip",
+      "revision": "d05a06950cfe672ee79203080a6800b7c9ef0865-3"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "Vdml236V8U"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "Vdml236V8U"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "Vdml236V8U"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "Vdml236V8U"
+    }
+  ],
+  "built": [
+    "Belimo-Energy-Valve",
+    "DGAPI",
+    "Digital Ocean",
+    "DQL",
+    "Earthquakes",
+    "Elios4You",
+    "RSS Feeds",
+    "Files",
+    "FileSystem",
+    "DGBox Host",
+    "HTML5",
+    "IRC",
+    "Email",
+    "MongoDB",
+    "MySQL",
+    "REST Server",
+    "Raspberry Pi",
+    "Schedule",
+    "Slack",
+    "Storage",
+    "System",
+    "Traccar",
+    "Twilio",
+    "Weather",
+    "WebCtrl",
+    "WeMo",
+    "YouTube"
+  ]
+}
