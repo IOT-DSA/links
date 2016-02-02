@@ -45,10 +45,10 @@
   "dslink-python-grovepi": "4bce0886243782ed1d0f54fb82b6c4d6320a8944",
   "dslink-dart-BEV": "745e0adf2ca3331f9425c51f8ac5d547f1a836ad-1",
   "dslink-dart-rpi": "14572600eff01390b6068d9660f9460d1aa02f2c-1",
-  "dslink-dart-schedule": "921c9df3375137c11cd75f4400d1a9cf988ee3c0-1",
+  "dslink-dart-schedule": "2e86f210aa3f439688acfa4966610ee2ff5642e2",
   "dslink-dart-elios4you": "b07730f112b4467db26f2b433aac098f45d47d1e-1",
   "dslink-dart-kafka": "f8962c567bcd11eec7f8250ba13553bca66b146a-1",
   "dslink-dart-traccar": "258c7d5fd6398ab0a361c76e8e841cfded6d8933-1",
-  "dslink-dart-dql": "50e656fdf229a57e1c8c5cd549ed04918309fa4a",
+  "dslink-dart-dql": "df2b60d579149104bf2f41009f2ca758eeed1308",
   "dslink-scala-kafka": "71cccf8cccc86614e97a286521bc0e40d2c7d25b"
 }

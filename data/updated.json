@@ -16,7 +16,7 @@
   "dslink-dart-mysql": "2016-01-28 22:35:05.024",
   "dslink-dart-rest": "2016-01-28 22:35:15.804",
   "dslink-dart-rpi": "2016-01-28 22:35:21.865",
-  "dslink-dart-schedule": "2016-01-28 22:35:29.033",
+  "dslink-dart-schedule": "2016-02-02 17:25:49.580",
   "dslink-dart-slack": "2016-01-28 22:35:40.359",
   "dslink-dart-storage": "2016-01-28 22:35:50.217",
   "dslink-dart-system": "2016-01-28 22:36:04.657",
@@ -45,6 +45,6 @@
   "dslink-java-splunk": "2016-01-10 09:05:19.838",
   "dslink-java-twitter": "2016-01-19 18:29:33.136",
   "dslink-java-zwave": "2016-01-10 09:05:20.830",
-  "dslink-dart-dql": "2016-02-02 03:06:27.268",
+  "dslink-dart-dql": "2016-02-02 17:25:31.288",
   "dslink-scala-kafka": "2016-01-16 08:01:30.954"
 }

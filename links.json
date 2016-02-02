@@ -48,8 +48,8 @@
     "description": "Run Queries against DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dql.zip",
-    "revision": "50e656fdf229a57e1c8c5cd549ed04918309fa4a",
-    "lastUpdated": "2016-02-02 03:06:27.268"
+    "revision": "df2b60d579149104bf2f41009f2ca758eeed1308",
+    "lastUpdated": "2016-02-02 17:25:31.288"
   },
   {
     "name": "dslink-dart-earthquakes",
@@ -240,8 +240,8 @@
     "description": "Create and Manage Value Schedules",
     "category": "Scheduling",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-schedule.zip",
-    "revision": "921c9df3375137c11cd75f4400d1a9cf988ee3c0-1",
-    "lastUpdated": "2016-01-28 22:35:29.033"
+    "revision": "2e86f210aa3f439688acfa4966610ee2ff5642e2",
+    "lastUpdated": "2016-02-02 17:25:49.580"
   },
   {
     "name": "dslink-dart-slack",
