@@ -1,0 +1,9 @@
+{
+  "timestamp": "2016-02-02 22:51:31.552460",
+  "buildId": "RRFSJ633dw",
+  "failureId": "C8ngMF26sR382oa6t0c6yQ95F10578FVpr9I09u82327AudcJ5",
+  "args": [
+    "--upload"
+  ],
+  "message": "S3 Upload: ProcessException: No such file or directory\n  Command: aws s3 cp --acl public-read data/history.json s3://dsa/links/history.json"
+}
