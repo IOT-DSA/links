@@ -1,0 +1,44 @@
+{
+  "timestamp": "2016-02-05 17:11:24.505512",
+  "args": [
+    "--upload",
+    "force:dslink-java-etsdb"
+  ],
+  "host": "sparky",
+  "uuid": "O552BG5kVC",
+  "uploads": [
+    {
+      "tag": "dslink-java-etsdb",
+      "source": "files/dslink-java-etsdb.zip",
+      "target": "files/dslink-java-etsdb.zip",
+      "revision": "9c2fdf71d72ebd496047ea6e798c9c7d474cc036-1"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "O552BG5kVC"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "O552BG5kVC"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "O552BG5kVC"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "O552BG5kVC"
+    }
+  ],
+  "built": [
+    "ETSDB"
+  ]
+}
