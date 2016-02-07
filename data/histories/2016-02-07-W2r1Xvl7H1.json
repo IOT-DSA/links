@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-02-07 03:01:01.549891",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "W2r1Xvl7H1",
+  "uploads": [
+    {
+      "tag": "dslink-java-advantech",
+      "source": "files/dslink-java-advantech.zip",
+      "target": "files/dslink-java-advantech.zip",
+      "revision": "bf4f4cc0ea372cd309f30f3bc10867da65a66957"
+    },
+    {
+      "tag": "dslink-java-opc",
+      "source": "files/dslink-java-opc.zip",
+      "target": "files/dslink-java-opc.zip",
+      "revision": "33911777f420e54518252a12019fb21394fd8888"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "W2r1Xvl7H1"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "W2r1Xvl7H1"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "W2r1Xvl7H1"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "W2r1Xvl7H1"
+    }
+  ],
+  "built": [
+    "Advantech",
+    "OPC"
+  ]
+}

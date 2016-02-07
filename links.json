@@ -379,8 +379,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-advantech.zip",
-    "revision": "ffca70ed3d7972b257450574af9eb3afc8e1bba3",
-    "lastUpdated": "2016-01-24 08:00:58.147"
+    "revision": "bf4f4cc0ea372cd309f30f3bc10867da65a66957",
+    "lastUpdated": "2016-02-07 03:00:44.932305"
   },
   {
     "name": "dslink-java-bacnet",
@@ -599,8 +599,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-opc.zip",
-    "revision": "b6a7f3e0af5a302ac39c543f7c703042d243a533-1",
-    "lastUpdated": "2016-01-10 09:05:17.348"
+    "revision": "33911777f420e54518252a12019fb21394fd8888",
+    "lastUpdated": "2016-02-07 03:00:58.566890"
   },
   {
     "name": "dslink-java-relayr",
