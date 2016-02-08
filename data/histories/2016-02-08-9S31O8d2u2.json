@@ -1,0 +1,169 @@
+{
+  "timestamp": "2016-02-08 17:18:19.737325",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "9S31O8d2u2",
+  "uploads": [
+    {
+      "tag": "dslink-java-advantech",
+      "source": "files/dslink-java-advantech.zip",
+      "target": "files/dslink-java-advantech.zip",
+      "revision": "fcb5ab4432d54c253ace3549b01d3599408153e7"
+    },
+    {
+      "tag": "dslink-java-bacnet",
+      "source": "files/dslink-java-bacnet.zip",
+      "target": "files/dslink-java-bacnet.zip",
+      "revision": "bb5c0bef2e878c2a86abc7f94c1f1e7ef140f67b"
+    },
+    {
+      "tag": "dslink-java-bitpool",
+      "source": "files/dslink-java-bitpool.zip",
+      "target": "files/dslink-java-bitpool.zip",
+      "revision": "e8eade944f88cb190bc519244b250d2f384e5424"
+    },
+    {
+      "tag": "dslink-java-enocean",
+      "source": "files/dslink-java-enocean.zip",
+      "target": "files/dslink-java-enocean.zip",
+      "revision": "980b053eee0366c6f22512cda49fd2ffe3fb702e"
+    },
+    {
+      "tag": "dslink-java-etsdb",
+      "source": "files/dslink-java-etsdb.zip",
+      "target": "files/dslink-java-etsdb.zip",
+      "revision": "7d5f620a63a7a6facc87a3c330ae78e704c00923"
+    },
+    {
+      "tag": "dslink-java-googleplus",
+      "source": "files/dslink-java-googleplus.zip",
+      "target": "files/dslink-java-googleplus.zip",
+      "revision": "7ff0781e58fd597537ffd67910084159b6c64595"
+    },
+    {
+      "tag": "dslink-java-haystack",
+      "source": "files/dslink-java-haystack.zip",
+      "target": "files/dslink-java-haystack.zip",
+      "revision": "ad9eb8411fc084e0d3f3a15c5d576e3fa10d1d40"
+    },
+    {
+      "tag": "dslink-java-jdbc",
+      "source": "files/dslink-java-jdbc.zip",
+      "target": "files/dslink-java-jdbc.zip",
+      "revision": "b3aa390f6bc2e9497a67d8cb9a7da5f0766ec41d"
+    },
+    {
+      "tag": "dslink-java-mango",
+      "source": "files/dslink-java-mango.zip",
+      "target": "files/dslink-java-mango.zip",
+      "revision": "b1620041c040598ac2779909187c88bac10c872b"
+    },
+    {
+      "tag": "dslink-java-modbus",
+      "source": "files/dslink-java-modbus.zip",
+      "target": "files/dslink-java-modbus.zip",
+      "revision": "57b50cb13fd4f2742951a6fdd61f38414eb782fd"
+    },
+    {
+      "tag": "dslink-java-mqtt",
+      "source": "files/dslink-java-mqtt.zip",
+      "target": "files/dslink-java-mqtt.zip",
+      "revision": "60fa11eed1f49fde9453b6427933598c869c006d"
+    },
+    {
+      "tag": "dslink-java-opc",
+      "source": "files/dslink-java-opc.zip",
+      "target": "files/dslink-java-opc.zip",
+      "revision": "eba0bee8f40c7908f7f5c31e24634e6afdf9bc3d"
+    },
+    {
+      "tag": "dslink-java-relayr",
+      "source": "files/dslink-java-relayr.zip",
+      "target": "files/dslink-java-relayr.zip",
+      "revision": "f8fcf5f39e107ff57b726eb8b1c05b123c18c4ce"
+    },
+    {
+      "tag": "dslink-java-rethinkdb",
+      "source": "files/dslink-java-rethinkdb.zip",
+      "target": "files/dslink-java-rethinkdb.zip",
+      "revision": "8781edd3416afea6f0445b777ecebbeb139544d6"
+    },
+    {
+      "tag": "dslink-java-sedona",
+      "source": "files/dslink-java-sedona.zip",
+      "target": "files/dslink-java-sedona.zip",
+      "revision": "be3a551e31828d5c47fda82c26c809baa3fbef2e"
+    },
+    {
+      "tag": "dslink-java-snmp",
+      "source": "files/dslink-java-snmp.zip",
+      "target": "files/dslink-java-snmp.zip",
+      "revision": "71d2989ec46a0c43f9b909e0f0dac0dbcc741935"
+    },
+    {
+      "tag": "dslink-java-splunk",
+      "source": "files/dslink-java-splunk.zip",
+      "target": "files/dslink-java-splunk.zip",
+      "revision": "922f63ca1d14ed241935131adca9dd8b0ebed2b5"
+    },
+    {
+      "tag": "dslink-java-twitter",
+      "source": "files/dslink-java-twitter.zip",
+      "target": "files/dslink-java-twitter.zip",
+      "revision": "bed1251dd36b96673d969af3e7ea46b667e8ae8b"
+    },
+    {
+      "tag": "dslink-java-zwave",
+      "source": "files/dslink-java-zwave.zip",
+      "target": "files/dslink-java-zwave.zip",
+      "revision": "3941b894f58df3a95bff8bde3057e33a64442273"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "9S31O8d2u2"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "9S31O8d2u2"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "9S31O8d2u2"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "9S31O8d2u2"
+    }
+  ],
+  "built": [
+    "Advantech",
+    "BACnet",
+    "Bitpool",
+    "Enocean",
+    "ETSDB",
+    "Google Plus",
+    "Haystack",
+    "JDBC",
+    "Mango",
+    "Modbus",
+    "MQTT",
+    "OPC",
+    "Relayr",
+    "RethinkDB",
+    "Sedona",
+    "SNMP",
+    "Splunk",
+    "Twitter",
+    "ZWave"
+  ]
+}
