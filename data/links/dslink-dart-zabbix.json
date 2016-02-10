@@ -1,0 +1,10 @@
+{
+  "name": "dslink-dart-zabbix",
+  "displayName": "Zabbix",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-zabbix.git"
+  },
+  "description": "REST interface for Zabbix Server API",
+  "category": "Data Acquisition"
+}
