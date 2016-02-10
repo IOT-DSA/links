@@ -363,6 +363,19 @@
     "lastUpdated": "2016-01-28 22:37:13.046"
   },
   {
+    "name": "dslink-dart-zabbix",
+    "displayName": "Zabbix",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-zabbix.git"
+    },
+    "description": "REST interface for Zabbix Server API",
+    "category": "Data Acquisition",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-zabbix.zip",
+    "revision": "092025aabbe5a631b4265d06cfa537f2ebb279ee",
+    "lastUpdated": "2016-02-10 14:02:03.948317"
+  },
+  {
     "name": "dslink-java-advantech",
     "displayName": "Advantech",
     "type": "Java",
