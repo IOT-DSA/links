@@ -280,8 +280,8 @@
     "description": "Get Live Statistics about a Machine",
     "category": "System",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-system.zip",
-    "revision": "c2984c656584a47c7b95aae3a5bf4d0f0739d702",
-    "lastUpdated": "2016-02-08 20:06:32.446338"
+    "revision": "13cc89e774fc860eda81ae865dacc5307b68d6e4",
+    "lastUpdated": "2016-02-15 00:00:43.074257"
   },
   {
     "name": "dslink-dart-traccar",
