@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-02-18 00:00:53.635053",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "3ypeQW16fW",
+  "uploads": [
+    {
+      "tag": "dslink-dart-rest",
+      "source": "files/dslink-dart-rest.zip",
+      "target": "files/dslink-dart-rest.zip",
+      "revision": "a06e13a342671cda6a0e2940dddf18837f357f36"
+    },
+    {
+      "tag": "dslink-java-advantech",
+      "source": "files/dslink-java-advantech.zip",
+      "target": "files/dslink-java-advantech.zip",
+      "revision": "5565967972ffd59c03c4d3e6507967f46fea0310"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "3ypeQW16fW"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "3ypeQW16fW"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "3ypeQW16fW"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "3ypeQW16fW"
+    }
+  ],
+  "built": [
+    "REST Server",
+    "Advantech"
+  ]
+}
