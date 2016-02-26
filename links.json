@@ -119,8 +119,8 @@
     "description": "Interact with the FileSystem via DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-filesystem.zip",
-    "revision": "f1394a742c16b79116505927083ab7f81231bfa3-1",
-    "lastUpdated": "2016-02-15 10:35:38.678310"
+    "revision": "10a5b7695e88f4c43982b337567fa753473e563d",
+    "lastUpdated": "2016-02-25 17:02:00.246506"
   },
   {
     "name": "dslink-dart-host-dgbox",
@@ -320,8 +320,8 @@
     "description": "Get Weather Data",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-weather.zip",
-    "revision": "9cf795a23a4deaef4d517e44c872444d0fcc82cf-2",
-    "lastUpdated": "2016-02-15 10:38:29.928588"
+    "revision": "3c276651cfb8f959aaeec0afff3a0359dfaa5698",
+    "lastUpdated": "2016-02-25 17:02:15.840812"
   },
   {
     "name": "dslink-dart-webctrl",

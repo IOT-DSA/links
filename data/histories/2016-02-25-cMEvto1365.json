@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-02-25 17:02:24.843897",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "cMEvto1365",
+  "uploads": [
+    {
+      "tag": "dslink-dart-filesystem",
+      "source": "files/dslink-dart-filesystem.zip",
+      "target": "files/dslink-dart-filesystem.zip",
+      "revision": "10a5b7695e88f4c43982b337567fa753473e563d"
+    },
+    {
+      "tag": "dslink-dart-weather",
+      "source": "files/dslink-dart-weather.zip",
+      "target": "files/dslink-dart-weather.zip",
+      "revision": "3c276651cfb8f959aaeec0afff3a0359dfaa5698"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "cMEvto1365"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "cMEvto1365"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "cMEvto1365"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "cMEvto1365"
+    }
+  ],
+  "built": [
+    "FileSystem",
+    "Weather"
+  ]
+}
