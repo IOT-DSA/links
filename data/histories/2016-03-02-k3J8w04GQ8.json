@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-03-02 08:41:25.030679",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "k3J8w04GQ8",
+  "uploads": [
+    {
+      "tag": "dslink-scala-kafka",
+      "source": "files/dslink-scala-kafka.zip",
+      "target": "files/dslink-scala-kafka.zip",
+      "revision": "328bbc9ddb703f545f123acb1c05512cecfd120a"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "k3J8w04GQ8"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "k3J8w04GQ8"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "k3J8w04GQ8"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "k3J8w04GQ8"
+    }
+  ],
+  "built": [
+    "Kafka"
+  ]
+}
