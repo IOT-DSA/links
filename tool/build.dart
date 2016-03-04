@@ -26,7 +26,10 @@ _main(List<String> argv) async {
   Map<String, dynamic> config = await readJsonFile("data/config.json");
   List<Map<String, dynamic>> links = await buildLinksList();
   Map<String, String> revs = await readJsonFile("data/revs.json");
-  Map<String, String> lastUpdateTimes = await readJsonFile("data/updated.json", {});
+  Map<String, String> lastUpdateTimes = await readJsonFile(
+    "data/updated.json",
+    {}
+  );
   List<String> histories = await readJsonFile("data/history.json", []);
 
   uuid = await generateStrongToken(length: 10);
@@ -55,7 +58,9 @@ _main(List<String> argv) async {
 
   String triggeredBy = Platform.environment["TEAMCITY_TRIGGER"];
 
-  if (triggeredBy != null && triggeredBy.isNotEmpty && triggeredBy != "%teamcity.build.triggeredBy.username%") {
+  if (triggeredBy != null &&
+    triggeredBy.isNotEmpty &&
+    triggeredBy != "%teamcity.build.triggeredBy.username%") {
     await sendSlackMessage("*Build Started (by ${triggeredBy})*");
   } else {
     await sendSlackMessage("*Build Started*");
@@ -154,7 +159,12 @@ _main(List<String> argv) async {
 
     if (argv.contains("--upload-all")) {
       String currentRev = revs[rname];
-      upload = new FileUpload(rname, "files/${zipName}", "files/${zipName}", revision: currentRev);
+      upload = new FileUpload(
+        rname,
+        "files/${zipName}",
+        "files/${zipName}",
+        revision: currentRev
+      );
     }
 
     bool forceBuild = doForceBuild.contains(rname);
@@ -241,9 +251,16 @@ _main(List<String> argv) async {
     var cbs = new File("tool/build.sh");
 
     if (await cbs.exists() && automated["ignoreBuildScript"] != true) {
-      var result = await exec("bash", args: [cbs.path], writeToBuffer: true);
+      var result = await exec(
+        "bash",
+        args: [cbs.path],
+        writeToBuffer: true
+      );
       if (result.exitCode != 0) {
-        await fail("DSLink ${name}: Failed to run custom build script.\n${result.output}");
+        await fail(
+          "DSLink ${name}: Failed to run"
+            " custom build script.\n${result.output}"
+        );
       }
     } else if (linkType == "Dart") {
       var pur = await exec("pub", args: ["upgrade"], writeToBuffer: true);
@@ -307,7 +324,10 @@ _main(List<String> argv) async {
 
       await file.copy("../../files/${rname}.zip");
     } else {
-      await fail("DSLink ${name}: Failed to determine the automated build configuration.");
+      await fail(
+        "DSLink ${name}: Failed to determine"
+          " the automated build configuration."
+      );
     }
 
     upload = new FileUpload(
