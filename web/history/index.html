@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
-    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.1.1/material.indigo-pink.min.css">
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.1.1/material.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -27,14 +27,15 @@
     <div class="mdl-layout-spacer"></div>
   </body>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
   <script>
+    var limit = 50;
     var out = [];
     var count = 0;
     var allCount = 0;
 
     function cb() {
-      if (count === allCount) {
+      if (count === allCount || count == limit) {
         out.sort(function (a, b) {
           var w = Date.parse(a.timestamp);
           var x = Date.parse(b.timestamp);
@@ -44,18 +45,23 @@
         for (var i in out) {
           var b = out[i];
           var builtLinks = b.built.join('<br/>');
+          var argString =  b.args.filter(function (e) {
+            return e != "--upload";
+          }).join(", ");
 
           if (builtLinks.length == 0) {
             builtLinks = "No Links Changed";
+          }
+
+          if (argString.length == 0) {
+            argString = "No Flags";
           }
 
           $("#table").append(
               '<tr>' +
               '<td class="mdl-data-table__cell--non-numeric">' + b.timestamp + '</td>' +
               '<td class="mdl-data-table__cell--non-numeric">' + b.uuid + '</td>' +
-              '<td class="mdl-data-table__cell--non-numeric">' + b.args.filter(function (e) {
-                return e != "--upload";
-              }).join(", ") + '</td>' +
+              '<td class="mdl-data-table__cell--non-numeric">' + argString + '</td>' +
               '<td class="mdl-data-table__cell--non-numeric">' + builtLinks + '</td>' +
               '</tr>'
           );
@@ -66,11 +72,12 @@
     $.getJSON("../../data/history.json", function (json) {
       allCount = json.length;
       for (var i in json) {
-        var id = json[i];
-
-        if ((i - 1) == 50) {
+        if (i == limit) {
+          cb();
           break;
         }
+
+        var id = json[i];
 
         $.getJSON("../../data/histories/" + id + ".json", function (j) {
           out.push(j);
