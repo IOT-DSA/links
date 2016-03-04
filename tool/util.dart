@@ -608,11 +608,10 @@ sendSlackMessage(String message) async {
     var bytes = await response.fold([], (List a, List b) {
       return a..addAll(b);
     });
+
     var result = const JsonDecoder().convert(
       const Utf8Decoder().convert(bytes)
     );
-
-    print(result);
 
     if (response.statusCode != 200) {
       throw new Exception("Status Code: ${response.statusCode}\nResult: ${result}");
