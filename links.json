@@ -48,8 +48,8 @@
     "description": "Run Queries against DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dql.zip",
-    "revision": "71ff6c51cf1e48bc8c1cbbdc065fd5aa744a79b8",
-    "lastUpdated": "2016-03-04 22:31:48.737678"
+    "revision": "869d1f3d82d2d3c97b52cfdebd5c6021d01fff80",
+    "lastUpdated": "2016-03-05 11:36:43.262558"
   },
   {
     "name": "dslink-dart-earthquakes",
