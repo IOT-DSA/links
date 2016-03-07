@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-03-07 15:52:19.896136",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "94489Uz58J",
+  "uploads": [
+    {
+      "tag": "dslink-dart-dql",
+      "source": "files/dslink-dart-dql.zip",
+      "target": "files/dslink-dart-dql.zip",
+      "revision": "2e59ffc8278ba53aef8965eb0aa188486f9bf20b"
+    },
+    {
+      "tag": "dslink-dart-wemo",
+      "source": "files/dslink-dart-wemo.zip",
+      "target": "files/dslink-dart-wemo.zip",
+      "revision": "e049211a30986b737f26719b877d4a6becb038de"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "94489Uz58J"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "94489Uz58J"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "94489Uz58J"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "94489Uz58J"
+    }
+  ],
+  "built": [
+    "DQL",
+    "WeMo"
+  ]
+}

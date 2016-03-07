@@ -23,7 +23,7 @@
   "dslink-dart-earthquakes": "852ca9ee59d8e483c104ae7e3e19c07939a4500a-4",
   "dslink-dart-host": "1d7500a1f259143d190b92118b697b6cc791913f",
   "dslink-java-splunk": "ebef663456db6788989a70a3c323e9482453d91e",
-  "dslink-dart-wemo": "bdac2ae7e7eb382b4656f4255d7afa53ef490b61-2",
+  "dslink-dart-wemo": "e049211a30986b737f26719b877d4a6becb038de",
   "dslink-java-enocean": "72177c9ec9eae990c2d29a21337d055865c0d54e",
   "dslink-dart-system": "0a89dd8390155a4dcb391484aac0f0bc456313b7",
   "dslink-dart-weather": "3c276651cfb8f959aaeec0afff3a0359dfaa5698",
@@ -49,7 +49,7 @@
   "dslink-dart-elios4you": "b07730f112b4467db26f2b433aac098f45d47d1e-2",
   "dslink-dart-kafka": "f8962c567bcd11eec7f8250ba13553bca66b146a-1",
   "dslink-dart-traccar": "258c7d5fd6398ab0a361c76e8e841cfded6d8933-2",
-  "dslink-dart-dql": "1861a2a07142906807c80a755fd361d2900af02d",
+  "dslink-dart-dql": "2e59ffc8278ba53aef8965eb0aa188486f9bf20b",
   "dslink-scala-kafka": "328bbc9ddb703f545f123acb1c05512cecfd120a",
   "dslink-dart-zabbix": "092025aabbe5a631b4265d06cfa537f2ebb279ee-1"
 }

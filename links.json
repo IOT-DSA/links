@@ -48,8 +48,8 @@
     "description": "Run Queries against DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dql.zip",
-    "revision": "1861a2a07142906807c80a755fd361d2900af02d",
-    "lastUpdated": "2016-03-06 18:00:53.325427"
+    "revision": "2e59ffc8278ba53aef8965eb0aa188486f9bf20b",
+    "lastUpdated": "2016-03-07 15:51:55.483844"
   },
   {
     "name": "dslink-dart-earthquakes",
@@ -346,8 +346,8 @@
     "description": "Interact with WeMo Devices",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-wemo.zip",
-    "revision": "bdac2ae7e7eb382b4656f4255d7afa53ef490b61-2",
-    "lastUpdated": "2016-02-15 10:38:49.957018"
+    "revision": "e049211a30986b737f26719b877d4a6becb038de",
+    "lastUpdated": "2016-03-07 15:52:12.754345"
   },
   {
     "name": "dslink-dart-youtube",
