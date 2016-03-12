@@ -48,8 +48,8 @@
     "description": "Run Queries against DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dql.zip",
-    "revision": "54a92f0b1ce16f0865df0b529a0a6a57f183c2b0",
-    "lastUpdated": "2016-03-11 20:03:07.543385"
+    "revision": "c97837f4ad67ba4e94e4268355a07aeea1c9eb0a",
+    "lastUpdated": "2016-03-11 20:32:30.846394"
   },
   {
     "name": "dslink-dart-earthquakes",
@@ -187,8 +187,8 @@
     "description": "Access MongoDB through DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-mongodb.zip",
-    "revision": "111864ad0e7154d092deb6bc0ea28d520cf9b16c",
-    "lastUpdated": "2016-03-11 20:15:08.014395"
+    "revision": "b921c283af03d1e131e8e828ec96dc74340b34f6",
+    "lastUpdated": "2016-03-11 20:32:44.066954"
   },
   {
     "name": "dslink-dart-mysql",

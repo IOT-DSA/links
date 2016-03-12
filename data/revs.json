@@ -4,7 +4,7 @@
   "dslink-dart-mailer": "5fc3b236d8bc072892bb454b6ba49e2058eb6348-4",
   "dslink-dart-twilio": "7c7721aba13b75600a2bc55b39465909a6ad7f0c-4",
   "dslink-dart-storage": "167862bfe995250bdeae8b85552075563d25fefa-4",
-  "dslink-dart-mongodb": "111864ad0e7154d092deb6bc0ea28d520cf9b16c",
+  "dslink-dart-mongodb": "b921c283af03d1e131e8e828ec96dc74340b34f6",
   "dslink-dart-dgapi": "4b4feca2d3e4f9fc9c217b75cd474f6fe544ed79-2",
   "dslink-dart-webctrl": "2a909c7e602e6473949828f5a8c1e0e9c804a374-4",
   "dslink-java-mqtt": "bafc58abf5fcea618bef5b22406c614c31e2dccf",
@@ -49,7 +49,7 @@
   "dslink-dart-elios4you": "b07730f112b4467db26f2b433aac098f45d47d1e-2",
   "dslink-dart-kafka": "f8962c567bcd11eec7f8250ba13553bca66b146a-1",
   "dslink-dart-traccar": "258c7d5fd6398ab0a361c76e8e841cfded6d8933-2",
-  "dslink-dart-dql": "54a92f0b1ce16f0865df0b529a0a6a57f183c2b0",
+  "dslink-dart-dql": "c97837f4ad67ba4e94e4268355a07aeea1c9eb0a",
   "dslink-scala-kafka": "328bbc9ddb703f545f123acb1c05512cecfd120a",
   "dslink-dart-zabbix": "092025aabbe5a631b4265d06cfa537f2ebb279ee-1"
 }
