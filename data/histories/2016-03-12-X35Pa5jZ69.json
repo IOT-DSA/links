@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-03-12 11:21:21.145770",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "X35Pa5jZ69",
+  "uploads": [
+    {
+      "tag": "dslink-dart-filesystem",
+      "source": "files/dslink-dart-filesystem.zip",
+      "target": "files/dslink-dart-filesystem.zip",
+      "revision": "47293cc030475868f1bf0e73762d244b0f78bc53"
+    },
+    {
+      "tag": "dslink-dart-mongodb",
+      "source": "files/dslink-dart-mongodb.zip",
+      "target": "files/dslink-dart-mongodb.zip",
+      "revision": "9a7adb1737001ebd65e0a3d6bf768808a6793ab3"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "X35Pa5jZ69"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "X35Pa5jZ69"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "X35Pa5jZ69"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "X35Pa5jZ69"
+    }
+  ],
+  "built": [
+    "FileSystem",
+    "MongoDB"
+  ]
+}
