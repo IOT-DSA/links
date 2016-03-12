@@ -308,7 +308,8 @@ _main(List<String> argv) async {
         "--refresh-dependencies"
       ], writeToBuffer: true);
       if (pur.exitCode != 0) {
-        await fail("DSLink ${name}: Failed to build the DSLink.\n${pur.output}");
+        await fail(
+          "DSLink ${name}: Failed to build the DSLink.\n${pur.output}");
       }
       var dir = new Directory("build/distributions");
       if (!(await dir.exists())) {
@@ -323,6 +324,8 @@ _main(List<String> argv) async {
       }
 
       await file.copy("../../files/${rname}.zip");
+    } else if (linkType == "JavaScript") {
+      await makeZipFile("../../files/${rname}.zip");
     } else {
       await fail(
         "DSLink ${name}: Failed to determine"
