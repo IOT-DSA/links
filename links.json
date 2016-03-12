@@ -48,8 +48,8 @@
     "description": "Run Queries against DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dql.zip",
-    "revision": "2ca03f9aa3d13d07099ab458660dfe11c233ccaf",
-    "lastUpdated": "2016-03-11 16:39:58.451753"
+    "revision": "aa2e69878ec84f131379b7e60a34b2a97dc5dffa",
+    "lastUpdated": "2016-03-11 18:20:08.242053"
   },
   {
     "name": "dslink-dart-earthquakes",
@@ -214,8 +214,8 @@
     "description": "Use a REST API to manipulate custom nodes",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-rest.zip",
-    "revision": "a06e13a342671cda6a0e2940dddf18837f357f36",
-    "lastUpdated": "2016-02-18 00:00:25.105849"
+    "revision": "2f4248a4c123f64b6e1dbeef927141e550f9e07a",
+    "lastUpdated": "2016-03-11 18:20:21.435142"
   },
   {
     "name": "dslink-dart-rpi",
