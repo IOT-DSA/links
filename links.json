@@ -48,8 +48,8 @@
     "description": "Run Queries against DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dql.zip",
-    "revision": "aa2e69878ec84f131379b7e60a34b2a97dc5dffa",
-    "lastUpdated": "2016-03-11 18:20:08.242053"
+    "revision": "54a92f0b1ce16f0865df0b529a0a6a57f183c2b0",
+    "lastUpdated": "2016-03-11 20:03:07.543385"
   },
   {
     "name": "dslink-dart-earthquakes",
@@ -119,8 +119,8 @@
     "description": "Interact with the FileSystem via DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-filesystem.zip",
-    "revision": "7f48c86e2c59daad8c7bbf20d6833ffccf10e0ec",
-    "lastUpdated": "2016-03-11 19:40:06.849623"
+    "revision": "09ace2a00cf456706e5a3600734a76ba56c7f439",
+    "lastUpdated": "2016-03-11 20:03:17.935916"
   },
   {
     "name": "dslink-dart-host-dgbox",
