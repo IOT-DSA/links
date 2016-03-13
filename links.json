@@ -227,8 +227,8 @@
     "description": "Control Raspberry Pi GPIO",
     "category": "System",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-rpi.zip",
-    "revision": "14572600eff01390b6068d9660f9460d1aa02f2c-2",
-    "lastUpdated": "2016-02-15 10:37:27.725486"
+    "revision": "5a84b2c698f04ff80686351e09733e358aab4093",
+    "lastUpdated": "2016-03-12 22:19:57.947624"
   },
   {
     "name": "dslink-dart-schedule",
