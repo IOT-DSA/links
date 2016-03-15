@@ -214,8 +214,8 @@
     "description": "Use a REST API to manipulate custom nodes",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-rest.zip",
-    "revision": "6580c4ae828f371deba28e809cd61df09937a58e",
-    "lastUpdated": "2016-03-15 13:58:42.510553"
+    "revision": "8528282011c1ffe356cfe27019b2e1af5f937bfd",
+    "lastUpdated": "2016-03-15 14:09:11.011533"
   },
   {
     "name": "dslink-dart-rpi",
