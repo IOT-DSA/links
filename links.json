@@ -765,7 +765,7 @@
     "description": "Interact with Kafka",
     "category": "Messaging",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-scala-kafka.zip",
-    "revision": "328bbc9ddb703f545f123acb1c05512cecfd120a",
-    "lastUpdated": "2016-03-02 08:41:25.028934"
+    "revision": "8b3ffe8a2a64ecb7bf9362dc4ee492715b58a9d7",
+    "lastUpdated": "2016-03-21 00:01:11.588109"
   }
 ]
