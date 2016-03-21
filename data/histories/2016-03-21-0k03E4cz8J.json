@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-03-21 10:47:15.203419",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "0k03E4cz8J",
+  "uploads": [
+    {
+      "tag": "dslink-dart-dql",
+      "source": "files/dslink-dart-dql.zip",
+      "target": "files/dslink-dart-dql.zip",
+      "revision": "6c2091bf2a58d4d5dbef6c982d1e7bc313d5fc13"
+    },
+    {
+      "tag": "dslink-scala-kafka",
+      "source": "files/dslink-scala-kafka.zip",
+      "target": "files/dslink-scala-kafka.zip",
+      "revision": "31a0f0b8bfdc252d6a4d70b786547998956845cc"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "0k03E4cz8J"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "0k03E4cz8J"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "0k03E4cz8J"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "0k03E4cz8J"
+    }
+  ],
+  "built": [
+    "DQL",
+    "Kafka"
+  ]
+}

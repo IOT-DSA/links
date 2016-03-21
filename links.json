@@ -48,8 +48,8 @@
     "description": "Run Queries against DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dql.zip",
-    "revision": "03cdc75a51d0bc8463112115c00458d85bb49807",
-    "lastUpdated": "2016-03-14 21:27:41.182673"
+    "revision": "6c2091bf2a58d4d5dbef6c982d1e7bc313d5fc13",
+    "lastUpdated": "2016-03-21 10:46:28.896367"
   },
   {
     "name": "dslink-dart-earthquakes",
@@ -765,7 +765,7 @@
     "description": "Interact with Kafka",
     "category": "Messaging",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-scala-kafka.zip",
-    "revision": "8b3ffe8a2a64ecb7bf9362dc4ee492715b58a9d7",
-    "lastUpdated": "2016-03-21 00:01:11.588109"
+    "revision": "31a0f0b8bfdc252d6a4d70b786547998956845cc",
+    "lastUpdated": "2016-03-21 10:47:15.203194"
   }
 ]
