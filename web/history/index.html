@@ -70,6 +70,7 @@
     }
 
     $.getJSON("../../data/history.json", function (json) {
+      json.reverse();
       allCount = json.length;
       for (var i in json) {
         if (i == limit) {
