@@ -28,7 +28,7 @@
   "dslink-dart-system": "0a89dd8390155a4dcb391484aac0f0bc456313b7",
   "dslink-dart-weather": "167f3ae7e1fd9edc6f0059412db478185b4c9eda",
   "dslink-java-opc": "b9ac2c0182f83bfece9ccc21da30c352324d81ad",
-  "dslink-dart-rest": "8528282011c1ffe356cfe27019b2e1af5f937bfd",
+  "dslink-dart-rest": "44f4a3afbf0fd8461a58e813c06b4c7a0922c994",
   "dslink-dart-mysql": "677fd738d320fa68062ad522a7acd63c97c0b404-4",
   "dslink-dart-host-dgbox": "40ff30a71b6184e62cba706975fa122b4e79c53b-2",
   "dslink-dart-feed": "6e14f4ff53f65f56c645e0399bc11e927468d7a0-2",
@@ -49,7 +49,7 @@
   "dslink-dart-elios4you": "b07730f112b4467db26f2b433aac098f45d47d1e-2",
   "dslink-dart-kafka": "f8962c567bcd11eec7f8250ba13553bca66b146a-1",
   "dslink-dart-traccar": "258c7d5fd6398ab0a361c76e8e841cfded6d8933-2",
-  "dslink-dart-dql": "6c2091bf2a58d4d5dbef6c982d1e7bc313d5fc13",
+  "dslink-dart-dql": "ac4414f65a8e7b6e64e39fc4d0ceb8481d0e3d1e",
   "dslink-scala-kafka": "31a0f0b8bfdc252d6a4d70b786547998956845cc",
   "dslink-dart-zabbix": "092025aabbe5a631b4265d06cfa537f2ebb279ee-1"
 }
