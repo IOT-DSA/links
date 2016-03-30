@@ -47,5 +47,6 @@
   "dslink-java-zwave": "2016-02-10 21:02:27.418028",
   "dslink-dart-dql": "2016-03-25 00:00:40.404978",
   "dslink-scala-kafka": "2016-03-21 10:47:15.203194",
-  "dslink-dart-zabbix": "2016-02-15 10:39:09.161230"
+  "dslink-dart-zabbix": "2016-02-15 10:39:09.161230",
+  "dslink-scala-ignition": "2016-03-30 12:54:54.608511"
 }

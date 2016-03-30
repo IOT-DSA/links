@@ -756,6 +756,19 @@
     "lastUpdated": "2016-02-10 21:02:27.418028"
   },
   {
+    "name": "dslink-scala-ignition",
+    "displayName": "Ignition",
+    "type": "Scala",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-scala-ignition.git"
+    },
+    "description": "Spark Ignition dataflow builder",
+    "category": "Dataflow",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-scala-ignition.zip",
+    "revision": "6a48a2256cf0a25634337a4d827e8f139cd18708",
+    "lastUpdated": "2016-03-30 12:54:54.608511"
+  },
+  {
     "name": "dslink-scala-kafka",
     "displayName": "Kafka",
     "type": "Scala",

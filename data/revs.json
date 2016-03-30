@@ -51,5 +51,6 @@
   "dslink-dart-traccar": "258c7d5fd6398ab0a361c76e8e841cfded6d8933-2",
   "dslink-dart-dql": "2ee62d360b7c8e9084aa6fbf04140f0a1cf28267",
   "dslink-scala-kafka": "31a0f0b8bfdc252d6a4d70b786547998956845cc",
-  "dslink-dart-zabbix": "092025aabbe5a631b4265d06cfa537f2ebb279ee-1"
+  "dslink-dart-zabbix": "092025aabbe5a631b4265d06cfa537f2ebb279ee-1",
+  "dslink-scala-ignition": "6a48a2256cf0a25634337a4d827e8f139cd18708"
 }
