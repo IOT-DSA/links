@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-03-30 15:49:06.134942",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "ksB2959vJN",
+  "uploads": [
+    {
+      "tag": "dslink-dart-dql",
+      "source": "files/dslink-dart-dql.zip",
+      "target": "files/dslink-dart-dql.zip",
+      "revision": "fb17e74355fa1bee1480c39fefa89edb86cdce7b"
+    },
+    {
+      "tag": "dslink-scala-ignition",
+      "source": "files/dslink-scala-ignition.zip",
+      "target": "files/dslink-scala-ignition.zip",
+      "revision": "4caed7d7f493d8a74ed7c3728c7a5cd35bfc427b"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "ksB2959vJN"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "ksB2959vJN"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "ksB2959vJN"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "ksB2959vJN"
+    }
+  ],
+  "built": [
+    "DQL",
+    "Ignition"
+  ]
+}

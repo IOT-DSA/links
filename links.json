@@ -48,8 +48,8 @@
     "description": "Run Queries against DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dql.zip",
-    "revision": "2ee62d360b7c8e9084aa6fbf04140f0a1cf28267",
-    "lastUpdated": "2016-03-25 00:00:40.404978"
+    "revision": "fb17e74355fa1bee1480c39fefa89edb86cdce7b",
+    "lastUpdated": "2016-03-30 15:48:04.687574"
   },
   {
     "name": "dslink-dart-earthquakes",
@@ -765,8 +765,8 @@
     "description": "Spark Ignition dataflow builder",
     "category": "Dataflow",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-scala-ignition.zip",
-    "revision": "6a48a2256cf0a25634337a4d827e8f139cd18708",
-    "lastUpdated": "2016-03-30 12:54:54.608511"
+    "revision": "4caed7d7f493d8a74ed7c3728c7a5cd35bfc427b",
+    "lastUpdated": "2016-03-30 15:49:04.369261"
   },
   {
     "name": "dslink-scala-kafka",
