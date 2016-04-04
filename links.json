@@ -48,8 +48,8 @@
     "description": "Run Queries against DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dql.zip",
-    "revision": "ffcb0f1d3a0e8f8de7f696191a20b8c2baec28ae",
-    "lastUpdated": "2016-04-04 09:06:53.358485"
+    "revision": "d982ec3c852def872082599c7e6a3c9555aad853",
+    "lastUpdated": "2016-04-04 13:54:35.890340"
   },
   {
     "name": "dslink-dart-earthquakes",
@@ -227,8 +227,8 @@
     "description": "Control Raspberry Pi GPIO",
     "category": "System",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-rpi.zip",
-    "revision": "860d616adbeafa2346017ec9c3edf2b88d86c47d",
-    "lastUpdated": "2016-04-04 11:11:33.836459"
+    "revision": "83cd2a2f8182bf600a258d0b7de73eb1a1cb8e27",
+    "lastUpdated": "2016-04-04 13:54:45.722191"
   },
   {
     "name": "dslink-dart-schedule",
