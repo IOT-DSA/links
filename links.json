@@ -119,8 +119,8 @@
     "description": "Interact with the FileSystem via DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-filesystem.zip",
-    "revision": "90358bdb656ca85609658ca1403b2028ae12052b",
-    "lastUpdated": "2016-04-08 15:16:48.317662"
+    "revision": "3223ff5f35c2b3c7a4c88b8f14b67d79fa3354a3",
+    "lastUpdated": "2016-04-08 16:28:04.355438"
   },
   {
     "name": "dslink-dart-host-dgbox",
