@@ -41,7 +41,7 @@
   "dslink-java-advantech": "1c52a3212b1ef01c0ac6e1a9598c0ca9f4968c63",
   "dslink-java-rethinkdb": "74f8b43724f845b23dab698c04be5411f4788821",
   "dslink-dart-digital-ocean": "060a62b48d623eb2a62f706526d4458a323d55e5-2",
-  "dslink-dart-filesystem": "59a4b3d9931af84b6fc37b3ae8395b15c19dac53",
+  "dslink-dart-filesystem": "a80c14480883e081bc3c189e130042bb0ca11eea",
   "dslink-python-grovepi": "4bce0886243782ed1d0f54fb82b6c4d6320a8944",
   "dslink-dart-BEV": "745e0adf2ca3331f9425c51f8ac5d547f1a836ad-2",
   "dslink-dart-rpi": "83cd2a2f8182bf600a258d0b7de73eb1a1cb8e27",
