@@ -1,0 +1,10 @@
+{
+  "name": "dslink-dart-solaredge",
+  "displayName": "Solar Edge",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-solaredge.git"
+  },
+  "description": "Interface for the Solar Edge Monitoring API",
+  "category": "Data Acquisition"
+}
