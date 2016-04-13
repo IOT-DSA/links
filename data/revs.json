@@ -52,5 +52,6 @@
   "dslink-dart-dql": "f40a741ff668df450a38cd8a207183fffb55b746",
   "dslink-scala-kafka": "31a0f0b8bfdc252d6a4d70b786547998956845cc",
   "dslink-dart-zabbix": "092025aabbe5a631b4265d06cfa537f2ebb279ee-1",
-  "dslink-scala-ignition": "4caed7d7f493d8a74ed7c3728c7a5cd35bfc427b"
+  "dslink-scala-ignition": "4caed7d7f493d8a74ed7c3728c7a5cd35bfc427b",
+  "dslink-dart-solaredge": "1aedc0751ba5b25c25152e273f5d29d4ce8e3d0a"
 }

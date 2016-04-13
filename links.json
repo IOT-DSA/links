@@ -257,6 +257,19 @@
     "lastUpdated": "2016-02-15 10:37:44.126011"
   },
   {
+    "name": "dslink-dart-solaredge",
+    "displayName": "Solar Edge",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-solaredge.git"
+    },
+    "description": "Interface for the Solar Edge Monitoring API",
+    "category": "Data Acquisition",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-solaredge.zip",
+    "revision": "1aedc0751ba5b25c25152e273f5d29d4ce8e3d0a",
+    "lastUpdated": "2016-04-13 13:10:40.037502"
+  },
+  {
     "name": "dslink-dart-storage",
     "displayName": "Storage",
     "type": "Dart",
