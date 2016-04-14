@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-04-14 14:20:52.013733",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "3b60dmsNw7",
+  "uploads": [
+    {
+      "tag": "dslink-dart-rest",
+      "source": "files/dslink-dart-rest.zip",
+      "target": "files/dslink-dart-rest.zip",
+      "revision": "5d320f8ec4818f9f44151bb5103008b34b8117e2"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "3b60dmsNw7"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "3b60dmsNw7"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "3b60dmsNw7"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "3b60dmsNw7"
+    }
+  ],
+  "built": [
+    "REST Server"
+  ]
+}
