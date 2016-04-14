@@ -1,0 +1,9 @@
+{
+  "timestamp": "2016-04-14 00:00:48.671474",
+  "buildId": "JpeJ814430",
+  "failureId": "961k460pXh60669daAoX06vx85d40180LVPz8V1v0ZA33496vu",
+  "args": [
+    "--upload"
+  ],
+  "message": "S3 Upload: Failed to execute upload job 'data/history.json => history.json (revision: JpeJ814430)': Put Operation Failed (exit: 1)\nCommand Output:\nTraceback (most recent call last):\n  File \"/usr/local/bin/aws\", line 19, in <module>\n    import awscli.clidriver\n  File \"/usr/local/lib/python2.7/dist-packages/awscli/clidriver.py\", line 26, in <module>\n    from awscli.formatter import get_formatter\n  File \"/usr/local/lib/python2.7/dist-packages/awscli/formatter.py\", line 19, in <module>\n    from awscli.table import MultiTable, Styler, ColorizedStyler\n  File \"/usr/local/lib/python2.7/dist-packages/awscli/table.py\", line 17, in <module>\n    import colorama\nImportError: No module named colorama\n"
+}
