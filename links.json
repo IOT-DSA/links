@@ -565,8 +565,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-mango.zip",
-    "revision": "b2d53f27bdb707f3ee3b5367c033facc4c7daa2c-1",
-    "lastUpdated": "2016-04-22 14:28:28.873695"
+    "revision": "9af14aa118862b5ffecfb77529a20922a12ee269",
+    "lastUpdated": "2016-05-06 12:26:40.469896"
   },
   {
     "name": "dslink-java-modbus",

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-05-06 12:26:43.471781",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "Th43iRQ725",
+  "uploads": [
+    {
+      "tag": "dslink-java-mango",
+      "source": "files/dslink-java-mango.zip",
+      "target": "files/dslink-java-mango.zip",
+      "revision": "9af14aa118862b5ffecfb77529a20922a12ee269"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "Th43iRQ725"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "Th43iRQ725"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "Th43iRQ725"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "Th43iRQ725"
+    }
+  ],
+  "built": [
+    "Mango"
+  ]
+}
