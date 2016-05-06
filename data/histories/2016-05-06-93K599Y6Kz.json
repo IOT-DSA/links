@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-05-06 16:26:45.985815",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "93K599Y6Kz",
+  "uploads": [
+    {
+      "tag": "dslink-dart-weather",
+      "source": "files/dslink-dart-weather.zip",
+      "target": "files/dslink-dart-weather.zip",
+      "revision": "348b03243af1b61174a31ebe26d62b6387ee8c4f"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "93K599Y6Kz"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "93K599Y6Kz"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "93K599Y6Kz"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "93K599Y6Kz"
+    }
+  ],
+  "built": [
+    "Weather"
+  ]
+}
