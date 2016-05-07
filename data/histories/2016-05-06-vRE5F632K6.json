@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-05-06 17:53:11.994620",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "vRE5F632K6",
+  "uploads": [
+    {
+      "tag": "dslink-dart-dql",
+      "source": "files/dslink-dart-dql.zip",
+      "target": "files/dslink-dart-dql.zip",
+      "revision": "ad3031380978753c8c51b1d2fd069f8d9400de37"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "vRE5F632K6"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "vRE5F632K6"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "vRE5F632K6"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "vRE5F632K6"
+    }
+  ],
+  "built": [
+    "DQL"
+  ]
+}
