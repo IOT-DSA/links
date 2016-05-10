@@ -48,8 +48,8 @@
     "description": "Run Queries against DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dql.zip",
-    "revision": "ad3031380978753c8c51b1d2fd069f8d9400de37",
-    "lastUpdated": "2016-05-06 17:53:00.313256"
+    "revision": "6e14a8d2fcd97c0abd0ad9dddba3ed2c0f510f51",
+    "lastUpdated": "2016-05-10 00:00:34.861049"
   },
   {
     "name": "dslink-dart-earthquakes",
@@ -266,8 +266,8 @@
     "description": "Interface for the Solar Edge Monitoring API",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-solaredge.zip",
-    "revision": "8103ccdd47be66db63dbdc7b4775fdca4ee75dfd",
-    "lastUpdated": "2016-05-04 12:44:24.820640"
+    "revision": "d793233136227af999a743905c2984422671ff00",
+    "lastUpdated": "2016-05-10 00:00:47.044258"
   },
   {
     "name": "dslink-dart-storage",
