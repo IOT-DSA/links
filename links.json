@@ -485,8 +485,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-etsdb.zip",
-    "revision": "a7c0dc0ac1072c32ca690b080529ac3fc138dc73",
-    "lastUpdated": "2016-05-13 00:00:45.724130"
+    "revision": "c792c44bf89ec8b15ff96da30666449901133591",
+    "lastUpdated": "2016-05-15 18:45:03.601833"
   },
   {
     "name": "dslink-java-googleplus",
@@ -665,8 +665,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-rethinkdb.zip",
-    "revision": "74f8b43724f845b23dab698c04be5411f4788821-1",
-    "lastUpdated": "2016-04-22 14:29:29.619203"
+    "revision": "74bd7ad01c0f4050f1c51b45ea206685e0373739",
+    "lastUpdated": "2016-05-15 18:45:17.622506"
   },
   {
     "name": "dslink-java-sedona",

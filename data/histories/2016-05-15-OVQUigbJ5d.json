@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-05-15 18:45:19.186168",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "OVQUigbJ5d",
+  "uploads": [
+    {
+      "tag": "dslink-java-etsdb",
+      "source": "files/dslink-java-etsdb.zip",
+      "target": "files/dslink-java-etsdb.zip",
+      "revision": "c792c44bf89ec8b15ff96da30666449901133591"
+    },
+    {
+      "tag": "dslink-java-rethinkdb",
+      "source": "files/dslink-java-rethinkdb.zip",
+      "target": "files/dslink-java-rethinkdb.zip",
+      "revision": "74bd7ad01c0f4050f1c51b45ea206685e0373739"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "OVQUigbJ5d"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "OVQUigbJ5d"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "OVQUigbJ5d"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "OVQUigbJ5d"
+    }
+  ],
+  "built": [
+    "ETSDB",
+    "RethinkDB"
+  ]
+}
