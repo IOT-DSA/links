@@ -389,6 +389,19 @@
     "lastUpdated": "2016-04-22 14:24:47.997888"
   },
   {
+    "name": "dslink-dart-zoneminder",
+    "displayName": "ZoneMinder",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-zoneminder.git"
+    },
+    "description": "ZoneMinder Video Surveillance",
+    "category": "Data Acquisition",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-zoneminder.zip",
+    "revision": "a9280ce39b566b23cc316bfbe57e1238e869d4eb",
+    "lastUpdated": "2016-05-16 14:49:44.735619"
+  },
+  {
     "name": "dslink-java-advantech",
     "displayName": "Advantech",
     "type": "Java",

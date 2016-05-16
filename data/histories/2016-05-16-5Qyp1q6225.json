@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-05-16 14:49:49.345524",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "5Qyp1q6225",
+  "uploads": [
+    {
+      "tag": "dslink-dart-zoneminder",
+      "source": "files/dslink-dart-zoneminder.zip",
+      "target": "files/dslink-dart-zoneminder.zip",
+      "revision": "a9280ce39b566b23cc316bfbe57e1238e869d4eb"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "5Qyp1q6225"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "5Qyp1q6225"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "5Qyp1q6225"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "5Qyp1q6225"
+    }
+  ],
+  "built": [
+    "ZoneMinder"
+  ]
+}
