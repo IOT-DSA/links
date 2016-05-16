@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-05-16 09:23:57.915410",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "m580023187",
+  "uploads": [
+    {
+      "tag": "dslink-dart-rpi",
+      "source": "files/dslink-dart-rpi.zip",
+      "target": "files/dslink-dart-rpi.zip",
+      "revision": "bad94f1c2a2a8fd6867cc197976ccace747c4f3f"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "m580023187"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "m580023187"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "m580023187"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "m580023187"
+    }
+  ],
+  "built": [
+    "Raspberry Pi"
+  ]
+}
