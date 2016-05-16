@@ -1,0 +1,10 @@
+{
+  "name": "dslink-dart-zoneminder",
+  "displayName": "ZoneMinder",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-zoneminder.git"
+  },
+  "description": "ZoneMinder Video Surveillance",
+  "category": "Data Acquisition"
+}
