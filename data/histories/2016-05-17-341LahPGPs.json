@@ -1,0 +1,35 @@
+{
+  "timestamp": "2016-05-17 00:00:26.131581",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "341LahPGPs",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "341LahPGPs"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "341LahPGPs"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "341LahPGPs"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "341LahPGPs"
+    }
+  ],
+  "built": []
+}
