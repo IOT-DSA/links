@@ -5,7 +5,7 @@
   "dslink-dart-twilio": "7c7721aba13b75600a2bc55b39465909a6ad7f0c-6",
   "dslink-dart-storage": "167862bfe995250bdeae8b85552075563d25fefa-6",
   "dslink-dart-mongodb": "9a7adb1737001ebd65e0a3d6bf768808a6793ab3-2",
-  "dslink-dart-dgapi": "4b4feca2d3e4f9fc9c217b75cd474f6fe544ed79-4",
+  "dslink-dart-dgapi": "f2bc1a6dd8a6f057285bfe6c76f0159958988bbf",
   "dslink-dart-webctrl": "9a2b9168733206615719767fc1d9ef63d8cb0000-2",
   "dslink-java-mqtt": "e3701b76a8ced5409900c18610c68290da51acb5",
   "dslink-java-haystack": "27fc9b3c740f503c7a07055abdec399e890492a8-1",
@@ -54,5 +54,5 @@
   "dslink-dart-zabbix": "092025aabbe5a631b4265d06cfa537f2ebb279ee-3",
   "dslink-scala-ignition": "4caed7d7f493d8a74ed7c3728c7a5cd35bfc427b",
   "dslink-dart-solaredge": "d793233136227af999a743905c2984422671ff00",
-  "dslink-dart-zoneminder": "2074d9a0ed805fe702791eb49a3e63c61d770079"
+  "dslink-dart-zoneminder": "deba13dcf32ff5b86948b15e36a455a7ca27b191"
 }

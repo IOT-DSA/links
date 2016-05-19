@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-05-19 14:11:17.904448",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "16793wbH6F",
+  "uploads": [
+    {
+      "tag": "dslink-dart-dgapi",
+      "source": "files/dslink-dart-dgapi.zip",
+      "target": "files/dslink-dart-dgapi.zip",
+      "revision": "f2bc1a6dd8a6f057285bfe6c76f0159958988bbf"
+    },
+    {
+      "tag": "dslink-dart-zoneminder",
+      "source": "files/dslink-dart-zoneminder.zip",
+      "target": "files/dslink-dart-zoneminder.zip",
+      "revision": "deba13dcf32ff5b86948b15e36a455a7ca27b191"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "16793wbH6F"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "16793wbH6F"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "16793wbH6F"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "16793wbH6F"
+    }
+  ],
+  "built": [
+    "DGAPI",
+    "ZoneMinder"
+  ]
+}
