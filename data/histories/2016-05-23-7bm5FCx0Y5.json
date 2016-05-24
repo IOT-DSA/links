@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-05-23 17:05:21.858044",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "7bm5FCx0Y5",
+  "uploads": [
+    {
+      "tag": "dslink-dart-rest",
+      "source": "files/dslink-dart-rest.zip",
+      "target": "files/dslink-dart-rest.zip",
+      "revision": "c9d3085803e1cd29cb9694cb4b16b45dc9117a08"
+    },
+    {
+      "tag": "dslink-java-bacnet",
+      "source": "files/dslink-java-bacnet.zip",
+      "target": "files/dslink-java-bacnet.zip",
+      "revision": "130eaea74bbee8b7d570a7764b37cb365da04994"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "7bm5FCx0Y5"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "7bm5FCx0Y5"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "7bm5FCx0Y5"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "7bm5FCx0Y5"
+    }
+  ],
+  "built": [
+    "REST Server",
+    "BACnet"
+  ]
+}
