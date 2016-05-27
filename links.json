@@ -22,8 +22,8 @@
     "description": "Access DGAPI through DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dgapi.zip",
-    "revision": "c479e43689060f3009733e6707c4fb386b79b2af",
-    "lastUpdated": "2016-05-27 08:36:11.322576"
+    "revision": "620a194d327b8e017e724442d873a6d844257456",
+    "lastUpdated": "2016-05-27 12:19:47.239507"
   },
   {
     "name": "dslink-dart-digital-ocean",
@@ -48,8 +48,8 @@
     "description": "Run Queries against DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dql.zip",
-    "revision": "b6236c8c03e366aecb9666e9cea2e79c19cf62b0",
-    "lastUpdated": "2016-05-25 16:04:27.648050"
+    "revision": "db3990fa9a9776d798efd350d247becb9e4e4435",
+    "lastUpdated": "2016-05-27 12:19:58.405164"
   },
   {
     "name": "dslink-dart-earthquakes",
