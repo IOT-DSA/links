@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-05-31 13:39:55.003317",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "QG6P3dQjN9",
+  "uploads": [
+    {
+      "tag": "dslink-java-etsdb",
+      "source": "files/dslink-java-etsdb.zip",
+      "target": "files/dslink-java-etsdb.zip",
+      "revision": "a06dfc64e719d1acf77d2a02479deae1b67a116a"
+    },
+    {
+      "tag": "dslink-scala-ignition",
+      "source": "files/dslink-scala-ignition.zip",
+      "target": "files/dslink-scala-ignition.zip",
+      "revision": "62fb28f79fca8dce6f2e6c131c96fd7383047c4a"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "QG6P3dQjN9"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "QG6P3dQjN9"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "QG6P3dQjN9"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "QG6P3dQjN9"
+    }
+  ],
+  "built": [
+    "ETSDB",
+    "Ignition"
+  ]
+}

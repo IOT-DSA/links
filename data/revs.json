@@ -18,7 +18,7 @@
   "dslink-java-jdbc": "7fce28c5a15fe121e9f18ea445f6a38a8a416523-1",
   "dslink-dart-irc": "c08309a4a3919202cb0e48936e200e1bcf637019-6",
   "dslink-dart-slack": "425bf8b792d1095aa2b3c98c5999f5235760cc13-6",
-  "dslink-java-etsdb": "c792c44bf89ec8b15ff96da30666449901133591",
+  "dslink-java-etsdb": "a06dfc64e719d1acf77d2a02479deae1b67a116a",
   "dslink-java-bacnet": "7560ac3b264bb5e57b0adedcd79bb4e2ef5ccc5b",
   "dslink-dart-earthquakes": "852ca9ee59d8e483c104ae7e3e19c07939a4500a-6",
   "dslink-dart-host": "1d7500a1f259143d190b92118b697b6cc791913f",
@@ -52,7 +52,7 @@
   "dslink-dart-dql": "ffa895be49d92821de18643aa69c7cf4a04dec58",
   "dslink-scala-kafka": "31a0f0b8bfdc252d6a4d70b786547998956845cc",
   "dslink-dart-zabbix": "092025aabbe5a631b4265d06cfa537f2ebb279ee-3",
-  "dslink-scala-ignition": "4caed7d7f493d8a74ed7c3728c7a5cd35bfc427b",
+  "dslink-scala-ignition": "62fb28f79fca8dce6f2e6c131c96fd7383047c4a",
   "dslink-dart-solaredge": "d793233136227af999a743905c2984422671ff00",
   "dslink-dart-zoneminder": "deba13dcf32ff5b86948b15e36a455a7ca27b191"
 }

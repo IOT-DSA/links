@@ -498,8 +498,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-etsdb.zip",
-    "revision": "c792c44bf89ec8b15ff96da30666449901133591",
-    "lastUpdated": "2016-05-15 18:45:03.601833"
+    "revision": "a06dfc64e719d1acf77d2a02479deae1b67a116a",
+    "lastUpdated": "2016-05-31 13:38:37.297"
   },
   {
     "name": "dslink-java-googleplus",
@@ -791,8 +791,8 @@
     "description": "Spark Ignition dataflow builder",
     "category": "Dataflow",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-scala-ignition.zip",
-    "revision": "4caed7d7f493d8a74ed7c3728c7a5cd35bfc427b",
-    "lastUpdated": "2016-03-30 15:49:04.369261"
+    "revision": "62fb28f79fca8dce6f2e6c131c96fd7383047c4a",
+    "lastUpdated": "2016-05-31 13:39:53.746690"
   },
   {
     "name": "dslink-scala-kafka",
