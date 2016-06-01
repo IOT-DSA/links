@@ -791,8 +791,8 @@
     "description": "Spark Ignition dataflow builder",
     "category": "Dataflow",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-scala-ignition.zip",
-    "revision": "62fb28f79fca8dce6f2e6c131c96fd7383047c4a",
-    "lastUpdated": "2016-05-31 13:39:53.746690"
+    "revision": "5fb9e8de115955f6297d4850c6785450cad7d312",
+    "lastUpdated": "2016-06-01 11:34:31.913729"
   },
   {
     "name": "dslink-scala-kafka",
