@@ -1,0 +1,64 @@
+{
+  "timestamp": "2016-06-03 21:17:50.050105",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "P787268q3b",
+  "uploads": [
+    {
+      "tag": "dslink-dart-dql",
+      "source": "files/dslink-dart-dql.zip",
+      "target": "files/dslink-dart-dql.zip",
+      "revision": "88d568ba1c93b81611ede0dea79ee0fb8b10cab6"
+    },
+    {
+      "tag": "dslink-dart-osx",
+      "source": "files/dslink-dart-osx.zip",
+      "target": "files/dslink-dart-osx.zip",
+      "revision": "6c1f015f317c06ea2c384f46f766478af97cc7a9"
+    },
+    {
+      "tag": "dslink-java-bacnet",
+      "source": "files/dslink-java-bacnet.zip",
+      "target": "files/dslink-java-bacnet.zip",
+      "revision": "43190d2cf656839b23858f5c0418a5321041104d"
+    },
+    {
+      "tag": "dslink-java-modbus",
+      "source": "files/dslink-java-modbus.zip",
+      "target": "files/dslink-java-modbus.zip",
+      "revision": "8c3696c22f9d23b06aaac2264090d0601d2e25c6"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "P787268q3b"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "P787268q3b"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "P787268q3b"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "P787268q3b"
+    }
+  ],
+  "built": [
+    "DQL",
+    "Mac OS X",
+    "BACnet",
+    "Modbus"
+  ]
+}

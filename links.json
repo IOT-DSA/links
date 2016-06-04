@@ -48,8 +48,8 @@
     "description": "Run Queries against DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dql.zip",
-    "revision": "92a9eee29ecc73143731936cacca782284fad246",
-    "lastUpdated": "2016-06-01 14:57:37.866499"
+    "revision": "88d568ba1c93b81611ede0dea79ee0fb8b10cab6",
+    "lastUpdated": "2016-06-03 21:16:21.595976"
   },
   {
     "name": "dslink-dart-earthquakes",
@@ -203,6 +203,19 @@
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-mysql.zip",
     "revision": "677fd738d320fa68062ad522a7acd63c97c0b404-6",
     "lastUpdated": "2016-04-22 14:22:36.738378"
+  },
+  {
+    "name": "dslink-dart-osx",
+    "displayName": "Mac OS X",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-osx.git"
+    },
+    "description": "Interact with Mac OS X",
+    "category": "Data Acquisition",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-osx.zip",
+    "revision": "6c1f015f317c06ea2c384f46f766478af97cc7a9",
+    "lastUpdated": "2016-06-03 21:17:00.209361"
   },
   {
     "name": "dslink-dart-rest",
@@ -438,8 +451,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet.zip",
-    "revision": "5fe4c714c67c3694cc6084a1bb1d31d73acc34b0",
-    "lastUpdated": "2016-06-03 00:00:27.534944"
+    "revision": "43190d2cf656839b23858f5c0418a5321041104d",
+    "lastUpdated": "2016-06-03 21:17:24.857637"
   },
   {
     "name": "dslink-java-bitpool",
@@ -598,8 +611,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-modbus.zip",
-    "revision": "bd3e22acbf51e180a50ca38438ce846ad7a9b181",
-    "lastUpdated": "2016-06-01 11:48:04.479774"
+    "revision": "8c3696c22f9d23b06aaac2264090d0601d2e25c6",
+    "lastUpdated": "2016-06-03 21:17:47.542519"
   },
   {
     "name": "dslink-java-mqtt",
