@@ -1,0 +1,11 @@
+
+{
+  "name": "dslink-dart-osx",
+  "displayName": "Mac OS X",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-osx.git"
+  },
+  "description": "Interact with Mac OS X",
+  "category": "Data Acquisition"
+}
