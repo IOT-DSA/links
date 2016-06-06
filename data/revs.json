@@ -28,7 +28,7 @@
   "dslink-dart-system": "2d00a1d5ca8aec9c99ccd39def56e82420bf0bb4",
   "dslink-dart-weather": "348b03243af1b61174a31ebe26d62b6387ee8c4f",
   "dslink-java-opc": "b9ac2c0182f83bfece9ccc21da30c352324d81ad-1",
-  "dslink-dart-rest": "9526417c516f1a339bacda702e58946defd9f915",
+  "dslink-dart-rest": "148eae96dddfd93ae3b5d80308af24c01060ff51",
   "dslink-dart-mysql": "677fd738d320fa68062ad522a7acd63c97c0b404-6",
   "dslink-dart-host-dgbox": "40ff30a71b6184e62cba706975fa122b4e79c53b-4",
   "dslink-dart-feed": "6e14f4ff53f65f56c645e0399bc11e927468d7a0-4",
@@ -55,5 +55,5 @@
   "dslink-scala-ignition": "5fb9e8de115955f6297d4850c6785450cad7d312",
   "dslink-dart-solaredge": "33d972191f321662b78a50d37de53396b8b01212",
   "dslink-dart-zoneminder": "deba13dcf32ff5b86948b15e36a455a7ca27b191",
-  "dslink-dart-osx": "6c1f015f317c06ea2c384f46f766478af97cc7a9"
+  "dslink-dart-osx": "2ede5bfe76beb2337d8a33ddee34e788434d53e4"
 }

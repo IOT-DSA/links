@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-06-06 00:00:39.836091",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "GE3HO386tD",
+  "uploads": [
+    {
+      "tag": "dslink-dart-osx",
+      "source": "files/dslink-dart-osx.zip",
+      "target": "files/dslink-dart-osx.zip",
+      "revision": "2ede5bfe76beb2337d8a33ddee34e788434d53e4"
+    },
+    {
+      "tag": "dslink-dart-rest",
+      "source": "files/dslink-dart-rest.zip",
+      "target": "files/dslink-dart-rest.zip",
+      "revision": "148eae96dddfd93ae3b5d80308af24c01060ff51"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "GE3HO386tD"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "GE3HO386tD"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "GE3HO386tD"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "GE3HO386tD"
+    }
+  ],
+  "built": [
+    "Mac OS X",
+    "REST Server"
+  ]
+}

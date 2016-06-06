@@ -214,8 +214,8 @@
     "description": "Interact with Mac OS X",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-osx.zip",
-    "revision": "6c1f015f317c06ea2c384f46f766478af97cc7a9",
-    "lastUpdated": "2016-06-03 21:17:00.209361"
+    "revision": "2ede5bfe76beb2337d8a33ddee34e788434d53e4",
+    "lastUpdated": "2016-06-06 00:00:23.044080"
   },
   {
     "name": "dslink-dart-rest",
@@ -227,8 +227,8 @@
     "description": "Use a REST API to manipulate custom nodes",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-rest.zip",
-    "revision": "9526417c516f1a339bacda702e58946defd9f915",
-    "lastUpdated": "2016-05-25 17:50:19.894119"
+    "revision": "148eae96dddfd93ae3b5d80308af24c01060ff51",
+    "lastUpdated": "2016-06-06 00:00:31.250249"
   },
   {
     "name": "dslink-dart-rpi",
