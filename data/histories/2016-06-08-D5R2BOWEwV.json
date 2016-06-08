@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-06-08 15:25:44.980405",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "D5R2BOWEwV",
+  "uploads": [
+    {
+      "tag": "dslink-java-bacnet",
+      "source": "files/dslink-java-bacnet.zip",
+      "target": "files/dslink-java-bacnet.zip",
+      "revision": "5390bea3530b915a3643652b165d88dfbd230b5a"
+    },
+    {
+      "tag": "dslink-java-modbus",
+      "source": "files/dslink-java-modbus.zip",
+      "target": "files/dslink-java-modbus.zip",
+      "revision": "2c0248d4b992329ddc1563ecebb1b82de2176c6c"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "D5R2BOWEwV"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "D5R2BOWEwV"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "D5R2BOWEwV"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "D5R2BOWEwV"
+    }
+  ],
+  "built": [
+    "BACnet",
+    "Modbus"
+  ]
+}
