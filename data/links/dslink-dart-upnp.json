@@ -1,0 +1,10 @@
+{
+  "name": "dslink-dart-upnp",
+  "displayName": "UPnP",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-upnp.git"
+  },
+  "description": "Discover and Interact with UPnP Devices",
+  "category": "Data Acquisition"
+}
