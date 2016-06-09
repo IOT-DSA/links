@@ -336,6 +336,19 @@
     "lastUpdated": "2016-04-22 14:23:56.690603"
   },
   {
+    "name": "dslink-dart-upnp",
+    "displayName": "UPnP",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-upnp.git"
+    },
+    "description": "Discover and Interact with UPnP Devices",
+    "category": "Data Acquisition",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-upnp.zip",
+    "revision": "1a001af5ab104e07b84a3a0e76455ca56073fbc0",
+    "lastUpdated": "2016-06-09 10:49:40.548078"
+  },
+  {
     "name": "dslink-dart-weather",
     "displayName": "Weather",
     "type": "Dart",
