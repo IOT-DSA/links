@@ -464,8 +464,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet.zip",
-    "revision": "b2e41867d8f9e6ff015970947195f7f3ba4a5571",
-    "lastUpdated": "2016-06-10 00:00:40.167137"
+    "revision": "f6ed5d5d045cb2611b67632eaf29cc31b69db0e3",
+    "lastUpdated": "2016-06-11 00:00:31.982307"
   },
   {
     "name": "dslink-java-bitpool",
@@ -624,8 +624,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-modbus.zip",
-    "revision": "2c0248d4b992329ddc1563ecebb1b82de2176c6c",
-    "lastUpdated": "2016-06-08 15:25:42.633200"
+    "revision": "c978a2c25a06da4ac2773fa6ce4a7d286ddc0b22",
+    "lastUpdated": "2016-06-11 00:00:47.526072"
   },
   {
     "name": "dslink-java-mqtt",
