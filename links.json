@@ -385,8 +385,8 @@
     "description": "Interact with WeMo Devices",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-wemo.zip",
-    "revision": "8ebdb12b2f091baa97adb618cda0146c36fa1d83",
-    "lastUpdated": "2016-06-20 15:46:27.710628"
+    "revision": "8b8857bbd5fd405d0c417a8d38b85e963a4c5770",
+    "lastUpdated": "2016-06-20 16:33:21.664974"
   },
   {
     "name": "dslink-dart-youtube",
