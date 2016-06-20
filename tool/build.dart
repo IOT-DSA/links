@@ -289,6 +289,15 @@ _main(List<String> argv) async {
       }
 
       await copy("dslink.json", "build/dslink.json");
+      var dataDir = new Directory("data");
+      if (await dataDir.exists()) {
+        var res = await exec("cp", args: ["-R", "data", "build/data"]);
+        if (res.exitCode != 0) {
+          await fail(
+            "DSLink ${name}: Failed to copy data directory.\n${res.output}"
+          );
+        }
+      }
       await pushd("build");
 
       try {
