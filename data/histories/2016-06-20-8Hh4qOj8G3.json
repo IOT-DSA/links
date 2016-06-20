@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-06-20 15:13:11.885170",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "8Hh4qOj8G3",
+  "uploads": [
+    {
+      "tag": "dslink-dart-wemo",
+      "source": "files/dslink-dart-wemo.zip",
+      "target": "files/dslink-dart-wemo.zip",
+      "revision": "4a25aa000ce938352da4ece200b16b5fb944906d"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "8Hh4qOj8G3"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "8Hh4qOj8G3"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "8Hh4qOj8G3"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "8Hh4qOj8G3"
+    }
+  ],
+  "built": [
+    "WeMo"
+  ]
+}
