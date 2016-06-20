@@ -279,8 +279,8 @@
     "description": "Interface for the Solar Edge Monitoring API",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-solaredge.zip",
-    "revision": "409af9ddea20beaf4a5907177a4e0a20d0ca97d5",
-    "lastUpdated": "2016-06-20 06:26:39.087151"
+    "revision": "fc71e78fe14d575fb864f6cafb77731eedebf1c0",
+    "lastUpdated": "2016-06-20 06:34:24.294364"
   },
   {
     "name": "dslink-dart-storage",
