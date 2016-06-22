@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-06-22 00:00:38.831550",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "1O1k5Ea530",
+  "uploads": [
+    {
+      "tag": "dslink-dart-schedule",
+      "source": "files/dslink-dart-schedule.zip",
+      "target": "files/dslink-dart-schedule.zip",
+      "revision": "88b14b5c7ccd5da0c0dd85aebf510c66c9f93182"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "1O1k5Ea530"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "1O1k5Ea530"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "1O1k5Ea530"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "1O1k5Ea530"
+    }
+  ],
+  "built": [
+    "Schedule"
+  ]
+}
