@@ -424,8 +424,8 @@
     "description": "ZoneMinder Video Surveillance",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-zoneminder.zip",
-    "revision": "deba13dcf32ff5b86948b15e36a455a7ca27b191",
-    "lastUpdated": "2016-05-19 14:11:13.335218"
+    "revision": "b3bc32e86dc51bafc04392d82a210ad294078ccb",
+    "lastUpdated": "2016-06-22 16:51:00.222092"
   },
   {
     "name": "dslink-java-advantech",
@@ -624,8 +624,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-modbus.zip",
-    "revision": "c978a2c25a06da4ac2773fa6ce4a7d286ddc0b22",
-    "lastUpdated": "2016-06-11 00:00:47.526072"
+    "revision": "54c19c593839b2c315f130d20c1c192a42710084",
+    "lastUpdated": "2016-06-22 16:51:19.061727"
   },
   {
     "name": "dslink-java-mqtt",
