@@ -183,7 +183,7 @@
     "type": "Dart",
     "automated": {
       "repository": "https://github.com/IOT-DSA/dslink-dart-mjpeg.git",
-      "ignoreBuildScript": false
+      "ignoreBuildScript": true
     },
     "description": "Motion JPEG DSLink",
     "category": "Data Acquisition",
