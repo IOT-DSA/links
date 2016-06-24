@@ -56,5 +56,6 @@
   "dslink-dart-solaredge": "81cac234464a8f88e7714850adfe31056d251752",
   "dslink-dart-zoneminder": "b3bc32e86dc51bafc04392d82a210ad294078ccb",
   "dslink-dart-osx": "2ede5bfe76beb2337d8a33ddee34e788434d53e4",
-  "dslink-dart-upnp": "1a001af5ab104e07b84a3a0e76455ca56073fbc0"
+  "dslink-dart-upnp": "1a001af5ab104e07b84a3a0e76455ca56073fbc0",
+  "dslink-dart-mjpeg": "b34048d7df82ff410db3de7c98320b8d6dc720d8"
 }
