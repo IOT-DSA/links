@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-06-23 18:02:42.034586",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "7llplGN27K",
+  "uploads": [
+    {
+      "tag": "dslink-java-modbus",
+      "source": "files/dslink-java-modbus.zip",
+      "target": "files/dslink-java-modbus.zip",
+      "revision": "cead70abb972576bc4e8ba8734afe77c13e4dd98"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "7llplGN27K"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "7llplGN27K"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "7llplGN27K"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "7llplGN27K"
+    }
+  ],
+  "built": [
+    "Modbus"
+  ]
+}
