@@ -1,0 +1,11 @@
+{
+  "name": "dslink-dart-mjpeg",
+  "displayName": "Motion JPEG",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-mjpeg.git",
+    "ignoreBuildScript": false
+  },
+  "description": "Motion JPEG DSLink",
+  "category": "Data Acquisition"
+}
