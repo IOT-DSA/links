@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-06-24 15:05:49.349670",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "Fz94aOD540",
+  "uploads": [
+    {
+      "tag": "dslink-dart-dgapi",
+      "source": "files/dslink-dart-dgapi.zip",
+      "target": "files/dslink-dart-dgapi.zip",
+      "revision": "5d71e61baa2c9e5127d7ca4de6e0aa966368ad7f"
+    },
+    {
+      "tag": "dslink-java-modbus",
+      "source": "files/dslink-java-modbus.zip",
+      "target": "files/dslink-java-modbus.zip",
+      "revision": "5c68277184f305f62665a9a55d6196afe5af685e"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "Fz94aOD540"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "Fz94aOD540"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "Fz94aOD540"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "Fz94aOD540"
+    }
+  ],
+  "built": [
+    "DGAPI",
+    "Modbus"
+  ]
+}
