@@ -188,8 +188,8 @@
     "description": "Motion JPEG DSLink",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-mjpeg.zip",
-    "revision": "b34048d7df82ff410db3de7c98320b8d6dc720d8",
-    "lastUpdated": "2016-06-24 15:54:22.270275"
+    "revision": "4eb0a1e5cde0ea3484266ab20ab607006b523253",
+    "lastUpdated": "2016-06-24 20:50:33.545682"
   },
   {
     "name": "dslink-dart-mongodb",
@@ -638,8 +638,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-modbus.zip",
-    "revision": "5c68277184f305f62665a9a55d6196afe5af685e",
-    "lastUpdated": "2016-06-24 15:05:46.789663"
+    "revision": "97a83e260258ee740274d24a02f41d93a2f80053",
+    "lastUpdated": "2016-06-24 20:50:57.419282"
   },
   {
     "name": "dslink-java-mqtt",
