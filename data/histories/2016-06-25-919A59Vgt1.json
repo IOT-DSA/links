@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-06-25 15:19:53.997821",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "919A59Vgt1",
+  "uploads": [
+    {
+      "tag": "dslink-dart-mjpeg",
+      "source": "files/dslink-dart-mjpeg.zip",
+      "target": "files/dslink-dart-mjpeg.zip",
+      "revision": "c4997ccb82381e2fb42e933f223e39a269e22dcd"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "919A59Vgt1"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "919A59Vgt1"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "919A59Vgt1"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "919A59Vgt1"
+    }
+  ],
+  "built": [
+    "Motion JPEG"
+  ]
+}

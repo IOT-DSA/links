@@ -188,8 +188,8 @@
     "description": "Motion JPEG DSLink",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-mjpeg.zip",
-    "revision": "4eb0a1e5cde0ea3484266ab20ab607006b523253",
-    "lastUpdated": "2016-06-24 20:50:33.545682"
+    "revision": "c4997ccb82381e2fb42e933f223e39a269e22dcd",
+    "lastUpdated": "2016-06-25 15:19:44.756160"
   },
   {
     "name": "dslink-dart-mongodb",
