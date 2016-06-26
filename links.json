@@ -458,8 +458,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-advantech.zip",
-    "revision": "1c52a3212b1ef01c0ac6e1a9598c0ca9f4968c63-1",
-    "lastUpdated": "2016-04-22 14:26:55.174573"
+    "revision": "1c52a3212b1ef01c0ac6e1a9598c0ca9f4968c63-1"
   },
   {
     "name": "dslink-java-bacnet",
@@ -478,8 +477,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet.zip",
-    "revision": "7e9e378c7c8a9dfddae95e8ff6b1c8cc11f0bb22",
-    "lastUpdated": "2016-06-17 00:00:49.752483"
+    "revision": "7e9e378c7c8a9dfddae95e8ff6b1c8cc11f0bb22"
   },
   {
     "name": "dslink-java-bitpool",
@@ -498,8 +496,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bitpool.zip",
-    "revision": "b0858a7ea638f52618110c3f63edc38a91f70852-1",
-    "lastUpdated": "2016-04-22 14:27:18.902633"
+    "revision": "b0858a7ea638f52618110c3f63edc38a91f70852-1"
   },
   {
     "name": "dslink-java-enocean",
@@ -518,8 +515,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-enocean.zip",
-    "revision": "72177c9ec9eae990c2d29a21337d055865c0d54e-1",
-    "lastUpdated": "2016-04-22 14:27:36.382477"
+    "revision": "72177c9ec9eae990c2d29a21337d055865c0d54e-1"
   },
   {
     "name": "dslink-java-etsdb",
@@ -538,8 +534,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-etsdb.zip",
-    "revision": "a06dfc64e719d1acf77d2a02479deae1b67a116a",
-    "lastUpdated": "2016-05-31 13:38:37.297"
+    "revision": "a06dfc64e719d1acf77d2a02479deae1b67a116a"
   },
   {
     "name": "dslink-java-googleplus",
@@ -558,8 +553,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-googleplus.zip",
-    "revision": "0b74fa025e46b0489575418c2a20fdcc62538c33-1",
-    "lastUpdated": "2016-04-22 14:27:59.769690"
+    "revision": "0b74fa025e46b0489575418c2a20fdcc62538c33-1"
   },
   {
     "name": "dslink-java-haystack",
@@ -578,8 +572,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-haystack.zip",
-    "revision": "27fc9b3c740f503c7a07055abdec399e890492a8-1",
-    "lastUpdated": "2016-04-22 14:28:08.233132"
+    "revision": "27fc9b3c740f503c7a07055abdec399e890492a8-1"
   },
   {
     "name": "dslink-java-jdbc",
@@ -598,8 +591,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-jdbc.zip",
-    "revision": "2006ddea2bbf8c9d9a436b5af2ae3618d41ab418",
-    "lastUpdated": "2016-06-01 15:17:40.018314"
+    "revision": "2006ddea2bbf8c9d9a436b5af2ae3618d41ab418"
   },
   {
     "name": "dslink-java-mango",
@@ -618,8 +610,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-mango.zip",
-    "revision": "9af14aa118862b5ffecfb77529a20922a12ee269",
-    "lastUpdated": "2016-05-06 12:26:40.469896"
+    "revision": "9af14aa118862b5ffecfb77529a20922a12ee269"
   },
   {
     "name": "dslink-java-modbus",
@@ -638,8 +629,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-modbus.zip",
-    "revision": "97a83e260258ee740274d24a02f41d93a2f80053",
-    "lastUpdated": "2016-06-24 20:50:57.419282"
+    "revision": "97a83e260258ee740274d24a02f41d93a2f80053"
   },
   {
     "name": "dslink-java-mqtt",
@@ -658,8 +648,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-mqtt.zip",
-    "revision": "e3701b76a8ced5409900c18610c68290da51acb5",
-    "lastUpdated": "2016-05-16 00:00:59.592361"
+    "revision": "e3701b76a8ced5409900c18610c68290da51acb5"
   },
   {
     "name": "dslink-java-opc",
@@ -678,8 +667,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-opc.zip",
-    "revision": "b9ac2c0182f83bfece9ccc21da30c352324d81ad-1",
-    "lastUpdated": "2016-04-22 14:29:06.164147"
+    "revision": "b9ac2c0182f83bfece9ccc21da30c352324d81ad-1"
   },
   {
     "name": "dslink-java-relayr",
@@ -698,8 +686,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-relayr.zip",
-    "revision": "75271719f3af3af2a9d4d712d3c4cf442a2d6764-1",
-    "lastUpdated": "2016-04-22 14:29:18.485690"
+    "revision": "75271719f3af3af2a9d4d712d3c4cf442a2d6764-1"
   },
   {
     "name": "dslink-java-rethinkdb",
@@ -718,8 +705,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-rethinkdb.zip",
-    "revision": "74bd7ad01c0f4050f1c51b45ea206685e0373739",
-    "lastUpdated": "2016-05-15 18:45:17.622506"
+    "revision": "74bd7ad01c0f4050f1c51b45ea206685e0373739"
   },
   {
     "name": "dslink-java-sedona",
@@ -738,8 +724,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-sedona.zip",
-    "revision": "401f3302291af20cf52d22304b44bc5312d9da1f-1",
-    "lastUpdated": "2016-04-22 14:29:37.984944"
+    "revision": "401f3302291af20cf52d22304b44bc5312d9da1f-1"
   },
   {
     "name": "dslink-java-snmp",
@@ -758,8 +743,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-snmp.zip",
-    "revision": "63de5cfc10d4b928a20c996326c06197acf627d7-1",
-    "lastUpdated": "2016-04-22 14:29:46.640628"
+    "revision": "63de5cfc10d4b928a20c996326c06197acf627d7-1"
   },
   {
     "name": "dslink-java-splunk",
@@ -778,8 +762,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-splunk.zip",
-    "revision": "ebef663456db6788989a70a3c323e9482453d91e-1",
-    "lastUpdated": "2016-04-22 14:30:01.607925"
+    "revision": "ebef663456db6788989a70a3c323e9482453d91e-1"
   },
   {
     "name": "dslink-java-twitter",
@@ -798,8 +781,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-twitter.zip",
-    "revision": "cbfc6e3991e845a803d4da34252189596ef8d977-1",
-    "lastUpdated": "2016-04-22 14:30:14.078497"
+    "revision": "cbfc6e3991e845a803d4da34252189596ef8d977-1"
   },
   {
     "name": "dslink-java-zwave",
@@ -818,8 +800,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-zwave.zip",
-    "revision": "4ebbf3d1a1a6b63988a1c7ddd388d1f7d602f05a-1",
-    "lastUpdated": "2016-04-22 14:30:23.974209"
+    "revision": "4ebbf3d1a1a6b63988a1c7ddd388d1f7d602f05a-1"
   },
   {
     "name": "dslink-scala-ignition",
@@ -831,8 +812,7 @@
     "description": "Spark Ignition dataflow builder",
     "category": "Dataflow",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-scala-ignition.zip",
-    "revision": "5fb9e8de115955f6297d4850c6785450cad7d312",
-    "lastUpdated": "2016-06-01 11:34:31.913729"
+    "revision": "5fb9e8de115955f6297d4850c6785450cad7d312"
   },
   {
     "name": "dslink-scala-kafka",
@@ -844,7 +824,6 @@
     "description": "Interact with Kafka",
     "category": "Messaging",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-scala-kafka.zip",
-    "revision": "31a0f0b8bfdc252d6a4d70b786547998956845cc",
-    "lastUpdated": "2016-03-21 10:47:15.203194"
+    "revision": "31a0f0b8bfdc252d6a4d70b786547998956845cc"
   }
 ]
