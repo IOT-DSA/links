@@ -373,8 +373,8 @@
     "description": "Get Weather Data",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-weather.zip",
-    "revision": "c99b0d986802563d3ea417a3a3572a73f058e23a",
-    "lastUpdated": "2016-06-23 15:22:39.257810"
+    "revision": "cc315106cac877b180860dcea276b119e814fc5c",
+    "lastUpdated": "2016-06-26 13:11:22.877929"
   },
   {
     "name": "dslink-dart-webctrl",
