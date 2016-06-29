@@ -1,0 +1,386 @@
+{
+  "timestamp": "2016-06-29 11:35:40.824782",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "976q7KC637",
+  "uploads": [
+    {
+      "tag": "dslink-dart-BEV",
+      "source": "files/dslink-dart-BEV.zip",
+      "target": "files/dslink-dart-BEV.zip",
+      "revision": "6d64059c81ea7ff9f5f4d075de1e7bc2652466cb"
+    },
+    {
+      "tag": "dslink-dart-dgapi",
+      "source": "files/dslink-dart-dgapi.zip",
+      "target": "files/dslink-dart-dgapi.zip",
+      "revision": "aa632b2d68d659d2daae450d66d13ea971fcec37"
+    },
+    {
+      "tag": "dslink-dart-digital-ocean",
+      "source": "files/dslink-dart-digital-ocean.zip",
+      "target": "files/dslink-dart-digital-ocean.zip",
+      "revision": "c1644ce08ee81a6628a85eed332ad8433a08c713"
+    },
+    {
+      "tag": "dslink-dart-dql",
+      "source": "files/dslink-dart-dql.zip",
+      "target": "files/dslink-dart-dql.zip",
+      "revision": "d4e3a4dae5c0d6f95118d1d634db1476f93930ca"
+    },
+    {
+      "tag": "dslink-dart-earthquakes",
+      "source": "files/dslink-dart-earthquakes.zip",
+      "target": "files/dslink-dart-earthquakes.zip",
+      "revision": "3cfa1dc5f7a27ac96ad536f676abb3a2b609cbb3"
+    },
+    {
+      "tag": "dslink-dart-elios4you",
+      "source": "files/dslink-dart-elios4you.zip",
+      "target": "files/dslink-dart-elios4you.zip",
+      "revision": "81c306bbb896bd968869877a6c389887e2a563c4"
+    },
+    {
+      "tag": "dslink-dart-feed",
+      "source": "files/dslink-dart-feed.zip",
+      "target": "files/dslink-dart-feed.zip",
+      "revision": "d15e5f66ad3342a6c82d46a4d557971aeec7ae63"
+    },
+    {
+      "tag": "dslink-dart-file",
+      "source": "files/dslink-dart-file.zip",
+      "target": "files/dslink-dart-file.zip",
+      "revision": "d430db286e8666dea6b31d7d19c79e00c8022218"
+    },
+    {
+      "tag": "dslink-dart-filesystem",
+      "source": "files/dslink-dart-filesystem.zip",
+      "target": "files/dslink-dart-filesystem.zip",
+      "revision": "5bec6bb2424b66df61ff995b28280786000394c8"
+    },
+    {
+      "tag": "dslink-dart-host-dgbox",
+      "source": "files/dslink-dart-host-dgbox.zip",
+      "target": "files/dslink-dart-host-dgbox.zip",
+      "revision": "017ac94e7f8c7f26b65a06c10d63f31736a01eba"
+    },
+    {
+      "tag": "dslink-dart-html5",
+      "source": "files/dslink-dart-html5.zip",
+      "target": "files/dslink-dart-html5.zip",
+      "revision": "a90a9ff96b4f0042d8d88f67ef1a0c5979b268c9"
+    },
+    {
+      "tag": "dslink-dart-irc",
+      "source": "files/dslink-dart-irc.zip",
+      "target": "files/dslink-dart-irc.zip",
+      "revision": "fa601d3762db23f22700cca9a2d10d1ee676e67a"
+    },
+    {
+      "tag": "dslink-dart-mailer",
+      "source": "files/dslink-dart-mailer.zip",
+      "target": "files/dslink-dart-mailer.zip",
+      "revision": "e46b54dd7b30d2ce4b43480dd9d78b3ae378ea47"
+    },
+    {
+      "tag": "dslink-dart-mjpeg",
+      "source": "files/dslink-dart-mjpeg.zip",
+      "target": "files/dslink-dart-mjpeg.zip",
+      "revision": "872ede54ef204ac6e5da68652c512183baae5a48"
+    },
+    {
+      "tag": "dslink-dart-mongodb",
+      "source": "files/dslink-dart-mongodb.zip",
+      "target": "files/dslink-dart-mongodb.zip",
+      "revision": "21594f4332f2a1d316e1f309f246458c145ed0e6"
+    },
+    {
+      "tag": "dslink-dart-mysql",
+      "source": "files/dslink-dart-mysql.zip",
+      "target": "files/dslink-dart-mysql.zip",
+      "revision": "8e14dd50fa0f508c34054380466bee814e81a6f9"
+    },
+    {
+      "tag": "dslink-dart-osx",
+      "source": "files/dslink-dart-osx.zip",
+      "target": "files/dslink-dart-osx.zip",
+      "revision": "de9249a4facd1c82984fd4295873e1234bfe24ae"
+    },
+    {
+      "tag": "dslink-dart-rest",
+      "source": "files/dslink-dart-rest.zip",
+      "target": "files/dslink-dart-rest.zip",
+      "revision": "e6527f378d15052d145efb4d7af99546dc6a9acd"
+    },
+    {
+      "tag": "dslink-dart-rpi",
+      "source": "files/dslink-dart-rpi.zip",
+      "target": "files/dslink-dart-rpi.zip",
+      "revision": "eb9678dcf686bf68a3cd32048e889381964e221b"
+    },
+    {
+      "tag": "dslink-dart-schedule",
+      "source": "files/dslink-dart-schedule.zip",
+      "target": "files/dslink-dart-schedule.zip",
+      "revision": "7e400c003bead87e783596061b88715e9ba422cf"
+    },
+    {
+      "tag": "dslink-dart-slack",
+      "source": "files/dslink-dart-slack.zip",
+      "target": "files/dslink-dart-slack.zip",
+      "revision": "87299047ee198d15f6a2ff8e269ec06cf840cf7b"
+    },
+    {
+      "tag": "dslink-dart-solaredge",
+      "source": "files/dslink-dart-solaredge.zip",
+      "target": "files/dslink-dart-solaredge.zip",
+      "revision": "0508f2b1bb7c1335d50a9efbdad701a47c7e7d70"
+    },
+    {
+      "tag": "dslink-dart-system",
+      "source": "files/dslink-dart-system.zip",
+      "target": "files/dslink-dart-system.zip",
+      "revision": "25804128bdc724926eb96d85c72b9b01b25b27a5"
+    },
+    {
+      "tag": "dslink-dart-traccar",
+      "source": "files/dslink-dart-traccar.zip",
+      "target": "files/dslink-dart-traccar.zip",
+      "revision": "dfa2bd53bef8439e848057ae2dca4091a85b2cc7"
+    },
+    {
+      "tag": "dslink-dart-twilio",
+      "source": "files/dslink-dart-twilio.zip",
+      "target": "files/dslink-dart-twilio.zip",
+      "revision": "bae716db2ed96edaee7b5c6de93ae9f253652124"
+    },
+    {
+      "tag": "dslink-dart-upnp",
+      "source": "files/dslink-dart-upnp.zip",
+      "target": "files/dslink-dart-upnp.zip",
+      "revision": "d617b21315dfb414f5b4bfe362dd627e41339fa1"
+    },
+    {
+      "tag": "dslink-dart-weather",
+      "source": "files/dslink-dart-weather.zip",
+      "target": "files/dslink-dart-weather.zip",
+      "revision": "9f9d610289c8e9c602b64c1c19cacf99565cf54b"
+    },
+    {
+      "tag": "dslink-dart-webctrl",
+      "source": "files/dslink-dart-webctrl.zip",
+      "target": "files/dslink-dart-webctrl.zip",
+      "revision": "e15b97e5fc29697d4d9ae66e3124a047670bf3fb"
+    },
+    {
+      "tag": "dslink-dart-wemo",
+      "source": "files/dslink-dart-wemo.zip",
+      "target": "files/dslink-dart-wemo.zip",
+      "revision": "be1deb92d0a7d3fc04f5715a885c1aa9fcb0b598"
+    },
+    {
+      "tag": "dslink-dart-youtube",
+      "source": "files/dslink-dart-youtube.zip",
+      "target": "files/dslink-dart-youtube.zip",
+      "revision": "d25c67abb4cbdd0d2d38518370ac9335ca24abbb"
+    },
+    {
+      "tag": "dslink-dart-zabbix",
+      "source": "files/dslink-dart-zabbix.zip",
+      "target": "files/dslink-dart-zabbix.zip",
+      "revision": "df60fa4cfafb6d6a96b86ae4de55d1d3903d2dfc"
+    },
+    {
+      "tag": "dslink-dart-zoneminder",
+      "source": "files/dslink-dart-zoneminder.zip",
+      "target": "files/dslink-dart-zoneminder.zip",
+      "revision": "3f8f7ed47d65633a14276e6e36e99e97cff6c87c"
+    },
+    {
+      "tag": "dslink-java-advantech",
+      "source": "files/dslink-java-advantech.zip",
+      "target": "files/dslink-java-advantech.zip",
+      "revision": "449fd89d6d6b0e00169b99064313c9b64cde68f5"
+    },
+    {
+      "tag": "dslink-java-bacnet",
+      "source": "files/dslink-java-bacnet.zip",
+      "target": "files/dslink-java-bacnet.zip",
+      "revision": "5fc8caf1be5a9b2d9337e9ca6effad8786d8174d"
+    },
+    {
+      "tag": "dslink-java-enocean",
+      "source": "files/dslink-java-enocean.zip",
+      "target": "files/dslink-java-enocean.zip",
+      "revision": "1dc458f8ecffc82988b6d8baf38d745ba3e7ffd1"
+    },
+    {
+      "tag": "dslink-java-etsdb",
+      "source": "files/dslink-java-etsdb.zip",
+      "target": "files/dslink-java-etsdb.zip",
+      "revision": "4af5f44a19eecdc2ecb53d4bac99df270ceaef6a"
+    },
+    {
+      "tag": "dslink-java-googleplus",
+      "source": "files/dslink-java-googleplus.zip",
+      "target": "files/dslink-java-googleplus.zip",
+      "revision": "e00dbfd87ffe66a9acb91d7def6909832174d144"
+    },
+    {
+      "tag": "dslink-java-haystack",
+      "source": "files/dslink-java-haystack.zip",
+      "target": "files/dslink-java-haystack.zip",
+      "revision": "27786b5bae1972823355848c55506d5bcc97e9fe"
+    },
+    {
+      "tag": "dslink-java-jdbc",
+      "source": "files/dslink-java-jdbc.zip",
+      "target": "files/dslink-java-jdbc.zip",
+      "revision": "9061784b432dc434745cefbe85be95d958b1182e"
+    },
+    {
+      "tag": "dslink-java-mango",
+      "source": "files/dslink-java-mango.zip",
+      "target": "files/dslink-java-mango.zip",
+      "revision": "297ccf623700594c2974ef190f4babfb6073a5d5"
+    },
+    {
+      "tag": "dslink-java-modbus",
+      "source": "files/dslink-java-modbus.zip",
+      "target": "files/dslink-java-modbus.zip",
+      "revision": "e928cb3954bdf2efd799916290653ec3c94a3495"
+    },
+    {
+      "tag": "dslink-java-mqtt",
+      "source": "files/dslink-java-mqtt.zip",
+      "target": "files/dslink-java-mqtt.zip",
+      "revision": "ec941478063dc42e877aef357efcbaa133f280e5"
+    },
+    {
+      "tag": "dslink-java-opc",
+      "source": "files/dslink-java-opc.zip",
+      "target": "files/dslink-java-opc.zip",
+      "revision": "1016537595f425830be1f1b3860f22d29d8aec19"
+    },
+    {
+      "tag": "dslink-java-relayr",
+      "source": "files/dslink-java-relayr.zip",
+      "target": "files/dslink-java-relayr.zip",
+      "revision": "bede86ecf53ff97e4e9dc98c3e54c9e9f7439a04"
+    },
+    {
+      "tag": "dslink-java-rethinkdb",
+      "source": "files/dslink-java-rethinkdb.zip",
+      "target": "files/dslink-java-rethinkdb.zip",
+      "revision": "1304c8ce15f341d7a4a05e0313722c74b04f4ea7"
+    },
+    {
+      "tag": "dslink-java-sedona",
+      "source": "files/dslink-java-sedona.zip",
+      "target": "files/dslink-java-sedona.zip",
+      "revision": "8d22710c20ef2e979ba6708dfee23198beb60397"
+    },
+    {
+      "tag": "dslink-java-snmp",
+      "source": "files/dslink-java-snmp.zip",
+      "target": "files/dslink-java-snmp.zip",
+      "revision": "3f12ec9a53807cb370358100ac51dffe8f316d2c"
+    },
+    {
+      "tag": "dslink-java-splunk",
+      "source": "files/dslink-java-splunk.zip",
+      "target": "files/dslink-java-splunk.zip",
+      "revision": "d076235426fe2bb0912db33b928231adf76b5b58"
+    },
+    {
+      "tag": "dslink-java-twitter",
+      "source": "files/dslink-java-twitter.zip",
+      "target": "files/dslink-java-twitter.zip",
+      "revision": "8ed44c73e214b12a77d25fe33a855ba8440cff24"
+    },
+    {
+      "tag": "dslink-java-zwave",
+      "source": "files/dslink-java-zwave.zip",
+      "target": "files/dslink-java-zwave.zip",
+      "revision": "c92b299d7bc4ab83b6c22c5dca7c149d292e7287"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "976q7KC637"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "976q7KC637"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "976q7KC637"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "976q7KC637"
+    }
+  ],
+  "built": [
+    "Belimo-Energy-Valve",
+    "DGAPI",
+    "Digital Ocean",
+    "DQL",
+    "Earthquakes",
+    "Elios4You",
+    "RSS Feeds",
+    "Files",
+    "FileSystem",
+    "DGBox Host",
+    "HTML5",
+    "IRC",
+    "Email",
+    "Motion JPEG",
+    "MongoDB",
+    "MySQL",
+    "Mac OS X",
+    "REST Server",
+    "Raspberry Pi",
+    "Schedule",
+    "Slack",
+    "Solar Edge",
+    "System",
+    "Traccar",
+    "Twilio",
+    "UPnP",
+    "Weather",
+    "WebCtrl",
+    "WeMo",
+    "YouTube",
+    "Zabbix",
+    "ZoneMinder",
+    "Advantech",
+    "BACnet",
+    "Enocean",
+    "ETSDB",
+    "Google Plus",
+    "Haystack",
+    "JDBC",
+    "Mango",
+    "Modbus",
+    "MQTT",
+    "OPC",
+    "Relayr",
+    "RethinkDB",
+    "Sedona",
+    "SNMP",
+    "Splunk",
+    "Twitter",
+    "ZWave"
+  ]
+}
