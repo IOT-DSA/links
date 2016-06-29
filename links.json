@@ -48,8 +48,8 @@
     "description": "Run Queries against DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dql.zip",
-    "revision": "9a228f66b7ca7de1a7ab9239d2eba2781623e94e",
-    "lastUpdated": "2016-06-27 14:52:10.028309"
+    "revision": "b2f013fa830cba2e75e55a31785e8523caac06d9",
+    "lastUpdated": "2016-06-29 09:17:12.064465"
   },
   {
     "name": "dslink-dart-earthquakes",
@@ -373,8 +373,8 @@
     "description": "Get Weather Data",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-weather.zip",
-    "revision": "cc315106cac877b180860dcea276b119e814fc5c-2",
-    "lastUpdated": "2016-06-27 12:20:47.769879"
+    "revision": "b5d2ca9a6afe39d0ad554b3868225f57f889266a",
+    "lastUpdated": "2016-06-29 09:17:26.073903"
   },
   {
     "name": "dslink-dart-webctrl",

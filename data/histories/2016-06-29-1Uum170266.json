@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-06-29 09:17:32.852137",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "1Uum170266",
+  "uploads": [
+    {
+      "tag": "dslink-dart-dql",
+      "source": "files/dslink-dart-dql.zip",
+      "target": "files/dslink-dart-dql.zip",
+      "revision": "b2f013fa830cba2e75e55a31785e8523caac06d9"
+    },
+    {
+      "tag": "dslink-dart-weather",
+      "source": "files/dslink-dart-weather.zip",
+      "target": "files/dslink-dart-weather.zip",
+      "revision": "b5d2ca9a6afe39d0ad554b3868225f57f889266a"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "1Uum170266"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "1Uum170266"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "1Uum170266"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "1Uum170266"
+    }
+  ],
+  "built": [
+    "DQL",
+    "Weather"
+  ]
+}
