@@ -1,0 +1,71 @@
+{
+  "timestamp": "2016-06-30 09:48:28.216035",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "Z1m627qtJx",
+  "uploads": [
+    {
+      "tag": "dslink-dart-elios4you",
+      "source": "files/dslink-dart-elios4you.zip",
+      "target": "files/dslink-dart-elios4you.zip",
+      "revision": "9648ddde8f1b1f3bb19a24244780d31d8a832fb4"
+    },
+    {
+      "tag": "dslink-dart-storage",
+      "source": "files/dslink-dart-storage.zip",
+      "target": "files/dslink-dart-storage.zip",
+      "revision": "3ed93cb461eab9985040dbc9969ada995d40139a"
+    },
+    {
+      "tag": "dslink-java-bitpool",
+      "source": "files/dslink-java-bitpool.zip",
+      "target": "files/dslink-java-bitpool.zip",
+      "revision": "1fd8ce704f448d12b9a19a11a084a4bce7d05876"
+    },
+    {
+      "tag": "dslink-java-modbus",
+      "source": "files/dslink-java-modbus.zip",
+      "target": "files/dslink-java-modbus.zip",
+      "revision": "acc9d206555a61740022d3ef3736c535a8294e78"
+    },
+    {
+      "tag": "dslink-java-snmp",
+      "source": "files/dslink-java-snmp.zip",
+      "target": "files/dslink-java-snmp.zip",
+      "revision": "372172a12034578dc1d62c3511da9043c0396f0a"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "Z1m627qtJx"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "Z1m627qtJx"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "Z1m627qtJx"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "Z1m627qtJx"
+    }
+  ],
+  "built": [
+    "Elios4You",
+    "Storage",
+    "Bitpool",
+    "Modbus",
+    "SNMP"
+  ]
+}

@@ -74,8 +74,8 @@
     "description": "Receive Data from Elios4You",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-elios4you.zip",
-    "revision": "81c306bbb896bd968869877a6c389887e2a563c4",
-    "lastUpdated": "2016-06-29 11:26:34.357223"
+    "revision": "9648ddde8f1b1f3bb19a24244780d31d8a832fb4",
+    "lastUpdated": "2016-06-30 09:47:28.233434"
   },
   {
     "name": "dslink-dart-feed",
@@ -306,8 +306,8 @@
     "description": "Key-Value Storage System",
     "category": "Storage",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-storage.zip",
-    "revision": "167862bfe995250bdeae8b85552075563d25fefa-8",
-    "lastUpdated": "2016-06-27 12:19:52.463485"
+    "revision": "3ed93cb461eab9985040dbc9969ada995d40139a",
+    "lastUpdated": "2016-06-30 09:47:39.960609"
   },
   {
     "name": "dslink-dart-system",
@@ -498,8 +498,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bitpool.zip",
-    "revision": "b0858a7ea638f52618110c3f63edc38a91f70852-2",
-    "lastUpdated": "2016-06-27 12:22:19.988299"
+    "revision": "1fd8ce704f448d12b9a19a11a084a4bce7d05876",
+    "lastUpdated": "2016-06-30 09:47:53.996169"
   },
   {
     "name": "dslink-java-enocean",
@@ -638,8 +638,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-modbus.zip",
-    "revision": "e928cb3954bdf2efd799916290653ec3c94a3495",
-    "lastUpdated": "2016-06-29 11:34:10.690454"
+    "revision": "acc9d206555a61740022d3ef3736c535a8294e78",
+    "lastUpdated": "2016-06-30 09:48:13.345158"
   },
   {
     "name": "dslink-java-mqtt",
@@ -758,8 +758,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-snmp.zip",
-    "revision": "3f12ec9a53807cb370358100ac51dffe8f316d2c",
-    "lastUpdated": "2016-06-29 11:35:13.193727"
+    "revision": "372172a12034578dc1d62c3511da9043c0396f0a",
+    "lastUpdated": "2016-06-30 09:48:26.953536"
   },
   {
     "name": "dslink-java-splunk",
