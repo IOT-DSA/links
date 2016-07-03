@@ -359,8 +359,8 @@
     "description": "Discover and Interact with UPnP Devices",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-upnp.zip",
-    "revision": "d617b21315dfb414f5b4bfe362dd627e41339fa1",
-    "lastUpdated": "2016-06-29 11:31:05.340132"
+    "revision": "4fb7b94ab1052e8a6d136f18f68d37b0caa4704a",
+    "lastUpdated": "2016-07-03 15:53:32.475264"
   },
   {
     "name": "dslink-dart-weather",
