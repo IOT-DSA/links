@@ -1,0 +1,10 @@
+{
+  "name": "dslink-java-dnp3",
+  "displayName": "DNP3",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-java-dnp3.git"
+  },
+  "description": "Distributed Network Protocol",
+  "category": "Data Acquisition"
+}
