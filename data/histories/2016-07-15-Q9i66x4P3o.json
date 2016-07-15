@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-07-15 16:15:11.834887",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "Q9i66x4P3o",
+  "uploads": [
+    {
+      "tag": "dslink-dart-schedule",
+      "source": "files/dslink-dart-schedule.zip",
+      "target": "files/dslink-dart-schedule.zip",
+      "revision": "3407dfb0cafdbcb7b9a17c5b37dbed520554c895"
+    },
+    {
+      "tag": "dslink-java-dnp3",
+      "source": "files/dslink-java-dnp3.zip",
+      "target": "files/dslink-java-dnp3.zip",
+      "revision": "232a4813d2f642fe5b697f24411922dcdc37cc7f"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "Q9i66x4P3o"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "Q9i66x4P3o"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "Q9i66x4P3o"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "Q9i66x4P3o"
+    }
+  ],
+  "built": [
+    "Schedule",
+    "DNP3"
+  ]
+}

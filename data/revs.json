@@ -45,7 +45,7 @@
   "dslink-python-grovepi": "4bce0886243782ed1d0f54fb82b6c4d6320a8944",
   "dslink-dart-BEV": "6d64059c81ea7ff9f5f4d075de1e7bc2652466cb",
   "dslink-dart-rpi": "eb9678dcf686bf68a3cd32048e889381964e221b",
-  "dslink-dart-schedule": "7e400c003bead87e783596061b88715e9ba422cf",
+  "dslink-dart-schedule": "3407dfb0cafdbcb7b9a17c5b37dbed520554c895",
   "dslink-dart-elios4you": "9648ddde8f1b1f3bb19a24244780d31d8a832fb4",
   "dslink-dart-kafka": "f8962c567bcd11eec7f8250ba13553bca66b146a-1",
   "dslink-dart-traccar": "dfa2bd53bef8439e848057ae2dca4091a85b2cc7",
@@ -58,5 +58,5 @@
   "dslink-dart-osx": "de9249a4facd1c82984fd4295873e1234bfe24ae",
   "dslink-dart-upnp": "4fb7b94ab1052e8a6d136f18f68d37b0caa4704a",
   "dslink-dart-mjpeg": "aefef69a8f31a0bd7ae7408b7899de9904409c4a",
-  "dslink-java-dnp3": "041a16e5767d7bb57de2008a4a55e8a43a9e1fba"
+  "dslink-java-dnp3": "232a4813d2f642fe5b697f24411922dcdc37cc7f"
 }
