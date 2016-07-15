@@ -502,6 +502,26 @@
     "lastUpdated": "2016-06-30 09:47:53.996169"
   },
   {
+    "name": "dslink-java-dnp3",
+    "displayName": "DNP3",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-dnp3.git",
+      "ignoreBuildScript": true
+    },
+    "description": "Distributed Network Protocol",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    },
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-dnp3.zip",
+    "revision": "041a16e5767d7bb57de2008a4a55e8a43a9e1fba",
+    "lastUpdated": "2016-07-15 14:20:51.012753"
+  },
+  {
     "name": "dslink-java-enocean",
     "displayName": "Enocean",
     "type": "Java",
