@@ -522,6 +522,26 @@
     "lastUpdated": "2016-07-16 00:00:47.897502"
   },
   {
+    "name": "dslink-java-dsa-coap",
+    "displayName": "DSA over COAP",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-dsa-coap.git",
+      "ignoreBuildScript": true
+    },
+    "description": "Access and Serve DSA over COAP",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    },
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-dsa-coap.zip",
+    "revision": "3e35caff3d95ba620f9b742267bfe6e7adf4c755",
+    "lastUpdated": "2016-07-18 13:05:57.823041"
+  },
+  {
     "name": "dslink-java-enocean",
     "displayName": "Enocean",
     "type": "Java",

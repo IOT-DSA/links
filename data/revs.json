@@ -58,5 +58,6 @@
   "dslink-dart-osx": "de9249a4facd1c82984fd4295873e1234bfe24ae",
   "dslink-dart-upnp": "4fb7b94ab1052e8a6d136f18f68d37b0caa4704a",
   "dslink-dart-mjpeg": "aefef69a8f31a0bd7ae7408b7899de9904409c4a",
-  "dslink-java-dnp3": "39834f088162388957eac2a92d8f586ea70d039a"
+  "dslink-java-dnp3": "39834f088162388957eac2a92d8f586ea70d039a",
+  "dslink-java-dsa-coap": "3e35caff3d95ba620f9b742267bfe6e7adf4c755"
 }
