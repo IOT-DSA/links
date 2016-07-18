@@ -1,0 +1,10 @@
+{
+  "name": "dslink-java-dsa-coap",
+  "displayName": "DSA over COAP",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-java-dsa-coap.git"
+  },
+  "description": "Access and Serve DSA over COAP",
+  "category": "Data Acquisition"
+}
