@@ -518,8 +518,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-dnp3.zip",
-    "revision": "39834f088162388957eac2a92d8f586ea70d039a",
-    "lastUpdated": "2016-07-16 00:00:47.897502"
+    "revision": "aed8f33759facac9bfe055bf3b351965de5f513c",
+    "lastUpdated": "2016-07-18 14:31:55.386728"
   },
   {
     "name": "dslink-java-dsa-coap",
