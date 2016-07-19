@@ -478,8 +478,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet.zip",
-    "revision": "a870e931890147706e776e677ee94407c42d93f5",
-    "lastUpdated": "2016-07-16 00:00:39.145303"
+    "revision": "62e473497e33c1ec2209d9a9b5e41a16643339c8",
+    "lastUpdated": "2016-07-19 00:00:38.927159"
   },
   {
     "name": "dslink-java-bitpool",
@@ -538,8 +538,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-dsa-coap.zip",
-    "revision": "5df887ef6d8b29d0435fe23983bb90c5225fb175",
-    "lastUpdated": "2016-07-18 13:19:23.950813"
+    "revision": "19eea0a33a7f01b9fdc8098da2be842ecbb3a733",
+    "lastUpdated": "2016-07-19 00:00:49.596445"
   },
   {
     "name": "dslink-java-enocean",

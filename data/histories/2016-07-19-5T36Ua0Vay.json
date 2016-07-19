@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-07-19 00:00:53.846186",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "5T36Ua0Vay",
+  "uploads": [
+    {
+      "tag": "dslink-java-bacnet",
+      "source": "files/dslink-java-bacnet.zip",
+      "target": "files/dslink-java-bacnet.zip",
+      "revision": "62e473497e33c1ec2209d9a9b5e41a16643339c8"
+    },
+    {
+      "tag": "dslink-java-dsa-coap",
+      "source": "files/dslink-java-dsa-coap.zip",
+      "target": "files/dslink-java-dsa-coap.zip",
+      "revision": "19eea0a33a7f01b9fdc8098da2be842ecbb3a733"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "5T36Ua0Vay"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "5T36Ua0Vay"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "5T36Ua0Vay"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "5T36Ua0Vay"
+    }
+  ],
+  "built": [
+    "BACnet",
+    "DSA over COAP"
+  ]
+}
