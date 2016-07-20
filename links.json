@@ -478,8 +478,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet.zip",
-    "revision": "62e473497e33c1ec2209d9a9b5e41a16643339c8",
-    "lastUpdated": "2016-07-19 00:00:38.927159"
+    "revision": "9775e6637fb7e1f5b4ef1033d90a772d7ea1604a",
+    "lastUpdated": "2016-07-20 00:00:36.011758"
   },
   {
     "name": "dslink-java-bitpool",
@@ -578,8 +578,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-etsdb.zip",
-    "revision": "4af5f44a19eecdc2ecb53d4bac99df270ceaef6a",
-    "lastUpdated": "2016-06-29 11:33:09.527448"
+    "revision": "23ce0d70927a9a246967803b5b1dad75054bff0d",
+    "lastUpdated": "2016-07-20 00:00:52.771827"
   },
   {
     "name": "dslink-java-googleplus",
