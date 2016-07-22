@@ -425,8 +425,8 @@
     "description": "REST interface for Zabbix Server API",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-zabbix.zip",
-    "revision": "df60fa4cfafb6d6a96b86ae4de55d1d3903d2dfc",
-    "lastUpdated": "2016-06-29 11:32:02.611893"
+    "revision": "df557eb457a38740fb92ed364eaa222abcf65688",
+    "lastUpdated": "2016-07-22 11:21:16.243369"
   },
   {
     "name": "dslink-dart-zoneminder",

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-07-22 11:21:22.146787",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "c5365qe0Z8",
+  "uploads": [
+    {
+      "tag": "dslink-dart-zabbix",
+      "source": "files/dslink-dart-zabbix.zip",
+      "target": "files/dslink-dart-zabbix.zip",
+      "revision": "df557eb457a38740fb92ed364eaa222abcf65688"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "c5365qe0Z8"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "c5365qe0Z8"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "c5365qe0Z8"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "c5365qe0Z8"
+    }
+  ],
+  "built": [
+    "Zabbix"
+  ]
+}
