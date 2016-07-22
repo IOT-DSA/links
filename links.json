@@ -399,8 +399,8 @@
     "description": "Interact with WeMo Devices",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-wemo.zip",
-    "revision": "b5930f260bf901362c67bd76877f0e09c413bf77",
-    "lastUpdated": "2016-07-22 13:04:28.642584"
+    "revision": "83e3718f5dc3fcd87a20e018418d551065d877cb",
+    "lastUpdated": "2016-07-22 13:14:01.489038"
   },
   {
     "name": "dslink-dart-youtube",
@@ -478,8 +478,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet.zip",
-    "revision": "b6b515693002f496b7d07604a36dc3d6c686e3f0",
-    "lastUpdated": "2016-07-21 00:00:33.009253"
+    "revision": "7721af2c03d818c5a367d6588bddcc7126d761b0",
+    "lastUpdated": "2016-07-22 13:14:18.144692"
   },
   {
     "name": "dslink-java-bitpool",
