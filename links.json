@@ -241,8 +241,8 @@
     "description": "Use a REST API to manipulate custom nodes",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-rest.zip",
-    "revision": "371fddcd699013f784dc84cf3efd757cea4d98fb",
-    "lastUpdated": "2016-07-11 15:25:40.197508"
+    "revision": "eae6e47f2d8207d6367dd7ffe6d50bb038cb5be3",
+    "lastUpdated": "2016-07-25 15:14:01.508610"
   },
   {
     "name": "dslink-dart-rpi",
@@ -320,8 +320,8 @@
     "description": "Get Live Statistics about a Machine",
     "category": "System",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-system.zip",
-    "revision": "f07a39c23e74af3a1e3589abc3039d79567f1d49",
-    "lastUpdated": "2016-07-18 13:43:51.737873"
+    "revision": "65fbebd2553883d70116b69d6f07f6666e622a26",
+    "lastUpdated": "2016-07-25 15:14:20.891714"
   },
   {
     "name": "dslink-dart-traccar",
