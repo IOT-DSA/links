@@ -502,6 +502,26 @@
     "lastUpdated": "2016-06-30 09:47:53.996169"
   },
   {
+    "name": "dslink-java-calendar",
+    "displayName": "Calendar DSLink",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-calendar.git",
+      "ignoreBuildScript": true
+    },
+    "description": "Calendar DSLink with support for CalDAV, Google Calendar, and Exchange",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    },
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-calendar.zip",
+    "revision": "f8419c183de69bc92dc6667df86f06f07973c40c",
+    "lastUpdated": "2016-07-26 16:34:05.265733"
+  },
+  {
     "name": "dslink-java-dnp3",
     "displayName": "DNP3",
     "type": "Java",

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-07-26 16:34:12.071666",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "961PW498N8",
+  "uploads": [
+    {
+      "tag": "dslink-java-calendar",
+      "source": "files/dslink-java-calendar.zip",
+      "target": "files/dslink-java-calendar.zip",
+      "revision": "f8419c183de69bc92dc6667df86f06f07973c40c"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "961PW498N8"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "961PW498N8"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "961PW498N8"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "961PW498N8"
+    }
+  ],
+  "built": [
+    "Calendar DSLink"
+  ]
+}
