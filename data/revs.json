@@ -28,7 +28,7 @@
   "dslink-dart-system": "7b192cbb1c4f97605fd50781254ad91d8d378e72",
   "dslink-dart-weather": "9f9d610289c8e9c602b64c1c19cacf99565cf54b",
   "dslink-java-opc": "1016537595f425830be1f1b3860f22d29d8aec19",
-  "dslink-dart-rest": "eae6e47f2d8207d6367dd7ffe6d50bb038cb5be3",
+  "dslink-dart-rest": "3e80c45d70cbf85d92d6141a27c51408cc9dddc0",
   "dslink-dart-mysql": "8e14dd50fa0f508c34054380466bee814e81a6f9",
   "dslink-dart-host-dgbox": "017ac94e7f8c7f26b65a06c10d63f31736a01eba",
   "dslink-dart-feed": "d15e5f66ad3342a6c82d46a4d557971aeec7ae63",
@@ -59,6 +59,6 @@
   "dslink-dart-upnp": "4fb7b94ab1052e8a6d136f18f68d37b0caa4704a",
   "dslink-dart-mjpeg": "aefef69a8f31a0bd7ae7408b7899de9904409c4a",
   "dslink-java-dnp3": "aed8f33759facac9bfe055bf3b351965de5f513c",
-  "dslink-java-dsa-coap": "5318cbfe89c016b468970cda193be717e803e4a7",
+  "dslink-java-dsa-coap": "ba3e3c2301d8ad617a91ace90371a5e43d35c57c",
   "dslink-java-calendar": "19d10d1c389436c4ada6f95ff825c1521a986146"
 }
