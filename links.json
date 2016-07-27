@@ -503,7 +503,7 @@
   },
   {
     "name": "dslink-java-calendar",
-    "displayName": "Calendar DSLink",
+    "displayName": "Calendar",
     "type": "Java",
     "automated": {
       "repository": "https://github.com/IOT-DSA/dslink-java-calendar.git",
@@ -518,8 +518,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-calendar.zip",
-    "revision": "f8419c183de69bc92dc6667df86f06f07973c40c",
-    "lastUpdated": "2016-07-26 16:34:05.265733"
+    "revision": "19d10d1c389436c4ada6f95ff825c1521a986146",
+    "lastUpdated": "2016-07-26 19:53:44.771798"
   },
   {
     "name": "dslink-java-dnp3",
