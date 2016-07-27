@@ -1,6 +1,6 @@
 {
   "name": "dslink-java-calendar",
-  "displayName": "Calendar DSLink",
+  "displayName": "Calendar",
   "type": "Java",
   "automated": {
     "repository": "https://github.com/IOT-DSA/dslink-java-calendar.git"
