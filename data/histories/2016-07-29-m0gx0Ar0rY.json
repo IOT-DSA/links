@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-07-29 09:22:53.572268",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "m0gx0Ar0rY",
+  "uploads": [
+    {
+      "tag": "dslink-java-dsa-coap",
+      "source": "files/dslink-java-dsa-coap.zip",
+      "target": "files/dslink-java-dsa-coap.zip",
+      "revision": "3f8589cfc1a004e5fa4cc371392e6dc0dbdeaad2"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "m0gx0Ar0rY"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "m0gx0Ar0rY"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "m0gx0Ar0rY"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "m0gx0Ar0rY"
+    }
+  ],
+  "built": [
+    "DSA over COAP"
+  ]
+}
