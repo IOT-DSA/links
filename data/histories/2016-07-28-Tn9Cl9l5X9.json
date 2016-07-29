@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-07-28 17:23:51.488044",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "Tn9Cl9l5X9",
+  "uploads": [
+    {
+      "tag": "dslink-java-dnp3",
+      "source": "files/dslink-java-dnp3.zip",
+      "target": "files/dslink-java-dnp3.zip",
+      "revision": "d7c5f8bb847904e53fd05c2a38f19179e99c55fb"
+    },
+    {
+      "tag": "dslink-java-dsa-coap",
+      "source": "files/dslink-java-dsa-coap.zip",
+      "target": "files/dslink-java-dsa-coap.zip",
+      "revision": "da9729ca58067859c139dea1b2782024cba84c1c"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "Tn9Cl9l5X9"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "Tn9Cl9l5X9"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "Tn9Cl9l5X9"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "Tn9Cl9l5X9"
+    }
+  ],
+  "built": [
+    "DNP3",
+    "DSA over COAP"
+  ]
+}

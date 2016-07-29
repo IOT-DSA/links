@@ -538,8 +538,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-dnp3.zip",
-    "revision": "aed8f33759facac9bfe055bf3b351965de5f513c",
-    "lastUpdated": "2016-07-18 14:31:55.386728"
+    "revision": "d7c5f8bb847904e53fd05c2a38f19179e99c55fb",
+    "lastUpdated": "2016-07-28 17:23:37.486697"
   },
   {
     "name": "dslink-java-dsa-coap",
@@ -558,8 +558,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-dsa-coap.zip",
-    "revision": "ba3e3c2301d8ad617a91ace90371a5e43d35c57c",
-    "lastUpdated": "2016-07-27 11:27:03.508904"
+    "revision": "da9729ca58067859c139dea1b2782024cba84c1c",
+    "lastUpdated": "2016-07-28 17:23:47.547798"
   },
   {
     "name": "dslink-java-enocean",
