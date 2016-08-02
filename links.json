@@ -558,8 +558,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-dsa-coap.zip",
-    "revision": "b25154c3d8c4bf79ce922483cefb06b85c991689",
-    "lastUpdated": "2016-08-01 08:56:04.444533"
+    "revision": "058442304a9a0a8fce6c0382a97b0005848de1a3",
+    "lastUpdated": "2016-08-02 12:43:39.067174"
   },
   {
     "name": "dslink-java-enocean",
