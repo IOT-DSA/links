@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-08-05 15:15:58.541888",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "10W4863I3w",
+  "uploads": [
+    {
+      "tag": "dslink-java-bacnet",
+      "source": "files/dslink-java-bacnet.zip",
+      "target": "files/dslink-java-bacnet.zip",
+      "revision": "167dec21fd2a2fd12e153f6be5140f974be41a19"
+    },
+    {
+      "tag": "dslink-java-etsdb",
+      "source": "files/dslink-java-etsdb.zip",
+      "target": "files/dslink-java-etsdb.zip",
+      "revision": "f6de00f3917c2270bb84a3df789e1117ad8c8414"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "10W4863I3w"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "10W4863I3w"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "10W4863I3w"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "10W4863I3w"
+    }
+  ],
+  "built": [
+    "BACnet",
+    "ETSDB"
+  ]
+}
