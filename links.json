@@ -718,8 +718,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-mqtt.zip",
-    "revision": "ec941478063dc42e877aef357efcbaa133f280e5",
-    "lastUpdated": "2016-06-29 11:34:26.672677"
+    "revision": "91fce8645f631a1d6f02829e0add723a06568778",
+    "lastUpdated": "2016-08-05 15:59:59.589272"
   },
   {
     "name": "dslink-java-opc",
