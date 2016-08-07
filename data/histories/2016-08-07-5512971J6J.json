@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-08-07 16:00:32.746015",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "5512971J6J",
+  "uploads": [
+    {
+      "tag": "dslink-dart-upnp",
+      "source": "files/dslink-dart-upnp.zip",
+      "target": "files/dslink-dart-upnp.zip",
+      "revision": "5e5a3938bdf9196eb2f4b80f4c2269ad0ebe4f98"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "5512971J6J"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "5512971J6J"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "5512971J6J"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "5512971J6J"
+    }
+  ],
+  "built": [
+    "UPnP"
+  ]
+}
