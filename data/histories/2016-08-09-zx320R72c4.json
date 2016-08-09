@@ -1,0 +1,35 @@
+{
+  "timestamp": "2016-08-09 00:00:40.102166",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "zx320R72c4",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "zx320R72c4"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "zx320R72c4"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "zx320R72c4"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "zx320R72c4"
+    }
+  ],
+  "built": []
+}
