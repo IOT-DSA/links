@@ -60,5 +60,6 @@
   "dslink-dart-mjpeg": "aefef69a8f31a0bd7ae7408b7899de9904409c4a",
   "dslink-java-dnp3": "d7c5f8bb847904e53fd05c2a38f19179e99c55fb",
   "dslink-java-dsa-coap": "285642b7b59d5b719aed0145480f6bd40636664d",
-  "dslink-java-calendar": "6bb49fb3e0fa933586f684b117189ac301c9d645"
+  "dslink-java-calendar": "6bb49fb3e0fa933586f684b117189ac301c9d645",
+  "dslink-java-serial": "d52a0daca870b90d4dfadfdcbf7a0caa4fb887ed"
 }

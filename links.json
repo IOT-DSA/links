@@ -802,6 +802,26 @@
     "lastUpdated": "2016-06-29 11:35:01.274874"
   },
   {
+    "name": "dslink-java-serial",
+    "displayName": "Serial",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-serial.git",
+      "ignoreBuildScript": true
+    },
+    "description": "Send/Recieve data over serial ports",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    },
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-serial.zip",
+    "revision": "d52a0daca870b90d4dfadfdcbf7a0caa4fb887ed",
+    "lastUpdated": "2016-08-09 17:57:29.442570"
+  },
+  {
     "name": "dslink-java-snmp",
     "displayName": "SNMP",
     "type": "Java",
