@@ -1,0 +1,10 @@
+{
+  "name": "dslink-java-serial",
+  "displayName": "Serial",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-java-serial.git"
+  },
+  "description": "Send/Recieve data over serial ports",
+  "category": "Data Acquisition"
+}
