@@ -462,6 +462,26 @@
     "lastUpdated": "2016-06-29 11:32:36.773226"
   },
   {
+    "name": "dslink-java-alarm",
+    "displayName": "Alarm",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-alarm.git",
+      "ignoreBuildScript": true
+    },
+    "description": "Create Alarm Rules and Notifications",
+    "category": "Alarms",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    },
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-alarm.zip",
+    "revision": "7774d86c6cad2d4cbc7d1f17822bbfc777fc2184",
+    "lastUpdated": "2016-08-11 14:30:54.224712"
+  },
+  {
     "name": "dslink-java-bacnet",
     "displayName": "BACnet",
     "type": "Java",

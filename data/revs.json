@@ -61,5 +61,6 @@
   "dslink-java-dnp3": "e11c559b913cccd55e6059c41e0448185266381d",
   "dslink-java-dsa-coap": "285642b7b59d5b719aed0145480f6bd40636664d",
   "dslink-java-calendar": "6bb49fb3e0fa933586f684b117189ac301c9d645",
-  "dslink-java-serial": "379e552914b6eda82a639fe66d69b6ff4430caac"
+  "dslink-java-serial": "379e552914b6eda82a639fe66d69b6ff4430caac",
+  "dslink-java-alarm": "7774d86c6cad2d4cbc7d1f17822bbfc777fc2184"
 }
