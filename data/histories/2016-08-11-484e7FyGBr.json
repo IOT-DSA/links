@@ -1,0 +1,64 @@
+{
+  "timestamp": "2016-08-11 14:27:45.498961",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "484e7FyGBr",
+  "uploads": [
+    {
+      "tag": "dslink-java-bacnet",
+      "source": "files/dslink-java-bacnet.zip",
+      "target": "files/dslink-java-bacnet.zip",
+      "revision": "7f13f9c94712ef846f21b4339c1fbcaf8d062ca2"
+    },
+    {
+      "tag": "dslink-java-dnp3",
+      "source": "files/dslink-java-dnp3.zip",
+      "target": "files/dslink-java-dnp3.zip",
+      "revision": "e11c559b913cccd55e6059c41e0448185266381d"
+    },
+    {
+      "tag": "dslink-java-jdbc",
+      "source": "files/dslink-java-jdbc.zip",
+      "target": "files/dslink-java-jdbc.zip",
+      "revision": "2e20cb7c3de294cdeeb4caa69f7ea8f415485e6c"
+    },
+    {
+      "tag": "dslink-java-serial",
+      "source": "files/dslink-java-serial.zip",
+      "target": "files/dslink-java-serial.zip",
+      "revision": "379e552914b6eda82a639fe66d69b6ff4430caac"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "484e7FyGBr"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "484e7FyGBr"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "484e7FyGBr"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "484e7FyGBr"
+    }
+  ],
+  "built": [
+    "BACnet",
+    "DNP3",
+    "JDBC",
+    "Serial"
+  ]
+}

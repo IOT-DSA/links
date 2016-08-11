@@ -478,8 +478,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet.zip",
-    "revision": "477e21afa00f98f51945cdb8b6d2fb1b4d673a8b",
-    "lastUpdated": "2016-08-09 16:01:52.962179"
+    "revision": "7f13f9c94712ef846f21b4339c1fbcaf8d062ca2",
+    "lastUpdated": "2016-08-11 14:27:11.226343"
   },
   {
     "name": "dslink-java-bitpool",
@@ -538,8 +538,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-dnp3.zip",
-    "revision": "d7c5f8bb847904e53fd05c2a38f19179e99c55fb",
-    "lastUpdated": "2016-07-28 17:23:37.486697"
+    "revision": "e11c559b913cccd55e6059c41e0448185266381d",
+    "lastUpdated": "2016-08-11 14:27:21.970226"
   },
   {
     "name": "dslink-java-dsa-coap",
@@ -658,8 +658,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-jdbc.zip",
-    "revision": "9061784b432dc434745cefbe85be95d958b1182e",
-    "lastUpdated": "2016-06-29 11:33:40.516068"
+    "revision": "2e20cb7c3de294cdeeb4caa69f7ea8f415485e6c",
+    "lastUpdated": "2016-08-11 14:27:34.594592"
   },
   {
     "name": "dslink-java-mango",
@@ -818,8 +818,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-serial.zip",
-    "revision": "11ecbd0137a209b88bd357652c2e49f0eab71d33",
-    "lastUpdated": "2016-08-10 12:38:46.601137"
+    "revision": "379e552914b6eda82a639fe66d69b6ff4430caac",
+    "lastUpdated": "2016-08-11 14:27:44.224954"
   },
   {
     "name": "dslink-java-snmp",
