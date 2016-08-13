@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-08-13 00:00:44.190266",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "Sj01X84elj",
+  "uploads": [
+    {
+      "tag": "dslink-java-serial",
+      "source": "files/dslink-java-serial.zip",
+      "target": "files/dslink-java-serial.zip",
+      "revision": "d9031c4080ee19523481376e1106d41ff4ebc0ff"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "Sj01X84elj"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "Sj01X84elj"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "Sj01X84elj"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "Sj01X84elj"
+    }
+  ],
+  "built": [
+    "Serial"
+  ]
+}

@@ -838,8 +838,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-serial.zip",
-    "revision": "379e552914b6eda82a639fe66d69b6ff4430caac",
-    "lastUpdated": "2016-08-11 14:27:44.224954"
+    "revision": "d9031c4080ee19523481376e1106d41ff4ebc0ff",
+    "lastUpdated": "2016-08-13 00:00:42.599533"
   },
   {
     "name": "dslink-java-snmp",
