@@ -742,6 +742,26 @@
     "lastUpdated": "2016-08-05 15:59:59.589272"
   },
   {
+    "name": "dslink-java-msiotdev",
+    "displayName": "DSA over Azure IoT",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-msiotdev.git",
+      "ignoreBuildScript": true
+    },
+    "description": "Access and Serve DSA over Azure IoT",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    },
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-msiotdev.zip",
+    "revision": "a373a0f1008fc0a367862a4a2c4f70982f206705",
+    "lastUpdated": "2016-08-14 21:10:43.939508"
+  },
+  {
     "name": "dslink-java-opc",
     "displayName": "OPC",
     "type": "Java",

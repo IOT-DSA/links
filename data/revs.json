@@ -62,5 +62,6 @@
   "dslink-java-dsa-coap": "214c5ae500519864add5684cf5a4fbfb551f8b91",
   "dslink-java-calendar": "6bb49fb3e0fa933586f684b117189ac301c9d645",
   "dslink-java-serial": "d9031c4080ee19523481376e1106d41ff4ebc0ff",
-  "dslink-java-alarm": "7774d86c6cad2d4cbc7d1f17822bbfc777fc2184"
+  "dslink-java-alarm": "7774d86c6cad2d4cbc7d1f17822bbfc777fc2184",
+  "dslink-java-msiotdev": "a373a0f1008fc0a367862a4a2c4f70982f206705"
 }
