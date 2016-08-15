@@ -1,0 +1,10 @@
+{
+  "name": "dslink-java-msiotdev",
+  "displayName": "DSA over Azure IoT",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-java-msiotdev.git"
+  },
+  "description": "Access and Serve DSA over Azure IoT",
+  "category": "Data Acquisition"
+}
