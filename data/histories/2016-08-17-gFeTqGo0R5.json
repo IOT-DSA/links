@@ -1,0 +1,215 @@
+{
+  "timestamp": "2016-08-17 12:06:31.417767",
+  "args": [
+    "--upload",
+    "--force",
+    "dslink-java-etsdb",
+    "dslink-java-alarm",
+    "type-Java"
+  ],
+  "host": "sparky",
+  "uuid": "gFeTqGo0R5",
+  "uploads": [
+    {
+      "tag": "dslink-java-advantech",
+      "source": "files/dslink-java-advantech.zip",
+      "target": "files/dslink-java-advantech.zip",
+      "revision": "449fd89d6d6b0e00169b99064313c9b64cde68f5-1"
+    },
+    {
+      "tag": "dslink-java-alarm",
+      "source": "files/dslink-java-alarm.zip",
+      "target": "files/dslink-java-alarm.zip",
+      "revision": "7774d86c6cad2d4cbc7d1f17822bbfc777fc2184-1"
+    },
+    {
+      "tag": "dslink-java-bacnet",
+      "source": "files/dslink-java-bacnet.zip",
+      "target": "files/dslink-java-bacnet.zip",
+      "revision": "eda2d259e09bbc4030d92ede2f4b0d567d65f539-1"
+    },
+    {
+      "tag": "dslink-java-bitpool",
+      "source": "files/dslink-java-bitpool.zip",
+      "target": "files/dslink-java-bitpool.zip",
+      "revision": "1fd8ce704f448d12b9a19a11a084a4bce7d05876-1"
+    },
+    {
+      "tag": "dslink-java-calendar",
+      "source": "files/dslink-java-calendar.zip",
+      "target": "files/dslink-java-calendar.zip",
+      "revision": "6bb49fb3e0fa933586f684b117189ac301c9d645-1"
+    },
+    {
+      "tag": "dslink-java-dnp3",
+      "source": "files/dslink-java-dnp3.zip",
+      "target": "files/dslink-java-dnp3.zip",
+      "revision": "e11c559b913cccd55e6059c41e0448185266381d-1"
+    },
+    {
+      "tag": "dslink-java-dsa-coap",
+      "source": "files/dslink-java-dsa-coap.zip",
+      "target": "files/dslink-java-dsa-coap.zip",
+      "revision": "40204c906eaa9bda4b7b79c1fcb140c857f68fe6-1"
+    },
+    {
+      "tag": "dslink-java-enocean",
+      "source": "files/dslink-java-enocean.zip",
+      "target": "files/dslink-java-enocean.zip",
+      "revision": "1dc458f8ecffc82988b6d8baf38d745ba3e7ffd1-1"
+    },
+    {
+      "tag": "dslink-java-etsdb",
+      "source": "files/dslink-java-etsdb.zip",
+      "target": "files/dslink-java-etsdb.zip",
+      "revision": "f6de00f3917c2270bb84a3df789e1117ad8c8414-1"
+    },
+    {
+      "tag": "dslink-java-googleplus",
+      "source": "files/dslink-java-googleplus.zip",
+      "target": "files/dslink-java-googleplus.zip",
+      "revision": "e00dbfd87ffe66a9acb91d7def6909832174d144-1"
+    },
+    {
+      "tag": "dslink-java-haystack",
+      "source": "files/dslink-java-haystack.zip",
+      "target": "files/dslink-java-haystack.zip",
+      "revision": "4184906e26cb1953ba9e03a60d0c68b19aa1f5df-1"
+    },
+    {
+      "tag": "dslink-java-jdbc",
+      "source": "files/dslink-java-jdbc.zip",
+      "target": "files/dslink-java-jdbc.zip",
+      "revision": "1827c38d884190e47090f85f471bdd772b77c3ba-1"
+    },
+    {
+      "tag": "dslink-java-mango",
+      "source": "files/dslink-java-mango.zip",
+      "target": "files/dslink-java-mango.zip",
+      "revision": "39d3284e6a94fe146c4d1c5514aa59035183c6e8-1"
+    },
+    {
+      "tag": "dslink-java-modbus",
+      "source": "files/dslink-java-modbus.zip",
+      "target": "files/dslink-java-modbus.zip",
+      "revision": "bad0a292123fb95fc68542e84fc92180193f3f87-1"
+    },
+    {
+      "tag": "dslink-java-mqtt",
+      "source": "files/dslink-java-mqtt.zip",
+      "target": "files/dslink-java-mqtt.zip",
+      "revision": "75392ee3e2dd037173262c8b9ed9385e7417c7c3-1"
+    },
+    {
+      "tag": "dslink-java-msiotdev",
+      "source": "files/dslink-java-msiotdev.zip",
+      "target": "files/dslink-java-msiotdev.zip",
+      "revision": "a373a0f1008fc0a367862a4a2c4f70982f206705-1"
+    },
+    {
+      "tag": "dslink-java-opc",
+      "source": "files/dslink-java-opc.zip",
+      "target": "files/dslink-java-opc.zip",
+      "revision": "1016537595f425830be1f1b3860f22d29d8aec19-1"
+    },
+    {
+      "tag": "dslink-java-relayr",
+      "source": "files/dslink-java-relayr.zip",
+      "target": "files/dslink-java-relayr.zip",
+      "revision": "bede86ecf53ff97e4e9dc98c3e54c9e9f7439a04-1"
+    },
+    {
+      "tag": "dslink-java-rethinkdb",
+      "source": "files/dslink-java-rethinkdb.zip",
+      "target": "files/dslink-java-rethinkdb.zip",
+      "revision": "1304c8ce15f341d7a4a05e0313722c74b04f4ea7-1"
+    },
+    {
+      "tag": "dslink-java-sedona",
+      "source": "files/dslink-java-sedona.zip",
+      "target": "files/dslink-java-sedona.zip",
+      "revision": "8d22710c20ef2e979ba6708dfee23198beb60397-1"
+    },
+    {
+      "tag": "dslink-java-serial",
+      "source": "files/dslink-java-serial.zip",
+      "target": "files/dslink-java-serial.zip",
+      "revision": "d9031c4080ee19523481376e1106d41ff4ebc0ff-1"
+    },
+    {
+      "tag": "dslink-java-snmp",
+      "source": "files/dslink-java-snmp.zip",
+      "target": "files/dslink-java-snmp.zip",
+      "revision": "1095e89c6a4008be1e88a81e4297649a70d51ee5-1"
+    },
+    {
+      "tag": "dslink-java-splunk",
+      "source": "files/dslink-java-splunk.zip",
+      "target": "files/dslink-java-splunk.zip",
+      "revision": "d076235426fe2bb0912db33b928231adf76b5b58-1"
+    },
+    {
+      "tag": "dslink-java-twitter",
+      "source": "files/dslink-java-twitter.zip",
+      "target": "files/dslink-java-twitter.zip",
+      "revision": "8ed44c73e214b12a77d25fe33a855ba8440cff24-1"
+    },
+    {
+      "tag": "dslink-java-zwave",
+      "source": "files/dslink-java-zwave.zip",
+      "target": "files/dslink-java-zwave.zip",
+      "revision": "c92b299d7bc4ab83b6c22c5dca7c149d292e7287-1"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "gFeTqGo0R5"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "gFeTqGo0R5"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "gFeTqGo0R5"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "gFeTqGo0R5"
+    }
+  ],
+  "built": [
+    "Advantech",
+    "Alarm",
+    "BACnet",
+    "Bitpool",
+    "Calendar",
+    "DNP3",
+    "DSA over COAP",
+    "Enocean",
+    "ETSDB",
+    "Google Plus",
+    "Haystack",
+    "JDBC",
+    "Mango",
+    "Modbus",
+    "MQTT",
+    "DSA over Azure IoT",
+    "OPC",
+    "Relayr",
+    "RethinkDB",
+    "Sedona",
+    "Serial",
+    "SNMP",
+    "Splunk",
+    "Twitter",
+    "ZWave"
+  ]
+}
