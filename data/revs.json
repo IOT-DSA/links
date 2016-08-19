@@ -55,13 +55,13 @@
   "dslink-scala-ignition": "5fb9e8de115955f6297d4850c6785450cad7d312-1",
   "dslink-dart-solaredge": "0508f2b1bb7c1335d50a9efbdad701a47c7e7d70",
   "dslink-dart-zoneminder": "3f8f7ed47d65633a14276e6e36e99e97cff6c87c",
-  "dslink-dart-osx": "de9249a4facd1c82984fd4295873e1234bfe24ae",
+  "dslink-dart-osx": "31eee7c3199217a0e9efda11b49f19224ac4b47b",
   "dslink-dart-upnp": "b3d2e0d9bb9efa98290307c3ea5fa3200e86c1c2",
   "dslink-dart-mjpeg": "aefef69a8f31a0bd7ae7408b7899de9904409c4a",
-  "dslink-java-dnp3": "e11c559b913cccd55e6059c41e0448185266381d-1",
+  "dslink-java-dnp3": "9c3eab9bf08da31fa6122a7424670b0e2c695b17",
   "dslink-java-dsa-coap": "40204c906eaa9bda4b7b79c1fcb140c857f68fe6-1",
   "dslink-java-calendar": "6bb49fb3e0fa933586f684b117189ac301c9d645-1",
-  "dslink-java-serial": "d9031c4080ee19523481376e1106d41ff4ebc0ff-1",
+  "dslink-java-serial": "ef5d501ca8c4a3eb5501e39e05ecb204708d58b5",
   "dslink-java-alarm": "7774d86c6cad2d4cbc7d1f17822bbfc777fc2184-1",
-  "dslink-java-msiotdev": "a373a0f1008fc0a367862a4a2c4f70982f206705-1"
+  "dslink-java-msiotdev": "9dd14ae58bbe53fe1b0a43663788dd4e9d1a1d48"
 }

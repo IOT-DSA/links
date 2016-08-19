@@ -1,0 +1,64 @@
+{
+  "timestamp": "2016-08-19 13:52:58.796947",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "4506fbxN76",
+  "uploads": [
+    {
+      "tag": "dslink-dart-osx",
+      "source": "files/dslink-dart-osx.zip",
+      "target": "files/dslink-dart-osx.zip",
+      "revision": "31eee7c3199217a0e9efda11b49f19224ac4b47b"
+    },
+    {
+      "tag": "dslink-java-dnp3",
+      "source": "files/dslink-java-dnp3.zip",
+      "target": "files/dslink-java-dnp3.zip",
+      "revision": "9c3eab9bf08da31fa6122a7424670b0e2c695b17"
+    },
+    {
+      "tag": "dslink-java-msiotdev",
+      "source": "files/dslink-java-msiotdev.zip",
+      "target": "files/dslink-java-msiotdev.zip",
+      "revision": "9dd14ae58bbe53fe1b0a43663788dd4e9d1a1d48"
+    },
+    {
+      "tag": "dslink-java-serial",
+      "source": "files/dslink-java-serial.zip",
+      "target": "files/dslink-java-serial.zip",
+      "revision": "ef5d501ca8c4a3eb5501e39e05ecb204708d58b5"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "4506fbxN76"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "4506fbxN76"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "4506fbxN76"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "4506fbxN76"
+    }
+  ],
+  "built": [
+    "Mac OS X",
+    "DNP3",
+    "DSA over Azure IoT",
+    "Serial"
+  ]
+}

@@ -228,8 +228,8 @@
     "description": "Interact with Mac OS X",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-osx.zip",
-    "revision": "de9249a4facd1c82984fd4295873e1234bfe24ae",
-    "lastUpdated": "2016-06-29 11:29:15.750313"
+    "revision": "31eee7c3199217a0e9efda11b49f19224ac4b47b",
+    "lastUpdated": "2016-08-19 13:51:52.607205"
   },
   {
     "name": "dslink-dart-rest",
@@ -558,8 +558,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-dnp3.zip",
-    "revision": "e11c559b913cccd55e6059c41e0448185266381d-1",
-    "lastUpdated": "2016-08-17 12:01:58.758150"
+    "revision": "9c3eab9bf08da31fa6122a7424670b0e2c695b17",
+    "lastUpdated": "2016-08-19 13:52:16.277719"
   },
   {
     "name": "dslink-java-dsa-coap",
@@ -758,8 +758,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-msiotdev.zip",
-    "revision": "a373a0f1008fc0a367862a4a2c4f70982f206705-1",
-    "lastUpdated": "2016-08-17 12:04:35.926594"
+    "revision": "9dd14ae58bbe53fe1b0a43663788dd4e9d1a1d48",
+    "lastUpdated": "2016-08-19 13:52:42.666979"
   },
   {
     "name": "dslink-java-opc",
@@ -858,8 +858,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-serial.zip",
-    "revision": "d9031c4080ee19523481376e1106d41ff4ebc0ff-1",
-    "lastUpdated": "2016-08-17 12:05:41.304284"
+    "revision": "ef5d501ca8c4a3eb5501e39e05ecb204708d58b5",
+    "lastUpdated": "2016-08-19 13:52:57.323681"
   },
   {
     "name": "dslink-java-snmp",
