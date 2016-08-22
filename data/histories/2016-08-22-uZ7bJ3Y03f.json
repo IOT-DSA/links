@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-08-22 14:24:36.877561",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "uZ7bJ3Y03f",
+  "uploads": [
+    {
+      "tag": "dslink-dart-webctrl",
+      "source": "files/dslink-dart-webctrl.zip",
+      "target": "files/dslink-dart-webctrl.zip",
+      "revision": "78d48b2cdce3f0f91f9d0c73a83d6fe7dfd3b882"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "uZ7bJ3Y03f"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "uZ7bJ3Y03f"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "uZ7bJ3Y03f"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "uZ7bJ3Y03f"
+    }
+  ],
+  "built": [
+    "WebCtrl"
+  ]
+}
