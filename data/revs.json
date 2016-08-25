@@ -5,7 +5,7 @@
   "dslink-dart-twilio": "bae716db2ed96edaee7b5c6de93ae9f253652124",
   "dslink-dart-storage": "3ed93cb461eab9985040dbc9969ada995d40139a",
   "dslink-dart-mongodb": "21594f4332f2a1d316e1f309f246458c145ed0e6",
-  "dslink-dart-dgapi": "0e4b1c449f6debbeebcf7106a88846390595136e",
+  "dslink-dart-dgapi": "d4a4b571f569adc04a1a62f3adbb1416d047df77",
   "dslink-dart-webctrl": "78d48b2cdce3f0f91f9d0c73a83d6fe7dfd3b882",
   "dslink-java-mqtt": "75392ee3e2dd037173262c8b9ed9385e7417c7c3-1",
   "dslink-java-haystack": "4184906e26cb1953ba9e03a60d0c68b19aa1f5df-1",
@@ -62,6 +62,6 @@
   "dslink-java-dsa-coap": "40204c906eaa9bda4b7b79c1fcb140c857f68fe6-1",
   "dslink-java-calendar": "6bb49fb3e0fa933586f684b117189ac301c9d645-1",
   "dslink-java-serial": "ef5d501ca8c4a3eb5501e39e05ecb204708d58b5",
-  "dslink-java-alarm": "94893a570e49ab4927b89863c5abe0b6432fe04e",
+  "dslink-java-alarm": "b08a615c98106bd4456466d2b9f31171a0b469de",
   "dslink-java-msiotdev": "9dd14ae58bbe53fe1b0a43663788dd4e9d1a1d48"
 }
