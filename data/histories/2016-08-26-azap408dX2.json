@@ -1,0 +1,35 @@
+{
+  "timestamp": "2016-08-26 00:00:41.458276",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "azap408dX2",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "azap408dX2"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "azap408dX2"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "azap408dX2"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "azap408dX2"
+    }
+  ],
+  "built": []
+}
