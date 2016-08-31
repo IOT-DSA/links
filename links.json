@@ -22,8 +22,8 @@
     "description": "Access DGAPI through DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dgapi.zip",
-    "revision": "3e7871e0e386a634d6cf6c824f2eaae1d7dafdc2",
-    "lastUpdated": "2016-08-30 12:53:53.573988"
+    "revision": "83c6489e6b0391cae85265579a37cde11db9de6f",
+    "lastUpdated": "2016-08-30 17:03:28.011528"
   },
   {
     "name": "dslink-dart-digital-ocean",
@@ -478,8 +478,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-alarm.zip",
-    "revision": "b08a615c98106bd4456466d2b9f31171a0b469de",
-    "lastUpdated": "2016-08-25 16:13:38.216108"
+    "revision": "02accd445b40f8dc696a3b5c3bb069f3d53d36a7",
+    "lastUpdated": "2016-08-30 17:03:50.218366"
   },
   {
     "name": "dslink-java-bacnet",
