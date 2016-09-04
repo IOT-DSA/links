@@ -942,6 +942,32 @@
     "lastUpdated": "2016-08-17 12:06:31.417605"
   },
   {
+    "name": "dslink-javascript-homekit",
+    "displayName": "HomeKit",
+    "type": "JavaScript",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-javascript-homekit.git"
+    },
+    "description": "Use HomeKit/Siri from DSA",
+    "category": "Data Acquisition",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-javascript-homekit.zip",
+    "revision": "84bcad9f201d33e8751d97f3b04cbd737599351d",
+    "lastUpdated": "2016-09-04 10:33:18.059726"
+  },
+  {
+    "name": "dslink-javascript-screenshot",
+    "displayName": "Screenshot",
+    "type": "JavaScript",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-javascript-screenshot.git"
+    },
+    "description": "Take Screenshots of Websites and HTML text via PhantomJS.",
+    "category": "System",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-javascript-screenshot.zip",
+    "revision": "e12f973cd600526e5c7a23e7925cc53ce662019e",
+    "lastUpdated": "2016-09-04 10:33:18.759962"
+  },
+  {
     "name": "dslink-scala-ignition",
     "displayName": "Ignition",
     "type": "Scala",
