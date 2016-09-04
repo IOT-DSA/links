@@ -1,0 +1,10 @@
+{
+  "name": "dslink-javascript-homekit",
+  "displayName": "HomeKit",
+  "type": "JavaScript",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-javascript-homekit.git"
+  },
+  "description": "Use HomeKit/Siri from DSA",
+  "category": "Data Acquisition"
+}

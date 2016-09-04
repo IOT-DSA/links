@@ -1,0 +1,10 @@
+{
+  "name": "dslink-javascript-screenshot",
+  "displayName": "Screenshot",
+  "type": "JavaScript",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-javascript-screenshot.git"
+  },
+  "description": "Take Screenshots of Websites and HTML text via PhantomJS.",
+  "category": "System"
+}
