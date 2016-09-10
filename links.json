@@ -425,8 +425,8 @@
     "description": "REST interface for Zabbix Server API",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-zabbix.zip",
-    "revision": "b62b77fc26e6f6b3f5f8ca8c09b25f4f742d4481",
-    "lastUpdated": "2016-07-22 13:04:38.006997"
+    "revision": "ab9652cdbdc88aa90f335198f0803ea811266351",
+    "lastUpdated": "2016-09-09 18:18:51.604595"
   },
   {
     "name": "dslink-dart-zoneminder",
@@ -951,8 +951,8 @@
     "description": "Use HomeKit/Siri from DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-javascript-homekit.zip",
-    "revision": "9bcc78ce72d80cc0b4d4f53a5ff02d76add33722",
-    "lastUpdated": "2016-09-08 17:52:39.173694"
+    "revision": "4ff6f459a4d00a6c356096721f77389e9705445a",
+    "lastUpdated": "2016-09-09 18:18:58.319551"
   },
   {
     "name": "dslink-javascript-screenshot",

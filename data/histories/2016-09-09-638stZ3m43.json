@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-09-09 18:18:59.008540",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "638stZ3m43",
+  "uploads": [
+    {
+      "tag": "dslink-dart-zabbix",
+      "source": "files/dslink-dart-zabbix.zip",
+      "target": "files/dslink-dart-zabbix.zip",
+      "revision": "ab9652cdbdc88aa90f335198f0803ea811266351"
+    },
+    {
+      "tag": "dslink-javascript-homekit",
+      "source": "files/dslink-javascript-homekit.zip",
+      "target": "files/dslink-javascript-homekit.zip",
+      "revision": "4ff6f459a4d00a6c356096721f77389e9705445a"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "638stZ3m43"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "638stZ3m43"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "638stZ3m43"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "638stZ3m43"
+    }
+  ],
+  "built": [
+    "Zabbix",
+    "HomeKit"
+  ]
+}

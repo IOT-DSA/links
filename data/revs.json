@@ -51,7 +51,7 @@
   "dslink-dart-traccar": "dfa2bd53bef8439e848057ae2dca4091a85b2cc7",
   "dslink-dart-dql": "3e77401d9a319a9db34f60411cae10fe24c331c7",
   "dslink-scala-kafka": "31a0f0b8bfdc252d6a4d70b786547998956845cc-1",
-  "dslink-dart-zabbix": "b62b77fc26e6f6b3f5f8ca8c09b25f4f742d4481",
+  "dslink-dart-zabbix": "ab9652cdbdc88aa90f335198f0803ea811266351",
   "dslink-scala-ignition": "5fb9e8de115955f6297d4850c6785450cad7d312-1",
   "dslink-dart-solaredge": "0508f2b1bb7c1335d50a9efbdad701a47c7e7d70",
   "dslink-dart-zoneminder": "3f8f7ed47d65633a14276e6e36e99e97cff6c87c",
@@ -64,6 +64,6 @@
   "dslink-java-serial": "ef5d501ca8c4a3eb5501e39e05ecb204708d58b5",
   "dslink-java-alarm": "02accd445b40f8dc696a3b5c3bb069f3d53d36a7",
   "dslink-java-msiotdev": "9dd14ae58bbe53fe1b0a43663788dd4e9d1a1d48",
-  "dslink-javascript-homekit": "9bcc78ce72d80cc0b4d4f53a5ff02d76add33722",
+  "dslink-javascript-homekit": "4ff6f459a4d00a6c356096721f77389e9705445a",
   "dslink-javascript-screenshot": "e12f973cd600526e5c7a23e7925cc53ce662019e"
 }
