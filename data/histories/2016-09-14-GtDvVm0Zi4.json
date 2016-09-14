@@ -1,0 +1,64 @@
+{
+  "timestamp": "2016-09-14 00:01:42.098283",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "GtDvVm0Zi4",
+  "uploads": [
+    {
+      "tag": "dslink-dart-solaredge",
+      "source": "files/dslink-dart-solaredge.zip",
+      "target": "files/dslink-dart-solaredge.zip",
+      "revision": "c9aa1b41933f567438d5161bd9684b6db74178bd"
+    },
+    {
+      "tag": "dslink-dart-system",
+      "source": "files/dslink-dart-system.zip",
+      "target": "files/dslink-dart-system.zip",
+      "revision": "e95457e681c6b361f58f3f24f10e1b87a917d3c3"
+    },
+    {
+      "tag": "dslink-dart-zabbix",
+      "source": "files/dslink-dart-zabbix.zip",
+      "target": "files/dslink-dart-zabbix.zip",
+      "revision": "99dc8c13f2e1b8f191b4e6958390cb6b66102f5c"
+    },
+    {
+      "tag": "dslink-java-bacnet",
+      "source": "files/dslink-java-bacnet.zip",
+      "target": "files/dslink-java-bacnet.zip",
+      "revision": "154194c384cc009f87668cee9b47f0f8410a8f43"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "GtDvVm0Zi4"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "GtDvVm0Zi4"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "GtDvVm0Zi4"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "GtDvVm0Zi4"
+    }
+  ],
+  "built": [
+    "Solar Edge",
+    "System",
+    "Zabbix",
+    "BACnet"
+  ]
+}

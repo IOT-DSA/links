@@ -293,8 +293,8 @@
     "description": "Interface for the Solar Edge Monitoring API",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-solaredge.zip",
-    "revision": "0508f2b1bb7c1335d50a9efbdad701a47c7e7d70",
-    "lastUpdated": "2016-06-29 11:30:09.970549"
+    "revision": "c9aa1b41933f567438d5161bd9684b6db74178bd",
+    "lastUpdated": "2016-09-14 00:00:52.098248"
   },
   {
     "name": "dslink-dart-storage",
@@ -320,8 +320,8 @@
     "description": "Get Live Statistics about a Machine",
     "category": "System",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-system.zip",
-    "revision": "8f0fae5bb42ed5ad302cfeb708657ee9a98538c4",
-    "lastUpdated": "2016-09-10 00:00:33.017666"
+    "revision": "e95457e681c6b361f58f3f24f10e1b87a917d3c3",
+    "lastUpdated": "2016-09-14 00:01:01.325751"
   },
   {
     "name": "dslink-dart-traccar",
@@ -425,8 +425,8 @@
     "description": "REST interface for Zabbix Server API",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-zabbix.zip",
-    "revision": "1def109bc838ebaf60dbf0c6ea9c8627808618d7",
-    "lastUpdated": "2016-09-13 00:00:51.042801"
+    "revision": "99dc8c13f2e1b8f191b4e6958390cb6b66102f5c",
+    "lastUpdated": "2016-09-14 00:01:23.856768"
   },
   {
     "name": "dslink-dart-zoneminder",
@@ -498,8 +498,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet.zip",
-    "revision": "285b37bb3ce3066c47d4056e8bdafd409e2a7613",
-    "lastUpdated": "2016-09-11 22:07:29.707551"
+    "revision": "154194c384cc009f87668cee9b47f0f8410a8f43",
+    "lastUpdated": "2016-09-14 00:01:35.015572"
   },
   {
     "name": "dslink-java-bitpool",
