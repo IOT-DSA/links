@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-09-16 08:03:19.615620",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "2bBIqy0uKq",
+  "uploads": [
+    {
+      "tag": "dslink-dart-schedule",
+      "source": "files/dslink-dart-schedule.zip",
+      "target": "files/dslink-dart-schedule.zip",
+      "revision": "aa9521bed9d68037b99bfb535faaabc0605449bf"
+    },
+    {
+      "tag": "dslink-javascript-homekit",
+      "source": "files/dslink-javascript-homekit.zip",
+      "target": "files/dslink-javascript-homekit.zip",
+      "revision": "5d636785eacaeb81c893d1bd798e43d58a64a54c"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "2bBIqy0uKq"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "2bBIqy0uKq"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "2bBIqy0uKq"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "2bBIqy0uKq"
+    }
+  ],
+  "built": [
+    "Schedule",
+    "HomeKit"
+  ]
+}

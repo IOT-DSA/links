@@ -267,8 +267,8 @@
     "description": "Create and Manage Value Schedules",
     "category": "Scheduling",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-schedule.zip",
-    "revision": "66e8de6409bf50823e29a373b654db0b1e2b90de",
-    "lastUpdated": "2016-09-14 14:16:10.101475"
+    "revision": "aa9521bed9d68037b99bfb535faaabc0605449bf",
+    "lastUpdated": "2016-09-16 08:02:56.458898"
   },
   {
     "name": "dslink-dart-slack",
@@ -951,8 +951,8 @@
     "description": "Use HomeKit/Siri from DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-javascript-homekit.zip",
-    "revision": "4ff6f459a4d00a6c356096721f77389e9705445a",
-    "lastUpdated": "2016-09-09 18:18:58.319551"
+    "revision": "5d636785eacaeb81c893d1bd798e43d58a64a54c",
+    "lastUpdated": "2016-09-16 08:03:19.150266"
   },
   {
     "name": "dslink-javascript-screenshot",
@@ -972,13 +972,13 @@
     "displayName": "Ignition",
     "type": "Scala",
     "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-scala-ignition.git"
+      "repository": "https://github.com/IOT-DSA/dslink-scala-ignition.git",
+      "enabled": false
     },
     "description": "Spark Ignition dataflow builder",
     "category": "Dataflow",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-scala-ignition.zip",
-    "revision": "5fb9e8de115955f6297d4850c6785450cad7d312-1",
-    "lastUpdated": "2016-06-27 12:27:07.667491"
+    "revision": "5fb9e8de115955f6297d4850c6785450cad7d312-1"
   },
   {
     "name": "dslink-scala-kafka",
