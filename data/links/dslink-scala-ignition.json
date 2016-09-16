@@ -3,7 +3,8 @@
   "displayName": "Ignition",
   "type": "Scala",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-scala-ignition.git"
+    "repository": "https://github.com/IOT-DSA/dslink-scala-ignition.git",
+    "enabled": false
   },
   "description": "Spark Ignition dataflow builder",
   "category": "Dataflow"
