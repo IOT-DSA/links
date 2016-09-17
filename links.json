@@ -458,8 +458,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-advantech.zip",
-    "revision": "449fd89d6d6b0e00169b99064313c9b64cde68f5-1",
-    "lastUpdated": "2016-08-17 12:00:32.398855"
+    "revision": "a50c96c36022a92c96c14723947693072425dae7",
+    "lastUpdated": "2016-09-17 00:00:42.936029"
   },
   {
     "name": "dslink-java-alarm",
