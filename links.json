@@ -951,8 +951,8 @@
     "description": "Use HomeKit/Siri from DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-javascript-homekit.zip",
-    "revision": "ed799291c63f30d3bb562ce453190c802447fa79",
-    "lastUpdated": "2016-09-20 14:00:12.901302"
+    "revision": "c4860b4a538bc81b702d313b01ad358e7bab19d5",
+    "lastUpdated": "2016-09-20 14:03:14.503812"
   },
   {
     "name": "dslink-javascript-screenshot",

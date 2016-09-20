@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-09-20 14:03:14.953257",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "7x490JT929",
+  "uploads": [
+    {
+      "tag": "dslink-javascript-homekit",
+      "source": "files/dslink-javascript-homekit.zip",
+      "target": "files/dslink-javascript-homekit.zip",
+      "revision": "c4860b4a538bc81b702d313b01ad358e7bab19d5"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "7x490JT929"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "7x490JT929"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "7x490JT929"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "7x490JT929"
+    }
+  ],
+  "built": [
+    "HomeKit"
+  ]
+}
