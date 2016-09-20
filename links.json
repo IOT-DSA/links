@@ -9,8 +9,7 @@
     "description": "REST interface for Belimo Energy Valves",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-BEV.zip",
-    "revision": "6d64059c81ea7ff9f5f4d075de1e7bc2652466cb",
-    "lastUpdated": "2016-06-29 11:25:25.216786"
+    "revision": "6d64059c81ea7ff9f5f4d075de1e7bc2652466cb"
   },
   {
     "name": "dslink-dart-dgapi",
@@ -22,8 +21,7 @@
     "description": "Access DGAPI through DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dgapi.zip",
-    "revision": "9c17c5316a60a767af3a9b5d8887ab1ce1c43c5b",
-    "lastUpdated": "2016-09-01 12:17:22.153223"
+    "revision": "9c17c5316a60a767af3a9b5d8887ab1ce1c43c5b"
   },
   {
     "name": "dslink-dart-digital-ocean",
@@ -35,8 +33,7 @@
     "description": "Create, manage, and monitor Digital Ocean droplets",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-digital-ocean.zip",
-    "revision": "c1644ce08ee81a6628a85eed332ad8433a08c713",
-    "lastUpdated": "2016-06-29 11:25:55.458518"
+    "revision": "c1644ce08ee81a6628a85eed332ad8433a08c713"
   },
   {
     "name": "dslink-dart-dql",
@@ -48,8 +45,7 @@
     "description": "Run Queries against DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dql.zip",
-    "revision": "3e77401d9a319a9db34f60411cae10fe24c331c7",
-    "lastUpdated": "2016-09-05 09:02:06.027518"
+    "revision": "3e77401d9a319a9db34f60411cae10fe24c331c7"
   },
   {
     "name": "dslink-dart-earthquakes",
@@ -61,8 +57,7 @@
     "description": "Get Hourly Updates about Earthquakes Worldwide",
     "category": "Misc.",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-earthquakes.zip",
-    "revision": "3cfa1dc5f7a27ac96ad536f676abb3a2b609cbb3",
-    "lastUpdated": "2016-06-29 11:26:27.338400"
+    "revision": "3cfa1dc5f7a27ac96ad536f676abb3a2b609cbb3"
   },
   {
     "name": "dslink-dart-elios4you",
@@ -74,8 +69,7 @@
     "description": "Receive Data from Elios4You",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-elios4you.zip",
-    "revision": "9648ddde8f1b1f3bb19a24244780d31d8a832fb4",
-    "lastUpdated": "2016-06-30 09:47:28.233434"
+    "revision": "9648ddde8f1b1f3bb19a24244780d31d8a832fb4"
   },
   {
     "name": "dslink-dart-feed",
@@ -88,8 +82,7 @@
     "description": "Subscribe to RSS Feeds",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-feed.zip",
-    "revision": "d15e5f66ad3342a6c82d46a4d557971aeec7ae63",
-    "lastUpdated": "2016-06-29 11:26:49.504503"
+    "revision": "d15e5f66ad3342a6c82d46a4d557971aeec7ae63"
   },
   {
     "name": "dslink-dart-file",
@@ -105,8 +98,7 @@
       "hidden"
     ],
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-file.zip",
-    "revision": "d430db286e8666dea6b31d7d19c79e00c8022218",
-    "lastUpdated": "2016-06-29 11:27:01.703744"
+    "revision": "d430db286e8666dea6b31d7d19c79e00c8022218"
   },
   {
     "name": "dslink-dart-filesystem",
@@ -119,8 +111,7 @@
     "description": "Interact with the FileSystem via DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-filesystem.zip",
-    "revision": "5bec6bb2424b66df61ff995b28280786000394c8",
-    "lastUpdated": "2016-06-29 11:27:15.207656"
+    "revision": "5bec6bb2424b66df61ff995b28280786000394c8"
   },
   {
     "name": "dslink-dart-host-dgbox",
@@ -135,8 +126,7 @@
       "Dreamplug"
     ],
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-host-dgbox.zip",
-    "revision": "017ac94e7f8c7f26b65a06c10d63f31736a01eba",
-    "lastUpdated": "2016-06-29 11:27:30.269099"
+    "revision": "017ac94e7f8c7f26b65a06c10d63f31736a01eba"
   },
   {
     "name": "dslink-dart-html5",
@@ -148,8 +138,7 @@
     "description": "Capture different types of data such as Location Information and Gyroscope Data from a Browser Client",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-html5.zip",
-    "revision": "a90a9ff96b4f0042d8d88f67ef1a0c5979b268c9",
-    "lastUpdated": "2016-06-29 11:28:06.130960"
+    "revision": "a90a9ff96b4f0042d8d88f67ef1a0c5979b268c9"
   },
   {
     "name": "dslink-dart-irc",
@@ -161,8 +150,7 @@
     "description": "Communicate with IRC",
     "category": "Communication",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-irc.zip",
-    "revision": "fa601d3762db23f22700cca9a2d10d1ee676e67a",
-    "lastUpdated": "2016-06-29 11:28:17.730663"
+    "revision": "fa601d3762db23f22700cca9a2d10d1ee676e67a"
   },
   {
     "name": "dslink-dart-mailer",
@@ -174,8 +162,7 @@
     "description": "Send Emails",
     "category": "Notifications",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-mailer.zip",
-    "revision": "e46b54dd7b30d2ce4b43480dd9d78b3ae378ea47",
-    "lastUpdated": "2016-06-29 11:28:38.380138"
+    "revision": "e46b54dd7b30d2ce4b43480dd9d78b3ae378ea47"
   },
   {
     "name": "dslink-dart-mjpeg",
@@ -188,8 +175,7 @@
     "description": "Motion JPEG DSLink",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-mjpeg.zip",
-    "revision": "aad74b493d988030c52a248a3bc67d2241b88491",
-    "lastUpdated": "2016-08-31 23:35:40.346356"
+    "revision": "aad74b493d988030c52a248a3bc67d2241b88491"
   },
   {
     "name": "dslink-dart-mongodb",
@@ -201,8 +187,7 @@
     "description": "Access MongoDB through DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-mongodb.zip",
-    "revision": "21594f4332f2a1d316e1f309f246458c145ed0e6",
-    "lastUpdated": "2016-06-29 11:28:59.360796"
+    "revision": "21594f4332f2a1d316e1f309f246458c145ed0e6"
   },
   {
     "name": "dslink-dart-mysql",
@@ -215,8 +200,7 @@
     "description": "Run MySQL Queries",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-mysql.zip",
-    "revision": "95741c0b747daca9e29c7c537558d5a511497e12",
-    "lastUpdated": "2016-08-19 17:12:48.962781"
+    "revision": "95741c0b747daca9e29c7c537558d5a511497e12"
   },
   {
     "name": "dslink-dart-osx",
@@ -228,8 +212,7 @@
     "description": "Interact with Mac OS X",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-osx.zip",
-    "revision": "31eee7c3199217a0e9efda11b49f19224ac4b47b",
-    "lastUpdated": "2016-08-19 13:51:52.607205"
+    "revision": "31eee7c3199217a0e9efda11b49f19224ac4b47b"
   },
   {
     "name": "dslink-dart-rest",
@@ -241,8 +224,7 @@
     "description": "Use a REST API to manipulate custom nodes",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-rest.zip",
-    "revision": "4887bc1233815012197a6deca38ebb4019b17143",
-    "lastUpdated": "2016-07-31 17:52:01.984238"
+    "revision": "4887bc1233815012197a6deca38ebb4019b17143"
   },
   {
     "name": "dslink-dart-rpi",
@@ -254,8 +236,7 @@
     "description": "Control Raspberry Pi GPIO",
     "category": "System",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-rpi.zip",
-    "revision": "eb9678dcf686bf68a3cd32048e889381964e221b",
-    "lastUpdated": "2016-06-29 11:29:30.232179"
+    "revision": "eb9678dcf686bf68a3cd32048e889381964e221b"
   },
   {
     "name": "dslink-dart-schedule",
@@ -267,8 +248,7 @@
     "description": "Create and Manage Value Schedules",
     "category": "Scheduling",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-schedule.zip",
-    "revision": "aa9521bed9d68037b99bfb535faaabc0605449bf",
-    "lastUpdated": "2016-09-16 08:02:56.458898"
+    "revision": "aa9521bed9d68037b99bfb535faaabc0605449bf"
   },
   {
     "name": "dslink-dart-slack",
@@ -280,8 +260,7 @@
     "description": "Access Slack from DSA",
     "category": "Communication",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-slack.zip",
-    "revision": "87299047ee198d15f6a2ff8e269ec06cf840cf7b",
-    "lastUpdated": "2016-06-29 11:29:53.902957"
+    "revision": "87299047ee198d15f6a2ff8e269ec06cf840cf7b"
   },
   {
     "name": "dslink-dart-solaredge",
@@ -293,8 +272,7 @@
     "description": "Interface for the Solar Edge Monitoring API",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-solaredge.zip",
-    "revision": "c9aa1b41933f567438d5161bd9684b6db74178bd",
-    "lastUpdated": "2016-09-14 00:00:52.098248"
+    "revision": "c9aa1b41933f567438d5161bd9684b6db74178bd"
   },
   {
     "name": "dslink-dart-storage",
@@ -306,8 +284,7 @@
     "description": "Key-Value Storage System",
     "category": "Storage",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-storage.zip",
-    "revision": "3ed93cb461eab9985040dbc9969ada995d40139a",
-    "lastUpdated": "2016-06-30 09:47:39.960609"
+    "revision": "3ed93cb461eab9985040dbc9969ada995d40139a"
   },
   {
     "name": "dslink-dart-system",
@@ -320,8 +297,7 @@
     "description": "Get Live Statistics about a Machine",
     "category": "System",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-system.zip",
-    "revision": "e95457e681c6b361f58f3f24f10e1b87a917d3c3",
-    "lastUpdated": "2016-09-14 00:01:01.325751"
+    "revision": "e95457e681c6b361f58f3f24f10e1b87a917d3c3"
   },
   {
     "name": "dslink-dart-traccar",
@@ -333,8 +309,7 @@
     "description": "REST interface for Traccar Server API",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-traccar.zip",
-    "revision": "dfa2bd53bef8439e848057ae2dca4091a85b2cc7",
-    "lastUpdated": "2016-06-29 11:30:40.797924"
+    "revision": "dfa2bd53bef8439e848057ae2dca4091a85b2cc7"
   },
   {
     "name": "dslink-dart-twilio",
@@ -346,8 +321,7 @@
     "description": "Send Text Messages through Twilio",
     "category": "Notifications",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-twilio.zip",
-    "revision": "bae716db2ed96edaee7b5c6de93ae9f253652124",
-    "lastUpdated": "2016-06-29 11:30:53.356115"
+    "revision": "bae716db2ed96edaee7b5c6de93ae9f253652124"
   },
   {
     "name": "dslink-dart-upnp",
@@ -359,8 +333,7 @@
     "description": "Discover and Interact with UPnP Devices",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-upnp.zip",
-    "revision": "b3d2e0d9bb9efa98290307c3ea5fa3200e86c1c2",
-    "lastUpdated": "2016-08-07 17:03:12.728231"
+    "revision": "b3d2e0d9bb9efa98290307c3ea5fa3200e86c1c2"
   },
   {
     "name": "dslink-dart-weather",
@@ -373,8 +346,7 @@
     "description": "Get Weather Data",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-weather.zip",
-    "revision": "9f9d610289c8e9c602b64c1c19cacf99565cf54b",
-    "lastUpdated": "2016-06-29 11:31:16.790963"
+    "revision": "9f9d610289c8e9c602b64c1c19cacf99565cf54b"
   },
   {
     "name": "dslink-dart-webctrl",
@@ -386,8 +358,7 @@
     "description": "Access WebCtrl from DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-webctrl.zip",
-    "revision": "4c2ec1e39166ec129f6b6eabe582b1098f57b636",
-    "lastUpdated": "2016-08-29 13:50:47.687068"
+    "revision": "4c2ec1e39166ec129f6b6eabe582b1098f57b636"
   },
   {
     "name": "dslink-dart-wemo",
@@ -399,8 +370,7 @@
     "description": "Interact with WeMo Devices",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-wemo.zip",
-    "revision": "83e3718f5dc3fcd87a20e018418d551065d877cb",
-    "lastUpdated": "2016-07-22 13:14:01.489038"
+    "revision": "83e3718f5dc3fcd87a20e018418d551065d877cb"
   },
   {
     "name": "dslink-dart-youtube",
@@ -412,8 +382,7 @@
     "description": "Access YouTube Data from DSA",
     "category": "Social Media",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-youtube.zip",
-    "revision": "d25c67abb4cbdd0d2d38518370ac9335ca24abbb",
-    "lastUpdated": "2016-06-29 11:31:53.519555"
+    "revision": "d25c67abb4cbdd0d2d38518370ac9335ca24abbb"
   },
   {
     "name": "dslink-dart-zabbix",
@@ -425,8 +394,7 @@
     "description": "REST interface for Zabbix Server API",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-zabbix.zip",
-    "revision": "99dc8c13f2e1b8f191b4e6958390cb6b66102f5c",
-    "lastUpdated": "2016-09-14 00:01:23.856768"
+    "revision": "99dc8c13f2e1b8f191b4e6958390cb6b66102f5c"
   },
   {
     "name": "dslink-dart-zoneminder",
@@ -438,8 +406,7 @@
     "description": "ZoneMinder Video Surveillance",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-zoneminder.zip",
-    "revision": "3f8f7ed47d65633a14276e6e36e99e97cff6c87c",
-    "lastUpdated": "2016-06-29 11:32:27.159486"
+    "revision": "3f8f7ed47d65633a14276e6e36e99e97cff6c87c"
   },
   {
     "name": "dslink-java-advantech",
@@ -458,8 +425,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-advantech.zip",
-    "revision": "a50c96c36022a92c96c14723947693072425dae7",
-    "lastUpdated": "2016-09-17 00:00:42.936029"
+    "revision": "a50c96c36022a92c96c14723947693072425dae7"
   },
   {
     "name": "dslink-java-alarm",
@@ -478,8 +444,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-alarm.zip",
-    "revision": "02accd445b40f8dc696a3b5c3bb069f3d53d36a7",
-    "lastUpdated": "2016-08-30 17:03:50.218366"
+    "revision": "02accd445b40f8dc696a3b5c3bb069f3d53d36a7"
   },
   {
     "name": "dslink-java-bacnet",
@@ -498,8 +463,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet.zip",
-    "revision": "154194c384cc009f87668cee9b47f0f8410a8f43",
-    "lastUpdated": "2016-09-14 00:01:35.015572"
+    "revision": "154194c384cc009f87668cee9b47f0f8410a8f43"
   },
   {
     "name": "dslink-java-bitpool",
@@ -518,8 +482,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bitpool.zip",
-    "revision": "1fd8ce704f448d12b9a19a11a084a4bce7d05876-1",
-    "lastUpdated": "2016-08-17 12:01:20.475620"
+    "revision": "1fd8ce704f448d12b9a19a11a084a4bce7d05876-1"
   },
   {
     "name": "dslink-java-calendar",
@@ -538,8 +501,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-calendar.zip",
-    "revision": "62e089909d2f31cb5b7290740dfd4c7be2e7d9bb",
-    "lastUpdated": "2016-09-08 00:01:20.937114"
+    "revision": "62e089909d2f31cb5b7290740dfd4c7be2e7d9bb"
   },
   {
     "name": "dslink-java-dnp3",
@@ -558,8 +520,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-dnp3.zip",
-    "revision": "9c3eab9bf08da31fa6122a7424670b0e2c695b17",
-    "lastUpdated": "2016-08-19 13:52:16.277719"
+    "revision": "9c3eab9bf08da31fa6122a7424670b0e2c695b17"
   },
   {
     "name": "dslink-java-dsa-coap",
@@ -578,8 +539,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-dsa-coap.zip",
-    "revision": "40204c906eaa9bda4b7b79c1fcb140c857f68fe6-1",
-    "lastUpdated": "2016-08-17 12:02:10.997994"
+    "revision": "40204c906eaa9bda4b7b79c1fcb140c857f68fe6-1"
   },
   {
     "name": "dslink-java-enocean",
@@ -598,8 +558,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-enocean.zip",
-    "revision": "1dc458f8ecffc82988b6d8baf38d745ba3e7ffd1-1",
-    "lastUpdated": "2016-08-17 12:02:30.106082"
+    "revision": "1dc458f8ecffc82988b6d8baf38d745ba3e7ffd1-1"
   },
   {
     "name": "dslink-java-etsdb",
@@ -618,8 +577,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-etsdb.zip",
-    "revision": "f6de00f3917c2270bb84a3df789e1117ad8c8414-1",
-    "lastUpdated": "2016-08-17 12:02:46.402301"
+    "revision": "f6de00f3917c2270bb84a3df789e1117ad8c8414-1"
   },
   {
     "name": "dslink-java-googleplus",
@@ -638,8 +596,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-googleplus.zip",
-    "revision": "e00dbfd87ffe66a9acb91d7def6909832174d144-1",
-    "lastUpdated": "2016-08-17 12:02:59.418345"
+    "revision": "e00dbfd87ffe66a9acb91d7def6909832174d144-1"
   },
   {
     "name": "dslink-java-haystack",
@@ -658,8 +615,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-haystack.zip",
-    "revision": "4184906e26cb1953ba9e03a60d0c68b19aa1f5df-1",
-    "lastUpdated": "2016-08-17 12:03:10.717592"
+    "revision": "4184906e26cb1953ba9e03a60d0c68b19aa1f5df-1"
   },
   {
     "name": "dslink-java-jdbc",
@@ -678,8 +634,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-jdbc.zip",
-    "revision": "60a7c0e6113fec8297eb8154e6c091f1f2294086",
-    "lastUpdated": "2016-09-11 22:07:44.979718"
+    "revision": "60a7c0e6113fec8297eb8154e6c091f1f2294086"
   },
   {
     "name": "dslink-java-mango",
@@ -698,8 +653,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-mango.zip",
-    "revision": "39d3284e6a94fe146c4d1c5514aa59035183c6e8-1",
-    "lastUpdated": "2016-08-17 12:03:36.379953"
+    "revision": "39d3284e6a94fe146c4d1c5514aa59035183c6e8-1"
   },
   {
     "name": "dslink-java-modbus",
@@ -718,8 +672,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-modbus.zip",
-    "revision": "bad0a292123fb95fc68542e84fc92180193f3f87-1",
-    "lastUpdated": "2016-08-17 12:03:59.500142"
+    "revision": "bad0a292123fb95fc68542e84fc92180193f3f87-1"
   },
   {
     "name": "dslink-java-mqtt",
@@ -738,8 +691,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-mqtt.zip",
-    "revision": "75392ee3e2dd037173262c8b9ed9385e7417c7c3-1",
-    "lastUpdated": "2016-08-17 12:04:14.320024"
+    "revision": "75392ee3e2dd037173262c8b9ed9385e7417c7c3-1"
   },
   {
     "name": "dslink-java-msiotdev",
@@ -758,8 +710,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-msiotdev.zip",
-    "revision": "9dd14ae58bbe53fe1b0a43663788dd4e9d1a1d48",
-    "lastUpdated": "2016-08-19 13:52:42.666979"
+    "revision": "9dd14ae58bbe53fe1b0a43663788dd4e9d1a1d48"
   },
   {
     "name": "dslink-java-opc",
@@ -778,8 +729,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-opc.zip",
-    "revision": "1016537595f425830be1f1b3860f22d29d8aec19-1",
-    "lastUpdated": "2016-08-17 12:04:49.355500"
+    "revision": "1016537595f425830be1f1b3860f22d29d8aec19-1"
   },
   {
     "name": "dslink-java-relayr",
@@ -798,8 +748,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-relayr.zip",
-    "revision": "bede86ecf53ff97e4e9dc98c3e54c9e9f7439a04-1",
-    "lastUpdated": "2016-08-17 12:05:05.002521"
+    "revision": "bede86ecf53ff97e4e9dc98c3e54c9e9f7439a04-1"
   },
   {
     "name": "dslink-java-rethinkdb",
@@ -818,8 +767,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-rethinkdb.zip",
-    "revision": "1304c8ce15f341d7a4a05e0313722c74b04f4ea7-1",
-    "lastUpdated": "2016-08-17 12:05:18.612274"
+    "revision": "1304c8ce15f341d7a4a05e0313722c74b04f4ea7-1"
   },
   {
     "name": "dslink-java-sedona",
@@ -838,8 +786,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-sedona.zip",
-    "revision": "8d22710c20ef2e979ba6708dfee23198beb60397-1",
-    "lastUpdated": "2016-08-17 12:05:28.211310"
+    "revision": "8d22710c20ef2e979ba6708dfee23198beb60397-1"
   },
   {
     "name": "dslink-java-serial",
@@ -858,8 +805,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-serial.zip",
-    "revision": "ef5d501ca8c4a3eb5501e39e05ecb204708d58b5",
-    "lastUpdated": "2016-08-19 13:52:57.323681"
+    "revision": "ef5d501ca8c4a3eb5501e39e05ecb204708d58b5"
   },
   {
     "name": "dslink-java-snmp",
@@ -878,8 +824,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-snmp.zip",
-    "revision": "1095e89c6a4008be1e88a81e4297649a70d51ee5-1",
-    "lastUpdated": "2016-08-17 12:05:54.978715"
+    "revision": "1095e89c6a4008be1e88a81e4297649a70d51ee5-1"
   },
   {
     "name": "dslink-java-splunk",
@@ -898,8 +843,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-splunk.zip",
-    "revision": "d076235426fe2bb0912db33b928231adf76b5b58-1",
-    "lastUpdated": "2016-08-17 12:06:06.424589"
+    "revision": "d076235426fe2bb0912db33b928231adf76b5b58-1"
   },
   {
     "name": "dslink-java-twitter",
@@ -918,8 +862,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-twitter.zip",
-    "revision": "8ed44c73e214b12a77d25fe33a855ba8440cff24-1",
-    "lastUpdated": "2016-08-17 12:06:18.784595"
+    "revision": "8ed44c73e214b12a77d25fe33a855ba8440cff24-1"
   },
   {
     "name": "dslink-java-zwave",
@@ -938,8 +881,7 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-zwave.zip",
-    "revision": "c92b299d7bc4ab83b6c22c5dca7c149d292e7287-1",
-    "lastUpdated": "2016-08-17 12:06:31.417605"
+    "revision": "c92b299d7bc4ab83b6c22c5dca7c149d292e7287-1"
   },
   {
     "name": "dslink-javascript-homekit",
@@ -951,8 +893,8 @@
     "description": "Use HomeKit/Siri from DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-javascript-homekit.zip",
-    "revision": "b9205d26930d42dcd97fa099bbf8b472bf40ecfe",
-    "lastUpdated": "2016-09-20 13:35:41.796933"
+    "revision": "b9205d26930d42dcd97fa099bbf8b472bf40ecfe-1",
+    "lastUpdated": "2016-09-20 13:48:54.200823"
   },
   {
     "name": "dslink-javascript-screenshot",
@@ -964,8 +906,7 @@
     "description": "Take Screenshots of Websites and HTML text via PhantomJS.",
     "category": "System",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-javascript-screenshot.zip",
-    "revision": "e12f973cd600526e5c7a23e7925cc53ce662019e",
-    "lastUpdated": "2016-09-04 10:33:18.759962"
+    "revision": "e12f973cd600526e5c7a23e7925cc53ce662019e"
   },
   {
     "name": "dslink-scala-ignition",
@@ -990,7 +931,6 @@
     "description": "Interact with Kafka",
     "category": "Messaging",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-scala-kafka.zip",
-    "revision": "31a0f0b8bfdc252d6a4d70b786547998956845cc-1",
-    "lastUpdated": "2016-06-27 12:27:31.701293"
+    "revision": "31a0f0b8bfdc252d6a4d70b786547998956845cc-1"
   }
 ]
