@@ -334,6 +334,10 @@ _main(List<String> argv) async {
 
       await file.copy("../../files/${rname}.zip");
     } else if (linkType == "JavaScript") {
+      var gitDir = new Directory(".git");
+      if (await gitDir.exists()) {
+        await gitDir.delete(recursive: true);
+      }
       await makeZipFile("../../files/${rname}.zip");
     } else {
       await fail(
