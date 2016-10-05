@@ -22,8 +22,8 @@
     "description": "Access DGAPI through DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dgapi.zip",
-    "revision": "9c17c5316a60a767af3a9b5d8887ab1ce1c43c5b",
-    "lastUpdated": "2016-09-01 12:17:22.153223"
+    "revision": "d92b069750d0f50ebf9b7fae90168485295e766a",
+    "lastUpdated": "2016-10-05 00:00:32.347516"
   },
   {
     "name": "dslink-dart-digital-ocean",
@@ -951,8 +951,8 @@
     "description": "Use HomeKit/Siri from DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-javascript-homekit.zip",
-    "revision": "9a5c5969a73b6f70d8e4e185cb66305569f8fcef",
-    "lastUpdated": "2016-09-20 14:12:25.860926"
+    "revision": "0acd9c38eae62d503632fd2d1d99c6f875c5cad2",
+    "lastUpdated": "2016-10-05 00:00:48.339718"
   },
   {
     "name": "dslink-javascript-screenshot",

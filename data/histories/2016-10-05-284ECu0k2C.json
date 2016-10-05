@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-10-05 00:00:49.188037",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "284ECu0k2C",
+  "uploads": [
+    {
+      "tag": "dslink-dart-dgapi",
+      "source": "files/dslink-dart-dgapi.zip",
+      "target": "files/dslink-dart-dgapi.zip",
+      "revision": "d92b069750d0f50ebf9b7fae90168485295e766a"
+    },
+    {
+      "tag": "dslink-javascript-homekit",
+      "source": "files/dslink-javascript-homekit.zip",
+      "target": "files/dslink-javascript-homekit.zip",
+      "revision": "0acd9c38eae62d503632fd2d1d99c6f875c5cad2"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "284ECu0k2C"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "284ECu0k2C"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "284ECu0k2C"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "284ECu0k2C"
+    }
+  ],
+  "built": [
+    "DGAPI",
+    "HomeKit"
+  ]
+}

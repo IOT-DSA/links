@@ -5,7 +5,7 @@
   "dslink-dart-twilio": "bae716db2ed96edaee7b5c6de93ae9f253652124",
   "dslink-dart-storage": "3ed93cb461eab9985040dbc9969ada995d40139a",
   "dslink-dart-mongodb": "21594f4332f2a1d316e1f309f246458c145ed0e6",
-  "dslink-dart-dgapi": "9c17c5316a60a767af3a9b5d8887ab1ce1c43c5b",
+  "dslink-dart-dgapi": "d92b069750d0f50ebf9b7fae90168485295e766a",
   "dslink-dart-webctrl": "da6b8bfaee251436cd727111b148bd84b6ed1e00",
   "dslink-java-mqtt": "75392ee3e2dd037173262c8b9ed9385e7417c7c3-1",
   "dslink-java-haystack": "4184906e26cb1953ba9e03a60d0c68b19aa1f5df-1",
@@ -64,6 +64,6 @@
   "dslink-java-serial": "ef5d501ca8c4a3eb5501e39e05ecb204708d58b5",
   "dslink-java-alarm": "02accd445b40f8dc696a3b5c3bb069f3d53d36a7",
   "dslink-java-msiotdev": "9dd14ae58bbe53fe1b0a43663788dd4e9d1a1d48",
-  "dslink-javascript-homekit": "9a5c5969a73b6f70d8e4e185cb66305569f8fcef",
+  "dslink-javascript-homekit": "0acd9c38eae62d503632fd2d1d99c6f875c5cad2",
   "dslink-javascript-screenshot": "e12f973cd600526e5c7a23e7925cc53ce662019e"
 }

@@ -1,6 +1,6 @@
 {
   "dslink-dart-BEV": "2016-06-29 11:25:25.216786",
-  "dslink-dart-dgapi": "2016-09-01 12:17:22.153223",
+  "dslink-dart-dgapi": "2016-10-05 00:00:32.347516",
   "dslink-dart-digital-ocean": "2016-06-29 11:25:55.458518",
   "dslink-dart-earthquakes": "2016-06-29 11:26:27.338400",
   "dslink-dart-elios4you": "2016-06-30 09:47:28.233434",
@@ -60,6 +60,6 @@
   "dslink-java-serial": "2016-08-19 13:52:57.323681",
   "dslink-java-alarm": "2016-08-30 17:03:50.218366",
   "dslink-java-msiotdev": "2016-08-19 13:52:42.666979",
-  "dslink-javascript-homekit": "2016-09-20 14:12:25.860926",
+  "dslink-javascript-homekit": "2016-10-05 00:00:48.339718",
   "dslink-javascript-screenshot": "2016-09-04 10:33:18.759962"
 }
