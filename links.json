@@ -267,8 +267,8 @@
     "description": "Create and Manage Value Schedules",
     "category": "Scheduling",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-schedule.zip",
-    "revision": "aa9521bed9d68037b99bfb535faaabc0605449bf",
-    "lastUpdated": "2016-09-16 08:02:56.458898"
+    "revision": "f71761539923a558761b2764df5ac60ea5261550",
+    "lastUpdated": "2016-10-05 22:37:43.601359"
   },
   {
     "name": "dslink-dart-slack",
@@ -951,8 +951,8 @@
     "description": "Use HomeKit/Siri from DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-javascript-homekit.zip",
-    "revision": "0acd9c38eae62d503632fd2d1d99c6f875c5cad2",
-    "lastUpdated": "2016-10-05 00:00:48.339718"
+    "revision": "bf2e0550fa0a543f13ae4592cee6c5733323125b",
+    "lastUpdated": "2016-10-05 22:37:54.433581"
   },
   {
     "name": "dslink-javascript-screenshot",

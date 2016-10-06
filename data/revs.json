@@ -45,7 +45,7 @@
   "dslink-python-grovepi": "4bce0886243782ed1d0f54fb82b6c4d6320a8944",
   "dslink-dart-BEV": "6d64059c81ea7ff9f5f4d075de1e7bc2652466cb",
   "dslink-dart-rpi": "eb9678dcf686bf68a3cd32048e889381964e221b",
-  "dslink-dart-schedule": "aa9521bed9d68037b99bfb535faaabc0605449bf",
+  "dslink-dart-schedule": "f71761539923a558761b2764df5ac60ea5261550",
   "dslink-dart-elios4you": "9648ddde8f1b1f3bb19a24244780d31d8a832fb4",
   "dslink-dart-kafka": "f8962c567bcd11eec7f8250ba13553bca66b146a-1",
   "dslink-dart-traccar": "dfa2bd53bef8439e848057ae2dca4091a85b2cc7",
@@ -64,6 +64,6 @@
   "dslink-java-serial": "ef5d501ca8c4a3eb5501e39e05ecb204708d58b5",
   "dslink-java-alarm": "df5b79da2b4194542f07358452282cc7ebe6d621",
   "dslink-java-msiotdev": "9dd14ae58bbe53fe1b0a43663788dd4e9d1a1d48",
-  "dslink-javascript-homekit": "0acd9c38eae62d503632fd2d1d99c6f875c5cad2",
+  "dslink-javascript-homekit": "bf2e0550fa0a543f13ae4592cee6c5733323125b",
   "dslink-javascript-screenshot": "e12f973cd600526e5c7a23e7925cc53ce662019e"
 }
