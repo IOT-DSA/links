@@ -658,8 +658,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-haystack.zip",
-    "revision": "4184906e26cb1953ba9e03a60d0c68b19aa1f5df-1",
-    "lastUpdated": "2016-08-17 12:03:10.717592"
+    "revision": "cbd22b74dad9d16f958a1f4abce0f03e2bf606cd",
+    "lastUpdated": "2016-10-11 13:32:41.755355"
   },
   {
     "name": "dslink-java-jdbc",
