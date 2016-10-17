@@ -267,8 +267,8 @@
     "description": "Create and Manage Value Schedules",
     "category": "Scheduling",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-schedule.zip",
-    "revision": "eaba9bfcfe9aa56e09c89973d3a24b3ad2d08437",
-    "lastUpdated": "2016-10-05 23:00:28.526408"
+    "revision": "e816375c53e5ce3691847c4c12f6521cb31c1d58",
+    "lastUpdated": "2016-10-17 09:24:47.091518"
   },
   {
     "name": "dslink-dart-slack",
@@ -386,8 +386,8 @@
     "description": "Access WebCtrl from DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-webctrl.zip",
-    "revision": "a96cfec76ab926f6d51ac678e983f66a79120ba8",
-    "lastUpdated": "2016-10-12 14:43:32.874185"
+    "revision": "82c8a94de8618530a237139660bd32825281b301",
+    "lastUpdated": "2016-10-17 09:24:58.155256"
   },
   {
     "name": "dslink-dart-wemo",
