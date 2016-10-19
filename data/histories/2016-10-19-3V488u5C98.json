@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-10-19 11:55:06.485525",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "3V488u5C98",
+  "uploads": [
+    {
+      "tag": "dslink-dart-dgapi",
+      "source": "files/dslink-dart-dgapi.zip",
+      "target": "files/dslink-dart-dgapi.zip",
+      "revision": "5c5ca27cea4d7faeb9a32c1dec6ef72623d784a3"
+    },
+    {
+      "tag": "dslink-java-calendar",
+      "source": "files/dslink-java-calendar.zip",
+      "target": "files/dslink-java-calendar.zip",
+      "revision": "4b3c5a7dd8dceeb62b8f58e2291d8e1eb984297f"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "3V488u5C98"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "3V488u5C98"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "3V488u5C98"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "3V488u5C98"
+    }
+  ],
+  "built": [
+    "DGAPI",
+    "Calendar"
+  ]
+}
