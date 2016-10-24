@@ -538,8 +538,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-calendar.zip",
-    "revision": "91d9db9437fa8a8a37dc6e3b9161da5f6b39db4c",
-    "lastUpdated": "2016-10-23 00:00:51.494074"
+    "revision": "f536f4241a86d0bbfcad9b718ede9f9d1af4663f",
+    "lastUpdated": "2016-10-24 00:01:02.721675"
   },
   {
     "name": "dslink-java-dnp3",
