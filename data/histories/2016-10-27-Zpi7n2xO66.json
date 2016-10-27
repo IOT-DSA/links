@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-10-27 16:30:00.231483",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "Zpi7n2xO66",
+  "uploads": [
+    {
+      "tag": "dslink-dart-schedule",
+      "source": "files/dslink-dart-schedule.zip",
+      "target": "files/dslink-dart-schedule.zip",
+      "revision": "d21a55f4321230e60f876245bf2ce12a36d9b459"
+    },
+    {
+      "tag": "dslink-java-calendar",
+      "source": "files/dslink-java-calendar.zip",
+      "target": "files/dslink-java-calendar.zip",
+      "revision": "1143e9427e3340c906900219df579bcab17069e6"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "Zpi7n2xO66"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "Zpi7n2xO66"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "Zpi7n2xO66"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "Zpi7n2xO66"
+    }
+  ],
+  "built": [
+    "Schedule",
+    "Calendar"
+  ]
+}
