@@ -678,8 +678,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-jdbc.zip",
-    "revision": "e97137cefd92a03257d32670588cbdfa2e79c943",
-    "lastUpdated": "2016-09-21 12:09:32.433568"
+    "revision": "4f4f15c16349fdb4733455089eabf71e0b9d5c01",
+    "lastUpdated": "2016-10-31 12:40:24.350683"
   },
   {
     "name": "dslink-java-mango",
