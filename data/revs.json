@@ -19,7 +19,7 @@
   "dslink-dart-irc": "fa601d3762db23f22700cca9a2d10d1ee676e67a",
   "dslink-dart-slack": "87299047ee198d15f6a2ff8e269ec06cf840cf7b",
   "dslink-java-etsdb": "994553bc819fe119163302ddefe7d94e0f8fc818",
-  "dslink-java-bacnet": "2d09e0723c842e0a48c8575a0ca778cab716303f",
+  "dslink-java-bacnet": "a9b54b12569af77431df13db72bf40a2f09414ec",
   "dslink-dart-earthquakes": "3cfa1dc5f7a27ac96ad536f676abb3a2b609cbb3",
   "dslink-dart-host": "1d7500a1f259143d190b92118b697b6cc791913f",
   "dslink-java-splunk": "d076235426fe2bb0912db33b928231adf76b5b58-1",
@@ -65,5 +65,6 @@
   "dslink-java-alarm": "df5b79da2b4194542f07358452282cc7ebe6d621",
   "dslink-java-msiotdev": "9dd14ae58bbe53fe1b0a43663788dd4e9d1a1d48",
   "dslink-javascript-homekit": "bf2e0550fa0a543f13ae4592cee6c5733323125b",
-  "dslink-javascript-screenshot": "e12f973cd600526e5c7a23e7925cc53ce662019e"
+  "dslink-javascript-screenshot": "e12f973cd600526e5c7a23e7925cc53ce662019e",
+  "dslink-scala-kafka10": "b19ec021adfd9310f23eeea41eb3526b34fbb08e"
 }

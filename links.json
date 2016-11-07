@@ -498,8 +498,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet.zip",
-    "revision": "2d09e0723c842e0a48c8575a0ca778cab716303f",
-    "lastUpdated": "2016-11-04 00:00:42.633213"
+    "revision": "a9b54b12569af77431df13db72bf40a2f09414ec",
+    "lastUpdated": "2016-11-07 11:54:51.658259"
   },
   {
     "name": "dslink-java-bitpool",
@@ -992,5 +992,18 @@
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-scala-kafka.zip",
     "revision": "31a0f0b8bfdc252d6a4d70b786547998956845cc-1",
     "lastUpdated": "2016-06-27 12:27:31.701293"
+  },
+  {
+    "name": "dslink-scala-kafka10",
+    "displayName": "Kafka 0.10.x",
+    "type": "Scala",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-scala-kafka10.git"
+    },
+    "description": "Interact with Kafka 0.10.x",
+    "category": "Messaging",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-scala-kafka10.zip",
+    "revision": "b19ec021adfd9310f23eeea41eb3526b34fbb08e",
+    "lastUpdated": "2016-11-07 11:56:40.380340"
   }
 ]

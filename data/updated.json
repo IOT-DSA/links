@@ -27,7 +27,7 @@
   "dslink-dart-wemo": "2016-07-22 13:14:01.489038",
   "dslink-dart-youtube": "2016-06-29 11:31:53.519555",
   "dslink-java-advantech": "2016-09-17 00:00:42.936029",
-  "dslink-java-bacnet": "2016-11-04 00:00:42.633213",
+  "dslink-java-bacnet": "2016-11-07 11:54:51.658259",
   "dslink-java-bitpool": "2016-08-17 12:01:20.475620",
   "dslink-java-enocean": "2016-08-17 12:02:30.106082",
   "dslink-java-etsdb": "2016-10-05 10:50:47.884395",
@@ -61,5 +61,6 @@
   "dslink-java-alarm": "2016-10-05 10:50:30.461476",
   "dslink-java-msiotdev": "2016-08-19 13:52:42.666979",
   "dslink-javascript-homekit": "2016-10-05 22:37:54.433581",
-  "dslink-javascript-screenshot": "2016-09-04 10:33:18.759962"
+  "dslink-javascript-screenshot": "2016-09-04 10:33:18.759962",
+  "dslink-scala-kafka10": "2016-11-07 11:56:40.380340"
 }
