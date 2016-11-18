@@ -1,0 +1,78 @@
+{
+  "timestamp": "2016-11-17 16:07:54.498873",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "MaOZ60Rd6i",
+  "uploads": [
+    {
+      "tag": "dslink-dart-dgapi",
+      "source": "files/dslink-dart-dgapi.zip",
+      "target": "files/dslink-dart-dgapi.zip",
+      "revision": "823434b03e14a8a32455041e543457c7edf1226b"
+    },
+    {
+      "tag": "dslink-java-bacnet",
+      "source": "files/dslink-java-bacnet.zip",
+      "target": "files/dslink-java-bacnet.zip",
+      "revision": "eeb90bb713745dc66b75707ef7dc90bf08857b5a"
+    },
+    {
+      "tag": "dslink-java-etsdb",
+      "source": "files/dslink-java-etsdb.zip",
+      "target": "files/dslink-java-etsdb.zip",
+      "revision": "bf2ab6bff7202b66fdc3feab9718c856fe1f443f"
+    },
+    {
+      "tag": "dslink-java-haystack",
+      "source": "files/dslink-java-haystack.zip",
+      "target": "files/dslink-java-haystack.zip",
+      "revision": "14c505483c04909f06a889264d237a346df40426"
+    },
+    {
+      "tag": "dslink-java-jdbc",
+      "source": "files/dslink-java-jdbc.zip",
+      "target": "files/dslink-java-jdbc.zip",
+      "revision": "375138985c88c825057a1b1dc61232ad8e71fb5c"
+    },
+    {
+      "tag": "dslink-java-splunk",
+      "source": "files/dslink-java-splunk.zip",
+      "target": "files/dslink-java-splunk.zip",
+      "revision": "e92de0c2a12c13e2c5289ce0e3ddcc90c07eb7e4"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "MaOZ60Rd6i"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "MaOZ60Rd6i"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "MaOZ60Rd6i"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "MaOZ60Rd6i"
+    }
+  ],
+  "built": [
+    "DGAPI",
+    "BACnet",
+    "ETSDB",
+    "Haystack",
+    "JDBC",
+    "Splunk"
+  ]
+}
