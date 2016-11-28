@@ -48,8 +48,8 @@
     "description": "Run Queries against DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dql.zip",
-    "revision": "8e72d79cbfe402780b3e58cd11af1e13888bf14a",
-    "lastUpdated": "2016-11-23 11:34:52.666378"
+    "revision": "aa27800bee407cd3eaec6819a065a7ef814217dc",
+    "lastUpdated": "2016-11-28 11:48:00.666358"
   },
   {
     "name": "dslink-dart-earthquakes",
@@ -498,8 +498,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet.zip",
-    "revision": "eeb90bb713745dc66b75707ef7dc90bf08857b5a",
-    "lastUpdated": "2016-11-17 16:06:57.748507"
+    "revision": "8bfa8a0149868929230c208a7546ae545ed431a8",
+    "lastUpdated": "2016-11-28 11:48:35.094343"
   },
   {
     "name": "dslink-java-bitpool",
