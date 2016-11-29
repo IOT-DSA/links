@@ -267,8 +267,8 @@
     "description": "Create and Manage Value Schedules",
     "category": "Scheduling",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-schedule.zip",
-    "revision": "6e233f52358f34da050db1bbd53339dc6e7ad9b6",
-    "lastUpdated": "2016-11-01 20:05:59.363981"
+    "revision": "bec22db23e1df90fd17403c9e07aa9528403c08f",
+    "lastUpdated": "2016-11-29 11:44:06.538338"
   },
   {
     "name": "dslink-dart-slack",
@@ -718,8 +718,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-modbus.zip",
-    "revision": "754e179758cfe25006d05744c0c61de01a268a61",
-    "lastUpdated": "2016-09-29 00:01:04.471814"
+    "revision": "36a26aa36f3f45bce4730eb934ade4af539a84c5",
+    "lastUpdated": "2016-11-29 11:45:10.810343"
   },
   {
     "name": "dslink-java-mqtt",

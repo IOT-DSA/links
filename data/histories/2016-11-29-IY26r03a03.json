@@ -1,0 +1,50 @@
+{
+  "timestamp": "2016-11-29 11:45:18.790416",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "IY26r03a03",
+  "uploads": [
+    {
+      "tag": "dslink-dart-schedule",
+      "source": "files/dslink-dart-schedule.zip",
+      "target": "files/dslink-dart-schedule.zip",
+      "revision": "bec22db23e1df90fd17403c9e07aa9528403c08f"
+    },
+    {
+      "tag": "dslink-java-modbus",
+      "source": "files/dslink-java-modbus.zip",
+      "target": "files/dslink-java-modbus.zip",
+      "revision": "36a26aa36f3f45bce4730eb934ade4af539a84c5"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "IY26r03a03"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "IY26r03a03"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "IY26r03a03"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "IY26r03a03"
+    }
+  ],
+  "built": [
+    "Schedule",
+    "Modbus"
+  ]
+}
