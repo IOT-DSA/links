@@ -1,0 +1,43 @@
+{
+  "timestamp": "2016-12-15 00:00:51.061321",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "9R53wu8Gz7",
+  "uploads": [
+    {
+      "tag": "dslink-dart-system",
+      "source": "files/dslink-dart-system.zip",
+      "target": "files/dslink-dart-system.zip",
+      "revision": "8da7097dc3e57b8b2a54f5e6b7e91d26770aed2e"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "9R53wu8Gz7"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "9R53wu8Gz7"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "9R53wu8Gz7"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "9R53wu8Gz7"
+    }
+  ],
+  "built": [
+    "System"
+  ]
+}
