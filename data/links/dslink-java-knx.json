@@ -1,0 +1,10 @@
+{
+  "name": "dslink-java-knx”,
+  "displayName": “KNX”,
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-java-knx.git"
+  },
+  "description": "Interact with KNX",
+  "category": "Data Acquisition"
+}
