@@ -386,8 +386,8 @@
     "description": "Access WebCtrl from DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-webctrl.zip",
-    "revision": "66f1126c0b69f198db893af63860386654a4b1b6",
-    "lastUpdated": "2016-12-28 11:56:57.153277"
+    "revision": "3b20dc7ee575573427b3de235745b882153cb16f",
+    "lastUpdated": "2017-01-09 12:05:11.814022"
   },
   {
     "name": "dslink-dart-wemo",
