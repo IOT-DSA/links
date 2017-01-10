@@ -386,8 +386,8 @@
     "description": "Access WebCtrl from DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-webctrl.zip",
-    "revision": "3b20dc7ee575573427b3de235745b882153cb16f",
-    "lastUpdated": "2017-01-09 12:05:11.814022"
+    "revision": "19ec4130209d606deaa8f26ebe07682227b5a63f",
+    "lastUpdated": "2017-01-10 00:00:41.415219"
   },
   {
     "name": "dslink-dart-wemo",
@@ -718,8 +718,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-modbus.zip",
-    "revision": "05b8bf766f7fad13e3bb35061d24de0bed2bc3a5",
-    "lastUpdated": "2017-01-05 00:00:57.300726"
+    "revision": "ec9853349be432287339c6dfb6cf02c80556e0e9",
+    "lastUpdated": "2017-01-10 00:01:02.223922"
   },
   {
     "name": "dslink-java-mqtt",

@@ -1,0 +1,50 @@
+{
+  "timestamp": "2017-01-10 00:01:05.496157",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "0Nc97638g3",
+  "uploads": [
+    {
+      "tag": "dslink-dart-webctrl",
+      "source": "files/dslink-dart-webctrl.zip",
+      "target": "files/dslink-dart-webctrl.zip",
+      "revision": "19ec4130209d606deaa8f26ebe07682227b5a63f"
+    },
+    {
+      "tag": "dslink-java-modbus",
+      "source": "files/dslink-java-modbus.zip",
+      "target": "files/dslink-java-modbus.zip",
+      "revision": "ec9853349be432287339c6dfb6cf02c80556e0e9"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "0Nc97638g3"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "0Nc97638g3"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "0Nc97638g3"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "0Nc97638g3"
+    }
+  ],
+  "built": [
+    "WebCtrl",
+    "Modbus"
+  ]
+}
