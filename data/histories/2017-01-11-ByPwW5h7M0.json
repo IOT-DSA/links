@@ -1,0 +1,50 @@
+{
+  "timestamp": "2017-01-11 00:01:07.065154",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "ByPwW5h7M0",
+  "uploads": [
+    {
+      "tag": "dslink-dart-system",
+      "source": "files/dslink-dart-system.zip",
+      "target": "files/dslink-dart-system.zip",
+      "revision": "f4f6ee79d34f5c3345c0960c22fa35a8de8172bd"
+    },
+    {
+      "tag": "dslink-java-modbus",
+      "source": "files/dslink-java-modbus.zip",
+      "target": "files/dslink-java-modbus.zip",
+      "revision": "7410b5d64ab2903b0f701d84abf639b49f6e01d4"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "ByPwW5h7M0"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "ByPwW5h7M0"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "ByPwW5h7M0"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "ByPwW5h7M0"
+    }
+  ],
+  "built": [
+    "System",
+    "Modbus"
+  ]
+}

@@ -320,8 +320,8 @@
     "description": "Get Live Statistics about a Machine",
     "category": "System",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-system.zip",
-    "revision": "8da7097dc3e57b8b2a54f5e6b7e91d26770aed2e",
-    "lastUpdated": "2016-12-15 00:00:42.244471"
+    "revision": "f4f6ee79d34f5c3345c0960c22fa35a8de8172bd",
+    "lastUpdated": "2017-01-11 00:00:40.772246"
   },
   {
     "name": "dslink-dart-traccar",
@@ -718,8 +718,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-modbus.zip",
-    "revision": "ec9853349be432287339c6dfb6cf02c80556e0e9",
-    "lastUpdated": "2017-01-10 00:01:02.223922"
+    "revision": "7410b5d64ab2903b0f701d84abf639b49f6e01d4",
+    "lastUpdated": "2017-01-11 00:01:02.899707"
   },
   {
     "name": "dslink-java-mqtt",
