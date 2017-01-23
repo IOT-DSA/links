@@ -1,0 +1,50 @@
+{
+  "timestamp": "2017-01-23 11:18:54.729499",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "25U3009ovX",
+  "uploads": [
+    {
+      "tag": "dslink-dart-webctrl",
+      "source": "files/dslink-dart-webctrl.zip",
+      "target": "files/dslink-dart-webctrl.zip",
+      "revision": "949b94169998476f30b3645425ca3988253fa20b"
+    },
+    {
+      "tag": "dslink-java-bacnet",
+      "source": "files/dslink-java-bacnet.zip",
+      "target": "files/dslink-java-bacnet.zip",
+      "revision": "27df82eac3c07225ce0b089d1c7fbc19164856aa"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "25U3009ovX"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "25U3009ovX"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "25U3009ovX"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "25U3009ovX"
+    }
+  ],
+  "built": [
+    "WebCtrl",
+    "BACnet"
+  ]
+}
