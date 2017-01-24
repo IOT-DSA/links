@@ -1,0 +1,50 @@
+{
+  "timestamp": "2017-01-24 15:39:44.175632",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "APQnIDh2n0",
+  "uploads": [
+    {
+      "tag": "dslink-dart-webctrl",
+      "source": "files/dslink-dart-webctrl.zip",
+      "target": "files/dslink-dart-webctrl.zip",
+      "revision": "9a5085ddbf23007c6be28944654cce9b0472d49d"
+    },
+    {
+      "tag": "dslink-java-snmp",
+      "source": "files/dslink-java-snmp.zip",
+      "target": "files/dslink-java-snmp.zip",
+      "revision": "4fc2ae5b9268bf30a8b621c61014260ca8a1cce2"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "APQnIDh2n0"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "APQnIDh2n0"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "APQnIDh2n0"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "APQnIDh2n0"
+    }
+  ],
+  "built": [
+    "WebCtrl",
+    "SNMP"
+  ]
+}

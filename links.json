@@ -386,8 +386,8 @@
     "description": "Access WebCtrl from DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-webctrl.zip",
-    "revision": "f7bb459ed21f2a4deced7ffa5525e4838b210552",
-    "lastUpdated": "2017-01-24 08:25:34.495757"
+    "revision": "9a5085ddbf23007c6be28944654cce9b0472d49d",
+    "lastUpdated": "2017-01-24 15:39:23.890143"
   },
   {
     "name": "dslink-dart-wemo",
@@ -898,8 +898,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-snmp.zip",
-    "revision": "1095e89c6a4008be1e88a81e4297649a70d51ee5-1",
-    "lastUpdated": "2016-08-17 12:05:54.978715"
+    "revision": "4fc2ae5b9268bf30a8b621c61014260ca8a1cce2",
+    "lastUpdated": "2017-01-24 15:39:42.253005"
   },
   {
     "name": "dslink-java-splunk",
