@@ -778,8 +778,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-msiotdev.zip",
-    "revision": "9dd14ae58bbe53fe1b0a43663788dd4e9d1a1d48",
-    "lastUpdated": "2016-08-19 13:52:42.666979"
+    "revision": "a8685f18d1dc6c808651bd0d37c1e5bbcd7ff250",
+    "lastUpdated": "2017-01-26 14:45:11.484061"
   },
   {
     "name": "dslink-java-opc",

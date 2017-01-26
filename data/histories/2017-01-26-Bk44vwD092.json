@@ -1,0 +1,43 @@
+{
+  "timestamp": "2017-01-26 14:45:15.214444",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "Bk44vwD092",
+  "uploads": [
+    {
+      "tag": "dslink-java-msiotdev",
+      "source": "files/dslink-java-msiotdev.zip",
+      "target": "files/dslink-java-msiotdev.zip",
+      "revision": "a8685f18d1dc6c808651bd0d37c1e5bbcd7ff250"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "Bk44vwD092"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "Bk44vwD092"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "Bk44vwD092"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "Bk44vwD092"
+    }
+  ],
+  "built": [
+    "DSA over Azure IoT"
+  ]
+}
