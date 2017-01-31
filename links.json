@@ -22,8 +22,8 @@
     "description": "Access DGAPI through DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-dgapi.zip",
-    "revision": "0d76931c1492e22866f3f61ffb8fd935eb80dabe",
-    "lastUpdated": "2016-11-18 00:00:23.374753"
+    "revision": "64eefd13309d02536f874e151b1da68bc10494d6",
+    "lastUpdated": "2017-01-31 00:00:27.821710"
   },
   {
     "name": "dslink-dart-digital-ocean",
@@ -498,8 +498,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet.zip",
-    "revision": "27df82eac3c07225ce0b089d1c7fbc19164856aa",
-    "lastUpdated": "2017-01-23 11:18:47.276858"
+    "revision": "ac9a4363738f9e69500503963da4798bb13e355a",
+    "lastUpdated": "2017-01-31 00:00:46.969898"
   },
   {
     "name": "dslink-java-bitpool",
@@ -738,8 +738,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-modbus.zip",
-    "revision": "4e839b5148748bbfa2840da22c510ecd8f509420",
-    "lastUpdated": "2017-01-21 00:00:40.712410"
+    "revision": "396cc24e95bf3ff93db47d1e1d0ad356a7b8b5d3",
+    "lastUpdated": "2017-01-31 00:01:04.619401"
   },
   {
     "name": "dslink-java-mqtt",
