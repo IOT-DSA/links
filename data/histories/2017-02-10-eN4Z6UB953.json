@@ -1,0 +1,43 @@
+{
+  "timestamp": "2017-02-10 00:00:53.895486",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "eN4Z6UB953",
+  "uploads": [
+    {
+      "tag": "dslink-java-knx",
+      "source": "files/dslink-java-knx.zip",
+      "target": "files/dslink-java-knx.zip",
+      "revision": "9c1927d9bb7dfff91132da94de06012d81a43ee1"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "eN4Z6UB953"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "eN4Z6UB953"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "eN4Z6UB953"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "eN4Z6UB953"
+    }
+  ],
+  "built": [
+    "KNX"
+  ]
+}
