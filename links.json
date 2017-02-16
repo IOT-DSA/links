@@ -698,8 +698,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-knx.zip",
-    "revision": "9c1927d9bb7dfff91132da94de06012d81a43ee1",
-    "lastUpdated": "2017-02-10 00:00:49.834024"
+    "revision": "e4ec23848b7b6d7575b82f5417f678001a965bf1",
+    "lastUpdated": "2017-02-16 00:00:56.511247"
   },
   {
     "name": "dslink-java-mango",
@@ -738,8 +738,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-modbus.zip",
-    "revision": "c3f313e513f3ea7f9752e57d4129128514b78cd2",
-    "lastUpdated": "2017-02-11 00:00:50.847150"
+    "revision": "1da8748b3791c187d419b17a633a6684556f7e27",
+    "lastUpdated": "2017-02-16 00:01:14.005309"
   },
   {
     "name": "dslink-java-mqtt",

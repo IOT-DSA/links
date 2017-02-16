@@ -14,7 +14,7 @@
   "dslink-dart-youtube": "d25c67abb4cbdd0d2d38518370ac9335ca24abbb",
   "dslink-java-twitter": "8ed44c73e214b12a77d25fe33a855ba8440cff24-1",
   "dslink-java-googleplus": "e00dbfd87ffe66a9acb91d7def6909832174d144-1",
-  "dslink-java-modbus": "c3f313e513f3ea7f9752e57d4129128514b78cd2",
+  "dslink-java-modbus": "1da8748b3791c187d419b17a633a6684556f7e27",
   "dslink-java-jdbc": "375138985c88c825057a1b1dc61232ad8e71fb5c",
   "dslink-dart-irc": "fa601d3762db23f22700cca9a2d10d1ee676e67a",
   "dslink-dart-slack": "87299047ee198d15f6a2ff8e269ec06cf840cf7b",
@@ -67,5 +67,5 @@
   "dslink-javascript-homekit": "bf2e0550fa0a543f13ae4592cee6c5733323125b",
   "dslink-javascript-screenshot": "e12f973cd600526e5c7a23e7925cc53ce662019e",
   "dslink-scala-kafka10": "3709aef30a1c5b1f7c7bdcbfdb1bfff97c96881e",
-  "dslink-java-knx": "9c1927d9bb7dfff91132da94de06012d81a43ee1"
+  "dslink-java-knx": "e4ec23848b7b6d7575b82f5417f678001a965bf1"
 }

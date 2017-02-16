@@ -1,0 +1,50 @@
+{
+  "timestamp": "2017-02-16 00:01:17.558197",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "4a17S12co9",
+  "uploads": [
+    {
+      "tag": "dslink-java-knx",
+      "source": "files/dslink-java-knx.zip",
+      "target": "files/dslink-java-knx.zip",
+      "revision": "e4ec23848b7b6d7575b82f5417f678001a965bf1"
+    },
+    {
+      "tag": "dslink-java-modbus",
+      "source": "files/dslink-java-modbus.zip",
+      "target": "files/dslink-java-modbus.zip",
+      "revision": "1da8748b3791c187d419b17a633a6684556f7e27"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "4a17S12co9"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "4a17S12co9"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "4a17S12co9"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "4a17S12co9"
+    }
+  ],
+  "built": [
+    "KNX",
+    "Modbus"
+  ]
+}
