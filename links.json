@@ -386,8 +386,8 @@
     "description": "Access WebCtrl from DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-webctrl.zip",
-    "revision": "e16281b10e4d5f1312b0608155f2f6e183acf613",
-    "lastUpdated": "2017-02-14 12:28:17.416165"
+    "revision": "11d3d7d98e49cb75cc14ef0258dfab67f29a4a3c",
+    "lastUpdated": "2017-02-16 18:12:37.485931"
   },
   {
     "name": "dslink-dart-wemo",
@@ -498,8 +498,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet.zip",
-    "revision": "633c225b5967d63faafd5cc037911aba2ec2f557",
-    "lastUpdated": "2017-02-09 00:00:42.530022"
+    "revision": "2a760ca769cd44709162edf590e21b7b1e8cf7d4",
+    "lastUpdated": "2017-02-16 18:12:50.754585"
   },
   {
     "name": "dslink-java-bitpool",
@@ -738,8 +738,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-modbus.zip",
-    "revision": "1da8748b3791c187d419b17a633a6684556f7e27",
-    "lastUpdated": "2017-02-16 00:01:14.005309"
+    "revision": "1a0cc853e0a9942f0b8b89f914fcc25015141cdf",
+    "lastUpdated": "2017-02-16 18:13:10.602854"
   },
   {
     "name": "dslink-java-mqtt",
