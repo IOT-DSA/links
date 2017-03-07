@@ -1,0 +1,35 @@
+{
+  "timestamp": "2017-03-07 00:00:41.478425",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "4900q1AGnF",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "4900q1AGnF"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "4900q1AGnF"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "4900q1AGnF"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "4900q1AGnF"
+    }
+  ],
+  "built": []
+}
