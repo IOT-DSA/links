@@ -498,8 +498,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet.zip",
-    "revision": "2a760ca769cd44709162edf590e21b7b1e8cf7d4",
-    "lastUpdated": "2017-02-16 18:12:50.754585"
+    "revision": "a9c693efbcab9f00801c335598a3bafa6738c633",
+    "lastUpdated": "2017-03-08 00:00:56.292301"
   },
   {
     "name": "dslink-java-bitpool",
@@ -658,8 +658,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-haystack.zip",
-    "revision": "14c505483c04909f06a889264d237a346df40426",
-    "lastUpdated": "2016-11-17 16:07:22.488116"
+    "revision": "cb8817fd18081b986f4b3c6bfd2f226a8718f175",
+    "lastUpdated": "2017-03-08 00:01:07.544449"
   },
   {
     "name": "dslink-java-jdbc",
@@ -898,8 +898,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-snmp.zip",
-    "revision": "c50d9313c0d24fc2661876b8bc363646584fa54d",
-    "lastUpdated": "2017-01-25 00:00:49.635311"
+    "revision": "d96cde99c9ca6dddd8d41ace3533e3483e2558fc",
+    "lastUpdated": "2017-03-08 00:01:24.322889"
   },
   {
     "name": "dslink-java-splunk",

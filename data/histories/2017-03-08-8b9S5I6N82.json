@@ -1,0 +1,57 @@
+{
+  "timestamp": "2017-03-08 00:01:26.250096",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "8b9S5I6N82",
+  "uploads": [
+    {
+      "tag": "dslink-java-bacnet",
+      "source": "files/dslink-java-bacnet.zip",
+      "target": "files/dslink-java-bacnet.zip",
+      "revision": "a9c693efbcab9f00801c335598a3bafa6738c633"
+    },
+    {
+      "tag": "dslink-java-haystack",
+      "source": "files/dslink-java-haystack.zip",
+      "target": "files/dslink-java-haystack.zip",
+      "revision": "cb8817fd18081b986f4b3c6bfd2f226a8718f175"
+    },
+    {
+      "tag": "dslink-java-snmp",
+      "source": "files/dslink-java-snmp.zip",
+      "target": "files/dslink-java-snmp.zip",
+      "revision": "d96cde99c9ca6dddd8d41ace3533e3483e2558fc"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "8b9S5I6N82"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "8b9S5I6N82"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "8b9S5I6N82"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "8b9S5I6N82"
+    }
+  ],
+  "built": [
+    "BACnet",
+    "Haystack",
+    "SNMP"
+  ]
+}
