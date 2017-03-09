@@ -1,0 +1,50 @@
+{
+  "timestamp": "2017-03-09 13:59:07.105445",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "x0z6Sj2Lz2",
+  "uploads": [
+    {
+      "tag": "dslink-java-bacnet",
+      "source": "files/dslink-java-bacnet.zip",
+      "target": "files/dslink-java-bacnet.zip",
+      "revision": "6d73bcd18892e42888be82e37f92c37a2bb530a8"
+    },
+    {
+      "tag": "dslink-java-snmp",
+      "source": "files/dslink-java-snmp.zip",
+      "target": "files/dslink-java-snmp.zip",
+      "revision": "55b51a4969f242b1deb411604eaa69b46ec093af"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "x0z6Sj2Lz2"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "x0z6Sj2Lz2"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "x0z6Sj2Lz2"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "x0z6Sj2Lz2"
+    }
+  ],
+  "built": [
+    "BACnet",
+    "SNMP"
+  ]
+}
