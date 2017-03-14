@@ -148,8 +148,8 @@
     "description": "Capture different types of data such as Location Information and Gyroscope Data from a Browser Client",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-html5.zip",
-    "revision": "a90a9ff96b4f0042d8d88f67ef1a0c5979b268c9",
-    "lastUpdated": "2016-06-29 11:28:06.130960"
+    "revision": "cf6239b5768222d0343e0ea25a847715a2c30ae9",
+    "lastUpdated": "2017-03-14 00:01:11.169965"
   },
   {
     "name": "dslink-dart-irc",
