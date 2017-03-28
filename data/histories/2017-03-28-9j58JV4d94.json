@@ -1,0 +1,50 @@
+{
+  "timestamp": "2017-03-28 00:00:49.749095",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "9j58JV4d94",
+  "uploads": [
+    {
+      "tag": "dslink-dart-rest",
+      "source": "files/dslink-dart-rest.zip",
+      "target": "files/dslink-dart-rest.zip",
+      "revision": "73e12f16c63194237161a706ca15c4377526f70a"
+    },
+    {
+      "tag": "dslink-java-etsdb",
+      "source": "files/dslink-java-etsdb.zip",
+      "target": "files/dslink-java-etsdb.zip",
+      "revision": "1b9a36a03592e523dcc835f29438246144867433"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "9j58JV4d94"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "9j58JV4d94"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "9j58JV4d94"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "9j58JV4d94"
+    }
+  ],
+  "built": [
+    "REST Server",
+    "ETSDB"
+  ]
+}
