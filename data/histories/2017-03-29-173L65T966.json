@@ -1,0 +1,50 @@
+{
+  "timestamp": "2017-03-29 00:00:55.784131",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "173L65T966",
+  "uploads": [
+    {
+      "tag": "dslink-dart-dgapi",
+      "source": "files/dslink-dart-dgapi.zip",
+      "target": "files/dslink-dart-dgapi.zip",
+      "revision": "fba4a2762d477d679c5c9383c1589c4083736a05"
+    },
+    {
+      "tag": "dslink-java-etsdb",
+      "source": "files/dslink-java-etsdb.zip",
+      "target": "files/dslink-java-etsdb.zip",
+      "revision": "89c6acd3b0c0afe6dbb4a84dd88b28247defc42a"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "173L65T966"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "173L65T966"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "173L65T966"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "173L65T966"
+    }
+  ],
+  "built": [
+    "DGAPI",
+    "ETSDB"
+  ]
+}
