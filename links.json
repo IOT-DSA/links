@@ -88,8 +88,8 @@
     "description": "Subscribe to RSS Feeds",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-feed.zip",
-    "revision": "d15e5f66ad3342a6c82d46a4d557971aeec7ae63",
-    "lastUpdated": "2016-06-29 11:26:49.504503"
+    "revision": "36b9506c56b114f429488f5577bea42d6b518427",
+    "lastUpdated": "2017-04-08 00:00:30.981627"
   },
   {
     "name": "dslink-dart-file",
@@ -386,8 +386,8 @@
     "description": "Access WebCtrl from DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-webctrl.zip",
-    "revision": "806c7af76c6dbabef158914dfd2d5735723ba30f",
-    "lastUpdated": "2017-02-17 10:45:58.211989"
+    "revision": "3406a5570d7a063dc88df2f825e6a967b121548b",
+    "lastUpdated": "2017-04-08 00:00:49.487915"
   },
   {
     "name": "dslink-dart-wemo",
@@ -698,8 +698,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-knx.zip",
-    "revision": "e4ec23848b7b6d7575b82f5417f678001a965bf1",
-    "lastUpdated": "2017-02-16 00:00:56.511247"
+    "revision": "ca220a0ec171fedd6ac22cc743d59e441d405c32",
+    "lastUpdated": "2017-04-08 00:01:04.710697"
   },
   {
     "name": "dslink-java-mango",
