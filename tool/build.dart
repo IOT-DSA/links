@@ -1,8 +1,13 @@
 #!/usr/bin/env dart
 
+import 'dart:io';
 import "dart:async";
 
 import "util.dart";
+import 'util/path.dart' as path;
+
+const String _Packages = '.packages';
+const String _pkgDir = '.pkg';
 
 main(List<String> args) async {
   gargv = args;
@@ -250,6 +255,7 @@ _main(List<String> argv) async {
 
     var cbs = new File("tool/build.sh");
 
+    // Check for their own build script.
     if (await cbs.exists() && automated["ignoreBuildScript"] != true) {
       var result = await exec(
         "bash",
@@ -262,52 +268,32 @@ _main(List<String> argv) async {
             " custom build script.\n${result.output}"
         );
       }
+      // Dart Link.
     } else if (linkType == "Dart") {
-      var pur = await exec("pub", args: ["upgrade"], writeToBuffer: true);
+      var pur = await exec("pub", args: ["get"], writeToBuffer: true);
       if (pur.exitCode != 0) {
         await fail("DSLink ${name}: Failed to fetch dependencies.\n${pur.output}");
       }
 
-      var mainFile = new File("bin/run.dart");
-      if (!(await mainFile.exists())) {
-        mainFile = new File("bin/main.dart");
-      }
+      var dirName = path.dirname(path.fromUri(Platform.script));
+      var pkgs = readPackages(path.join(dirName, _Packages));
 
-      await rmkdir("build/bin");
+      if (pkgs != null && pkgs.isNotEmpty) {
+        var pkgDir = path.join(dirName, _pkgDir);
+        setupPkgDir(path.join(dirName, _pkgDir));
 
-      var cmfr = await exec("dart2js", args: [
-        mainFile.absolute.path,
-        "-o",
-        "build/bin/${mainFile.path
-          .split('/')
-          .last}",
-        "--output-type=dart",
-        "--categories=Server"
-      ], writeToBuffer: true);
-      if (cmfr.exitCode != 0) {
-        await fail("DSLink ${name}: Failed to build main file.\n${cmfr.output}");
-      }
-
-      await copy("dslink.json", "build/dslink.json");
-      var dataDir = new Directory("data");
-      if (await dataDir.exists()) {
-        var res = await exec("cp", args: ["-R", "data", "build/data"]);
-        if (res.exitCode != 0) {
-          await fail(
-            "DSLink ${name}: Failed to copy data directory.\n${res.output}"
-          );
+        for (var i = 0; i < pkgs.length; i++) {
+          if (path.isRelative(pkgs[i].path)) continue;
+          pkgs[i] = movePackage(pkgs[i], pkgDir);
         }
-      }
-      await pushd("build");
 
-      try {
-        await new File("${mainFile.path
-          .split('/')
-          .last}.deps").delete();
-      } catch (e) {}
-      var rpn = Directory.current.parent.parent.parent.path;
+        writePackages(pkgs, path.join(dirName, _Packages));
+      }
+
+      var rpn = Directory.current.parent.parent.path;
       await makeZipFile("${rpn}/files/${zipName}");
       popd();
+      // Java Links
     } else if (linkType == "Java") {
       await rmkdir("build");
       var pur = await exec("bash", args: [
@@ -333,6 +319,7 @@ _main(List<String> argv) async {
       }
 
       await file.copy("../../files/${rname}.zip");
+      // Javascript Links
     } else if (linkType == "JavaScript") {
       var gitDir = new Directory(".git");
       if (await gitDir.exists()) {
@@ -444,4 +431,87 @@ _main(List<String> argv) async {
   } else {
     await sendSlackMessage("*Build Completed - No DSLinks Updated*");
   }
+}
+
+List<Package> readPackages(String file) {
+  var pFile = new File(file);
+
+  if (!pFile.existsSync()) fail('Unable to locate file "$file".');
+  String str;
+  try {
+    str = pFile.readAsStringSync();
+  } catch (e) {
+    fail('Error reading "$file". $e');
+  }
+
+  var lines = str.split('\n');
+  var packages = <Package>[];
+  for (var line in lines) {
+    if (line.trim().startsWith('#')) continue;
+    var ind = line.indexOf(':');
+    if (ind == -1) continue;
+
+    packages.add(new Package(
+        line.substring(0, ind),
+        path.fromUri(line.substring(ind + 1))
+    ));
+  }
+
+  return packages;
+}
+
+void setupPkgDir(String dir) {
+  var pkgDir = new Directory(dir);
+  if (pkgDir.existsSync()) {
+    try {
+      pkgDir.deleteSync(recursive: true);
+    } catch (e) {
+      fail('Unable to remove directory: ${pkgDir.path} Error: $e');
+    }
+  }
+
+  try {
+    pkgDir.createSync(recursive: true);
+  } catch (e) {
+    fail('Unable to create directory: ${pkgDir.path} Error: $e');
+  }
+}
+
+Package movePackage(Package pkg, String dest) {
+  var parPath = path.dirname(pkg.path);
+  var dir = new Directory(parPath);
+  if (!dir.existsSync()) {
+    fail('Error finding package. Directory does not exist: ${dir.path}');
+  }
+
+  var base = path.basename(parPath);
+  var newPath = path.join(dest, base);
+  try {
+    dir.renameSync(newPath);
+  } catch (e) {
+    fail('Error copying file: ${dir.path}. Error: $e');
+  }
+
+  var parts = [_pkgDir]
+    ..addAll(path.split(pkg.path).skipWhile((el) => el != base));
+  pkg.path = path.joinAll(parts);
+  return pkg;
+}
+
+void writePackages(Iterable<Package> pkgs, String file) {
+  var content = '';
+  pkgs.forEach((pkg) => content += '${pkg.name}:${pkg.path}\n');
+
+  var pFile = new File(file);
+  try {
+    pFile.writeAsStringSync(content);
+  } catch(e) {
+    fail('Unable to write packages file "$file". Error: $e');
+  }
+}
+
+class Package {
+  final String name;
+  String path;
+  Package(this.name, this.path);
 }
