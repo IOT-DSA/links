@@ -1,0 +1,9 @@
+{
+  "timestamp": "2017-04-26 17:20:49.224753",
+  "buildId": "6W70604PdQ",
+  "failureId": "9rWofCH72I0lSJq1V68MCi0J5gp40S8l4Pq3K0627368lija9U",
+  "args": [
+    "--upload"
+  ],
+  "message": "S3 Upload: Failed to execute upload job 'files/dslink-dart-dgapi.zip => files/dslink-dart-dgapi.zip (revision: 72e37725a22b7e95a126e9d9ca56cebd9fd88abe)': Source file does not exist."
+}
