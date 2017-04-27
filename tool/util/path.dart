@@ -1,5 +1,3 @@
-
-
 String fromUri(uri) {
   if (uri is String) uri = Uri.parse(uri);
   return Uri.decodeComponent((uri as Uri).path);
@@ -20,12 +18,12 @@ String dirname(String path) {
 }
 
 String join(String part1, String part2) {
-
   var pt1 = _trimTail(part1);
   var pt2 = _trimHead(part2);
 
   if (pt1 == '/') {
-    if (pt2 == '/') { // Joining / and / ??
+    if (pt2 == '/') {
+      // Joining / and / ??
       return pt2;
     }
     return '$pt1$pt2';

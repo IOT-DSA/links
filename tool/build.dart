@@ -278,7 +278,7 @@ _main(List<String> argv) async {
       var dirName = path.dirname(path.fromUri(Platform.script));
       var pkgs = readPackages(path.join(dirName, _Packages));
 
-      if (pkgs != null && pkgs.length > 0) {
+      if (pkgs != null && pkgs.isNotEmpty) {
         var pkgDir = path.join(dirName, _pkgDir);
         setupPkgDir(path.join(dirName, _pkgDir));
 
