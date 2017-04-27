@@ -263,78 +263,76 @@ _main(List<String> argv) async {
         );
       }
     } else if (linkType == "Dart") {
-//       var pur = await exec("pub", args: ["upgrade"], writeToBuffer: true);
-//       if (pur.exitCode != 0) {
-//         await fail("DSLink ${name}: Failed to fetch dependencies.\n${pur.output}");
-//       }
-
-//       var mainFile = new File("bin/run.dart");
-//       if (!(await mainFile.exists())) {
-//         mainFile = new File("bin/main.dart");
-//       }
-
-//       await rmkdir("build/bin");
-
-//       var cmfr = await exec("dart2js", args: [
-//         mainFile.absolute.path,
-//         "-o",
-//         "build/bin/${mainFile.path
-//           .split('/')
-//           .last}",
-//         "--output-type=dart",
-//         "--categories=Server"
-//       ], writeToBuffer: true);
-//       if (cmfr.exitCode != 0) {
-//         await fail("DSLink ${name}: Failed to build main file.\n${cmfr.output}");
-//       }
-
-//       await copy("dslink.json", "build/dslink.json");
-//       var dataDir = new Directory("data");
-//       if (await dataDir.exists()) {
-//         var res = await exec("cp", args: ["-R", "data", "build/data"]);
-//         if (res.exitCode != 0) {
-//           await fail(
-//             "DSLink ${name}: Failed to copy data directory.\n${res.output}"
-//           );
-//         }
-//       }
-//       await pushd("build");
-
-//       try {
-//         await new File("${mainFile.path
-//           .split('/')
-//           .last}.deps").delete();
-//       } catch (e) {}
-//       var rpn = Directory.current.parent.parent.parent.path;
-//       await makeZipFile("${rpn}/files/${zipName}");
-//       popd();
-    } else if (linkType == "Java") {
-      if (name != "DSA over COAP") {
-        await rmkdir("build");
-        var pur = await exec("bash", args: [
-          "gradlew",
-          "clean",
-          "distZip",
-          "--refresh-dependencies"
-        ], writeToBuffer: true);
-        if (pur.exitCode != 0) {
-          await fail(
-            "DSLink ${name}: Failed to build the DSLink.\n${pur.output}");
-        }
-        var dir = new Directory("build/distributions");
-        if (!(await dir.exists())) {
-          await fail("DSLink ${name}: Distributions directory does not exist.");
-        }
-
-        File file = await dir.list()
-          .firstWhere((x) => x.path.endsWith(".zip"), defaultValue: () => null);
-
-        if (file == null || !(await file.exists())) {
-          await fail("DSLink ${name}: Unable to find distribution zip file.");
-        }
-
-        await file.copy("../../files/${rname}.zip");
+      var pur = await exec("pub", args: ["upgrade"], writeToBuffer: true);
+      if (pur.exitCode != 0) {
+        await fail("DSLink ${name}: Failed to fetch dependencies.\n${pur.output}");
       }
+
+      var mainFile = new File("bin/run.dart");
+      if (!(await mainFile.exists())) {
+        mainFile = new File("bin/main.dart");
+      }
+
+      await rmkdir("build/bin");
+
+      var cmfr = await exec("dart2js", args: [
+        mainFile.absolute.path,
+        "-o",
+        "build/bin/${mainFile.path
+          .split('/')
+          .last}",
+        "--output-type=dart",
+        "--categories=Server"
+      ], writeToBuffer: true);
+      if (cmfr.exitCode != 0) {
+        await fail("DSLink ${name}: Failed to build main file.\n${cmfr.output}");
+      }
+
+      await copy("dslink.json", "build/dslink.json");
+      var dataDir = new Directory("data");
+      if (await dataDir.exists()) {
+        var res = await exec("cp", args: ["-R", "data", "build/data"]);
+        if (res.exitCode != 0) {
+          await fail(
+            "DSLink ${name}: Failed to copy data directory.\n${res.output}"
+          );
+        }
+      }
+      await pushd("build");
+
+      try {
+        await new File("${mainFile.path
+          .split('/')
+          .last}.deps").delete();
+      } catch (e) {}
+      var rpn = Directory.current.parent.parent.parent.path;
+      await makeZipFile("${rpn}/files/${zipName}");
+      popd();
+    } else if (linkType == "Java") {
+      await rmkdir("build");
+      var pur = await exec("bash", args: [
+        "gradlew",
+        "clean",
+        "distZip",
+        "--refresh-dependencies"
+      ], writeToBuffer: true);
+      if (pur.exitCode != 0) {
+        await fail(
+          "DSLink ${name}: Failed to build the DSLink.\n${pur.output}");
+      }
+      var dir = new Directory("build/distributions");
+      if (!(await dir.exists())) {
+        await fail("DSLink ${name}: Distributions directory does not exist.");
+      }
+
+      File file = await dir.list()
+        .firstWhere((x) => x.path.endsWith(".zip"), defaultValue: () => null);
+
+      if (file == null || !(await file.exists())) {
+        await fail("DSLink ${name}: Unable to find distribution zip file.");
+      }
+
+      await file.copy("../../files/${rname}.zip");
     } else if (linkType == "JavaScript") {
       var gitDir = new Directory(".git");
       if (await gitDir.exists()) {
