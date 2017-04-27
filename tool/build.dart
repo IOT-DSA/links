@@ -309,32 +309,30 @@ _main(List<String> argv) async {
       await makeZipFile("${rpn}/files/${zipName}");
       popd();
     } else if (linkType == "Java") {
-      if (name != "DSA over COAP") {
-        await rmkdir("build");
-        var pur = await exec("bash", args: [
-          "gradlew",
-          "clean",
-          "distZip",
-          "--refresh-dependencies"
-        ], writeToBuffer: true);
-        if (pur.exitCode != 0) {
-          await fail(
-            "DSLink ${name}: Failed to build the DSLink.\n${pur.output}");
-        }
-        var dir = new Directory("build/distributions");
-        if (!(await dir.exists())) {
-          await fail("DSLink ${name}: Distributions directory does not exist.");
-        }
-
-        File file = await dir.list()
-          .firstWhere((x) => x.path.endsWith(".zip"), defaultValue: () => null);
-
-        if (file == null || !(await file.exists())) {
-          await fail("DSLink ${name}: Unable to find distribution zip file.");
-        }
-
-        await file.copy("../../files/${rname}.zip");
+      await rmkdir("build");
+      var pur = await exec("bash", args: [
+        "gradlew",
+        "clean",
+        "distZip",
+        "--refresh-dependencies"
+      ], writeToBuffer: true);
+      if (pur.exitCode != 0) {
+        await fail(
+          "DSLink ${name}: Failed to build the DSLink.\n${pur.output}");
       }
+      var dir = new Directory("build/distributions");
+      if (!(await dir.exists())) {
+        await fail("DSLink ${name}: Distributions directory does not exist.");
+      }
+
+      File file = await dir.list()
+        .firstWhere((x) => x.path.endsWith(".zip"), defaultValue: () => null);
+
+      if (file == null || !(await file.exists())) {
+        await fail("DSLink ${name}: Unable to find distribution zip file.");
+      }
+
+      await file.copy("../../files/${rname}.zip");
     } else if (linkType == "JavaScript") {
       var gitDir = new Directory(".git");
       if (await gitDir.exists()) {
