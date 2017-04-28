@@ -1,6 +1,6 @@
 {
   "name": "dslink-java-bacnet2",
-  "displayName": "BACnet",
+  "displayName": "BACnet v2",
   "type": "Java",
   "automated": {
     "repository": "https://github.com/IOT-DSA/dslink-java-bacnet2.git"
