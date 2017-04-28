@@ -503,7 +503,7 @@
   },
   {
     "name": "dslink-java-bacnet2",
-    "displayName": "BACnet",
+    "displayName": "BACnet v2",
     "type": "Java",
     "automated": {
       "repository": "https://github.com/IOT-DSA/dslink-java-bacnet2.git",
@@ -818,8 +818,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-opc.zip",
-    "revision": "47eb058576d6f89e827fd959a71ffcaa8eb26104",
-    "lastUpdated": "2017-04-28 12:06:28.931032"
+    "revision": "8072302ce88793efcbf336aca1397b049501b5b2",
+    "lastUpdated": "2017-04-28 15:29:52.261657"
   },
   {
     "name": "dslink-java-relayr",
