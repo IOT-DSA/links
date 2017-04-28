@@ -290,7 +290,6 @@ _main(List<String> argv) async {
 
       var rpn = Directory.current.parent.parent.path;
       await makeZipFile("${rpn}/files/${zipName}");
-      popd();
       // Java Links
     } else if (linkType == "Java") {
       await rmkdir("build");
