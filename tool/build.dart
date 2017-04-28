@@ -275,19 +275,17 @@ _main(List<String> argv) async {
         await fail("DSLink ${name}: Failed to fetch dependencies.\n${pur.output}");
       }
 
-      var dirName = path.dirname(path.fromUri(Platform.script));
-      var pkgs = readPackages(path.join(dirName, _Packages));
+      var pkgs = readPackages(_Packages);
 
       if (pkgs != null && pkgs.isNotEmpty) {
-        var pkgDir = path.join(dirName, _pkgDir);
-        setupPkgDir(path.join(dirName, _pkgDir));
+        setupPkgDir(_pkgDir);
 
         for (var i = 0; i < pkgs.length; i++) {
           if (path.isRelative(pkgs[i].path)) continue;
-          pkgs[i] = movePackage(pkgs[i], pkgDir);
+          pkgs[i] = movePackage(pkgs[i], _pkgDir);
         }
 
-        writePackages(pkgs, path.join(dirName, _Packages));
+        writePackages(pkgs, _Packages);
       }
 
       var rpn = Directory.current.parent.parent.path;
