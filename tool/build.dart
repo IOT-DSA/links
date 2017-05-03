@@ -273,6 +273,8 @@ _main(List<String> argv) async {
       var gitDir = new Directory('.git');
       if (await gitDir.exists()) {
         await gitDir.delete(recursive: true);
+      } else {
+        fail("Didn't find git directory");
       }
 
       var pur = await exec("pub",
