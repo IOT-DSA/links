@@ -271,8 +271,8 @@ _main(List<String> argv) async {
       // Dart Link.
     } else if (linkType == "Dart") {
       var gitDir = new Directory('.git');
-      if (gitDir.existsSync()) {
-        gitDir.deleteSync(recursive: true);
+      if (await gitDir.exists()) {
+        await gitDir.delete(recursive: true);
       }
 
       var pur = await exec("pub",
@@ -283,11 +283,11 @@ _main(List<String> argv) async {
       }
 
       var packagesDir = new Directory('packages');
-      if (packagesDir.existsSync()) {
-        packagesDir.deleteSync(recursive: true);
+      if (await packagesDir.exists()) {
+        await packagesDir.delete(recursive: true);
         packagesDir = new Directory('bin/packages');
-        if (packagesDir.existsSync()) {
-          packagesDir.deleteSync(recursive: true);
+        if (await packagesDir.exists()) {
+          await packagesDir.delete(recursive: true);
         }
       }
 
