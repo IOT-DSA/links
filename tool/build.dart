@@ -270,6 +270,18 @@ _main(List<String> argv) async {
       }
       // Dart Link.
     } else if (linkType == "Dart") {
+      var gitDir = new Directory('.git');
+      if (gitDir.existsSync()) {
+        gitDir.deleteSync(recursive: true);
+      }
+
+      var pur = await exec("pub",
+          args: ["get", "--no-packages-dir"],
+          writeToBuffer: true);
+      if (pur.exitCode != 0) {
+        await fail("DSLink ${name}: Failed to fetch dependencies.\n${pur.output}");
+      }
+
       var packagesDir = new Directory('packages');
       if (packagesDir.existsSync()) {
         packagesDir.deleteSync(recursive: true);
@@ -277,18 +289,6 @@ _main(List<String> argv) async {
         if (packagesDir.existsSync()) {
           packagesDir.deleteSync(recursive: true);
         }
-      }
-
-      var gitDir = new Directory('.git');
-      if (gitDir.existsSync()) {
-        gitDir.deleteSync(recursive: true);
-      }
-
-      var pur = await exec("pub",
-          args: ["get", "--no-package-symlinks"],
-          writeToBuffer: true);
-      if (pur.exitCode != 0) {
-        await fail("DSLink ${name}: Failed to fetch dependencies.\n${pur.output}");
       }
 
       var pkgs = readPackages(_Packages);
