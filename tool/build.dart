@@ -270,6 +270,15 @@ _main(List<String> argv) async {
       }
       // Dart Link.
     } else if (linkType == "Dart") {
+      var packagesDir = new Directory('packages');
+      if (packagesDir.existsSync()) {
+        packagesDir.deleteSync(recursive: true);
+        packagesDir = new Directory('bin/packages');
+        if (packagesDir.existsSync()) {
+          packagesDir.deleteSync(recursive: true);
+        }
+      }
+
       var pur = await exec("pub",
           args: ["get", "--no-package-symlinks"],
           writeToBuffer: true);
