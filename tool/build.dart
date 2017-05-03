@@ -276,7 +276,7 @@ _main(List<String> argv) async {
       }
 
       var pur = await exec("pub",
-          args: ["get", "--no-packages-dir"],
+          args: ["get", "--no-package-symlinks"],
           writeToBuffer: true);
       if (pur.exitCode != 0) {
         await fail("DSLink ${name}: Failed to fetch dependencies.\n${pur.output}");
