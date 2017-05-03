@@ -40,7 +40,9 @@ void cd(String path) {
 Future makeZipFile(String target) async {
   var tf = new File(target);
 
-  if (!(await tf.parent.exists())) {
+  if (await tf.exists()) {
+    await tf.delete(recursive: true);
+  } else if (!(await tf.parent.exists())) {
     await tf.parent.create(recursive: true);
   }
 
