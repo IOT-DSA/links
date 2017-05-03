@@ -279,6 +279,11 @@ _main(List<String> argv) async {
         }
       }
 
+      var gitDir = new Directory('.git');
+      if (gitDir.existsSync()) {
+        gitDir.deleteSync(recursive: true);
+      }
+
       var pur = await exec("pub",
           args: ["get", "--no-package-symlinks"],
           writeToBuffer: true);
