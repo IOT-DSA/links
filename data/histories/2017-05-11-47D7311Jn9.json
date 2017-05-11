@@ -1,0 +1,43 @@
+{
+  "timestamp": "2017-05-11 00:01:00.292868",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "47D7311Jn9",
+  "uploads": [
+    {
+      "tag": "dslink-java-bacnet2",
+      "source": "files/dslink-java-bacnet2.zip",
+      "target": "files/dslink-java-bacnet2.zip",
+      "revision": "62704662934c339244bfa2fff123196d37353a0f"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "47D7311Jn9"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "47D7311Jn9"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "47D7311Jn9"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "47D7311Jn9"
+    }
+  ],
+  "built": [
+    "BACnet v2"
+  ]
+}
