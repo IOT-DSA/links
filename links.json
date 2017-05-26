@@ -174,8 +174,8 @@
     "description": "Send Emails",
     "category": "Notifications",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-mailer.zip",
-    "revision": "9edced92b531754d756a101a23c7812b9b2314bf",
-    "lastUpdated": "2017-05-26 05:40:46.528151"
+    "revision": "dfd7778c5e776edb18d0c0dfd74fd3cadfabc6e8",
+    "lastUpdated": "2017-05-26 06:56:08.425557"
   },
   {
     "name": "dslink-dart-mjpeg",
