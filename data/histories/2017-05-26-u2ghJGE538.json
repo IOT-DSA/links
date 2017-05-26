@@ -1,0 +1,43 @@
+{
+  "timestamp": "2017-05-26 05:41:04.064556",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "u2ghJGE538",
+  "uploads": [
+    {
+      "tag": "dslink-dart-mailer",
+      "source": "files/dslink-dart-mailer.zip",
+      "target": "files/dslink-dart-mailer.zip",
+      "revision": "9edced92b531754d756a101a23c7812b9b2314bf"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "u2ghJGE538"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "u2ghJGE538"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "u2ghJGE538"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "u2ghJGE538"
+    }
+  ],
+  "built": [
+    "Email"
+  ]
+}
