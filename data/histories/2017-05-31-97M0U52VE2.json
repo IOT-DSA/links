@@ -1,0 +1,50 @@
+{
+  "timestamp": "2017-05-31 00:00:56.911175",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "97M0U52VE2",
+  "uploads": [
+    {
+      "tag": "dslink-java-alarm",
+      "source": "files/dslink-java-alarm.zip",
+      "target": "files/dslink-java-alarm.zip",
+      "revision": "0bfa308bb54b5fdddd08136a4a705253c3175b5e"
+    },
+    {
+      "tag": "dslink-java-modbus",
+      "source": "files/dslink-java-modbus.zip",
+      "target": "files/dslink-java-modbus.zip",
+      "revision": "03c6ea75dbc716c4ca68636b63d6b690130f0f83"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "97M0U52VE2"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "97M0U52VE2"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "97M0U52VE2"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "97M0U52VE2"
+    }
+  ],
+  "built": [
+    "Alarm",
+    "Modbus"
+  ]
+}
