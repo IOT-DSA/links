@@ -33,7 +33,7 @@
   "dslink-dart-host-dgbox": "017ac94e7f8c7f26b65a06c10d63f31736a01eba",
   "dslink-dart-feed": "36b9506c56b114f429488f5577bea42d6b518427",
   "dslink-java-zwave": "b3719f94e08935372a2605edf555d09d8a5eae78",
-  "dslink-java-mango": "81a7a3f5884a9315501fc45f4bc8797ef55c62ae",
+  "dslink-java-mango": "1444b644fb994ae70c9478530dddadcd6ad79794",
   "dslink-dart-html5": "59a52bc447f1941eecfcce6180ae2f0dc092551a",
   "dslink-java-bitpool": "8424b3ecbf5a4dd6c80f09a961becd86ebd4e996",
   "dslink-java-relayr": "d18822241b8065811d000a5c1408a7d9586bb138",
@@ -68,5 +68,5 @@
   "dslink-javascript-screenshot": "e12f973cd600526e5c7a23e7925cc53ce662019e",
   "dslink-scala-kafka10": "3709aef30a1c5b1f7c7bdcbfdb1bfff97c96881e",
   "dslink-java-knx": "f482cd1e832038b9c0176b87015c394ea669814d",
-  "dslink-java-bacnet2": "272dc4facb6f902ac82a15e8bd5c01521007bddf"
+  "dslink-java-bacnet2": "c2fe20e14533a7776107dcf60de73deb6140600a"
 }
