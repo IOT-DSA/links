@@ -363,6 +363,19 @@
     "lastUpdated": "2016-08-07 17:03:12.728231"
   },
   {
+    "name": "dslink-dart-vapix",
+    "displayName": "Axis VAPIX",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-vapix.git"
+    },
+    "description": "Connect to Axis Camera VAPIX",
+    "category": "Data Acquisition",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-vapix.zip",
+    "revision": "1b978e6495f63210b57cd8abcb7b98ef21e6d4e0",
+    "lastUpdated": "2017-06-06 10:56:14.157186"
+  },
+  {
     "name": "dslink-dart-weather",
     "displayName": "Weather",
     "type": "Dart",
