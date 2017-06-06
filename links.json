@@ -498,8 +498,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet.zip",
-    "revision": "53e7c550e7258a94644ac2953cae9dc0e583f55e",
-    "lastUpdated": "2017-04-28 12:04:27.060113"
+    "revision": "211df7f1d5ed27ba77e3ef6df8dae8d3e5a29b47",
+    "lastUpdated": "2017-06-06 00:00:44.188207"
   },
   {
     "name": "dslink-java-bacnet2",
