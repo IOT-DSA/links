@@ -1,11 +1,10 @@
-
- +{
- +  "name": "dslink-dart-vapix",
- +  "displayName": "Axis VAPIX",
- +  "type": "Dart",
- +  "automated": {
- +    "repository": "https://github.com/IOT-DSA/dslink-dart-vapix.git"
- +  },
- +  "description": "Connec to Axis Camera VAPIX",
- +  "category": "Data Acquisition"
- +}
+{
+  "name": "dslink-dart-vapix",
+  "displayName": "Axis VAPIX",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-vapix.git"
+  },
+  "description": "Connect to Axis Camera VAPIX",
+  "category": "Data Acquisition"
+}
