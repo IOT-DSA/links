@@ -1,0 +1,35 @@
+{
+  "timestamp": "2017-06-14 14:54:14.673368",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "fw12FcuJ80",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "fw12FcuJ80"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "fw12FcuJ80"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "fw12FcuJ80"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "fw12FcuJ80"
+    }
+  ],
+  "built": []
+}
