@@ -372,8 +372,8 @@
     "description": "Connect to Axis Camera VAPIX",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-vapix.zip",
-    "revision": "48aec30a0786a9442159a1b740d10e1cb22687a1",
-    "lastUpdated": "2017-06-23 00:00:25.621841"
+    "revision": "4887001621272242229ac10df608f5c02b8adcc4",
+    "lastUpdated": "2017-06-26 10:54:58.174546"
   },
   {
     "name": "dslink-dart-weather",
