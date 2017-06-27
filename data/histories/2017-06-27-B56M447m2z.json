@@ -1,0 +1,43 @@
+{
+  "timestamp": "2017-06-27 00:00:39.582552",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "B56M447m2z",
+  "uploads": [
+    {
+      "tag": "dslink-dart-vapix",
+      "source": "files/dslink-dart-vapix.zip",
+      "target": "files/dslink-dart-vapix.zip",
+      "revision": "332cb3207de0f549dbabeb036a8c64fcd1a5a5ed"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "B56M447m2z"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "B56M447m2z"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "B56M447m2z"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "B56M447m2z"
+    }
+  ],
+  "built": [
+    "Axis VAPIX"
+  ]
+}
