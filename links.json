@@ -491,8 +491,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-alarm.zip",
-    "revision": "0bfa308bb54b5fdddd08136a4a705253c3175b5e",
-    "lastUpdated": "2017-05-31 00:00:34.010420"
+    "revision": "b59c1e3c5c4f9a95bfe036f6d7fe808f2b085203",
+    "lastUpdated": "2017-06-28 00:00:37.243420"
   },
   {
     "name": "dslink-java-bacnet",
@@ -711,8 +711,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-jdbc.zip",
-    "revision": "3ec3696055cb8565fdb06a116da052e986635a9b",
-    "lastUpdated": "2017-04-28 12:05:42.641131"
+    "revision": "c905d7c9c38e710440ca37c24358adfc7445cb5b",
+    "lastUpdated": "2017-06-28 00:00:49.060264"
   },
   {
     "name": "dslink-java-knx",
