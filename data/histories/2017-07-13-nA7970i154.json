@@ -1,0 +1,57 @@
+{
+  "timestamp": "2017-07-13 00:01:17.680180",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "nA7970i154",
+  "uploads": [
+    {
+      "tag": "dslink-java-alarm",
+      "source": "files/dslink-java-alarm.zip",
+      "target": "files/dslink-java-alarm.zip",
+      "revision": "075a1bb5dc6bb7cac42ae2720afb9dfea9f6d9d4"
+    },
+    {
+      "tag": "dslink-java-bacnet2",
+      "source": "files/dslink-java-bacnet2.zip",
+      "target": "files/dslink-java-bacnet2.zip",
+      "revision": "0a4324f353ec0e293c116afd11f16b395244ddd6"
+    },
+    {
+      "tag": "dslink-java-knx",
+      "source": "files/dslink-java-knx.zip",
+      "target": "files/dslink-java-knx.zip",
+      "revision": "04f408d24b7582fca7141ea6a044fda53c689d88"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "nA7970i154"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "nA7970i154"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "nA7970i154"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "nA7970i154"
+    }
+  ],
+  "built": [
+    "Alarm",
+    "BACnet v2",
+    "KNX"
+  ]
+}
