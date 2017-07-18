@@ -771,8 +771,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-modbus.zip",
-    "revision": "03c6ea75dbc716c4ca68636b63d6b690130f0f83",
-    "lastUpdated": "2017-05-31 00:00:52.700034"
+    "revision": "e1418f1ea2ddba6419058e2635bf8c036cac5803",
+    "lastUpdated": "2017-07-18 00:00:56.571737"
   },
   {
     "name": "dslink-java-mqtt",
