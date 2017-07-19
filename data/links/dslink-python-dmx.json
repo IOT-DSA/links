@@ -1,0 +1,10 @@
+{
+  "name": "dslink-python-dmx",
+  "displayName": "DMX",
+  "type": "Python",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-python-dmx.git"
+  },
+  "description": "DMX-512",
+  "category": "Data Acquisition"
+}
