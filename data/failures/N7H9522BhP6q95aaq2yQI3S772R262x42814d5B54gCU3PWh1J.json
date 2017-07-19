@@ -1,0 +1,9 @@
+{
+  "timestamp": "2017-07-19 10:47:23.957848",
+  "buildId": "FJ2I966L9m",
+  "failureId": "N7H9522BhP6q95aaq2yQI3S772R262x42814d5B54gCU3PWh1J",
+  "args": [
+    "--upload"
+  ],
+  "message": "S3 Upload: Failed to execute upload job 'files/dslink-python-dmx.zip => files/dslink-python-dmx.zip (revision: 46b3f81f9c8225f6c64fa1a09942301934fabd08)': Source file does not exist."
+}
