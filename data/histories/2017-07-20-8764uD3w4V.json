@@ -1,0 +1,50 @@
+{
+  "timestamp": "2017-07-20 00:30:29.679974",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "8764uD3w4V",
+  "uploads": [
+    {
+      "tag": "dslink-java-bacnet2",
+      "source": "files/dslink-java-bacnet2.zip",
+      "target": "files/dslink-java-bacnet2.zip",
+      "revision": "76c11db09665ea0f4b5c7555cffa655aa8a51706"
+    },
+    {
+      "tag": "dslink-python-dmx",
+      "source": "files/dslink-python-dmx.zip",
+      "target": "files/dslink-python-dmx.zip",
+      "revision": "46b3f81f9c8225f6c64fa1a09942301934fabd08"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "8764uD3w4V"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "8764uD3w4V"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "8764uD3w4V"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "8764uD3w4V"
+    }
+  ],
+  "built": [
+    "BACnet v2",
+    "DMX"
+  ]
+}

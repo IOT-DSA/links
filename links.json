@@ -531,8 +531,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet2.zip",
-    "revision": "0a4324f353ec0e293c116afd11f16b395244ddd6",
-    "lastUpdated": "2017-07-13 00:01:02.927425"
+    "revision": "76c11db09665ea0f4b5c7555cffa655aa8a51706",
+    "lastUpdated": "2017-07-20 12:56:14.888161"
   },
   {
     "name": "dslink-java-bitpool",
@@ -771,8 +771,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-modbus.zip",
-    "revision": "e1418f1ea2ddba6419058e2635bf8c036cac5803",
-    "lastUpdated": "2017-07-18 00:00:56.571737"
+    "revision": "98a59a9a196d6722eefdb7c43c3e5ff332367e8a",
+    "lastUpdated": "2017-07-20 12:56:31.560711"
   },
   {
     "name": "dslink-java-mqtt",
@@ -1019,6 +1019,19 @@
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-javascript-screenshot.zip",
     "revision": "e12f973cd600526e5c7a23e7925cc53ce662019e",
     "lastUpdated": "2016-09-04 10:33:18.759962"
+  },
+  {
+    "name": "dslink-python-dmx",
+    "displayName": "DMX",
+    "type": "Python",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-python-dmx.git"
+    },
+    "description": "DMX-512",
+    "category": "Data Acquisition",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-python-dmx.zip",
+    "revision": "cc682345de5ace7062f6e6aa024713033bc76436",
+    "lastUpdated": "2017-07-20 12:56:36.139002"
   },
   {
     "name": "dslink-scala-ignition",

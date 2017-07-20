@@ -1,0 +1,57 @@
+{
+  "timestamp": "2017-07-20 12:56:36.702041",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "S98lT69X4p",
+  "uploads": [
+    {
+      "tag": "dslink-java-bacnet2",
+      "source": "files/dslink-java-bacnet2.zip",
+      "target": "files/dslink-java-bacnet2.zip",
+      "revision": "76c11db09665ea0f4b5c7555cffa655aa8a51706"
+    },
+    {
+      "tag": "dslink-java-modbus",
+      "source": "files/dslink-java-modbus.zip",
+      "target": "files/dslink-java-modbus.zip",
+      "revision": "98a59a9a196d6722eefdb7c43c3e5ff332367e8a"
+    },
+    {
+      "tag": "dslink-python-dmx",
+      "source": "files/dslink-python-dmx.zip",
+      "target": "files/dslink-python-dmx.zip",
+      "revision": "cc682345de5ace7062f6e6aa024713033bc76436"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "S98lT69X4p"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "S98lT69X4p"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "S98lT69X4p"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "S98lT69X4p"
+    }
+  ],
+  "built": [
+    "BACnet v2",
+    "Modbus",
+    "DMX"
+  ]
+}

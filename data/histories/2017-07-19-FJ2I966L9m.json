@@ -1,0 +1,43 @@
+{
+  "timestamp": "2017-07-19 10:47:23.898336",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "FJ2I966L9m",
+  "uploads": [
+    {
+      "tag": "dslink-python-dmx",
+      "source": "files/dslink-python-dmx.zip",
+      "target": "files/dslink-python-dmx.zip",
+      "revision": "46b3f81f9c8225f6c64fa1a09942301934fabd08"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "FJ2I966L9m"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "FJ2I966L9m"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "FJ2I966L9m"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "FJ2I966L9m"
+    }
+  ],
+  "built": [
+    "DMX"
+  ]
+}
