@@ -1,0 +1,57 @@
+{
+  "timestamp": "2017-08-01 21:47:08.238026",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "2f46sRs1rQ",
+  "uploads": [
+    {
+      "tag": "dslink-dart-feed",
+      "source": "files/dslink-dart-feed.zip",
+      "target": "files/dslink-dart-feed.zip",
+      "revision": "a0551d0c700df78e591cf69a2b92a961202b2fea"
+    },
+    {
+      "tag": "dslink-dart-system",
+      "source": "files/dslink-dart-system.zip",
+      "target": "files/dslink-dart-system.zip",
+      "revision": "93cfbb439824087ad7e2422f5ba60d7db73ec2a4"
+    },
+    {
+      "tag": "dslink-java-alarm",
+      "source": "files/dslink-java-alarm.zip",
+      "target": "files/dslink-java-alarm.zip",
+      "revision": "37125ddeb2114e3f7bca1dfffee314fbc3a8d25a"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "2f46sRs1rQ"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "2f46sRs1rQ"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "2f46sRs1rQ"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "2f46sRs1rQ"
+    }
+  ],
+  "built": [
+    "RSS Feeds",
+    "System",
+    "Alarm"
+  ]
+}

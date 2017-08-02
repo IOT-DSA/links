@@ -88,8 +88,8 @@
     "description": "Subscribe to RSS Feeds",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-feed.zip",
-    "revision": "36b9506c56b114f429488f5577bea42d6b518427",
-    "lastUpdated": "2017-04-08 00:00:30.981627"
+    "revision": "a0551d0c700df78e591cf69a2b92a961202b2fea",
+    "lastUpdated": "2017-08-01 21:46:32.391203"
   },
   {
     "name": "dslink-dart-file",
@@ -320,8 +320,8 @@
     "description": "Get Live Statistics about a Machine",
     "category": "System",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-system.zip",
-    "revision": "0f2adf9087f60358a54138553e7716e1e4860df0",
-    "lastUpdated": "2017-06-21 06:12:15.891162"
+    "revision": "93cfbb439824087ad7e2422f5ba60d7db73ec2a4",
+    "lastUpdated": "2017-08-01 21:46:43.708932"
   },
   {
     "name": "dslink-dart-traccar",
@@ -491,8 +491,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-alarm.zip",
-    "revision": "910f5ce65b237e39fc195b3371c1081cbd1caaf6",
-    "lastUpdated": "2017-07-25 00:00:38.669486"
+    "revision": "37125ddeb2114e3f7bca1dfffee314fbc3a8d25a",
+    "lastUpdated": "2017-08-01 21:46:59.420854"
   },
   {
     "name": "dslink-java-bacnet",
