@@ -1,0 +1,43 @@
+{
+  "timestamp": "2017-08-23 12:21:15.215291",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "7NnVfMFBx3",
+  "uploads": [
+    {
+      "tag": "dslink-dart-mongodb",
+      "source": "files/dslink-dart-mongodb.zip",
+      "target": "files/dslink-dart-mongodb.zip",
+      "revision": "b729360ee306032dee12ba1da44565714a4f5da0"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "7NnVfMFBx3"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "7NnVfMFBx3"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "7NnVfMFBx3"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "7NnVfMFBx3"
+    }
+  ],
+  "built": [
+    "MongoDB"
+  ]
+}
