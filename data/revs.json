@@ -68,7 +68,7 @@
   "dslink-javascript-screenshot": "e12f973cd600526e5c7a23e7925cc53ce662019e",
   "dslink-scala-kafka10": "3709aef30a1c5b1f7c7bdcbfdb1bfff97c96881e",
   "dslink-java-knx": "04f408d24b7582fca7141ea6a044fda53c689d88",
-  "dslink-java-bacnet2": "76c11db09665ea0f4b5c7555cffa655aa8a51706",
+  "dslink-java-bacnet2": "44c26de60121f09ac9b317fa20f854a2a887ca8e",
   "dslink-dart-vapix": "332cb3207de0f549dbabeb036a8c64fcd1a5a5ed",
   "dslink-python-dmx": "cc682345de5ace7062f6e6aa024713033bc76436"
 }
