@@ -491,8 +491,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-alarm.zip",
-    "revision": "37125ddeb2114e3f7bca1dfffee314fbc3a8d25a",
-    "lastUpdated": "2017-08-01 21:46:59.420854"
+    "revision": "d1d7d2cc6bcf501b0091833c56e75da39acf7193",
+    "lastUpdated": "2017-09-13 00:00:32.833468"
   },
   {
     "name": "dslink-java-bacnet",
@@ -771,8 +771,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-modbus.zip",
-    "revision": "d484eec75024b0c7b45366368b28c6c9e3dbf76b",
-    "lastUpdated": "2017-08-15 00:00:45.879819"
+    "revision": "e0540c9f82e743547b5daf036811e567c4138225",
+    "lastUpdated": "2017-09-13 00:00:47.365705"
   },
   {
     "name": "dslink-java-mqtt",
