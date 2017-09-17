@@ -29,7 +29,7 @@ Future<dynamic> readJsonFile(String path, {defaultValue, String shadow}) async {
 
     var shadowContent = await shadowFile.readAsString();
     var json = JSON.decode(shadowContent);
-    var result = merge(input, json, allowDirectives: true);
+    var result = merge(json, input, allowDirectives: true);
     dbg("[Load Shadow JSON] ${path}");
     return result;
   }
