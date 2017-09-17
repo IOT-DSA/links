@@ -1,7 +1,37 @@
 part of dsa.links.repository.util;
 
-fail(String msg, {String out}) async {
-  print("ERROR: ${msg}");
+dbg(String msg) {
+  if (gargv == null) {
+    return;
+  }
+
+  if (gargv.contains("--debug")) {
+    var prefix = "[DEBUG]";
+    if (currentLinkBuild != null) {
+      prefix += "[${currentLinkDisplayName}]";
+    }
+    var lines = msg.trim().split("\n");
+    for (var line in lines) {
+      line = line.trim();
+      if (line.isEmpty || line == ".") {
+        continue;
+      }
+
+      print("${prefix} ${line}");
+    }
+  }
+}
+
+fail(String msg, {String out, bool firstLineOnlyDebug: false}) async {
+  if (firstLineOnlyDebug) {
+    msg = msg.split("\n").first;
+  }
+
+  print("[ERROR] ${msg}");
+
+  if (gargv != null && gargv.contains("--test")) {
+    exit(1);
+  }
 
   var m = new StringBuffer();
   m.writeln("*Build Failed:*");

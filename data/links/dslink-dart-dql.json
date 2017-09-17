@@ -4,7 +4,8 @@
   "displayName": "DQL",
   "type": "Dart",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-dart-dql.git"
+    "repository": "https://github.com/IOT-DSA/dslink-dart-dql.git",
+    "ignoreBuildScript": true
   },
   "description": "Run Queries against DSA",
   "category": "Data Acquisition"

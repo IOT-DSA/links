@@ -33,11 +33,24 @@ _main(List<String> argv) async {
   Map<String, String> revs = await readJsonFile("data/revs.json");
   Map<String, String> lastUpdateTimes = await readJsonFile(
     "data/updated.json",
-    {}
+    defaultValue: {}
   );
-  List<String> histories = await readJsonFile("data/history.json", []);
+
+  List<String> histories = await readJsonFile(
+    "data/history.json",
+    defaultValue: []
+  );
 
   uuid = await generateStrongToken(length: 10);
+
+  var continueFrom = argv.firstWhere(
+    (x) => x.startsWith("--continue="),
+    orElse: () => null
+  );
+
+  if (continueFrom != null) {
+    continueFrom = continueFrom.split("=").skip(1).join("=");
+  }
 
   {
     buildTimestamp = new DateTime.now();
@@ -100,10 +113,22 @@ _main(List<String> argv) async {
   List removeLinkQueue = [];
   List<Map<String, dynamic>> builtLinks = [];
 
+  var hasHitContinue = false;
   for (var link in links) {
     var name = link["displayName"];
     var rname = link["name"];
     var linkType = link["type"];
+
+    if (continueFrom != null && !hasHitContinue) {
+      if (rname == continueFrom || name == continueFrom) {
+        hasHitContinue = true;
+      } else {
+        continue;
+      }
+    }
+
+    currentLinkBuild = rname;
+    currentLinkDisplayName = name;
 
     var automated = link["automated"];
     var repo = automated["repository"];
@@ -176,15 +201,21 @@ _main(List<String> argv) async {
 
     await pushd("tmp/${rname}");
 
+    var branch = automated["branch"];
+
+    if (branch == null) {
+      branch = "HEAD";
+    }
+
     // Pre-Check for References
-      {
+    {
       String rev;
       var out = await exec(
         "git",
         args: [
           "ls-remote",
           repo,
-          "HEAD"
+          branch
         ],
         writeToBuffer: true
       );
@@ -200,19 +231,26 @@ _main(List<String> argv) async {
       }
     }
 
-    var cr = await exec("git", args: [
+    var gitArgs = <String>[
       "clone",
-      "--depth=1",
-      repo,
-      "."
-    ], writeToBuffer: true);
+      "--depth=1"
+    ];
+
+    if (branch != "HEAD") {
+      gitArgs.add("--branch=${branch}");
+    }
+
+    gitArgs.add(repo);
+    gitArgs.add(".");
+
+    var cr = await exec("git", args: gitArgs, writeToBuffer: true);
     if (cr.exitCode != 0) {
       await fail("DSLink ${name}: Failed to clone repository.\n${cr.output}");
     }
 
     var rpo = await exec("git", args: [
       "rev-parse",
-      "HEAD"
+      branch
     ], writeToBuffer: true);
     var rev = rpo.output.toString().trim();
     if (rev.isEmpty) {
@@ -262,13 +300,14 @@ _main(List<String> argv) async {
         args: [cbs.path],
         writeToBuffer: true
       );
+
       if (result.exitCode != 0) {
         await fail(
-          "DSLink ${name}: Failed to run"
-            " custom build script.\n${result.output}"
+          "${name}: Failed to run"
+            " custom build script.\n${result.output}",
+          firstLineOnlyDebug: true
         );
       }
-      // Dart Link.
     } else if (linkType == "Dart") {
       var gitDir = new Directory('.git');
       if (await gitDir.exists()) {
@@ -278,7 +317,7 @@ _main(List<String> argv) async {
       }
 
       var pur = await exec("pub",
-          args: ["get", "--no-package-symlinks"],
+          args: ["get", "--packages-dir"],
           writeToBuffer: true);
       if (pur.exitCode != 0) {
         await fail("DSLink ${name}: Failed to fetch dependencies.\n${pur.output}");
@@ -319,7 +358,9 @@ _main(List<String> argv) async {
       ], writeToBuffer: true);
       if (pur.exitCode != 0) {
         await fail(
-          "DSLink ${name}: Failed to build the DSLink.\n${pur.output}");
+          "[${name}] Failed to build the DSLink.\n${pur.output}",
+          firstLineOnlyDebug: true
+        );
       }
       var dir = new Directory("build/distributions");
       if (!(await dir.exists())) {

@@ -21,5 +21,7 @@ part "util/links.dart";
 
 String uuid;
 String fileUuid;
+String currentLinkDisplayName;
+String currentLinkBuild;
 DateTime buildTimestamp;
 List<String> gargv;
