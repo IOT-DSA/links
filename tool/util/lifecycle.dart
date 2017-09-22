@@ -1,11 +1,7 @@
 part of dsa.links.repository.util;
 
 dbg(String msg) {
-  if (gargv == null) {
-    return;
-  }
-
-  if (gargv.contains("--debug")) {
+  if (isDebugOn) {
     var prefix = "[DEBUG]";
     if (currentLinkBuild != null) {
       prefix += "[${currentLinkDisplayName}]";
@@ -23,13 +19,13 @@ dbg(String msg) {
 }
 
 fail(String msg, {String out, bool firstLineOnlyDebug: false}) async {
-  if (firstLineOnlyDebug) {
+  if (firstLineOnlyDebug && isDebugOn) {
     msg = msg.split("\n").first;
   }
 
   print("[ERROR] ${msg}");
 
-  if (gargv != null && gargv.contains("--test")) {
+  if (isOptionOn("test")) {
     exit(1);
   }
 

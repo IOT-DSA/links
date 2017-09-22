@@ -245,7 +245,10 @@ _main(List<String> argv) async {
 
     var cr = await exec("git", args: gitArgs, writeToBuffer: true);
     if (cr.exitCode != 0) {
-      await fail("DSLink ${name}: Failed to clone repository.\n${cr.output}");
+      await fail(
+        "[${name}] Failed to clone repository.\n${cr.output}",
+        firstLineOnlyDebug: true
+      );
     }
 
     var rpo = await exec("git", args: [
@@ -303,7 +306,7 @@ _main(List<String> argv) async {
 
       if (result.exitCode != 0) {
         await fail(
-          "${name}: Failed to run"
+          "[${name}] Failed to run"
             " custom build script.\n${result.output}",
           firstLineOnlyDebug: true
         );
@@ -313,14 +316,17 @@ _main(List<String> argv) async {
       if (await gitDir.exists()) {
         await gitDir.delete(recursive: true);
       } else {
-        fail("Didn't find git directory");
+        await fail("[${name}] Didn't find a Git directory.");
       }
 
       var pur = await exec("pub",
-          args: ["get", "--packages-dir"],
+          args: ["get"],
           writeToBuffer: true);
       if (pur.exitCode != 0) {
-        await fail("DSLink ${name}: Failed to fetch dependencies.\n${pur.output}");
+        await fail(
+          "[${name}] Failed to fetch dependencies.\n${pur.output}",
+          firstLineOnlyDebug: true
+        );
       }
 
       var packagesDir = new Directory('packages');
@@ -332,22 +338,21 @@ _main(List<String> argv) async {
         }
       }
 
-      var pkgs = readPackages(_Packages);
+      var pkgs = await readPackages(_Packages);
 
       if (pkgs != null && pkgs.isNotEmpty) {
-        setupPkgDir(_pkgDir);
+        await setupPkgDir(_pkgDir);
 
         for (var i = 0; i < pkgs.length; i++) {
           if (path.isRelative(pkgs[i].path)) continue;
-          pkgs[i] = movePackage(pkgs[i], _pkgDir);
+          pkgs[i] = await movePackage(pkgs[i], _pkgDir);
         }
 
-        writePackages(pkgs, _Packages);
+        await writePackages(pkgs, _Packages);
       }
 
       var rpn = Directory.current.parent.parent.path;
       await makeZipFile("${rpn}/files/${zipName}");
-      // Java Links
     } else if (linkType == "Java") {
       await rmkdir("build");
       var pur = await exec("bash", args: [
@@ -364,14 +369,14 @@ _main(List<String> argv) async {
       }
       var dir = new Directory("build/distributions");
       if (!(await dir.exists())) {
-        await fail("DSLink ${name}: Distributions directory does not exist.");
+        await fail("[${name}] Distributions directory does not exist.");
       }
 
       File file = await dir.list()
         .firstWhere((x) => x.path.endsWith(".zip"), defaultValue: () => null);
 
       if (file == null || !(await file.exists())) {
-        await fail("DSLink ${name}: Unable to find distribution zip file.");
+        await fail("[${name}] Unable to find distribution zip file.");
       }
 
       await file.copy("../../files/${rname}.zip");
@@ -384,7 +389,7 @@ _main(List<String> argv) async {
       await makeZipFile("../../files/${rname}.zip");
     } else {
       await fail(
-        "DSLink ${name}: Failed to determine"
+        "[${name}] Failed to determine"
           " the automated build configuration."
       );
     }
@@ -489,15 +494,18 @@ _main(List<String> argv) async {
   }
 }
 
-List<Package> readPackages(String file) {
+Future<List<Package>> readPackages(String file) async {
   var pFile = new File(file);
 
-  if (!pFile.existsSync()) fail('Unable to locate file "$file".');
+  if (!(await pFile.exists())) {
+    await fail('Unable to locate file "$file".');
+  }
+
   String str;
   try {
-    str = pFile.readAsStringSync();
+    str = await pFile.readAsString();
   } catch (e) {
-    fail('Error reading "$file". $e');
+    await fail('Error reading "$file": $e');
   }
 
   var lines = str.split('\n');
@@ -516,36 +524,36 @@ List<Package> readPackages(String file) {
   return packages;
 }
 
-void setupPkgDir(String dir) {
+Future setupPkgDir(String dir) async {
   var pkgDir = new Directory(dir);
-  if (pkgDir.existsSync()) {
+  if (await pkgDir.exists()) {
     try {
-      pkgDir.deleteSync(recursive: true);
+      await pkgDir.delete(recursive: true);
     } catch (e) {
-      fail('Unable to remove directory: ${pkgDir.path} Error: $e');
+      await fail('Unable to remove directory: ${pkgDir.path}: $e');
     }
   }
 
   try {
-    pkgDir.createSync(recursive: true);
+    await pkgDir.create(recursive: true);
   } catch (e) {
-    fail('Unable to create directory: ${pkgDir.path} Error: $e');
+    await fail('Unable to create directory: ${pkgDir.path}: $e');
   }
 }
 
-Package movePackage(Package pkg, String dest) {
+Future<Package> movePackage(Package pkg, String dest) async {
   var parPath = path.dirname(pkg.path);
   var dir = new Directory(parPath);
-  if (!dir.existsSync()) {
-    fail('Error finding package. Directory does not exist: ${dir.path}');
+  if (!(await dir.exists())) {
+    await fail('Error finding package. Directory does not exist: ${dir.path}');
   }
 
   var base = path.basename(parPath);
   var newPath = path.join(dest, base);
   try {
-    dir.renameSync(newPath);
+    await dir.rename(newPath);
   } catch (e) {
-    fail('Error copying file: ${dir.path}. Error: $e');
+    await fail('Error copying file: ${dir.path}: $e');
   }
 
   var parts = [_pkgDir]
@@ -554,20 +562,22 @@ Package movePackage(Package pkg, String dest) {
   return pkg;
 }
 
-void writePackages(Iterable<Package> pkgs, String file) {
+Future writePackages(Iterable<Package> pkgs, String file) async {
   var content = '';
   pkgs.forEach((pkg) => content += '${pkg.name}:${pkg.path}\n');
 
   var pFile = new File(file);
   try {
-    pFile.writeAsStringSync(content);
+    await pFile.writeAsString(content);
   } catch(e) {
-    fail('Unable to write packages file "$file". Error: $e');
+    await fail('Unable to write packages file "$file": $e');
   }
 }
 
 class Package {
   final String name;
+
   String path;
+
   Package(this.name, this.path);
 }

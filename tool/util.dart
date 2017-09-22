@@ -25,3 +25,7 @@ String currentLinkDisplayName;
 String currentLinkBuild;
 DateTime buildTimestamp;
 List<String> gargv;
+
+bool isOptionOn(String name) =>
+  gargv != null && gargv.contains("--${name}");
+bool get isDebugOn => isOptionOn("debug");
