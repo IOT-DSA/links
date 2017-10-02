@@ -1,0 +1,43 @@
+{
+  "timestamp": "2017-10-02 12:03:32.675523",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "9l5e99Y115",
+  "uploads": [
+    {
+      "tag": "dslink-dart-dgapi",
+      "source": "files/dslink-dart-dgapi.zip",
+      "target": "files/dslink-dart-dgapi.zip",
+      "revision": "f4c2ff845026ac49f7c661ac724d322db3ea1c07"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "9l5e99Y115"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "9l5e99Y115"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "9l5e99Y115"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "9l5e99Y115"
+    }
+  ],
+  "built": [
+    "DGAPI"
+  ]
+}
