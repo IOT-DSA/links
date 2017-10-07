@@ -1,0 +1,35 @@
+{
+  "timestamp": "2017-10-07 00:00:35.130222",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "u7SMRK740A",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "u7SMRK740A"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "u7SMRK740A"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "u7SMRK740A"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "u7SMRK740A"
+    }
+  ],
+  "built": []
+}
