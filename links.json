@@ -731,8 +731,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-knx.zip",
-    "revision": "04f408d24b7582fca7141ea6a044fda53c689d88",
-    "lastUpdated": "2017-07-13 00:01:13.109286"
+    "revision": "e5cf56bcb8b1a0776ef459004226bc8d2c11af40",
+    "lastUpdated": "2017-10-20 00:01:00.617988"
   },
   {
     "name": "dslink-java-mango",
