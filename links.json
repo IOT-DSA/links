@@ -205,6 +205,19 @@
     "lastUpdated": "2017-08-23 12:20:56.478267"
   },
   {
+    "name": "dslink-dart-mongodb-controller",
+    "displayName": "MongoDB Controller",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-mongodb-controller.git"
+    },
+    "description": "Access MongoDB through DSA",
+    "category": "Data Acquisition",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-mongodb-controller.zip",
+    "revision": "fd924c715b9b8b1c737d4c10b287639ce3bcd330",
+    "lastUpdated": "2017-11-14 07:05:09.914489"
+  },
+  {
     "name": "dslink-dart-mysql",
     "displayName": "MySQL",
     "type": "Dart",
