@@ -1,0 +1,43 @@
+{
+  "timestamp": "2017-11-29 14:25:22.542380",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "0Ri44u992G",
+  "uploads": [
+    {
+      "tag": "dslink-dart-mongodb-controller",
+      "source": "files/dslink-dart-mongodb-controller.zip",
+      "target": "files/dslink-dart-mongodb-controller.zip",
+      "revision": "699eba83fda26ddba9beba23cd2bc83fc58271a1"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "0Ri44u992G"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "0Ri44u992G"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "0Ri44u992G"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "0Ri44u992G"
+    }
+  ],
+  "built": [
+    "MongoDB Controller"
+  ]
+}
