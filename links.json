@@ -624,8 +624,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-dsa-coap.zip",
-    "revision": "091556b16f94a5d5e38f5e380977968607889b32",
-    "lastUpdated": "2017-10-13 00:00:46.070525"
+    "revision": "5334c40daeb5e378dc46a407e6ff149ceeb32f54",
+    "lastUpdated": "2017-11-29 00:00:53.342169"
   },
   {
     "name": "dslink-java-enocean",
@@ -784,8 +784,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-modbus.zip",
-    "revision": "e0540c9f82e743547b5daf036811e567c4138225",
-    "lastUpdated": "2017-09-13 00:00:47.365705"
+    "revision": "1ad416b962b88d0e8b0b0d9dc9c3989bfd51bc4a",
+    "lastUpdated": "2017-11-29 00:01:13.440257"
   },
   {
     "name": "dslink-java-mqtt",

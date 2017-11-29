@@ -1,0 +1,50 @@
+{
+  "timestamp": "2017-11-29 00:01:18.778956",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "Nw54cy9D15",
+  "uploads": [
+    {
+      "tag": "dslink-java-dsa-coap",
+      "source": "files/dslink-java-dsa-coap.zip",
+      "target": "files/dslink-java-dsa-coap.zip",
+      "revision": "5334c40daeb5e378dc46a407e6ff149ceeb32f54"
+    },
+    {
+      "tag": "dslink-java-modbus",
+      "source": "files/dslink-java-modbus.zip",
+      "target": "files/dslink-java-modbus.zip",
+      "revision": "1ad416b962b88d0e8b0b0d9dc9c3989bfd51bc4a"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "Nw54cy9D15"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "Nw54cy9D15"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "Nw54cy9D15"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "Nw54cy9D15"
+    }
+  ],
+  "built": [
+    "DSA over COAP",
+    "Modbus"
+  ]
+}
