@@ -214,8 +214,8 @@
     "description": "Access MongoDB through DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-mongodb-controller.zip",
-    "revision": "16134035d7bf6fe455922c9be3cbbadfd1815570",
-    "lastUpdated": "2017-11-22 00:00:39.723673"
+    "revision": "7818c3dcfa124ce754b36b37203c67704100923f",
+    "lastUpdated": "2017-11-29 14:00:07.443557"
   },
   {
     "name": "dslink-dart-mysql",
