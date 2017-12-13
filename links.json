@@ -88,8 +88,8 @@
     "description": "Subscribe to RSS Feeds",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-feed.zip",
-    "revision": "a0551d0c700df78e591cf69a2b92a961202b2fea",
-    "lastUpdated": "2017-08-01 21:46:32.391203"
+    "revision": "a4f2c5e4a9538f4f0f8ce030f179f4fb8fea6d6b",
+    "lastUpdated": "2017-12-13 11:17:32.377906"
   },
   {
     "name": "dslink-dart-file",
