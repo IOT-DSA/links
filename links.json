@@ -844,8 +844,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-opc.zip",
-    "revision": "8821cbf59b70145214cda08d3145f8f4f4a376f0",
-    "lastUpdated": "2017-06-20 00:00:53.464421"
+    "revision": "c634b4df3ce2a7eeca09d57636708e12d36b22ef",
+    "lastUpdated": "2017-12-28 16:12:52.742187"
   },
   {
     "name": "dslink-java-relayr",
