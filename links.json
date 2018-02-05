@@ -544,8 +544,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet2.zip",
-    "revision": "43616443a86e3c9091d09d8990c2077711864d91",
-    "lastUpdated": "2018-02-01 00:00:45.719301"
+    "revision": "b133bb618559a851d78d40517b939bb9bad031eb",
+    "lastUpdated": "2018-02-05 11:39:23.737539"
   },
   {
     "name": "dslink-java-bitpool",
