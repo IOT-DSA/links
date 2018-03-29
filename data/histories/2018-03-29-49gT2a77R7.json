@@ -1,0 +1,43 @@
+{
+  "timestamp": "2018-03-29 11:23:39.557606",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "49gT2a77R7",
+  "uploads": [
+    {
+      "tag": "dslink-java-haystack",
+      "source": "files/dslink-java-haystack.zip",
+      "target": "files/dslink-java-haystack.zip",
+      "revision": "6477c55f25aacb2b062432d6fd6a532f45c60470"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "49gT2a77R7"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "49gT2a77R7"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "49gT2a77R7"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "49gT2a77R7"
+    }
+  ],
+  "built": [
+    "Haystack"
+  ]
+}
