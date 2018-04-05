@@ -628,6 +628,26 @@
     "lastUpdated": "2017-11-30 00:00:51.770269"
   },
   {
+    "name": "dslink-java-dsa-coap-lite",
+    "displayName": "DSA-COAP-lite",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-dsa-coap-lite.git",
+      "ignoreBuildScript": true
+    },
+    "description": "DSA-over-COAP, lite version",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    },
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-dsa-coap-lite.zip",
+    "revision": "b26c66b882eb9c5839a484880868cb0c19299f86",
+    "lastUpdated": "2018-04-04 17:45:29.645618"
+  },
+  {
     "name": "dslink-java-enocean",
     "displayName": "Enocean",
     "type": "Java",

@@ -67,5 +67,6 @@
   "dslink-java-bacnet2": "2018-02-27 22:33:13.214145",
   "dslink-dart-vapix": "2017-10-27 00:00:28.675800",
   "dslink-python-dmx": "2017-07-20 12:56:36.139002",
-  "dslink-dart-mongodb-controller": "2017-11-29 14:25:05.812576"
+  "dslink-dart-mongodb-controller": "2017-11-29 14:25:05.812576",
+  "dslink-java-dsa-coap-lite": "2018-04-04 17:45:29.645618"
 }
