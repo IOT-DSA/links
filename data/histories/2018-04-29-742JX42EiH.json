@@ -1,0 +1,35 @@
+{
+  "timestamp": "2018-04-29 00:00:46.960207",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "742JX42EiH",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "742JX42EiH"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "742JX42EiH"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "742JX42EiH"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "742JX42EiH"
+    }
+  ],
+  "built": []
+}
