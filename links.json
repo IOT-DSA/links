@@ -504,8 +504,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-alarm.zip",
-    "revision": "4578618fbdd7191c85a0023f4b9ae06c72e5d137",
-    "lastUpdated": "2018-05-22 00:00:57.268835"
+    "revision": "fd3281a496405ca30f9c1f2379bb54e915f7e8f9",
+    "lastUpdated": "2018-05-26 00:00:46.728449"
   },
   {
     "name": "dslink-java-bacnet",
