@@ -1,0 +1,35 @@
+{
+  "timestamp": "2018-06-02 00:00:40.962732",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "dg85SE1j4M",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "dg85SE1j4M"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "dg85SE1j4M"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "dg85SE1j4M"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "dg85SE1j4M"
+    }
+  ],
+  "built": []
+}
