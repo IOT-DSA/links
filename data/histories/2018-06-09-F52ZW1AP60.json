@@ -1,0 +1,35 @@
+{
+  "timestamp": "2018-06-09 00:00:39.921898",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "F52ZW1AP60",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "F52ZW1AP60"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "F52ZW1AP60"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "F52ZW1AP60"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "F52ZW1AP60"
+    }
+  ],
+  "built": []
+}
