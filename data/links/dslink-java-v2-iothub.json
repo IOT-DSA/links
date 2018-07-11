@@ -1,0 +1,10 @@
+{
+  "name": "dslink-java-v2-iothub",
+  "displayName": "IoT Hub (SDKv2)",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/iot-dsa-v2/dslink-java-v2-iothub.git"
+  },
+  "description": "Microsoft Azure IoT Hub",
+  "category": "Data Acquisition"
+}
