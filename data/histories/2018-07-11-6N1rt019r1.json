@@ -1,0 +1,43 @@
+{
+  "timestamp": "2018-07-11 15:13:59.869590",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "6N1rt019r1",
+  "uploads": [
+    {
+      "tag": "dslink-java-v2-iothub",
+      "source": "files/dslink-java-v2-iothub.zip",
+      "target": "files/dslink-java-v2-iothub.zip",
+      "revision": "9777b4e93fab556dc1b7041f9bbcbd1329c72e7a"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "6N1rt019r1"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "6N1rt019r1"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "6N1rt019r1"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "6N1rt019r1"
+    }
+  ],
+  "built": [
+    "IoT Hub (SDKv2)"
+  ]
+}
