@@ -1,7 +1,7 @@
 part of dsa.links.repository.util;
 
 final List<String> SLACK_NOTIFY_FAIL = [
-  "<@pacane>"
+  "<@butlermatt>"
 ];
 
 sendSlackMessage(String message) async {
