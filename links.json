@@ -504,8 +504,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-alarm.zip",
-    "revision": "ddd66388e7e68b6a53f4c08589c583405a2518b2",
-    "lastUpdated": "2018-06-01 00:00:40.346357"
+    "revision": "1dddc0af82a208890c5a7f6874aee80c207feed7",
+    "lastUpdated": "2018-07-12 09:48:36.456375"
   },
   {
     "name": "dslink-java-bacnet",
@@ -1009,13 +1009,13 @@
   },
   {
     "name": "dslink-java-v2-iothub",
-    "displayName": "IoT Hub (SDKv2)",
+    "displayName": "BuildingOS Rest Adapter",
     "type": "Java",
     "automated": {
       "repository": "https://github.com/iot-dsa-v2/dslink-java-v2-iothub.git",
       "ignoreBuildScript": true
     },
-    "description": "Microsoft Azure IoT Hub",
+    "description": "BuildingOS Rest Adapter",
     "category": "Data Acquisition",
     "update": {
       "delete": [
@@ -1026,6 +1026,26 @@
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-iothub.zip",
     "revision": "9777b4e93fab556dc1b7041f9bbcbd1329c72e7a",
     "lastUpdated": "2018-07-11 15:13:52.092510"
+  },
+  {
+    "name": "dslink-java-v2-restadapter",
+    "displayName": "Azure IoT Hub",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/iot-dsa-v2/dslink-java-v2-restadapter.git",
+      "ignoreBuildScript": true
+    },
+    "description": "Microsoft Azure IoT Hub",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    },
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-restadapter.zip",
+    "revision": "0c2b3cf65727db5d79a0fb6fbf7ec257ad35ef98",
+    "lastUpdated": "2018-07-12 09:48:54.471552"
   },
   {
     "name": "dslink-java-zwave",
