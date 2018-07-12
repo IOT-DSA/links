@@ -72,5 +72,6 @@
   "dslink-dart-vapix": "1e302fc2b0a85d6049efd21a2263a2f4b596bc29",
   "dslink-python-dmx": "cc682345de5ace7062f6e6aa024713033bc76436",
   "dslink-dart-mongodb-controller": "699eba83fda26ddba9beba23cd2bc83fc58271a1",
-  "dslink-java-dsa-coap-lite": "b26c66b882eb9c5839a484880868cb0c19299f86"
+  "dslink-java-dsa-coap-lite": "b26c66b882eb9c5839a484880868cb0c19299f86",
+  "dslink-java-v2-iothub": "9777b4e93fab556dc1b7041f9bbcbd1329c72e7a"
 }
