@@ -1,10 +1,10 @@
 {
   "name": "dslink-java-v2-iothub",
-  "displayName": "IoT Hub",
+  "displayName": "BuildingOS Rest Adapter",
   "type": "Java",
   "automated": {
     "repository": "https://github.com/iot-dsa-v2/dslink-java-v2-iothub.git"
   },
-  "description": "Microsoft Azure IoT Hub",
+  "description": "BuildingOS Rest Adapter",  
   "category": "Data Acquisition"
 }
