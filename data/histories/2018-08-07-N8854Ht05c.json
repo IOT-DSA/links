@@ -1,0 +1,43 @@
+{
+  "timestamp": "2018-08-07 11:29:15.304846",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "N8854Ht05c",
+  "uploads": [
+    {
+      "tag": "dslink-java-opc",
+      "source": "files/dslink-java-opc.zip",
+      "target": "files/dslink-java-opc.zip",
+      "revision": "b42dc97849e1a8b47f583cb524002d4f386bcba9"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "N8854Ht05c"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "N8854Ht05c"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "N8854Ht05c"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "N8854Ht05c"
+    }
+  ],
+  "built": [
+    "OPC"
+  ]
+}
