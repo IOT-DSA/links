@@ -1044,8 +1044,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-restadapter.zip",
-    "revision": "0c2b3cf65727db5d79a0fb6fbf7ec257ad35ef98",
-    "lastUpdated": "2018-07-12 09:48:54.471552"
+    "revision": "0d1a9836de172f5d062bb69f58eeff0a73d78ced",
+    "lastUpdated": "2018-08-07 15:27:48.692075"
   },
   {
     "name": "dslink-java-zwave",
