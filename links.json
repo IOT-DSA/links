@@ -504,8 +504,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-alarm.zip",
-    "revision": "88e4bd04b09d883a1590a81372a8f92c11f5ec67",
-    "lastUpdated": "2018-08-11 00:00:38.183287"
+    "revision": "d88868348c0ab9b1821deed6f908077efbe9e219",
+    "lastUpdated": "2018-08-30 09:29:26.449990"
   },
   {
     "name": "dslink-java-bacnet",
@@ -544,8 +544,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet2.zip",
-    "revision": "ff54be4b2c37f6bfd5b67608e82aa5100c55a8e8",
-    "lastUpdated": "2018-08-14 00:01:03.645101"
+    "revision": "d994933a550119cbdfaa58953c0ff5380569233c",
+    "lastUpdated": "2018-08-30 09:29:44.748552"
   },
   {
     "name": "dslink-java-bitpool",
@@ -684,8 +684,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-etsdb.zip",
-    "revision": "98108ae10cfe29fa5cf427f9b960cfc929ad3fae",
-    "lastUpdated": "2018-01-12 00:00:44.350323"
+    "revision": "cb814c65722c131389c9bd334dedded4521d05b9",
+    "lastUpdated": "2018-08-30 09:29:51.120911"
   },
   {
     "name": "dslink-java-googleplus",
@@ -744,8 +744,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-jdbc.zip",
-    "revision": "584089cd42a96da37215b413de05f950c2df9292",
-    "lastUpdated": "2018-04-18 00:00:57.466163"
+    "revision": "98afbfe82e6f03a4a57ebc5ab967f2893488e200",
+    "lastUpdated": "2018-08-30 09:29:57.364692"
   },
   {
     "name": "dslink-java-knx",
