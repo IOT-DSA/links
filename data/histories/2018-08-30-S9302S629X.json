@@ -1,0 +1,78 @@
+{
+  "timestamp": "2018-08-30 15:19:23.441129",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "S9302S629X",
+  "uploads": [
+    {
+      "tag": "dslink-java-advantech",
+      "source": "files/dslink-java-advantech.zip",
+      "target": "files/dslink-java-advantech.zip",
+      "revision": "b7bdf6870b29a4a5e9b81da004c81ff1d3d2480b"
+    },
+    {
+      "tag": "dslink-java-bacnet2",
+      "source": "files/dslink-java-bacnet2.zip",
+      "target": "files/dslink-java-bacnet2.zip",
+      "revision": "0f7f8e1899abcb4f09ef78b74a5449408558be92"
+    },
+    {
+      "tag": "dslink-java-haystack",
+      "source": "files/dslink-java-haystack.zip",
+      "target": "files/dslink-java-haystack.zip",
+      "revision": "d30252c565d3c3b1e9cfd6e9fd5c61ff219e59fe"
+    },
+    {
+      "tag": "dslink-java-mango",
+      "source": "files/dslink-java-mango.zip",
+      "target": "files/dslink-java-mango.zip",
+      "revision": "133dbfbef79b5a340623f0190bea8eb4f796b3b3"
+    },
+    {
+      "tag": "dslink-java-modbus",
+      "source": "files/dslink-java-modbus.zip",
+      "target": "files/dslink-java-modbus.zip",
+      "revision": "90c4f9e244876aab0cd0dcabe3b90440937a5b25"
+    },
+    {
+      "tag": "dslink-java-opc",
+      "source": "files/dslink-java-opc.zip",
+      "target": "files/dslink-java-opc.zip",
+      "revision": "b759fb35a215b303ba029d477c0f416f6e4ef0d3"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "S9302S629X"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "S9302S629X"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "S9302S629X"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "S9302S629X"
+    }
+  ],
+  "built": [
+    "Advantech",
+    "BACnet v2",
+    "Haystack",
+    "Mango",
+    "Modbus",
+    "OPC"
+  ]
+}
