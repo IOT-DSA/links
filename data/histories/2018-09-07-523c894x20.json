@@ -1,0 +1,43 @@
+{
+  "timestamp": "2018-09-07 00:00:55.359087",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "523c894x20",
+  "uploads": [
+    {
+      "tag": "dslink-java-v2-iothub",
+      "source": "files/dslink-java-v2-iothub.zip",
+      "target": "files/dslink-java-v2-iothub.zip",
+      "revision": "434ebf8484d9908f7f3bd286e6adb9e5512bf2e8"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "523c894x20"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "523c894x20"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "523c894x20"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "523c894x20"
+    }
+  ],
+  "built": [
+    "Azure IoT Hub"
+  ]
+}
