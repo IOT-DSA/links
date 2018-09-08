@@ -684,8 +684,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-etsdb.zip",
-    "revision": "cb814c65722c131389c9bd334dedded4521d05b9",
-    "lastUpdated": "2018-08-30 09:29:51.120911"
+    "revision": "63f9aa34f09eb278c80a12a2b6afd1e77bdbf475",
+    "lastUpdated": "2018-09-08 00:00:43.752440"
   },
   {
     "name": "dslink-java-googleplus",
@@ -1024,8 +1024,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-iothub.zip",
-    "revision": "434ebf8484d9908f7f3bd286e6adb9e5512bf2e8",
-    "lastUpdated": "2018-09-07 00:00:53.140144"
+    "revision": "9ea635dddad42c855fb5104e8bf4f231f42611ef",
+    "lastUpdated": "2018-09-08 00:00:59.257843"
   },
   {
     "name": "dslink-java-v2-restadapter",
