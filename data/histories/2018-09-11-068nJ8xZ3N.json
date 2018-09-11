@@ -1,0 +1,43 @@
+{
+  "timestamp": "2018-09-11 07:30:21.045116",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "068nJ8xZ3N",
+  "uploads": [
+    {
+      "tag": "dslink-dart-solaredge",
+      "source": "files/dslink-dart-solaredge.zip",
+      "target": "files/dslink-dart-solaredge.zip",
+      "revision": "9c41028b0c6da0544f24f11d2952456a25b8366f"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "068nJ8xZ3N"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "068nJ8xZ3N"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "068nJ8xZ3N"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "068nJ8xZ3N"
+    }
+  ],
+  "built": [
+    "Solar Edge"
+  ]
+}
