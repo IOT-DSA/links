@@ -1,0 +1,10 @@
+{
+  "name": "dslink-dart-belimo-clould",
+  "displayName": "Belimo Cloud",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-belimo-cloud.git"
+  },
+  "description": "REST interface for Belimo Cloud",
+  "category": "Data Acquisition"
+}
