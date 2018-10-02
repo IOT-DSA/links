@@ -1024,8 +1024,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-iothub.zip",
-    "revision": "e2e125aab2e02c37f5364694bea0c31ad270e0b0",
-    "lastUpdated": "2018-09-19 00:00:54.181047"
+    "revision": "317c929d27efc24d0649371fed379907377a7b6e",
+    "lastUpdated": "2018-10-02 00:00:52.436410"
   },
   {
     "name": "dslink-java-v2-restadapter",
