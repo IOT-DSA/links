@@ -1,0 +1,35 @@
+{
+  "timestamp": "2018-10-10 00:00:39.656355",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "06430HX54W",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "06430HX54W"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "06430HX54W"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "06430HX54W"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "06430HX54W"
+    }
+  ],
+  "built": []
+}
