@@ -1,0 +1,35 @@
+{
+  "timestamp": "2018-10-16 00:00:38.567524",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "rX70BR3M10",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "rX70BR3M10"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "rX70BR3M10"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "rX70BR3M10"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "rX70BR3M10"
+    }
+  ],
+  "built": []
+}
