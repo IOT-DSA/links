@@ -824,8 +824,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-mqtt.zip",
-    "revision": "5be03a9b7329c52285a431ad91723a9ea8950eef",
-    "lastUpdated": "2017-10-31 00:00:59.029701"
+    "revision": "d4b705aa591fb1709d6f3519de5d436675bed879",
+    "lastUpdated": "2018-11-07 16:37:55.737216"
   },
   {
     "name": "dslink-java-msiotdev",

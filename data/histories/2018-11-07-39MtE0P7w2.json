@@ -1,0 +1,43 @@
+{
+  "timestamp": "2018-11-07 16:38:01.744362",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "39MtE0P7w2",
+  "uploads": [
+    {
+      "tag": "dslink-java-mqtt",
+      "source": "files/dslink-java-mqtt.zip",
+      "target": "files/dslink-java-mqtt.zip",
+      "revision": "d4b705aa591fb1709d6f3519de5d436675bed879"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "39MtE0P7w2"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "39MtE0P7w2"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "39MtE0P7w2"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "39MtE0P7w2"
+    }
+  ],
+  "built": [
+    "MQTT"
+  ]
+}
