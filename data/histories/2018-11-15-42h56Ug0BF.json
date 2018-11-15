@@ -1,0 +1,43 @@
+{
+  "timestamp": "2018-11-15 00:01:12.390732",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "42h56Ug0BF",
+  "uploads": [
+    {
+      "tag": "dslink-java-snmp",
+      "source": "files/dslink-java-snmp.zip",
+      "target": "files/dslink-java-snmp.zip",
+      "revision": "cac0e360cab6f329d92c0740280ad0d4ceb1944f"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "42h56Ug0BF"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "42h56Ug0BF"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "42h56Ug0BF"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "42h56Ug0BF"
+    }
+  ],
+  "built": [
+    "SNMP"
+  ]
+}
