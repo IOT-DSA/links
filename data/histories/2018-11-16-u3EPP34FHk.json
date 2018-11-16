@@ -1,0 +1,43 @@
+{
+  "timestamp": "2018-11-16 00:00:59.941592",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "u3EPP34FHk",
+  "uploads": [
+    {
+      "tag": "dslink-java-enocean",
+      "source": "files/dslink-java-enocean.zip",
+      "target": "files/dslink-java-enocean.zip",
+      "revision": "a129bac0a1769c8454e22f7d01c3c98458d9c17a"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "u3EPP34FHk"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "u3EPP34FHk"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "u3EPP34FHk"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "u3EPP34FHk"
+    }
+  ],
+  "built": [
+    "Enocean"
+  ]
+}

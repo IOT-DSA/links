@@ -664,8 +664,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-enocean.zip",
-    "revision": "475116b234f37b18ace8c1e528e516a2103e4f69",
-    "lastUpdated": "2017-04-28 12:05:18.376092"
+    "revision": "a129bac0a1769c8454e22f7d01c3c98458d9c17a",
+    "lastUpdated": "2018-11-16 00:00:52.128174"
   },
   {
     "name": "dslink-java-etsdb",
