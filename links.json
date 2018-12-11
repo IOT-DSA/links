@@ -728,6 +728,26 @@
     "lastUpdated": "2018-11-29 00:00:50.111268"
   },
   {
+    "name": "dslink-java-historian-dynamodb",
+    "displayName": "DynamoDB Historian",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-java-historian-dynamodb.git",
+      "ignoreBuildScript": true
+    },
+    "description": "Historian DSLink implementation for DynamoDB",
+    "category": "Historian",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    },
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-historian-dynamodb.zip",
+    "revision": "ac01f0ae2197694a0a9164a68bd875e8063fec3f",
+    "lastUpdated": "2018-12-11 13:58:01.283246"
+  },
+  {
     "name": "dslink-java-jdbc",
     "displayName": "JDBC",
     "type": "Java",
