@@ -71,7 +71,7 @@
   "dslink-java-bacnet2": "630e4b78f1e06755b343faa7402dd9891e2f4b19",
   "dslink-dart-vapix": "960cba6eaa9e32659844b37c6571bcbc75e5521d",
   "dslink-python-dmx": "cc682345de5ace7062f6e6aa024713033bc76436",
-  "dslink-dart-mongodb-controller": "699eba83fda26ddba9beba23cd2bc83fc58271a1",
+  "dslink-dart-mongodb-controller": "aa0b00854395e61d826a4be8d12cb78bd0859172",
   "dslink-java-dsa-coap-lite": "b26c66b882eb9c5839a484880868cb0c19299f86",
   "dslink-java-v2-iothub": "b31a1bedef0ec18f130890afae0f18f3a6e44426",
   "dslink-java-v2-restadapter": "8e8e295ab62a61841d57aea9694cdedb8f78e0d6"
