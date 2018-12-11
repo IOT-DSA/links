@@ -1,0 +1,10 @@
+{
+  "name": "dslink-java-historian-dynamodb",
+  "displayName": "DynamoDB Historian",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-java-historian-dynamodb.git"
+  },
+  "description": "Historian DSLink implementation for DynamoDB",
+  "category": "Historian"
+}
