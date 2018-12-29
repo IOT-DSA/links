@@ -75,5 +75,5 @@
   "dslink-java-dsa-coap-lite": "b26c66b882eb9c5839a484880868cb0c19299f86",
   "dslink-java-v2-iothub": "b31a1bedef0ec18f130890afae0f18f3a6e44426",
   "dslink-java-v2-restadapter": "be0937621af47121875028c1e597c59117897153",
-  "dslink-java-historian-dynamodb": "ef9ac9adc87ee923494c31f22669223626e7d4fc"
+  "dslink-java-historian-dynamodb": "dec426e12dc2b7a42bbf9c9a4139fea1ed69c04c"
 }
