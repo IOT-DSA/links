@@ -724,8 +724,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-haystack.zip",
-    "revision": "d376dbdfc00f333514a1b84e172a68a0a8b1fb59",
-    "lastUpdated": "2018-11-29 00:00:50.111268"
+    "revision": "fb673eaba96211ddc2e5c88f668c97cdecbe150e",
+    "lastUpdated": "2019-01-03 00:00:41.659162"
   },
   {
     "name": "dslink-java-historian-dynamodb",
@@ -844,8 +844,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-mqtt.zip",
-    "revision": "d4b705aa591fb1709d6f3519de5d436675bed879",
-    "lastUpdated": "2018-11-07 16:37:55.737216"
+    "revision": "e6cf4bb59d9d7f0da1186070cd70bbac74658eaa",
+    "lastUpdated": "2019-01-03 00:00:57.427972"
   },
   {
     "name": "dslink-java-msiotdev",

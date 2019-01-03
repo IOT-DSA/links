@@ -1,0 +1,50 @@
+{
+  "timestamp": "2019-01-03 00:01:04.789577",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "2o1IJ76UVT",
+  "uploads": [
+    {
+      "tag": "dslink-java-haystack",
+      "source": "files/dslink-java-haystack.zip",
+      "target": "files/dslink-java-haystack.zip",
+      "revision": "fb673eaba96211ddc2e5c88f668c97cdecbe150e"
+    },
+    {
+      "tag": "dslink-java-mqtt",
+      "source": "files/dslink-java-mqtt.zip",
+      "target": "files/dslink-java-mqtt.zip",
+      "revision": "e6cf4bb59d9d7f0da1186070cd70bbac74658eaa"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "2o1IJ76UVT"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "2o1IJ76UVT"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "2o1IJ76UVT"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "2o1IJ76UVT"
+    }
+  ],
+  "built": [
+    "Haystack",
+    "MQTT"
+  ]
+}
