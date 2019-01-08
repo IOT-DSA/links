@@ -688,26 +688,6 @@
     "lastUpdated": "2018-11-14 00:00:46.824900"
   },
   {
-    "name": "dslink-java-googleplus",
-    "displayName": "Google Plus",
-    "type": "Java",
-    "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-java-googleplus.git",
-      "ignoreBuildScript": true
-    },
-    "description": "Access Google+ Data from DSA",
-    "category": "Social Media",
-    "update": {
-      "delete": [
-        "bin",
-        "lib"
-      ]
-    },
-    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-googleplus.zip",
-    "revision": "2e18374f6819e386a8ee2478281ab50b6ea63f30",
-    "lastUpdated": "2017-04-28 12:05:31.184223"
-  },
-  {
     "name": "dslink-java-haystack",
     "displayName": "Haystack",
     "type": "Java",
