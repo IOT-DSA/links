@@ -1024,8 +1024,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-iothub.zip",
-    "revision": "b31a1bedef0ec18f130890afae0f18f3a6e44426",
-    "lastUpdated": "2018-12-05 17:35:37.787103"
+    "revision": "1fc4fc7e4ed43e27632fd34357930885724e4163",
+    "lastUpdated": "2019-01-09 00:00:57.802239"
   },
   {
     "name": "dslink-java-v2-restadapter",
@@ -1044,8 +1044,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-restadapter.zip",
-    "revision": "be0937621af47121875028c1e597c59117897153",
-    "lastUpdated": "2018-12-18 00:01:04.713018"
+    "revision": "31d7d1b229b1e1669ddf488d5c17c5dd97d8adc9",
+    "lastUpdated": "2019-01-09 00:01:11.840362"
   },
   {
     "name": "dslink-java-zwave",

@@ -1,0 +1,50 @@
+{
+  "timestamp": "2019-01-09 00:01:13.911270",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "7F045nP19u",
+  "uploads": [
+    {
+      "tag": "dslink-java-v2-iothub",
+      "source": "files/dslink-java-v2-iothub.zip",
+      "target": "files/dslink-java-v2-iothub.zip",
+      "revision": "1fc4fc7e4ed43e27632fd34357930885724e4163"
+    },
+    {
+      "tag": "dslink-java-v2-restadapter",
+      "source": "files/dslink-java-v2-restadapter.zip",
+      "target": "files/dslink-java-v2-restadapter.zip",
+      "revision": "31d7d1b229b1e1669ddf488d5c17c5dd97d8adc9"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "7F045nP19u"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "7F045nP19u"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "7F045nP19u"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "7F045nP19u"
+    }
+  ],
+  "built": [
+    "Azure IoT Hub",
+    "BuildingOS Rest Adapter"
+  ]
+}
