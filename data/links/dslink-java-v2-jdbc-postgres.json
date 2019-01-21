@@ -1,0 +1,10 @@
+{
+  "name": "dslink-java-v2-jdbc-postgres",
+  "displayName": "Postgres",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/iot-dsa-v2/dslink-java-v2-jdbc-postgres.git"
+  },
+  "description": "JDBC DSLink for Postgres",
+  "category": "Data Acquisition"
+}
