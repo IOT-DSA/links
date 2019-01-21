@@ -1,0 +1,43 @@
+{
+  "timestamp": "2019-01-21 09:33:19.087034",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "7i9x25dVR2",
+  "uploads": [
+    {
+      "tag": "dslink-java-v2-jdbc-postgres",
+      "source": "files/dslink-java-v2-jdbc-postgres.zip",
+      "target": "files/dslink-java-v2-jdbc-postgres.zip",
+      "revision": "c5cba0d534b1b8bd7246d28f2ff520d02147d420"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "7i9x25dVR2"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "7i9x25dVR2"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "7i9x25dVR2"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "7i9x25dVR2"
+    }
+  ],
+  "built": [
+    "Postgres"
+  ]
+}

@@ -1028,6 +1028,26 @@
     "lastUpdated": "2019-01-09 00:00:57.802239"
   },
   {
+    "name": "dslink-java-v2-jdbc-postgres",
+    "displayName": "Postgres",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/iot-dsa-v2/dslink-java-v2-jdbc-postgres.git",
+      "ignoreBuildScript": true
+    },
+    "description": "JDBC DSLink for Postgres",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    },
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-jdbc-postgres.zip",
+    "revision": "c5cba0d534b1b8bd7246d28f2ff520d02147d420",
+    "lastUpdated": "2019-01-21 09:33:16.848489"
+  },
+  {
     "name": "dslink-java-v2-restadapter",
     "displayName": "BuildingOS Rest Adapter",
     "type": "Java",
