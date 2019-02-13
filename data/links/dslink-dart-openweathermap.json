@@ -1,0 +1,11 @@
+{
+  "name": "dslink-dart-openweathermap",
+  "displayName": "Weather",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-openweathermap.git",
+    "ignoreBuildScript": true
+  },
+  "description": "Get Weather Data",
+  "category": "Data Acquisition"
+}
