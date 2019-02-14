@@ -1,0 +1,43 @@
+{
+  "timestamp": "2019-02-14 00:00:47.193790",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "h8z531f256",
+  "uploads": [
+    {
+      "tag": "dslink-dart-openweathermap",
+      "source": "files/dslink-dart-openweathermap.zip",
+      "target": "files/dslink-dart-openweathermap.zip",
+      "revision": "5a83b92c6e6f0141274286bda2c44a53b34d1dab"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "h8z531f256"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "h8z531f256"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "h8z531f256"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "h8z531f256"
+    }
+  ],
+  "built": [
+    "Weather"
+  ]
+}

@@ -242,8 +242,8 @@
     "description": "Get Weather Data",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-openweathermap.zip",
-    "revision": "a30caa9607aa61398f5c671822d261e0784eb035",
-    "lastUpdated": "2019-02-13 15:41:34.319090"
+    "revision": "5a83b92c6e6f0141274286bda2c44a53b34d1dab",
+    "lastUpdated": "2019-02-14 00:00:31.041611"
   },
   {
     "name": "dslink-dart-osx",

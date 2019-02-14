@@ -77,5 +77,5 @@
   "dslink-java-v2-restadapter": "31d7d1b229b1e1669ddf488d5c17c5dd97d8adc9",
   "dslink-java-historian-dynamodb": "1b7aa6d5188c1b6378ec0a5afa4ea27a3b5f433d",
   "dslink-java-v2-jdbc-postgres": "c5cba0d534b1b8bd7246d28f2ff520d02147d420",
-  "dslink-dart-openweathermap": "a30caa9607aa61398f5c671822d261e0784eb035"
+  "dslink-dart-openweathermap": "5a83b92c6e6f0141274286bda2c44a53b34d1dab"
 }
