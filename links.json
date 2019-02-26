@@ -804,8 +804,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-mqtt.zip",
-    "revision": "e6cf4bb59d9d7f0da1186070cd70bbac74658eaa",
-    "lastUpdated": "2019-01-03 00:00:57.427972"
+    "revision": "93245aa6f163fd5601ee4dcfebc3fa847e4e90bc",
+    "lastUpdated": "2019-02-26 00:01:22.674220"
   },
   {
     "name": "dslink-java-msiotdev",
@@ -1004,8 +1004,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-iothub.zip",
-    "revision": "1fc4fc7e4ed43e27632fd34357930885724e4163",
-    "lastUpdated": "2019-01-09 00:00:57.802239"
+    "revision": "f8ad4ec3fb4e07c97ab010a0f891760528a0b955",
+    "lastUpdated": "2019-02-26 00:01:36.974853"
   },
   {
     "name": "dslink-java-v2-jdbc-postgres",
@@ -1044,8 +1044,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-restadapter.zip",
-    "revision": "31d7d1b229b1e1669ddf488d5c17c5dd97d8adc9",
-    "lastUpdated": "2019-01-09 00:01:11.840362"
+    "revision": "50f021617d83fa5a239a787b366257ea37d1f446",
+    "lastUpdated": "2019-02-26 00:01:57.554814"
   },
   {
     "name": "dslink-java-zwave",
