@@ -1,0 +1,35 @@
+{
+  "timestamp": "2019-03-12 00:00:36.152182",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "RG487R45eQ",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "RG487R45eQ"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "RG487R45eQ"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "RG487R45eQ"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "RG487R45eQ"
+    }
+  ],
+  "built": []
+}
