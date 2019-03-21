@@ -71,7 +71,7 @@
   "dslink-java-dsa-coap-lite": "2018-04-04 17:45:29.645618",
   "dslink-java-v2-iothub": "2019-03-08 16:01:51.412548",
   "dslink-java-v2-restadapter": "2019-02-26 17:12:37.509749",
-  "dslink-java-historian-dynamodb": "2019-01-30 16:57:57.692809",
+  "dslink-java-historian-dynamodb": "2019-03-21 00:00:55.302817",
   "dslink-java-v2-jdbc-postgres": "2019-01-21 09:33:16.848489",
   "dslink-dart-openweathermap": "2019-02-14 00:00:31.041611"
 }
