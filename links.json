@@ -1024,8 +1024,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-jdbc-postgres.zip",
-    "revision": "c5cba0d534b1b8bd7246d28f2ff520d02147d420",
-    "lastUpdated": "2019-01-21 09:33:16.848489"
+    "revision": "4c7e0cd131802505d5179f81b43346c2a06746ec",
+    "lastUpdated": "2019-03-22 15:24:04.363091"
   },
   {
     "name": "dslink-java-v2-restadapter",
