@@ -1028,6 +1028,26 @@
     "lastUpdated": "2019-03-22 15:24:04.363091"
   },
   {
+    "name": "dslink-java-v2-mailer",
+    "displayName": "Email V2",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/iot-dsa-v2/dslink-java-v2-mailer.git",
+      "ignoreBuildScript": true
+    },
+    "description": "Java V2 Mailer",
+    "category": "Notifications",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    },
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-mailer.zip",
+    "revision": "dc8284e45dec8bbc9506aab9b18035eff6676b36",
+    "lastUpdated": "2019-03-29 10:23:44.622014"
+  },
+  {
     "name": "dslink-java-v2-restadapter",
     "displayName": "BuildingOS Rest Adapter",
     "type": "Java",
