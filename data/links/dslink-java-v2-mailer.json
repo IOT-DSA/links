@@ -1,0 +1,10 @@
+{
+  "name": "dslink-java-v2-mailer",
+  "displayName": "Email V2",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/iot-dsa-v2/dslink-java-v2-mailer.git"
+  },
+  "description": "Java V2 Mailer",
+  "category": "Notifications"
+}
