@@ -1,0 +1,50 @@
+{
+  "timestamp": "2019-04-09 14:59:25.790099",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "Hrsq7gO8m4",
+  "uploads": [
+    {
+      "tag": "dslink-java-v2-jdbc-postgres",
+      "source": "files/dslink-java-v2-jdbc-postgres.zip",
+      "target": "files/dslink-java-v2-jdbc-postgres.zip",
+      "revision": "b204637684c85eed489304997b8472b41c55f354"
+    },
+    {
+      "tag": "dslink-java-v2-restadapter",
+      "source": "files/dslink-java-v2-restadapter.zip",
+      "target": "files/dslink-java-v2-restadapter.zip",
+      "revision": "80b76516dc89be2a9a9d430a0306c2063c3af720"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "Hrsq7gO8m4"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "Hrsq7gO8m4"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "Hrsq7gO8m4"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "Hrsq7gO8m4"
+    }
+  ],
+  "built": [
+    "Postgres",
+    "BuildingOS Rest Adapter"
+  ]
+}
