@@ -1004,8 +1004,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-iothub.zip",
-    "revision": "c8326f142d6a2798491d53f6d96d7113e0c25868",
-    "lastUpdated": "2019-04-25 00:01:07.526001"
+    "revision": "9fe6d5a070c129919af74e3e2b4dcf172c79632a",
+    "lastUpdated": "2019-04-26 00:00:56.105952"
   },
   {
     "name": "dslink-java-v2-jdbc-postgres",
