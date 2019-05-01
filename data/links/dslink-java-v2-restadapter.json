@@ -5,6 +5,6 @@
   "automated": {
     "repository": "https://github.com/iot-dsa-v2/dslink-java-v2-restadapter.git"
   },
-  "description": "BuildingOS Rest Adapter",  
+  "description": "Rest Adapter",  
   "category": "Data Acquisition"
 }
