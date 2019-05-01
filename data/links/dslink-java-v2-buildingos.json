@@ -1,0 +1,10 @@
+{
+  "name": "dslink-java-v2-buildingos",
+  "displayName": "BuildingOS API",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/iot-dsa-v2/dslink-java-v2-buildingos.git"
+  },
+  "description": "BuildingOS API",  
+  "category": "Data Acquisition"
+}
