@@ -1,6 +1,6 @@
 {
   "name": "dslink-java-v2-restadapter",
-  "displayName": "BuildingOS Rest Adapter",
+  "displayName": "Rest Adapter",
   "type": "Java",
   "automated": {
     "repository": "https://github.com/iot-dsa-v2/dslink-java-v2-restadapter.git"
