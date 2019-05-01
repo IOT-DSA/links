@@ -1004,8 +1004,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-iothub.zip",
-    "revision": "96f4a7f45b81dff068355ffbfb807fe170733ebb",
-    "lastUpdated": "2019-04-27 00:00:54.341678"
+    "revision": "95b7359e2a3c5a5a0de49634e408b300235ff8fe",
+    "lastUpdated": "2019-05-01 00:00:49.621464"
   },
   {
     "name": "dslink-java-v2-jdbc-postgres",
@@ -1064,8 +1064,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-restadapter.zip",
-    "revision": "acfc0d500f4d375e4fe002ded8cf98a5e303f36b",
-    "lastUpdated": "2019-04-30 00:00:48.093014"
+    "revision": "f2ee0a6ddbde4a744af043c0e7eb8d08359ecb6f",
+    "lastUpdated": "2019-05-01 00:01:00.174875"
   },
   {
     "name": "dslink-java-zwave",
