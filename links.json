@@ -988,6 +988,26 @@
     "lastUpdated": "2016-08-17 12:06:18.784595"
   },
   {
+    "name": "dslink-java-v2-buildingos",
+    "displayName": "BuildingOS API",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/iot-dsa-v2/dslink-java-v2-buildingos.git",
+      "ignoreBuildScript": true
+    },
+    "description": "BuildingOS API",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    },
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-buildingos.zip",
+    "revision": "f29bceb26cb697c7c73de916d3a09e1cd28e123f",
+    "lastUpdated": "2019-05-01 13:34:53.375828"
+  },
+  {
     "name": "dslink-java-v2-iothub",
     "displayName": "Azure IoT Hub",
     "type": "Java",
@@ -1049,13 +1069,13 @@
   },
   {
     "name": "dslink-java-v2-restadapter",
-    "displayName": "BuildingOS Rest Adapter",
+    "displayName": "Rest Adapter",
     "type": "Java",
     "automated": {
       "repository": "https://github.com/iot-dsa-v2/dslink-java-v2-restadapter.git",
       "ignoreBuildScript": true
     },
-    "description": "BuildingOS Rest Adapter",
+    "description": "Rest Adapter",
     "category": "Data Acquisition",
     "update": {
       "delete": [
