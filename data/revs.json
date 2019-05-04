@@ -73,7 +73,7 @@
   "dslink-python-dmx": "cc682345de5ace7062f6e6aa024713033bc76436",
   "dslink-dart-mongodb-controller": "aa0b00854395e61d826a4be8d12cb78bd0859172",
   "dslink-java-dsa-coap-lite": "b26c66b882eb9c5839a484880868cb0c19299f86",
-  "dslink-java-v2-iothub": "95b7359e2a3c5a5a0de49634e408b300235ff8fe",
+  "dslink-java-v2-iothub": "7fa52e70036e54436340986af1fdf0c3a9f2732f",
   "dslink-java-v2-restadapter": "f2ee0a6ddbde4a744af043c0e7eb8d08359ecb6f",
   "dslink-java-historian-dynamodb": "5eef0999b1258ed707844a325f373ed17f5c6e2b",
   "dslink-java-v2-jdbc-postgres": "abe9c4eec59cb0c11ce89794ec941779391b2da7",
