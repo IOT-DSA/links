@@ -1,0 +1,43 @@
+{
+  "timestamp": "2019-05-09 00:00:52.168668",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "82k68xkFxZ",
+  "uploads": [
+    {
+      "tag": "dslink-java-v2-buildingos",
+      "source": "files/dslink-java-v2-buildingos.zip",
+      "target": "files/dslink-java-v2-buildingos.zip",
+      "revision": "4c3a2b09582d198d71190058f2b2a1350c233fec"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "82k68xkFxZ"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "82k68xkFxZ"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "82k68xkFxZ"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "82k68xkFxZ"
+    }
+  ],
+  "built": [
+    "BuildingOS API"
+  ]
+}
