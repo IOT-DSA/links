@@ -13,6 +13,19 @@
     "lastUpdated": "2016-06-29 11:25:25.216786"
   },
   {
+    "name": "dslink-dart-belimo-clould",
+    "displayName": "Belimo Cloud",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-belimo-cloud.git"
+    },
+    "description": "REST interface for Belimo Cloud",
+    "category": "Data Acquisition",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-belimo-clould.zip",
+    "revision": "4ab1daff08e7deff9818d13fec20078e58d3db15",
+    "lastUpdated": "2019-05-14 07:43:55.589028"
+  },
+  {
     "name": "dslink-dart-dgapi",
     "displayName": "DGAPI",
     "type": "Dart",
