@@ -1,0 +1,43 @@
+{
+  "timestamp": "2019-05-24 07:42:18.059568",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "8ElE0JAB41",
+  "uploads": [
+    {
+      "tag": "dslink-java-alarm",
+      "source": "files/dslink-java-alarm.zip",
+      "target": "files/dslink-java-alarm.zip",
+      "revision": "b57820e2d6282e2915f6a7097c109704b15b4ec4"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "8ElE0JAB41"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "8ElE0JAB41"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "8ElE0JAB41"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "8ElE0JAB41"
+    }
+  ],
+  "built": [
+    "Alarm"
+  ]
+}
