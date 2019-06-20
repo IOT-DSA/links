@@ -118,8 +118,8 @@
       "hidden"
     ],
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-file.zip",
-    "revision": "d430db286e8666dea6b31d7d19c79e00c8022218",
-    "lastUpdated": "2016-06-29 11:27:01.703744"
+    "revision": "efc50c64643dd0c9cb286e19a40a89ee0340e106",
+    "lastUpdated": "2019-06-20 11:55:02.080241"
   },
   {
     "name": "dslink-dart-filesystem",
@@ -132,8 +132,8 @@
     "description": "Interact with the FileSystem via DSA",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-filesystem.zip",
-    "revision": "ba6378b181caf55a8850302d8fe0b75d42a7c049",
-    "lastUpdated": "2019-03-18 11:37:32.197320"
+    "revision": "d2e7d0aaa37b71bf5901bf86be6c5e17bb6a391b",
+    "lastUpdated": "2019-06-20 11:55:10.465471"
   },
   {
     "name": "dslink-dart-host-dgbox",
@@ -281,8 +281,8 @@
     "description": "Use a REST API to manipulate custom nodes",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-rest.zip",
-    "revision": "51bdf3588cd798f252010b9ccf16c592ff14f6fa",
-    "lastUpdated": "2018-03-27 00:00:43.268331"
+    "revision": "1dbc5d31965060db90d3b818814420e5264433e4",
+    "lastUpdated": "2019-06-20 11:55:24.103656"
   },
   {
     "name": "dslink-dart-rpi",
@@ -307,8 +307,8 @@
     "description": "Create and Manage Value Schedules",
     "category": "Scheduling",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-schedule.zip",
-    "revision": "a9f4d39264cbad69bc0036d53e0f3414e2e7b703",
-    "lastUpdated": "2017-08-22 10:05:13.871547"
+    "revision": "ac01a4059b8089eff583d58425815aa512cb6a45",
+    "lastUpdated": "2019-06-20 11:55:31.006852"
   },
   {
     "name": "dslink-dart-slack",
@@ -346,8 +346,8 @@
     "description": "Key-Value Storage System",
     "category": "Storage",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-storage.zip",
-    "revision": "3ed93cb461eab9985040dbc9969ada995d40139a",
-    "lastUpdated": "2016-06-30 09:47:39.960609"
+    "revision": "841139b16b30239120280ecf8f35a1493effc9f8",
+    "lastUpdated": "2019-06-20 11:55:36.986418"
   },
   {
     "name": "dslink-dart-system",
@@ -1037,8 +1037,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-iothub.zip",
-    "revision": "3aecac02b09ec57703f26575a7aff1fcaa1438a9",
-    "lastUpdated": "2019-06-12 16:25:32.596533"
+    "revision": "d7a2be27bb696545af95c60fa1dd65f37105220f",
+    "lastUpdated": "2019-06-20 11:56:00.378270"
   },
   {
     "name": "dslink-java-v2-jdbc-postgres",
@@ -1097,8 +1097,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-restadapter.zip",
-    "revision": "08c27b915b25ae053e3a2c438c9a37178cdec3c6",
-    "lastUpdated": "2019-05-07 00:01:00.828810"
+    "revision": "832f1ad2e26c898553875adcb561ce2010c11505",
+    "lastUpdated": "2019-06-20 11:56:11.891734"
   },
   {
     "name": "dslink-java-zwave",

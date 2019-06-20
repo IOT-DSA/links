@@ -1,0 +1,85 @@
+{
+  "timestamp": "2019-06-20 11:56:13.658107",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "8q3a64hP5E",
+  "uploads": [
+    {
+      "tag": "dslink-dart-file",
+      "source": "files/dslink-dart-file.zip",
+      "target": "files/dslink-dart-file.zip",
+      "revision": "efc50c64643dd0c9cb286e19a40a89ee0340e106"
+    },
+    {
+      "tag": "dslink-dart-filesystem",
+      "source": "files/dslink-dart-filesystem.zip",
+      "target": "files/dslink-dart-filesystem.zip",
+      "revision": "d2e7d0aaa37b71bf5901bf86be6c5e17bb6a391b"
+    },
+    {
+      "tag": "dslink-dart-rest",
+      "source": "files/dslink-dart-rest.zip",
+      "target": "files/dslink-dart-rest.zip",
+      "revision": "1dbc5d31965060db90d3b818814420e5264433e4"
+    },
+    {
+      "tag": "dslink-dart-schedule",
+      "source": "files/dslink-dart-schedule.zip",
+      "target": "files/dslink-dart-schedule.zip",
+      "revision": "ac01a4059b8089eff583d58425815aa512cb6a45"
+    },
+    {
+      "tag": "dslink-dart-storage",
+      "source": "files/dslink-dart-storage.zip",
+      "target": "files/dslink-dart-storage.zip",
+      "revision": "841139b16b30239120280ecf8f35a1493effc9f8"
+    },
+    {
+      "tag": "dslink-java-v2-iothub",
+      "source": "files/dslink-java-v2-iothub.zip",
+      "target": "files/dslink-java-v2-iothub.zip",
+      "revision": "d7a2be27bb696545af95c60fa1dd65f37105220f"
+    },
+    {
+      "tag": "dslink-java-v2-restadapter",
+      "source": "files/dslink-java-v2-restadapter.zip",
+      "target": "files/dslink-java-v2-restadapter.zip",
+      "revision": "832f1ad2e26c898553875adcb561ce2010c11505"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "8q3a64hP5E"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "8q3a64hP5E"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "8q3a64hP5E"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "8q3a64hP5E"
+    }
+  ],
+  "built": [
+    "Files",
+    "FileSystem",
+    "REST Server",
+    "Schedule",
+    "Storage",
+    "Azure IoT Hub",
+    "Rest Adapter"
+  ]
+}
