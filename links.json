@@ -412,8 +412,8 @@
     "description": "Connect to Axis Camera VAPIX",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-vapix.zip",
-    "revision": "960cba6eaa9e32659844b37c6571bcbc75e5521d",
-    "lastUpdated": "2018-08-17 11:07:04.838497"
+    "revision": "2270e740dcd47fbfb2503b01abb877ead995fe45",
+    "lastUpdated": "2019-07-09 00:00:34.365048"
   },
   {
     "name": "dslink-dart-webctrl",
@@ -1077,8 +1077,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-mailer.zip",
-    "revision": "dc8284e45dec8bbc9506aab9b18035eff6676b36",
-    "lastUpdated": "2019-03-29 10:23:44.622014"
+    "revision": "f49c162d21a83f02eb48b3e6d4a9f0481c3a7b40",
+    "lastUpdated": "2019-07-09 00:00:55.003094"
   },
   {
     "name": "dslink-java-v2-restadapter",
@@ -1097,8 +1097,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-restadapter.zip",
-    "revision": "4c9f1fc1dadd5d800547f9258258b940f9db7ecf",
-    "lastUpdated": "2019-06-20 13:38:07.215204"
+    "revision": "af8a4cb54210c8c205cbc2221f307837157b4a9c",
+    "lastUpdated": "2019-07-09 00:01:08.964943"
   },
   {
     "name": "dslink-java-zwave",

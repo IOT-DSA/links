@@ -1,0 +1,57 @@
+{
+  "timestamp": "2019-07-09 00:01:10.779849",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "R20a20l692",
+  "uploads": [
+    {
+      "tag": "dslink-dart-vapix",
+      "source": "files/dslink-dart-vapix.zip",
+      "target": "files/dslink-dart-vapix.zip",
+      "revision": "2270e740dcd47fbfb2503b01abb877ead995fe45"
+    },
+    {
+      "tag": "dslink-java-v2-mailer",
+      "source": "files/dslink-java-v2-mailer.zip",
+      "target": "files/dslink-java-v2-mailer.zip",
+      "revision": "f49c162d21a83f02eb48b3e6d4a9f0481c3a7b40"
+    },
+    {
+      "tag": "dslink-java-v2-restadapter",
+      "source": "files/dslink-java-v2-restadapter.zip",
+      "target": "files/dslink-java-v2-restadapter.zip",
+      "revision": "af8a4cb54210c8c205cbc2221f307837157b4a9c"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "R20a20l692"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "R20a20l692"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "R20a20l692"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "R20a20l692"
+    }
+  ],
+  "built": [
+    "Axis VAPIX",
+    "Email V2",
+    "Rest Adapter"
+  ]
+}
