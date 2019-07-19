@@ -68,8 +68,8 @@
   "dslink-javascript-screenshot": "e12f973cd600526e5c7a23e7925cc53ce662019e",
   "dslink-scala-kafka10": "3709aef30a1c5b1f7c7bdcbfdb1bfff97c96881e",
   "dslink-java-knx": "6dd2559cdfe4134cbf66c89bf42a2e711d189aa8",
-  "dslink-java-bacnet2": "9cd1528158c41f967648a531c0213243d52f1a85",
-  "dslink-dart-vapix": "66922137ccc54394fa5f4e322448e7508eacd082",
+  "dslink-java-bacnet2": "3f007e26e8f773f07385d4fac875b23348d6e1a0",
+  "dslink-dart-vapix": "75f9b3bbc44b08e8cf50a05e2e449d08bfb51970",
   "dslink-python-dmx": "cc682345de5ace7062f6e6aa024713033bc76436",
   "dslink-dart-mongodb-controller": "aa0b00854395e61d826a4be8d12cb78bd0859172",
   "dslink-java-dsa-coap-lite": "b26c66b882eb9c5839a484880868cb0c19299f86",
@@ -79,6 +79,6 @@
   "dslink-java-v2-jdbc-postgres": "abe9c4eec59cb0c11ce89794ec941779391b2da7",
   "dslink-dart-openweathermap": "026ea64a507b094cc09d64dfa43b7befb11fba24",
   "dslink-java-v2-mailer": "f49c162d21a83f02eb48b3e6d4a9f0481c3a7b40",
-  "dslink-java-v2-buildingos": "4c3a2b09582d198d71190058f2b2a1350c233fec",
+  "dslink-java-v2-buildingos": "51c881ea877e25d2ef390b295af26613e54e2249",
   "dslink-dart-belimo-clould": "8b54bbb99a5e4875365c86d72eda70116e540c1d"
 }

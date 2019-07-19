@@ -412,8 +412,8 @@
     "description": "Connect to Axis Camera VAPIX",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-vapix.zip",
-    "revision": "66922137ccc54394fa5f4e322448e7508eacd082",
-    "lastUpdated": "2019-07-09 10:50:16.443686"
+    "revision": "75f9b3bbc44b08e8cf50a05e2e449d08bfb51970",
+    "lastUpdated": "2019-07-19 13:32:07.879360"
   },
   {
     "name": "dslink-dart-webctrl",
@@ -537,8 +537,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet2.zip",
-    "revision": "9cd1528158c41f967648a531c0213243d52f1a85",
-    "lastUpdated": "2019-07-18 00:00:59.729432"
+    "revision": "3f007e26e8f773f07385d4fac875b23348d6e1a0",
+    "lastUpdated": "2019-07-19 13:32:21.615388"
   },
   {
     "name": "dslink-java-bitpool",
@@ -1017,8 +1017,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-buildingos.zip",
-    "revision": "4c3a2b09582d198d71190058f2b2a1350c233fec",
-    "lastUpdated": "2019-05-09 00:00:49.274057"
+    "revision": "51c881ea877e25d2ef390b295af26613e54e2249",
+    "lastUpdated": "2019-07-19 13:32:38.062671"
   },
   {
     "name": "dslink-java-v2-iothub",

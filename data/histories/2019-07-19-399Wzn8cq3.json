@@ -1,0 +1,57 @@
+{
+  "timestamp": "2019-07-19 13:32:40.895469",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "399Wzn8cq3",
+  "uploads": [
+    {
+      "tag": "dslink-dart-vapix",
+      "source": "files/dslink-dart-vapix.zip",
+      "target": "files/dslink-dart-vapix.zip",
+      "revision": "75f9b3bbc44b08e8cf50a05e2e449d08bfb51970"
+    },
+    {
+      "tag": "dslink-java-bacnet2",
+      "source": "files/dslink-java-bacnet2.zip",
+      "target": "files/dslink-java-bacnet2.zip",
+      "revision": "3f007e26e8f773f07385d4fac875b23348d6e1a0"
+    },
+    {
+      "tag": "dslink-java-v2-buildingos",
+      "source": "files/dslink-java-v2-buildingos.zip",
+      "target": "files/dslink-java-v2-buildingos.zip",
+      "revision": "51c881ea877e25d2ef390b295af26613e54e2249"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "399Wzn8cq3"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "399Wzn8cq3"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "399Wzn8cq3"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "399Wzn8cq3"
+    }
+  ],
+  "built": [
+    "Axis VAPIX",
+    "BACnet v2",
+    "BuildingOS API"
+  ]
+}
