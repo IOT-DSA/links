@@ -1017,8 +1017,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-buildingos.zip",
-    "revision": "51c881ea877e25d2ef390b295af26613e54e2249",
-    "lastUpdated": "2019-07-19 13:32:38.062671"
+    "revision": "6d3322d7bc114cd982f3ebba041750b794953a9c",
+    "lastUpdated": "2019-07-20 00:00:47.978497"
   },
   {
     "name": "dslink-java-v2-iothub",
