@@ -74,11 +74,11 @@
   "dslink-dart-mongodb-controller": "aa0b00854395e61d826a4be8d12cb78bd0859172",
   "dslink-java-dsa-coap-lite": "b26c66b882eb9c5839a484880868cb0c19299f86",
   "dslink-java-v2-iothub": "8ba9d41b70369addbdf0936a57a3047fe6702807",
-  "dslink-java-v2-restadapter": "af8a4cb54210c8c205cbc2221f307837157b4a9c",
+  "dslink-java-v2-restadapter": "9dca8c2354918c273e5858dd859c1d9d2f6f6754",
   "dslink-java-historian-dynamodb": "5eef0999b1258ed707844a325f373ed17f5c6e2b",
   "dslink-java-v2-jdbc-postgres": "abe9c4eec59cb0c11ce89794ec941779391b2da7",
   "dslink-dart-openweathermap": "026ea64a507b094cc09d64dfa43b7befb11fba24",
   "dslink-java-v2-mailer": "f49c162d21a83f02eb48b3e6d4a9f0481c3a7b40",
-  "dslink-java-v2-buildingos": "6d3322d7bc114cd982f3ebba041750b794953a9c",
+  "dslink-java-v2-buildingos": "a2b1d1117f94a166de0fd53ec58de8d646d16634",
   "dslink-dart-belimo-clould": "8b54bbb99a5e4875365c86d72eda70116e540c1d"
 }
