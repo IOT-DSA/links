@@ -1,0 +1,50 @@
+{
+  "timestamp": "2019-07-30 10:14:20.923831",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "1090ixfzy5",
+  "uploads": [
+    {
+      "tag": "dslink-dart-vapix",
+      "source": "files/dslink-dart-vapix.zip",
+      "target": "files/dslink-dart-vapix.zip",
+      "revision": "9f145826b430bbc181ecc2cd80eaa53257e98c22"
+    },
+    {
+      "tag": "dslink-java-v2-jdbc-postgres",
+      "source": "files/dslink-java-v2-jdbc-postgres.zip",
+      "target": "files/dslink-java-v2-jdbc-postgres.zip",
+      "revision": "85d093f97dc9aa06d49556fb15183ecbce666450"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "1090ixfzy5"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "1090ixfzy5"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "1090ixfzy5"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "1090ixfzy5"
+    }
+  ],
+  "built": [
+    "Axis VAPIX",
+    "Postgres"
+  ]
+}
