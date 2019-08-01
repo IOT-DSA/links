@@ -412,8 +412,8 @@
     "description": "Connect to Axis Camera VAPIX",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-vapix.zip",
-    "revision": "9f145826b430bbc181ecc2cd80eaa53257e98c22",
-    "lastUpdated": "2019-07-30 10:13:55.872974"
+    "revision": "62ffffd7ca70709714d4e6b4ea5fa5fe772d4313",
+    "lastUpdated": "2019-08-01 00:00:41.577546"
   },
   {
     "name": "dslink-dart-webctrl",
@@ -697,8 +697,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-haystack.zip",
-    "revision": "f99b7b6be0712e253169f7fa8939a056711a796f",
-    "lastUpdated": "2019-01-07 13:00:44.991445"
+    "revision": "ca312bf5f17764ddaf15fe1ebc49af3304a44ee9",
+    "lastUpdated": "2019-08-01 00:00:54.187990"
   },
   {
     "name": "dslink-java-historian-dynamodb",
