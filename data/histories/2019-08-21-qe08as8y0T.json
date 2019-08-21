@@ -1,0 +1,43 @@
+{
+  "timestamp": "2019-08-21 00:00:48.273594",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "qe08as8y0T",
+  "uploads": [
+    {
+      "tag": "dslink-java-v2-restadapter",
+      "source": "files/dslink-java-v2-restadapter.zip",
+      "target": "files/dslink-java-v2-restadapter.zip",
+      "revision": "11d073350bdd9d48327c5ec4282d6fbd5ff2da43"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "qe08as8y0T"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "qe08as8y0T"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "qe08as8y0T"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "qe08as8y0T"
+    }
+  ],
+  "built": [
+    "Rest Adapter"
+  ]
+}
