@@ -73,12 +73,12 @@
   "dslink-python-dmx": "cc682345de5ace7062f6e6aa024713033bc76436",
   "dslink-dart-mongodb-controller": "aa0b00854395e61d826a4be8d12cb78bd0859172",
   "dslink-java-dsa-coap-lite": "b26c66b882eb9c5839a484880868cb0c19299f86",
-  "dslink-java-v2-iothub": "8ba9d41b70369addbdf0936a57a3047fe6702807",
-  "dslink-java-v2-restadapter": "11d073350bdd9d48327c5ec4282d6fbd5ff2da43",
+  "dslink-java-v2-iothub": "0ed619f2f0b576f3c87171ef7c85017d502a9c82",
+  "dslink-java-v2-restadapter": "39a0a25458148dd897cd605989916f7ec122fb5c",
   "dslink-java-historian-dynamodb": "5eef0999b1258ed707844a325f373ed17f5c6e2b",
-  "dslink-java-v2-jdbc-postgres": "85d093f97dc9aa06d49556fb15183ecbce666450",
+  "dslink-java-v2-jdbc-postgres": "fb5d86aed82546f4c97798016200b018841b1448",
   "dslink-dart-openweathermap": "026ea64a507b094cc09d64dfa43b7befb11fba24",
-  "dslink-java-v2-mailer": "f49c162d21a83f02eb48b3e6d4a9f0481c3a7b40",
-  "dslink-java-v2-buildingos": "a2b1d1117f94a166de0fd53ec58de8d646d16634",
+  "dslink-java-v2-mailer": "4f058c7be1d66a2b1eb9ecee85ddc6c173f385be",
+  "dslink-java-v2-buildingos": "13ded9f10d33734ee0d8e7bb04c9de99a6de1a7d",
   "dslink-dart-belimo-clould": "8b54bbb99a5e4875365c86d72eda70116e540c1d"
 }

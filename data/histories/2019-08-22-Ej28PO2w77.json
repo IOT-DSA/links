@@ -1,0 +1,71 @@
+{
+  "timestamp": "2019-08-22 00:02:45.741299",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "Ej28PO2w77",
+  "uploads": [
+    {
+      "tag": "dslink-java-v2-buildingos",
+      "source": "files/dslink-java-v2-buildingos.zip",
+      "target": "files/dslink-java-v2-buildingos.zip",
+      "revision": "13ded9f10d33734ee0d8e7bb04c9de99a6de1a7d"
+    },
+    {
+      "tag": "dslink-java-v2-iothub",
+      "source": "files/dslink-java-v2-iothub.zip",
+      "target": "files/dslink-java-v2-iothub.zip",
+      "revision": "0ed619f2f0b576f3c87171ef7c85017d502a9c82"
+    },
+    {
+      "tag": "dslink-java-v2-jdbc-postgres",
+      "source": "files/dslink-java-v2-jdbc-postgres.zip",
+      "target": "files/dslink-java-v2-jdbc-postgres.zip",
+      "revision": "fb5d86aed82546f4c97798016200b018841b1448"
+    },
+    {
+      "tag": "dslink-java-v2-mailer",
+      "source": "files/dslink-java-v2-mailer.zip",
+      "target": "files/dslink-java-v2-mailer.zip",
+      "revision": "4f058c7be1d66a2b1eb9ecee85ddc6c173f385be"
+    },
+    {
+      "tag": "dslink-java-v2-restadapter",
+      "source": "files/dslink-java-v2-restadapter.zip",
+      "target": "files/dslink-java-v2-restadapter.zip",
+      "revision": "39a0a25458148dd897cd605989916f7ec122fb5c"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "Ej28PO2w77"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "Ej28PO2w77"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "Ej28PO2w77"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "Ej28PO2w77"
+    }
+  ],
+  "built": [
+    "BuildingOS API",
+    "Azure IoT Hub",
+    "Postgres",
+    "Email V2",
+    "Rest Adapter"
+  ]
+}
