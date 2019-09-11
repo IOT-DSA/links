@@ -1,0 +1,43 @@
+{
+  "timestamp": "2019-09-11 09:16:41.042783",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "LSlsQ74nZ4",
+  "uploads": [
+    {
+      "tag": "dslink-dart-belimo-clould",
+      "source": "files/dslink-dart-belimo-clould.zip",
+      "target": "files/dslink-dart-belimo-clould.zip",
+      "revision": "7cd8f6b52aed0d36c3721a584b19353430412b01"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "LSlsQ74nZ4"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "LSlsQ74nZ4"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "LSlsQ74nZ4"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "LSlsQ74nZ4"
+    }
+  ],
+  "built": [
+    "Belimo Cloud"
+  ]
+}

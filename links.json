@@ -22,8 +22,8 @@
     "description": "REST interface for Belimo Cloud",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-belimo-clould.zip",
-    "revision": "8b54bbb99a5e4875365c86d72eda70116e540c1d",
-    "lastUpdated": "2019-05-27 10:20:57.216311"
+    "revision": "7cd8f6b52aed0d36c3721a584b19353430412b01",
+    "lastUpdated": "2019-09-11 09:16:20.763418"
   },
   {
     "name": "dslink-dart-dgapi",
