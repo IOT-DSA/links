@@ -1057,8 +1057,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-jdbc-postgres.zip",
-    "revision": "8ae96ac109b7b6e67ea08053d8db30bc802e56f8",
-    "lastUpdated": "2019-09-18 00:01:14.067169"
+    "revision": "d9afce39c7e3606b45260dde58b0ca965a085c2a",
+    "lastUpdated": "2019-09-26 16:28:37.451650"
   },
   {
     "name": "dslink-java-v2-mailer",
