@@ -957,8 +957,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-snmp.zip",
-    "revision": "cac0e360cab6f329d92c0740280ad0d4ceb1944f",
-    "lastUpdated": "2018-11-15 00:01:06.889924"
+    "revision": "b28fd3cf4e642d1ad1a3e3c9b77e9376ff13f2a4",
+    "lastUpdated": "2019-09-28 00:00:46.341923"
   },
   {
     "name": "dslink-java-splunk",
