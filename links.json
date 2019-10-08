@@ -1057,8 +1057,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-jdbc-postgres.zip",
-    "revision": "d9afce39c7e3606b45260dde58b0ca965a085c2a",
-    "lastUpdated": "2019-09-26 16:28:37.451650"
+    "revision": "4018155cc28410300efaac62b357c72fdee637b3",
+    "lastUpdated": "2019-10-08 00:01:03.734968"
   },
   {
     "name": "dslink-java-v2-mailer",
@@ -1077,8 +1077,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-mailer.zip",
-    "revision": "9345c4ff0ec954ce662a8c5368a5b09820ba6f63",
-    "lastUpdated": "2019-09-18 00:01:19.308246"
+    "revision": "a2dc87b7e62aafcf6869783e357198ea8f7dee56",
+    "lastUpdated": "2019-10-08 00:01:09.856513"
   },
   {
     "name": "dslink-java-v2-restadapter",
@@ -1097,8 +1097,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-restadapter.zip",
-    "revision": "e6891034ac169d05156e261b78413336df7b7565",
-    "lastUpdated": "2019-09-18 00:01:26.317014"
+    "revision": "681d18e884632d554aad8ff7b65e9996b28c753f",
+    "lastUpdated": "2019-10-08 00:01:17.705818"
   },
   {
     "name": "dslink-java-zwave",
