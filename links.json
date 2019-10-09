@@ -1017,8 +1017,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-buildingos.zip",
-    "revision": "a30fb4131827b3e474e89d73b14ffe390eeb7405",
-    "lastUpdated": "2019-09-18 00:00:55.264727"
+    "revision": "37774b55be42ae4cf8fb3ffa7ab237e8b599e295",
+    "lastUpdated": "2019-10-09 00:00:56.721501"
   },
   {
     "name": "dslink-java-v2-iothub",
@@ -1037,8 +1037,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-iothub.zip",
-    "revision": "434379d93b2ca566f0c10bf650fe655f30cb4cc6",
-    "lastUpdated": "2019-09-18 00:01:06.677299"
+    "revision": "ef86a5d0d5889b77f9325724c3e201d6967e6587",
+    "lastUpdated": "2019-10-09 00:01:16.616726"
   },
   {
     "name": "dslink-java-v2-jdbc-postgres",

@@ -1,0 +1,50 @@
+{
+  "timestamp": "2019-10-09 00:01:19.090110",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "v743m23sWj",
+  "uploads": [
+    {
+      "tag": "dslink-java-v2-buildingos",
+      "source": "files/dslink-java-v2-buildingos.zip",
+      "target": "files/dslink-java-v2-buildingos.zip",
+      "revision": "37774b55be42ae4cf8fb3ffa7ab237e8b599e295"
+    },
+    {
+      "tag": "dslink-java-v2-iothub",
+      "source": "files/dslink-java-v2-iothub.zip",
+      "target": "files/dslink-java-v2-iothub.zip",
+      "revision": "ef86a5d0d5889b77f9325724c3e201d6967e6587"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "v743m23sWj"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "v743m23sWj"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "v743m23sWj"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "v743m23sWj"
+    }
+  ],
+  "built": [
+    "BuildingOS API",
+    "Azure IoT Hub"
+  ]
+}
