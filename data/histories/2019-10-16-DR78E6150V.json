@@ -1,0 +1,35 @@
+{
+  "timestamp": "2019-10-16 00:00:38.126406",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "DR78E6150V",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "DR78E6150V"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "DR78E6150V"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "DR78E6150V"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "DR78E6150V"
+    }
+  ],
+  "built": []
+}
