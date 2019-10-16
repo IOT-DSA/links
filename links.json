@@ -307,8 +307,8 @@
     "description": "Create and Manage Value Schedules",
     "category": "Scheduling",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-schedule.zip",
-    "revision": "ac01a4059b8089eff583d58425815aa512cb6a45",
-    "lastUpdated": "2019-06-20 11:55:31.006852"
+    "revision": "20fe2c3d1a4c81e01c6c11e5bb35ee26291920af",
+    "lastUpdated": "2019-10-16 15:34:17.987355"
   },
   {
     "name": "dslink-dart-slack",
@@ -517,8 +517,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-alarm.zip",
-    "revision": "b404589d321a9ead9625bd990f0171880d57331f",
-    "lastUpdated": "2019-09-27 14:58:43.111863"
+    "revision": "4e383036861323a0919972c9f7af5800ed39083e",
+    "lastUpdated": "2019-10-16 15:34:34.404669"
   },
   {
     "name": "dslink-java-bacnet2",
@@ -737,8 +737,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-jdbc.zip",
-    "revision": "1697cf6acae40b076dd209a67b17e37be7c2cc92",
-    "lastUpdated": "2019-08-14 12:45:50.114207"
+    "revision": "40698461ee268228936537737c8ca03b4fbe2ae8",
+    "lastUpdated": "2019-10-16 15:34:44.762719"
   },
   {
     "name": "dslink-java-knx",

@@ -1,0 +1,57 @@
+{
+  "timestamp": "2019-10-16 15:34:51.320368",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "S558f7pLuF",
+  "uploads": [
+    {
+      "tag": "dslink-dart-schedule",
+      "source": "files/dslink-dart-schedule.zip",
+      "target": "files/dslink-dart-schedule.zip",
+      "revision": "20fe2c3d1a4c81e01c6c11e5bb35ee26291920af"
+    },
+    {
+      "tag": "dslink-java-alarm",
+      "source": "files/dslink-java-alarm.zip",
+      "target": "files/dslink-java-alarm.zip",
+      "revision": "4e383036861323a0919972c9f7af5800ed39083e"
+    },
+    {
+      "tag": "dslink-java-jdbc",
+      "source": "files/dslink-java-jdbc.zip",
+      "target": "files/dslink-java-jdbc.zip",
+      "revision": "40698461ee268228936537737c8ca03b4fbe2ae8"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "S558f7pLuF"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "S558f7pLuF"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "S558f7pLuF"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "S558f7pLuF"
+    }
+  ],
+  "built": [
+    "Schedule",
+    "Alarm",
+    "JDBC"
+  ]
+}
