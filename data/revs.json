@@ -69,7 +69,7 @@
   "dslink-scala-kafka10": "3709aef30a1c5b1f7c7bdcbfdb1bfff97c96881e",
   "dslink-java-knx": "6dd2559cdfe4134cbf66c89bf42a2e711d189aa8",
   "dslink-java-bacnet2": "3f007e26e8f773f07385d4fac875b23348d6e1a0",
-  "dslink-dart-vapix": "f3793f2a9ec9ecf7fd2b1d71c5d3cb3f1fa2fb1c",
+  "dslink-dart-vapix": "dcd26c5c245e552c0270622937c0f48799d91de2",
   "dslink-python-dmx": "cc682345de5ace7062f6e6aa024713033bc76436",
   "dslink-dart-mongodb-controller": "aa0b00854395e61d826a4be8d12cb78bd0859172",
   "dslink-java-dsa-coap-lite": "b26c66b882eb9c5839a484880868cb0c19299f86",
