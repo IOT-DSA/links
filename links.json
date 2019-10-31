@@ -537,8 +537,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet2.zip",
-    "revision": "3f007e26e8f773f07385d4fac875b23348d6e1a0",
-    "lastUpdated": "2019-07-19 13:32:21.615388"
+    "revision": "d893e8ab0e50408c21e7af950514c10d28d4a811",
+    "lastUpdated": "2019-10-31 00:01:03.214283"
   },
   {
     "name": "dslink-java-bitpool",
@@ -737,8 +737,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-jdbc.zip",
-    "revision": "40698461ee268228936537737c8ca03b4fbe2ae8",
-    "lastUpdated": "2019-10-16 15:34:44.762719"
+    "revision": "9a4c4275659d6035fc50b5e8d6bc8e635f4c7641",
+    "lastUpdated": "2019-10-31 00:01:11.994985"
   },
   {
     "name": "dslink-java-knx",
@@ -817,8 +817,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-mqtt.zip",
-    "revision": "93245aa6f163fd5601ee4dcfebc3fa847e4e90bc",
-    "lastUpdated": "2019-02-26 00:01:22.674220"
+    "revision": "1fe87377584f8931568ddb7a75123cfdab34b7f7",
+    "lastUpdated": "2019-10-31 00:01:34.604409"
   },
   {
     "name": "dslink-java-msiotdev",

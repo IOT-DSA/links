@@ -1,0 +1,57 @@
+{
+  "timestamp": "2019-10-31 00:01:40.267212",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "1p3545Y2F7",
+  "uploads": [
+    {
+      "tag": "dslink-java-bacnet2",
+      "source": "files/dslink-java-bacnet2.zip",
+      "target": "files/dslink-java-bacnet2.zip",
+      "revision": "d893e8ab0e50408c21e7af950514c10d28d4a811"
+    },
+    {
+      "tag": "dslink-java-jdbc",
+      "source": "files/dslink-java-jdbc.zip",
+      "target": "files/dslink-java-jdbc.zip",
+      "revision": "9a4c4275659d6035fc50b5e8d6bc8e635f4c7641"
+    },
+    {
+      "tag": "dslink-java-mqtt",
+      "source": "files/dslink-java-mqtt.zip",
+      "target": "files/dslink-java-mqtt.zip",
+      "revision": "1fe87377584f8931568ddb7a75123cfdab34b7f7"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "1p3545Y2F7"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "1p3545Y2F7"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "1p3545Y2F7"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "1p3545Y2F7"
+    }
+  ],
+  "built": [
+    "BACnet v2",
+    "JDBC",
+    "MQTT"
+  ]
+}
