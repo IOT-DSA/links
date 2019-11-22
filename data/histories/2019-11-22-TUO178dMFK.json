@@ -1,0 +1,35 @@
+{
+  "timestamp": "2019-11-22 00:00:29.539368",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "TUO178dMFK",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "TUO178dMFK"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "TUO178dMFK"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "TUO178dMFK"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "TUO178dMFK"
+    }
+  ],
+  "built": []
+}
