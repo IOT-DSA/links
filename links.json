@@ -412,8 +412,8 @@
     "description": "Connect to Axis Camera VAPIX",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-vapix.zip",
-    "revision": "e9637de9b467cdf81b1f9c20e8cf2e044119238e",
-    "lastUpdated": "2020-01-14 00:00:35.351188"
+    "revision": "08c9d0ea766c00cc787cd810db2995661c6e244e",
+    "lastUpdated": "2020-01-14 13:00:13.342613"
   },
   {
     "name": "dslink-dart-webctrl",
