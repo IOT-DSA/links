@@ -1,0 +1,57 @@
+{
+  "timestamp": "2020-01-16 00:01:10.777132",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "W56w4pir1z",
+  "uploads": [
+    {
+      "tag": "dslink-java-etsdb",
+      "source": "files/dslink-java-etsdb.zip",
+      "target": "files/dslink-java-etsdb.zip",
+      "revision": "c37de908b1b2f2ea50aa53a7afa13d2c4cd785e1"
+    },
+    {
+      "tag": "dslink-java-historian-dynamodb",
+      "source": "files/dslink-java-historian-dynamodb.zip",
+      "target": "files/dslink-java-historian-dynamodb.zip",
+      "revision": "a09e3a1fe5d9405d2b2ddb157456a7ea2391cf73"
+    },
+    {
+      "tag": "dslink-java-v2-iothub",
+      "source": "files/dslink-java-v2-iothub.zip",
+      "target": "files/dslink-java-v2-iothub.zip",
+      "revision": "b5a4a2109ad23b827ff7b7ad990e2cde433a60e8"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "W56w4pir1z"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "W56w4pir1z"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "W56w4pir1z"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "W56w4pir1z"
+    }
+  ],
+  "built": [
+    "ETSDB",
+    "DynamoDB Historian",
+    "Azure IoT Hub"
+  ]
+}

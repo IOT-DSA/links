@@ -677,8 +677,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-etsdb.zip",
-    "revision": "b137f04ba3fec56c3f5770b6b9df6e44399b11af",
-    "lastUpdated": "2019-11-12 15:02:43.195320"
+    "revision": "c37de908b1b2f2ea50aa53a7afa13d2c4cd785e1",
+    "lastUpdated": "2020-01-16 00:00:40.712770"
   },
   {
     "name": "dslink-java-haystack",
@@ -717,8 +717,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-historian-dynamodb.zip",
-    "revision": "7b7bb910083a1874dd9841fad27ea4e5852f47ad",
-    "lastUpdated": "2019-12-18 00:00:40.523526"
+    "revision": "a09e3a1fe5d9405d2b2ddb157456a7ea2391cf73",
+    "lastUpdated": "2020-01-16 00:00:46.348515"
   },
   {
     "name": "dslink-java-jdbc",
@@ -1037,8 +1037,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-iothub.zip",
-    "revision": "ef86a5d0d5889b77f9325724c3e201d6967e6587",
-    "lastUpdated": "2019-10-09 00:01:16.616726"
+    "revision": "b5a4a2109ad23b827ff7b7ad990e2cde433a60e8",
+    "lastUpdated": "2020-01-16 00:01:08.213232"
   },
   {
     "name": "dslink-java-v2-jdbc-postgres",
