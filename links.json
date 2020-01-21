@@ -1021,6 +1021,26 @@
     "lastUpdated": "2019-10-09 00:00:56.721501"
   },
   {
+    "name": "dslink-java-v2-dynamodb",
+    "displayName": "DynamoDB",
+    "type": "Java",
+    "automated": {
+      "repository": "https://github.com/iot-dsa-v2/dslink-java-v2-dynamodb.git",
+      "ignoreBuildScript": true
+    },
+    "description": "Geniric DynamoDB DSLink",
+    "category": "Data Acquisition",
+    "update": {
+      "delete": [
+        "bin",
+        "lib"
+      ]
+    },
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-dynamodb.zip",
+    "revision": "5aa9d3bbbc26279d3eabea069aa3da90aacb2308",
+    "lastUpdated": "2020-01-21 13:21:53.962916"
+  },
+  {
     "name": "dslink-java-v2-iothub",
     "displayName": "Azure IoT Hub",
     "type": "Java",
