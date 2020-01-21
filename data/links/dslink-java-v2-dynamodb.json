@@ -1,0 +1,10 @@
+{
+  "name": "dslink-java-v2-dynamodb",
+  "displayName": "DynamoDB",
+  "type": "Java",
+  "automated": {
+    "repository": "https://github.com/iot-dsa-v2/dslink-java-v2-dynamodb.git"
+  },
+  "description": "Geniric DynamoDB DSLink",  
+  "category": "Data Acquisition"
+}
