@@ -657,8 +657,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-enocean.zip",
-    "revision": "a129bac0a1769c8454e22f7d01c3c98458d9c17a",
-    "lastUpdated": "2018-11-16 00:00:52.128174"
+    "revision": "5668ab5606707b9db1ddfa4b30c5a8342b3423f8",
+    "lastUpdated": "2020-01-22 00:00:47.971627"
   },
   {
     "name": "dslink-java-etsdb",
@@ -937,8 +937,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-serial.zip",
-    "revision": "37711cbceab40c1872b1fc6d223ecdd42ca2170a",
-    "lastUpdated": "2019-04-17 13:51:15.878164"
+    "revision": "f6bac7e506e91d19fe761beb744eb39993a3ce98",
+    "lastUpdated": "2020-01-22 00:00:57.764378"
   },
   {
     "name": "dslink-java-snmp",
