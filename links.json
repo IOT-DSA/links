@@ -307,8 +307,8 @@
     "description": "Create and Manage Value Schedules",
     "category": "Scheduling",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-schedule.zip",
-    "revision": "176e92cea810cb7b6095be8e28d6723a8d872074",
-    "lastUpdated": "2020-01-11 00:00:38.131048"
+    "revision": "6aa8f950c6f3ec562e08047170fe9472e33c3e19",
+    "lastUpdated": "2020-02-04 00:00:38.385920"
   },
   {
     "name": "dslink-dart-slack",
