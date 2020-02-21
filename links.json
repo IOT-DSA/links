@@ -307,8 +307,8 @@
     "description": "Create and Manage Value Schedules",
     "category": "Scheduling",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-schedule.zip",
-    "revision": "6aa8f950c6f3ec562e08047170fe9472e33c3e19",
-    "lastUpdated": "2020-02-04 00:00:38.385920"
+    "revision": "d75cd9039d35dd029d6d1aadeadf1b2bc7e6d5e6",
+    "lastUpdated": "2020-02-21 00:00:37.735268"
   },
   {
     "name": "dslink-dart-slack",
@@ -537,8 +537,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet2.zip",
-    "revision": "d893e8ab0e50408c21e7af950514c10d28d4a811",
-    "lastUpdated": "2019-10-31 00:01:03.214283"
+    "revision": "79c76d50a8116894b7df3a5325e789a4c8e931ce",
+    "lastUpdated": "2020-02-21 00:01:03.675409"
   },
   {
     "name": "dslink-java-bitpool",
@@ -677,8 +677,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-etsdb.zip",
-    "revision": "c37de908b1b2f2ea50aa53a7afa13d2c4cd785e1",
-    "lastUpdated": "2020-01-16 00:00:40.712770"
+    "revision": "2736cff44720a5a0899ad598342bac85f03effa9",
+    "lastUpdated": "2020-02-21 00:01:29.731756"
   },
   {
     "name": "dslink-java-haystack",

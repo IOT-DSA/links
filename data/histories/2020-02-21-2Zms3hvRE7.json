@@ -1,0 +1,57 @@
+{
+  "timestamp": "2020-02-21 00:01:38.213372",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "2Zms3hvRE7",
+  "uploads": [
+    {
+      "tag": "dslink-dart-schedule",
+      "source": "files/dslink-dart-schedule.zip",
+      "target": "files/dslink-dart-schedule.zip",
+      "revision": "d75cd9039d35dd029d6d1aadeadf1b2bc7e6d5e6"
+    },
+    {
+      "tag": "dslink-java-bacnet2",
+      "source": "files/dslink-java-bacnet2.zip",
+      "target": "files/dslink-java-bacnet2.zip",
+      "revision": "79c76d50a8116894b7df3a5325e789a4c8e931ce"
+    },
+    {
+      "tag": "dslink-java-etsdb",
+      "source": "files/dslink-java-etsdb.zip",
+      "target": "files/dslink-java-etsdb.zip",
+      "revision": "2736cff44720a5a0899ad598342bac85f03effa9"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "2Zms3hvRE7"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "2Zms3hvRE7"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "2Zms3hvRE7"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "2Zms3hvRE7"
+    }
+  ],
+  "built": [
+    "Schedule",
+    "BACnet v2",
+    "ETSDB"
+  ]
+}
