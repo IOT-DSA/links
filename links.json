@@ -517,8 +517,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-alarm.zip",
-    "revision": "62c6f2f9c65b84cdb9048f524450bc01d3bf4382",
-    "lastUpdated": "2020-03-06 00:00:38.848030"
+    "revision": "a8b92ea4870475cc990903c611c0eb053d085fff",
+    "lastUpdated": "2020-03-13 00:00:56.228281"
   },
   {
     "name": "dslink-java-bacnet2",
@@ -717,8 +717,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-historian-dynamodb.zip",
-    "revision": "a09e3a1fe5d9405d2b2ddb157456a7ea2391cf73",
-    "lastUpdated": "2020-01-16 00:00:46.348515"
+    "revision": "c662dcecb011d6330bdb864854c3d9448cc81f28",
+    "lastUpdated": "2020-03-13 00:01:25.396857"
   },
   {
     "name": "dslink-java-jdbc",
@@ -737,8 +737,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-jdbc.zip",
-    "revision": "9a4c4275659d6035fc50b5e8d6bc8e635f4c7641",
-    "lastUpdated": "2019-10-31 00:01:11.994985"
+    "revision": "65a82eb71b9a8388f5735a8b22273a0f07dcb7e2",
+    "lastUpdated": "2020-03-13 00:01:39.257480"
   },
   {
     "name": "dslink-java-knx",

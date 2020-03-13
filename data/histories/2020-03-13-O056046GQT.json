@@ -1,0 +1,57 @@
+{
+  "timestamp": "2020-03-13 00:01:46.977280",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "O056046GQT",
+  "uploads": [
+    {
+      "tag": "dslink-java-alarm",
+      "source": "files/dslink-java-alarm.zip",
+      "target": "files/dslink-java-alarm.zip",
+      "revision": "a8b92ea4870475cc990903c611c0eb053d085fff"
+    },
+    {
+      "tag": "dslink-java-historian-dynamodb",
+      "source": "files/dslink-java-historian-dynamodb.zip",
+      "target": "files/dslink-java-historian-dynamodb.zip",
+      "revision": "c662dcecb011d6330bdb864854c3d9448cc81f28"
+    },
+    {
+      "tag": "dslink-java-jdbc",
+      "source": "files/dslink-java-jdbc.zip",
+      "target": "files/dslink-java-jdbc.zip",
+      "revision": "65a82eb71b9a8388f5735a8b22273a0f07dcb7e2"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "O056046GQT"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "O056046GQT"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "O056046GQT"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "O056046GQT"
+    }
+  ],
+  "built": [
+    "Alarm",
+    "DynamoDB Historian",
+    "JDBC"
+  ]
+}
