@@ -1,0 +1,43 @@
+{
+  "timestamp": "2020-04-01 14:04:09.397567",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "892ZsxmsSv",
+  "uploads": [
+    {
+      "tag": "dslink-java-jdbc",
+      "source": "files/dslink-java-jdbc.zip",
+      "target": "files/dslink-java-jdbc.zip",
+      "revision": "697eaa4571ce6b0f587bb883a57af509383e23b2"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "892ZsxmsSv"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "892ZsxmsSv"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "892ZsxmsSv"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "892ZsxmsSv"
+    }
+  ],
+  "built": [
+    "JDBC"
+  ]
+}
