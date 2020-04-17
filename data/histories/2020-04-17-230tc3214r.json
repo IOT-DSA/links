@@ -1,0 +1,57 @@
+{
+  "timestamp": "2020-04-17 00:01:10.512336",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "230tc3214r",
+  "uploads": [
+    {
+      "tag": "dslink-java-alarm",
+      "source": "files/dslink-java-alarm.zip",
+      "target": "files/dslink-java-alarm.zip",
+      "revision": "959db7502e74b8551267f0410f2a9ae0593e1184"
+    },
+    {
+      "tag": "dslink-java-bacnet2",
+      "source": "files/dslink-java-bacnet2.zip",
+      "target": "files/dslink-java-bacnet2.zip",
+      "revision": "5cb6e91f53ba72276dd8f997b18d92a9be691a3e"
+    },
+    {
+      "tag": "dslink-java-etsdb",
+      "source": "files/dslink-java-etsdb.zip",
+      "target": "files/dslink-java-etsdb.zip",
+      "revision": "95814d505fd547586ef230507e31a66d0a70601e"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "230tc3214r"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "230tc3214r"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "230tc3214r"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "230tc3214r"
+    }
+  ],
+  "built": [
+    "Alarm",
+    "BACnet v2",
+    "ETSDB"
+  ]
+}

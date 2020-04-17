@@ -517,8 +517,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-alarm.zip",
-    "revision": "a8b92ea4870475cc990903c611c0eb053d085fff",
-    "lastUpdated": "2020-03-13 00:00:56.228281"
+    "revision": "959db7502e74b8551267f0410f2a9ae0593e1184",
+    "lastUpdated": "2020-04-17 00:00:40.617571"
   },
   {
     "name": "dslink-java-bacnet2",
@@ -537,8 +537,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet2.zip",
-    "revision": "79c76d50a8116894b7df3a5325e789a4c8e931ce",
-    "lastUpdated": "2020-02-21 00:01:03.675409"
+    "revision": "5cb6e91f53ba72276dd8f997b18d92a9be691a3e",
+    "lastUpdated": "2020-04-17 00:00:54.824552"
   },
   {
     "name": "dslink-java-bitpool",
@@ -677,8 +677,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-etsdb.zip",
-    "revision": "2736cff44720a5a0899ad598342bac85f03effa9",
-    "lastUpdated": "2020-02-21 00:01:29.731756"
+    "revision": "95814d505fd547586ef230507e31a66d0a70601e",
+    "lastUpdated": "2020-04-17 00:01:02.415581"
   },
   {
     "name": "dslink-java-haystack",
