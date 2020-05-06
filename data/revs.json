@@ -74,7 +74,7 @@
   "dslink-dart-mongodb-controller": "aa0b00854395e61d826a4be8d12cb78bd0859172",
   "dslink-java-dsa-coap-lite": "b26c66b882eb9c5839a484880868cb0c19299f86",
   "dslink-java-v2-iothub": "1e15cdea85a3062885d72439bb8ccc1e5bd3c5cf",
-  "dslink-java-v2-restadapter": "1142d8ac2df9a8277d2af552f8bb42c74fdedab6",
+  "dslink-java-v2-restadapter": "53c0b8dd2006f1abd52a368cc4a3c6f8f389faf3",
   "dslink-java-historian-dynamodb": "c662dcecb011d6330bdb864854c3d9448cc81f28",
   "dslink-java-v2-jdbc-postgres": "4018155cc28410300efaac62b357c72fdee637b3",
   "dslink-dart-openweathermap": "026ea64a507b094cc09d64dfa43b7befb11fba24",
