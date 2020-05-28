@@ -1,0 +1,35 @@
+{
+  "timestamp": "2020-05-28 00:00:41.361632",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "UQ814Y2WOP",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "UQ814Y2WOP"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "UQ814Y2WOP"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "UQ814Y2WOP"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "UQ814Y2WOP"
+    }
+  ],
+  "built": []
+}
