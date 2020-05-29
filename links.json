@@ -1097,8 +1097,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-mailer.zip",
-    "revision": "a2dc87b7e62aafcf6869783e357198ea8f7dee56",
-    "lastUpdated": "2019-10-08 00:01:09.856513"
+    "revision": "570614e2f80b691c3e8b31a359e0a26fc36ced9b",
+    "lastUpdated": "2020-05-29 12:11:06.987957"
   },
   {
     "name": "dslink-java-v2-restadapter",
