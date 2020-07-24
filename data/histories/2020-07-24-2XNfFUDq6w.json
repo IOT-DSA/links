@@ -1,0 +1,43 @@
+{
+  "timestamp": "2020-07-24 00:01:00.136416",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "2XNfFUDq6w",
+  "uploads": [
+    {
+      "tag": "dslink-java-advantech",
+      "source": "files/dslink-java-advantech.zip",
+      "target": "files/dslink-java-advantech.zip",
+      "revision": "7b28131656b73e17cc205a65408381adffd2b29c"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "2XNfFUDq6w"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "2XNfFUDq6w"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "2XNfFUDq6w"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "2XNfFUDq6w"
+    }
+  ],
+  "built": [
+    "Advantech"
+  ]
+}
