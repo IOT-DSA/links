@@ -1,0 +1,35 @@
+{
+  "timestamp": "2020-08-19 00:00:31.810044",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "h2o60Tv225",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "h2o60Tv225"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "h2o60Tv225"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "h2o60Tv225"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "h2o60Tv225"
+    }
+  ],
+  "built": []
+}
