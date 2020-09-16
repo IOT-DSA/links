@@ -1,0 +1,9 @@
+{
+  "timestamp": "2020-09-16 12:25:38.119425",
+  "buildId": "2EkR97409Z",
+  "failureId": "0wWF1Rzv1cX31N9d2kO8107mu044F2ZpNa68Yd04RYZ81s0F4v",
+  "args": [
+    "--upload"
+  ],
+  "message": "S3 Upload: Failed to execute upload job 'files/dslink-dart-scheduleNEW.zip => files/dslink-dart-scheduleNEW.zip (revision: 8b115734cdda57a37f678570776d58644c9a49aa)': Source file does not exist."
+}
