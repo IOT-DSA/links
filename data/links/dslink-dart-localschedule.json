@@ -1,0 +1,10 @@
+{
+  "name": "dslink-dart-localschedule",
+  "displayName": "Schedule NEW",
+  "type": "Dart",
+  "automated": {
+    "repository": "https://github.com/IOT-DSA/dslink-dart-localschedule.git"
+  },
+  "description": "Create and Manage Value Schedules",
+  "category": "Scheduling"
+}
