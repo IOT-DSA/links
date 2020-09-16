@@ -1,0 +1,9 @@
+{
+  "timestamp": "2020-09-16 11:47:38.693030",
+  "buildId": "4CE4Y1ar05",
+  "failureId": "c518246kr8dc4QZj41mvbFH22OsP3N55Y5ING9k898lv7L742I",
+  "args": [
+    "--upload"
+  ],
+  "message": "S3 Upload: Failed to execute upload job 'files/dslink-dart-localschedule.zip => files/dslink-dart-localschedule.zip (revision: 8b115734cdda57a37f678570776d58644c9a49aa)': Source file does not exist."
+}
