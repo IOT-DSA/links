@@ -3,7 +3,8 @@
   "displayName": "Schedule DEPRECIATED (5/1/2021)",
   "type": "Dart",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-dart-schedule.git"
+    "repository": "https://github.com/IOT-DSA/dslink-dart-schedule.git",
+    "ignoreBuildScript": true
   },
   "description": "Create and Manage Value Schedules. This has been depreciated in favor of Schedule NEW",
   "category": "Scheduling"
