@@ -81,5 +81,6 @@
   "dslink-java-v2-mailer": "570614e2f80b691c3e8b31a359e0a26fc36ced9b",
   "dslink-java-v2-buildingos": "37774b55be42ae4cf8fb3ffa7ab237e8b599e295",
   "dslink-dart-belimo-clould": "7cd8f6b52aed0d36c3721a584b19353430412b01",
-  "dslink-java-v2-dynamodb": "5aa9d3bbbc26279d3eabea069aa3da90aacb2308"
+  "dslink-java-v2-dynamodb": "5aa9d3bbbc26279d3eabea069aa3da90aacb2308",
+  "dslink-dart-localschedule": "1dc394c02ed281da438350c02b6b4a6efea971fe"
 }

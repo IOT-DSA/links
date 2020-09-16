@@ -178,6 +178,20 @@
     "lastUpdated": "2016-06-29 11:28:17.730663"
   },
   {
+    "name": "dslink-dart-localschedule",
+    "displayName": "Schedule NEW",
+    "type": "Dart",
+    "automated": {
+      "repository": "https://github.com/IOT-DSA/dslink-dart-localschedule.git",
+      "zip": "dslink-dart-scheduleNEW.zip"
+    },
+    "description": "Create and Manage Value Schedules",
+    "category": "Scheduling",
+    "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-scheduleNEW.zip",
+    "revision": "1dc394c02ed281da438350c02b6b4a6efea971fe",
+    "lastUpdated": "2020-09-16 12:56:37.828810"
+  },
+  {
     "name": "dslink-dart-mailer",
     "displayName": "Email",
     "type": "Dart",
@@ -299,12 +313,13 @@
   },
   {
     "name": "dslink-dart-schedule",
-    "displayName": "Schedule",
+    "displayName": "Schedule DEPRECIATED (5/1/2021)",
     "type": "Dart",
     "automated": {
-      "repository": "https://github.com/IOT-DSA/dslink-dart-schedule.git"
+      "repository": "https://github.com/IOT-DSA/dslink-dart-schedule.git",
+      "ignoreBuildScript": true
     },
-    "description": "Create and Manage Value Schedules",
+    "description": "Create and Manage Value Schedules. This has been depreciated in favor of Schedule NEW",
     "category": "Scheduling",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-schedule.zip",
     "revision": "98aca0073768cc3c0b91e3634a17ae6fc4419565",
