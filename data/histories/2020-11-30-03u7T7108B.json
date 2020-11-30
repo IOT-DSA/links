@@ -1,0 +1,43 @@
+{
+  "timestamp": "2020-11-30 06:32:20.562143",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "03u7T7108B",
+  "uploads": [
+    {
+      "tag": "dslink-dart-mysql",
+      "source": "files/dslink-dart-mysql.zip",
+      "target": "files/dslink-dart-mysql.zip",
+      "revision": "e83cfe138178c0f99f355bf98f56309455d432a6"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "03u7T7108B"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "03u7T7108B"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "03u7T7108B"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "03u7T7108B"
+    }
+  ],
+  "built": [
+    "MySQL"
+  ]
+}

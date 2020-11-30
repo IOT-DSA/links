@@ -255,8 +255,8 @@
     "description": "Run MySQL Queries",
     "category": "Data Acquisition",
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-dart-mysql.zip",
-    "revision": "6b1443bf11cc6216a9efa4bf96d56930d8ce928b",
-    "lastUpdated": "2020-09-10 00:00:27.541614"
+    "revision": "e83cfe138178c0f99f355bf98f56309455d432a6",
+    "lastUpdated": "2020-11-30 06:32:04.816125"
   },
   {
     "name": "dslink-dart-openweathermap",
