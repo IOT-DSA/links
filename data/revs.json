@@ -75,7 +75,7 @@
   "dslink-java-dsa-coap-lite": "b26c66b882eb9c5839a484880868cb0c19299f86",
   "dslink-java-v2-iothub": "1e15cdea85a3062885d72439bb8ccc1e5bd3c5cf",
   "dslink-java-v2-restadapter": "8a871e7523258efc1a92efafcd9a8c81f75366ae",
-  "dslink-java-historian-dynamodb": "c662dcecb011d6330bdb864854c3d9448cc81f28",
+  "dslink-java-historian-dynamodb": "b85ad965ff2428ddd5cb34773346ba3df9f0ff26",
   "dslink-java-v2-jdbc-postgres": "4018155cc28410300efaac62b357c72fdee637b3",
   "dslink-dart-openweathermap": "026ea64a507b094cc09d64dfa43b7befb11fba24",
   "dslink-java-v2-mailer": "570614e2f80b691c3e8b31a359e0a26fc36ced9b",
