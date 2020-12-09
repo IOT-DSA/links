@@ -732,8 +732,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-historian-dynamodb.zip",
-    "revision": "b85ad965ff2428ddd5cb34773346ba3df9f0ff26",
-    "lastUpdated": "2020-12-03 00:01:14.253888"
+    "revision": "0448d130fea2d4aa67de38316cc3de5efe701f36",
+    "lastUpdated": "2020-12-09 00:01:19.565375"
   },
   {
     "name": "dslink-java-jdbc",
