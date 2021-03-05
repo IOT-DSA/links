@@ -552,8 +552,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-bacnet2.zip",
-    "revision": "692a9ccd8751e34800aa219fbb2809d3975636ad",
-    "lastUpdated": "2021-01-15 12:20:14.483286"
+    "revision": "35d2748b3d3e5703c4de71987662b869f30f0a07",
+    "lastUpdated": "2021-03-05 07:30:51.717514"
   },
   {
     "name": "dslink-java-bitpool",
@@ -712,8 +712,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-haystack.zip",
-    "revision": "e06a78b33a488d7fbcff7fa059ddb5b25b095925",
-    "lastUpdated": "2020-12-18 00:00:42.052902"
+    "revision": "88c57fba11026d7242e391b1af10975ba2705a0f",
+    "lastUpdated": "2021-03-05 07:31:07.191374"
   },
   {
     "name": "dslink-java-historian-dynamodb",
@@ -1132,8 +1132,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-v2-restadapter.zip",
-    "revision": "fb9235d14c6fd05aaa6bf6ecb7fc6ac2b076620f",
-    "lastUpdated": "2021-02-17 00:00:57.558377"
+    "revision": "2b4b3e6e762c94c9567d846cd6712aa475de67cd",
+    "lastUpdated": "2021-03-05 07:31:26.750046"
   },
   {
     "name": "dslink-java-zwave",
