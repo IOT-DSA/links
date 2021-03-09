@@ -1,0 +1,35 @@
+{
+  "timestamp": "2021-03-09 00:00:36.138475",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "ghU1100N8X",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "ghU1100N8X"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "ghU1100N8X"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "ghU1100N8X"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "ghU1100N8X"
+    }
+  ],
+  "built": []
+}
