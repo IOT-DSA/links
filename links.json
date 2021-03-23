@@ -752,8 +752,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-jdbc.zip",
-    "revision": "697eaa4571ce6b0f587bb883a57af509383e23b2",
-    "lastUpdated": "2020-04-01 14:04:01.586962"
+    "revision": "09240ac4b8d1e2ee5d9c095316b782194731e7b9",
+    "lastUpdated": "2021-03-23 00:00:43.058407"
   },
   {
     "name": "dslink-java-knx",
