@@ -1,0 +1,35 @@
+{
+  "timestamp": "2021-03-28 00:00:47.948113",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "ngF2GOT10L",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "ngF2GOT10L"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "ngF2GOT10L"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "ngF2GOT10L"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "ngF2GOT10L"
+    }
+  ],
+  "built": []
+}
