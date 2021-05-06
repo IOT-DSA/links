@@ -697,7 +697,7 @@
   },
   {
     "name": "dslink-java-haystack",
-    "displayName": "Haystack / Skyspark",
+    "displayName": "Haystack / SkySpark",
     "type": "Java",
     "automated": {
       "repository": "https://github.com/IOT-DSA/dslink-java-haystack.git",
