@@ -1,10 +1,10 @@
 {
   "name": "dslink-java-haystack",
-  "displayName": "Haystack",
+  "displayName": "Haystack / Skyspark",
   "type": "Java",
   "automated": {
     "repository": "https://github.com/IOT-DSA/dslink-java-haystack.git"
   },
-  "description": "Access Haystack from DSA",
+  "description": "Access Haystack/Skyspark from DSA",
   "category": "Data Acquisition"
 }
