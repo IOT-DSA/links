@@ -1,0 +1,35 @@
+{
+  "timestamp": "2021-05-19 00:00:42.510452",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "W1b62Ww3Yg",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "W1b62Ww3Yg"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "W1b62Ww3Yg"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "W1b62Ww3Yg"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "W1b62Ww3Yg"
+    }
+  ],
+  "built": []
+}
