@@ -1,0 +1,35 @@
+{
+  "timestamp": "2021-06-28 00:00:31.538660",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "mx95Wv1301",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "mx95Wv1301"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "mx95Wv1301"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "mx95Wv1301"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "mx95Wv1301"
+    }
+  ],
+  "built": []
+}
