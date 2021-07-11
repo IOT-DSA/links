@@ -18,8 +18,12 @@ Future<List<dynamic>> loadJsonDirectoryList(String path, {
     if (entity is! File) continue;
     if (!entity.path.endsWith(".json")) continue;
 
+    var name = entity.path.split("/").last;
     doWork() async {
-      var data = await readJsonFile(entity.path);
+      var data = await readJsonFile(
+        entity.path,
+        shadow: "${path}-override/${name}"
+      );
       out.add(data);
     }
 
@@ -165,8 +169,9 @@ Map merge(Map a, Map b, {
   for (var key in b.keys) {
     var value = b[key];
 
-    if (allowDirectives && key is String && key.endsWith("!remove"))
+    if (allowDirectives && key is String && key.endsWith("!remove")) {
       continue;
+    }
 
     if (!a.containsKey(key)) {
       out[key] = value;

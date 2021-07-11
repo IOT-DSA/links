@@ -3,7 +3,8 @@
   "displayName": "Digital Ocean",
   "type": "Dart",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-dart-digital-ocean.git"
+    "repository": "https://github.com/IOT-DSA/dslink-dart-digital-ocean.git",
+    "ignoreBuildScript": true
   },
   "description": "Create, manage, and monitor Digital Ocean droplets",
   "category": "Data Acquisition"

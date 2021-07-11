@@ -3,7 +3,8 @@
   "displayName": "Elios4You",
   "type": "Dart",
   "automated": {
-    "repository": "https://github.com/IOT-DSA/dslink-dart-elios4you.git"
+    "repository": "https://github.com/IOT-DSA/dslink-dart-elios4you.git",
+    "ignoreBuildScript": true
   },
   "description": "Receive Data from Elios4You",
   "category": "Data Acquisition"

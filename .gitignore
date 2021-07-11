@@ -17,3 +17,5 @@ tmp/
 .DS_Store
 files/*
 !files/.gitkeep
+*-override/
+*-override.json

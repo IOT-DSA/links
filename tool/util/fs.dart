@@ -11,18 +11,36 @@ pushd(String path) async {
   if (!(await dir.exists())) {
     await dir.create(recursive: true);
   }
-  Directory.current = dir;
+  cd(dir.path);
 }
 
-Future<dynamic> readJsonFile(String path, [defaultValue]) async {
+Future<dynamic> readJsonFile(String path, {defaultValue, String shadow}) async {
   var file = new File(path);
+  var shadowFile = shadow is String ? new File(shadow) : null;
+
+  Future<dynamic> handleShadow(dynamic input) async {
+    if (shadowFile == null || !(await shadowFile.exists())) {
+      return input;
+    }
+
+    if (input is! Map) {
+      return input;
+    }
+
+    var shadowContent = await shadowFile.readAsString();
+    var json = JSON.decode(shadowContent);
+    var result = merge(json, input, allowDirectives: true);
+    dbg("[Load Shadow JSON] ${path}");
+    return result;
+  }
 
   if (!(await file.exists()) && defaultValue != null) {
-    return defaultValue;
+    return await handleShadow(defaultValue);
   }
 
   var content = await file.readAsString();
-  return JSON.decode(content);
+  dbg("[Load JSON] ${path}");
+  return await handleShadow(JSON.decode(content));
 }
 
 Future saveJsonFile(String path, value) async {
@@ -30,11 +48,14 @@ Future saveJsonFile(String path, value) async {
   await file.create(recursive: true);
   var content = const JsonEncoder.withIndent("  ").convert(value);
   await file.writeAsString(content + "\n");
+
+  dbg("[Write JSON] ${path}");
 }
 
 void cd(String path) {
   var dir = new Directory(path);
   Directory.current = dir;
+  dbg("[Change Directory] ${path}");
 }
 
 Future makeZipFile(String target) async {
@@ -55,6 +76,8 @@ Future makeZipFile(String target) async {
   if (result.exitCode != 0) {
     throw new Exception("Failed to make ZIP file!");
   }
+
+  dbg("[Create ZIP] ${target}");
 }
 
 void popd() {
@@ -62,13 +85,14 @@ void popd() {
     throw new Exception("No Directory to Pop from the Stack");
   }
 
-  Directory.current = _dirStack.removeLast();
+  cd(_dirStack.removeLast().path);
 }
 
 ensureDirectory(String path) async {
   var dir = new Directory(path);
   if (!(await dir.exists())) {
     await dir.create(recursive: true);
+    dbg("[Make Directory] ${path}");
   }
 }
 
@@ -78,6 +102,7 @@ rmkdir(String path) async {
     await dir.delete(recursive: true);
   }
   await dir.create(recursive: true);
+  dbg("[Make Directory] ${path}");
 }
 
 Future<File> copy(String from, String to) async {
@@ -87,6 +112,8 @@ Future<File> copy(String from, String to) async {
   if (!(await tf.exists())) {
     await tf.create(recursive: true);
   }
+
+  dbg("[Copy] ${from} => ${to}");
 
   return await ff.copy(tf.path);
 }

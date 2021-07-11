@@ -13,19 +13,19 @@ class BetterProcessResult extends ProcessResult {
 Future<BetterProcessResult> exec(
   String executable,
   {
-  List<String> args: const [],
-  String workingDirectory,
-  Map<String, String> environment,
-  bool includeParentEnvironment: true,
-  bool runInShell: false,
-  stdin,
-  ProcessHandler handler,
-  OutputHandler stdoutHandler,
-  OutputHandler stderrHandler,
-  OutputHandler outputHandler,
-  File outputFile,
-  bool inherit: false,
-  bool writeToBuffer: false
+    List<String> args: const [],
+    String workingDirectory,
+    Map<String, String> environment,
+    bool includeParentEnvironment: true,
+    bool runInShell: false,
+    stdin,
+    ProcessHandler handler,
+    OutputHandler stdoutHandler,
+    OutputHandler stderrHandler,
+    OutputHandler outputHandler,
+    File outputFile,
+    bool inherit: false,
+    bool writeToBuffer: false
   }) async {
   IOSink raf;
 
@@ -47,12 +47,14 @@ Future<BetterProcessResult> exec(
       runInShell: runInShell
     );
 
+    var startMessage = "== Executing ${executable}"
+      " with arguments ${args} (pid: ${process.pid}) ==";
+
     if (raf != null) {
-      await raf.writeln(
-        "[${currentTimestamp}] == Executing ${executable}"
-          " with arguments ${args} (pid: ${process.pid}) =="
-      );
+      await raf.writeln("[${currentTimestamp}] ${startMessage}");
     }
+
+    dbg(startMessage);
 
     var buff = new StringBuffer();
     var ob = new StringBuffer();
@@ -79,6 +81,8 @@ Future<BetterProcessResult> exec(
       if (raf != null) {
         await raf.writeln("[${currentTimestamp}] ${str}");
       }
+
+      dbg("${str}");
     });
 
     process.stderr.transform(UTF8.decoder).listen((str) async {
@@ -102,6 +106,8 @@ Future<BetterProcessResult> exec(
       if (raf != null) {
         await raf.writeln("[${currentTimestamp}] ${str}");
       }
+
+      dbg("${str}");
     });
 
     if (handler != null) {
@@ -123,10 +129,12 @@ Future<BetterProcessResult> exec(
     var pid = process.pid;
 
     if (raf != null) {
-      await raf.writeln("[${currentTimestamp}] == Exited with status ${code} ==");
+      await raf.writeln("${currentTimestamp} == Exited with status ${code} ==");
       await raf.flush();
       await raf.close();
     }
+
+    dbg("== Exited with status ${code} ==");
 
     return new BetterProcessResult(
       pid,
