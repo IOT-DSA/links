@@ -1,0 +1,35 @@
+{
+  "timestamp": "2021-07-15 00:00:45.467594",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "k5fs545G10",
+  "uploads": [
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "k5fs545G10"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "k5fs545G10"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "k5fs545G10"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "k5fs545G10"
+    }
+  ],
+  "built": []
+}
