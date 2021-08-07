@@ -532,8 +532,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-alarm.zip",
-    "revision": "6404acdd68828cf4eb66e04d9df2c5f6c98e7953",
-    "lastUpdated": "2021-03-26 00:00:49.179383"
+    "revision": "1cf3316d5236eb3de129032c9faecdc27b55befd",
+    "lastUpdated": "2021-08-07 00:00:49.116951"
   },
   {
     "name": "dslink-java-bacnet2",
@@ -712,8 +712,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-haystack.zip",
-    "revision": "17d138b404a6b10fd5eb0899804bde776d02e00f",
-    "lastUpdated": "2021-07-20 14:31:01.717330"
+    "revision": "c03ddd3ef391fc2640553538ccb713d7d0f2bc73",
+    "lastUpdated": "2021-08-07 00:00:56.034895"
   },
   {
     "name": "dslink-java-historian-dynamodb",

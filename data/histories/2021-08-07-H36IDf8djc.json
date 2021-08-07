@@ -1,0 +1,50 @@
+{
+  "timestamp": "2021-08-07 00:01:03.047842",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "H36IDf8djc",
+  "uploads": [
+    {
+      "tag": "dslink-java-alarm",
+      "source": "files/dslink-java-alarm.zip",
+      "target": "files/dslink-java-alarm.zip",
+      "revision": "1cf3316d5236eb3de129032c9faecdc27b55befd"
+    },
+    {
+      "tag": "dslink-java-haystack",
+      "source": "files/dslink-java-haystack.zip",
+      "target": "files/dslink-java-haystack.zip",
+      "revision": "c03ddd3ef391fc2640553538ccb713d7d0f2bc73"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "H36IDf8djc"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "H36IDf8djc"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "H36IDf8djc"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "H36IDf8djc"
+    }
+  ],
+  "built": [
+    "Alarm",
+    "Haystack / SkySpark"
+  ]
+}
