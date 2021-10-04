@@ -692,8 +692,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-etsdb.zip",
-    "revision": "b65498d7f9aa46648a7ee9df4a24277434e87718",
-    "lastUpdated": "2020-11-04 16:17:12.621898"
+    "revision": "189ba2a3cf6345709db6c3e45ad8cacdc8bf500c",
+    "lastUpdated": "2021-10-04 11:01:07.999766"
   },
   {
     "name": "dslink-java-haystack",
