@@ -712,8 +712,8 @@
       ]
     },
     "zip": "https://dsa.s3.amazonaws.com/links/files/dslink-java-haystack.zip",
-    "revision": "c03ddd3ef391fc2640553538ccb713d7d0f2bc73",
-    "lastUpdated": "2021-08-07 00:00:56.034895"
+    "revision": "a44a406cae1a46723dcb0507f7f5d45484cbb16b",
+    "lastUpdated": "2021-10-22 16:38:10.038286"
   },
   {
     "name": "dslink-java-historian-dynamodb",
