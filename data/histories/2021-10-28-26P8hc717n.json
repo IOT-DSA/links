@@ -1,0 +1,43 @@
+{
+  "timestamp": "2021-10-28 12:28:51.664572",
+  "args": [
+    "--upload"
+  ],
+  "host": "sparky",
+  "uuid": "26P8hc717n",
+  "uploads": [
+    {
+      "tag": "dslink-java-historian-dynamodb",
+      "source": "files/dslink-java-historian-dynamodb.zip",
+      "target": "files/dslink-java-historian-dynamodb.zip",
+      "revision": "9c03289ca8a6027f126929aeb2ac4279a702d07a"
+    },
+    {
+      "tag": "meta.history",
+      "source": "data/history.json",
+      "target": "history.json",
+      "revision": "26P8hc717n"
+    },
+    {
+      "tag": "meta.revisions",
+      "source": "data/revs.json",
+      "target": "revs.json",
+      "revision": "26P8hc717n"
+    },
+    {
+      "tag": "meta.links",
+      "source": "links.json",
+      "target": "links.json",
+      "revision": "26P8hc717n"
+    },
+    {
+      "tag": "meta.updated",
+      "source": "data/updated.json",
+      "target": "updated.json",
+      "revision": "26P8hc717n"
+    }
+  ],
+  "built": [
+    "DynamoDB Historian"
+  ]
+}
